@@ -40,6 +40,8 @@ class Model:
     
     def from_file(self, model_str:str, vertex_set:dict[Vertex] = {}, model_set:dict[str, Model] = {}, default="", texture_path = {}, texture_list = {}):
         offset = 0
+        if "//" in model_str:
+            print(model_str)
         for value in re.findall(r"(\b[^()]+)\((.*)\)", model_str):
             args = value[1].split(",")
             function_name = value[0]
@@ -63,9 +65,16 @@ class Model:
                 case "gsDPSetTextureImage":
                     if "0x" in args[3]:
                         texture_addr = int(args[3], 16)
-                        texture_variable = texture_list[texture_addr][0]
+                        if texture_addr in texture_list:
+                            texture_variable = texture_list[texture_addr][0]
+                        else:
+                            print("Error: texture not found")
+                            print(args)
+                            print(self)
+                            exit()
                     else:
-                        texture_variable = args[3].split(" ")[-1]
+                        texture_variable = args[3]
+                    texture_variable = texture_variable.replace(" ", "")
                     texture_path_ = texture_path[texture_variable]
                     material = Material(texture_variable, texture_path_)
                     self.materials.append(material)
@@ -112,7 +121,7 @@ class Model:
         file.close()
     
     def export_mtl(self):
-        if len(self.vertex) < 1:
+        if len(self.materials) < 1:
             return
         file = open("obj/" + self.name + ".mtl", "w")
         for material in self.materials:
@@ -128,7 +137,7 @@ class Model:
     def __repr__(self):
         return self.__str__()
 
-def load_course(name="rainbow_road"):
+def load_course(name="yoshi_valley"):
     if not os.path.isdir("obj"):
         os.mkdir("obj")
     if not os.path.isdir("obj/textures"):
@@ -145,7 +154,6 @@ def load_course(name="rainbow_road"):
     model_set = {}
     texture_path = load_texture_path(open("data/other_textures.s", "r").read())
     texture_list = load_texture_list(open("src/course_" + name + "_offsets.c", "r").read())
-    print(texture_list)
     course_displaylists = open("courses/" + name + "/course_displaylists.inc.c", "r").read()
     for model in re.findall(r"Gfx (\w+)\[\] *=.*\n*\{\n*((?: +g.+\n)+)\}", course_displaylists):
         model_ = Model()
@@ -158,7 +166,7 @@ def load_course(name="rainbow_road"):
     vertex_set = extract_vertex_file(course_data)
     for variable, path in load_texture_path2(course_data).items():
         texture_path[variable] = path
-    for model in re.findall(r"Gfx (\w+)\[\] *=.*\n*\{\n*((?: +g.+\n)+)\}", course_data):
+    for model in re.findall(r"Gfx (\w+)\[\] *=.*\n*\{\n*((?:[ 	]+g.+\n)+)\}", course_data):
         model_ = Model()
         model_.name = model[0]
         model_.from_file(model[1], vertex_set, model_set, name_course, texture_path, texture_list)
@@ -168,6 +176,5 @@ def load_course(name="rainbow_road"):
 
 if __name__ == "__main__":
     model_set = load_course()
-    print(model_set["d_course_rainbow_road_packed_dl_20F8"].switch_materials)
     # export_to_obj_same_file(model_set, vertex_course)
     # export_to_obj(model_set)

@@ -87,7 +87,7 @@ class Vertex:
 
 def extract_vertex_file(file: str):
     vertex_set:dict[Vertex] = {}
-    for type_, name, data in re.findall(r"(.*)Vtx (\w+)\[\] = \{\n*((?: *\{\{+ *[-\d]+, *[-\d]+, *[-\d]+ *\}.+\n*)+)", file):
+    for type_, name, data in re.findall(r"(.*)Vtx (\w+)\[\d*\] *= *\{\n*((?: *\{\{+ *[-\d]+, *[-\d]+, *[-\d]+ *\}.+\n*)+)", file):
         vertex = Vertex(type_)
         vertex.from_file(data)
         vertex_set[name] = vertex
