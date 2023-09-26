@@ -55,7 +55,10 @@ class Vertex:
     
     def from_file(self, vertex_str:str):
         for vertex_ in re.findall(r" *\{\{+ *([-.\d]+), *([-.\d]+), *([-.\d]+) *\}, *(?:\d+,)* *\{ *([-.\d]+), *([-.\d]+) *\}, *\{ *(\w+), *(\w+), *(\w+), *(\w+) *\}.+\n", vertex_str):
-            self.vertex.append((Point(int(vertex_[0]), int(vertex_[1]), int(vertex_[2])), UV(int(vertex_[3]), int(vertex_[4])), Color(int(vertex_[5], base=16), int(vertex_[6], base=16), int(vertex_[7], base=16), int(vertex_[8], base=16))))
+            self.vertex.append((
+                Point(int(vertex_[0]), int(vertex_[1]), int(vertex_[2])), 
+                UV(int(vertex_[3])>>5, int(vertex_[4])>>5), 
+                Color(int(vertex_[5], base=16), int(vertex_[6], base=16), int(vertex_[7], base=16), int(vertex_[8], base=16))))
     
     def append(self, vertex:list[Point]):
         if type(vertex)==Point:
