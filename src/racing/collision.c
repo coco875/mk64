@@ -113,7 +113,7 @@ f32 func_802AAB4C(Player *player) {
     }
 }
 
-s32 func_802AAE4C(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY, f32 posZ, u16 index) {
+bool func_802AAE4C(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY, f32 posZ, u16 index) {
     mk64_surface_map_ram *surfaceMap = &gSurfaceMap[index];
     UNUSED f32 pad;
     f32 x3;
@@ -128,20 +128,20 @@ s32 func_802AAE4C(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
     f32 temp_f10;
     f32 temp_f0_3;
     f32 temp_f2_2;
-    s32 bool = 1;
+    bool bool = TRUE;
 
     if (surfaceMap->gravity < -0.9f)
-        return 0;
+        return FALSE;
     if (surfaceMap->vtx31 > posX)
-        return 0;
+        return FALSE;
     if (surfaceMap->vtx33 > posZ)
-        return 0;
+        return FALSE;
     if (surfaceMap->vtx21 < posX)
-        return 0;
+        return FALSE;
     if (surfaceMap->vtx23 < posZ)
-        return 0;
+        return FALSE;
     if ((surfaceMap->vtx32 - boundingBoxSize * 3.0f) > posY)
-        return 0;
+        return FALSE;
 
     x1 = surfaceMap->vtxPoly1->v.ob[0];
     z1 = surfaceMap->vtxPoly1->v.ob[2];
@@ -161,7 +161,7 @@ s32 func_802AAE4C(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
         temp_f2_2 = (z3 - posZ) * (x1 - posX) - (x3 - posX) * (z1 - posZ);
 
         if ((temp_f0_3 * temp_f2_2) < 0.0f) {
-            bool = 0;
+            bool = FALSE;
         }
     } else {
 
@@ -171,7 +171,7 @@ s32 func_802AAE4C(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
             temp_f2_2 = (z3 - posZ) * (x1 - posX) - (x3 - posX) * (z1 - posZ);
 
             if ((temp_f10 * temp_f2_2) < 0.0f) {
-                bool = 0;
+                bool = FALSE;
             }
         } else {
             if ((temp_f10 * temp_f0_3) < 0.0f) {
@@ -180,14 +180,14 @@ s32 func_802AAE4C(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
                 temp_f2_2 = (z3 - posZ) * (x1 - posX) - (x3 - posX) * (z1 - posZ);
                 if (temp_f2_2 != 0) {
                     if ((temp_f0_3 * temp_f2_2) < 0.0f) {
-                        bool = 0;
+                        bool = FALSE;
                     }
                 }
             }
         }
     }
     if (!bool) {
-        return 0;
+        return FALSE;
     }
     temp_f0_5 = ((surfaceMap->height * posX) + (surfaceMap->gravity * posY) + (surfaceMap->rotation * posZ)
                  + surfaceMap->height2)
@@ -201,7 +201,7 @@ s32 func_802AAE4C(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
             collision->unk60[1] = surfaceMap->gravity;
             collision->unk60[2] = surfaceMap->rotation;
         }
-        return 0;
+        return FALSE;
     }
 
     if (temp_f0_5 > -16.0f) {
@@ -211,9 +211,9 @@ s32 func_802AAE4C(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
         collision->unk60[0] = surfaceMap->height;
         collision->unk60[1] = surfaceMap->gravity;
         collision->unk60[2] = surfaceMap->rotation;
-        return 1;
+        return TRUE;
     }
-    return 0;
+    return FALSE;
 }
 
 
