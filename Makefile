@@ -33,16 +33,17 @@ DEBUG ?= 0
 #   us - builds the 1997 North American version
 #   eu - builds the 1997 1.1 PAL version
 VERSION ?= us
-$(eval $(call validate-option,VERSION,us eu))
+$(eval $(call validate-option,VERSION,us eu-1.0 eu-final))
 
 ifeq      ($(VERSION),us)
   DEFINES += VERSION_US=1
   GRUCODE   ?= f3dex_old
-  VERSION_ASFLAGS := --defsym VERSION_US=1
-else ifeq ($(VERSION), eu)
-  DEFINES += VERSION_EU=1 
+else ifeq ($(VERSION),eu-1.0)
+  DEFINES += VERSION_EU=1 VERSION_EU_1_0=1
   GRUCODE   ?= f3dex_old
-  VERSION_ASFLAGS := --defsym VERSION_EU=1
+else ifeq ($(VERSION),eu-final)
+  DEFINES += VERSION_EU=1 VERSION_EU_1_1=1
+  GRUCODE   ?= f3dex_old
 endif
 
 ifeq ($(DEBUG),1)
@@ -321,7 +322,7 @@ else
   CFLAGS += $(HIDE_WARNINGS) -non_shared -Wab,-r4300_mul -Xcpluscomm -Xfullwarn -signed -32
 endif
 
-ASFLAGS = -march=vr4300 -mabi=32 -I include -I $(BUILD_DIR) --defsym F3DEX_GBI=1
+ASFLAGS = -march=vr4300 -mabi=32 -I include -I $(BUILD_DIR) $(foreach d,$(DEFINES),--defsym $(d))
 
 # Fills end of rom
 OBJCOPYFLAGS = --pad-to=0xC00000 --gap-fill=0xFF
@@ -532,7 +533,7 @@ COURSE_GEOGRAPHY_TARGETS := $(foreach dir,$(COURSE_DIRS),$(BUILD_DIR)/$(dir)/cou
 
 # Course vertices and displaylists are included together due to no alignment between the two files.
 %/course_geography.inc.mio0.s: %/course_vertices.inc.mio0 %/course_displaylists_packed.inc.bin
-	printf ".include \"macros.inc\"\n\n.section .data\n\n.balign 4\n\n.incbin \"$(@D)/course_vertices.inc.mio0\"\n\n.balign 4\n\nglabel d_course_$(lastword $(subst /, ,$*))_packed\n\n.incbin \"$(@D)/course_displaylists_packed.inc.bin\"\n\n.balign 0x10\n" > $@
+	printf ".include \"macros.inc\"\n\n.section .data\n\n.balign 4\n\nglabel d_course_$(lastword $(subst /, ,$*))_vertex\n\n.incbin \"$(@D)/course_vertices.inc.mio0\"\n\n.balign 4\n\nglabel d_course_$(lastword $(subst /, ,$*))_packed\n\n.incbin \"$(@D)/course_displaylists_packed.inc.bin\"\n\n.balign 0x10\n" > $@
 
 
 
@@ -615,6 +616,8 @@ ifeq ($(COMPILER),ido)
     $(BUILD_DIR)/src/audio/%.o:        OPT_FLAGS := -O2 -use_readwrite_const
     $(BUILD_DIR)/src/audio/port_eu.o:  OPT_FLAGS := -O2 -framepointer
     $(BUILD_DIR)/src/audio/external.o:  OPT_FLAGS := -O2 -framepointer
+# No tab here required
+$(BUILD_DIR)/src/code_8006E9C0.o:  OPT_FLAGS := -O2 -Wo,-loopunroll,0
 endif
 
 
@@ -628,7 +631,7 @@ $(BUILD_DIR)/src/ending/ceremony_data.inc.mio0.o: $(BUILD_DIR)/src/ending/ceremo
 	$(V)$(LD) -t -e 0 -Ttext=0B000000 -Map $(BUILD_DIR)/src/ending/ceremony_data.inc.elf.map -o $(BUILD_DIR)/src/ending/ceremony_data.inc.elf $(BUILD_DIR)/src/ending/ceremony_data.inc.o --no-check-sections
 	$(V)$(EXTRACT_DATA_FOR_MIO) $(BUILD_DIR)/src/ending/ceremony_data.inc.elf $(BUILD_DIR)/src/ending/ceremony_data.inc.bin
 	$(V)$(MIO0TOOL) -c $(BUILD_DIR)/src/ending/ceremony_data.inc.bin $(BUILD_DIR)/src/ending/ceremony_data.inc.mio0
-	printf ".include \"macros.inc\"\n\n.data\n\n.balign 4\n\nglabel ceremony_data\n\n.incbin \"build/us/src/ending/ceremony_data.inc.mio0\"\n\n.balign 16\nglabel data_821D10_end\n" > build/us/src/ending/ceremony_data.inc.mio0.s
+	printf ".include \"macros.inc\"\n\n.data\n\n.balign 4\n\nglabel ceremony_data\n\n.incbin \"$(BUILD_DIR)/src/ending/ceremony_data.inc.mio0\"\n\n.balign 16\nglabel data_821D10_end\n" > $(BUILD_DIR)/src/ending/ceremony_data.inc.mio0.s
 	$(AS) $(ASFLAGS) -o $(BUILD_DIR)/src/ending/ceremony_data.inc.mio0.o $(BUILD_DIR)/src/ending/ceremony_data.inc.mio0.s
 
 
@@ -642,7 +645,7 @@ $(BUILD_DIR)/src/data/startup_logo.inc.mio0.o: src/data/startup_logo.inc.c
 	$(V)$(LD) -t -e 0 -Ttext=06000000 -Map $(BUILD_DIR)/src/data/startup_logo.inc.elf.map -o $(BUILD_DIR)/src/data/startup_logo.inc.elf $(BUILD_DIR)/src/data/startup_logo.inc.o --no-check-sections
 	$(V)$(EXTRACT_DATA_FOR_MIO) $(BUILD_DIR)/src/data/startup_logo.inc.elf $(BUILD_DIR)/src/data/startup_logo.inc.bin
 	$(V)$(MIO0TOOL) -c $(BUILD_DIR)/src/data/startup_logo.inc.bin $(BUILD_DIR)/src/data/startup_logo.inc.mio0
-	printf ".include \"macros.inc\"\n\n.data\n\n\n\n.balign 4\n\n\nglabel startup_logo\n\n.incbin \"build/us/src/data/startup_logo.inc.mio0\"\n\n.balign 16\n\nglabel data_825800_end\n" > build/us/src/data/startup_logo.inc.mio0.s
+	printf ".include \"macros.inc\"\n\n.data\n\n\n\n.balign 4\n\n\nglabel startup_logo\n\n.incbin \"$(BUILD_DIR)/src/data/startup_logo.inc.mio0\"\n\n.balign 16\n\nglabel data_825800_end\n" > $(BUILD_DIR)/src/data/startup_logo.inc.mio0.s
 	$(AS) $(ASFLAGS) -o $(BUILD_DIR)/src/data/startup_logo.inc.mio0.o $(BUILD_DIR)/src/data/startup_logo.inc.mio0.s
 
 

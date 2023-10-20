@@ -141,8 +141,8 @@ glabel func_800C2474
 /* 0C3280 800C2680 00220821 */  addu  $at, $at, $v0
 /* 0C3284 800C2684 0000C012 */  mflo  $t8
 /* 0C3288 800C2688 01183021 */  addu  $a2, $t0, $t8
-/* 0C328C 800C268C A0C001D4 */  sb    $zero, 0x1d4($a2)
-/* 0C3290 800C2690 A0C001EC */  sb    $zero, 0x1ec($a2)
+/* 0C328C 800C268C A0C001D4 */  sb    $zero, 0x1a4($a2)
+/* 0C3290 800C2690 A0C001EC */  sb    $zero, 0x1bc($a2)
 /* 0C3294 800C2694 ACC000BC */  sw    $zero, 0xbc($a2)
 /* 0C3298 800C2698 E4C0020C */  swc1  $f0, 0x20c($a2)
 /* 0C329C 800C269C A4C000C0 */  sh    $zero, 0xc0($a2)
