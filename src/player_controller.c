@@ -1176,7 +1176,7 @@ void func_8002A194(Player *player, f32 arg1, f32 arg2, f32 arg3) {
         }
         move_s16_towards(&player->slopeAccel, var_a1, 0.5f);
     }
-    if (func_802ABD7C(player->unk_110.unk3A) != 0) {
+    if (is_surface_flags_0x1000(player->unk_110.unk3A) != 0) {
         player->boundingBoxCorners[3].unk_14 |= 1;
     } else {
         player->boundingBoxCorners[3].unk_14 &= ~1;
@@ -1865,7 +1865,7 @@ void func_8002C17C(Player *player, s8 playerId) {
             D_80165320[playerId] = gNearestWaypointByPlayerId[playerId];
             D_80165310[playerId] = gPathIndexByPlayerId[playerId];
         } else if (!(player->effects & 8)) {
-            if (func_802ABDF4(player->unk_110.unk3A) == 0) {
+            if (is_surface_flags_0x800(player->unk_110.unk3A) == 0) {
                 D_80165330[playerId] = 0;
             }
         }
@@ -1954,7 +1954,7 @@ void func_8002C4F8(Player *player, s8 arg1) {
     } else if ((player->effects & 8) != 8) {
         player->unk_0CA &= ~0x0100;
     }
-    if ((player->type & PLAYER_CPU) && ((func_802ABDF4(player->unk_110.unk3A) != 0) || (player->unk_0CA & 1))) {
+    if ((player->type & PLAYER_CPU) && ((is_surface_flags_0x800(player->unk_110.unk3A) != 0) || (player->unk_0CA & 1))) {
         if (!(player->unk_0CA & 2) && !(player->unk_0CA & 8) && !(player->effects & 0x1000)) {
             func_80090778(player);
             func_80090868(player);
@@ -2427,11 +2427,11 @@ void func_8002D268(Player *player, UNUSED Camera *camera, s8 arg2, s8 playerId)
             }
         }
     }
-    if (((!(player->effects & 8)) && (func_802ABDB8(player->unk_110.unk3A) != 0)) && ((player->effects & 0x10000) != 0x10000)) {
+    if (((!(player->effects & 8)) && (is_surface_flags_0x400(player->unk_110.unk3A) != 0)) && ((player->effects & 0x10000) != 0x10000)) {
         if ((!(player->unk_0CA & 2)) || (!(player->unk_0CA & 8))) {
             func_8008F494(player, playerId);
         }
-    } else if (((!(player->effects & 8)) && (func_802ABDB8(player->unk_110.unk3A) == 0)) && (player->effects & 0x10000)) {
+    } else if (((!(player->effects & 8)) && (is_surface_flags_0x400(player->unk_110.unk3A) == 0)) && (player->effects & 0x10000)) {
         func_8008F5A4(player, playerId);
     }
     player->unk_074 = func_802ABE30(spFC, spF8, spF4, player->unk_110.unk3A);
@@ -2701,11 +2701,11 @@ void func_8002E594(Player *player, UNUSED Camera *camera, s8 arg2, s8 arg3) {
             }
         }
     }
-    if (((func_802ABDB8(player->unk_110.unk3A) != 0) && ((player->effects & 0x10000) != 0x10000)) && (((player->unk_094 / 18.0f) * 216.0f) >= 20.0f)) {
+    if (((is_surface_flags_0x400(player->unk_110.unk3A) != 0) && ((player->effects & 0x10000) != 0x10000)) && (((player->unk_094 / 18.0f) * 216.0f) >= 20.0f)) {
         if ((!(player->unk_0CA & 2)) || (!(player->unk_0CA & 8))) {
             func_8008F494(player, arg3);
         }
-    } else if (((!(player->effects & 8)) && (func_802ABDB8(player->unk_110.unk3A) == 0)) && (player->effects & 0x10000)) {
+    } else if (((!(player->effects & 8)) && (is_surface_flags_0x400(player->unk_110.unk3A) == 0)) && (player->effects & 0x10000)) {
         func_8008F5A4(player, arg3);
     }
     player->unk_074 = func_802ABE30(spD0, spCC, spC8, player->unk_110.unk3A);

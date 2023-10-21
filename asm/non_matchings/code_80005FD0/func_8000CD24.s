@@ -16,7 +16,7 @@ glabel func_8000CD24
 /* 00D95C 8000CD5C 304F1000 */  andi  $t7, $v0, 0x1000
 /* 00D960 8000CD60 55E0001A */  bnel  $t7, $zero, .L8000CDCC
 /* 00D964 8000CD64 8FA30074 */   lw    $v1, 0x74($sp)
-/* 00D968 8000CD68 0C0AAF50 */  jal   func_802ABD40
+/* 00D968 8000CD68 0C0AAF50 */  jal   get_8bit_surface_flags
 /* 00D96C 8000CD6C 9604011A */   lhu   $a0, 0x11a($s0)
 /* 00D970 8000CD70 8FB80078 */  lw    $t8, 0x78($sp)
 /* 00D974 8000CD74 4406C000 */  mfc1  $a2, $f24
@@ -100,7 +100,7 @@ glabel func_8000CD24
 /* 00DA9C 8000CE9C 3C054120 */  lui   $a1, 0x4120
 /* 00DAA0 8000CEA0 0C0AB772 */  jal   func_802ADDC8
 /* 00DAA4 8000CEA4 E7B80010 */   swc1  $f24, 0x10($sp)
-/* 00DAA8 8000CEA8 0C0AAF50 */  jal   func_802ABD40
+/* 00DAA8 8000CEA8 0C0AAF50 */  jal   get_8bit_surface_flags
 /* 00DAAC 8000CEAC 9604011A */   lhu   $a0, 0x11a($s0)
 /* 00DAB0 8000CEB0 8FAD0048 */  lw    $t5, 0x48($sp)
 /* 00DAB4 8000CEB4 3C0F8016 */  lui   $t7, %hi(D_80163318) # $t7, 0x8016
@@ -205,7 +205,7 @@ glabel func_8000CD24
 /* 00DC38 8000D038 E618001C */  swc1  $f24, 0x1c($s0)
 /* 00DC3C 8000D03C 0C0AB772 */  jal   func_802ADDC8
 /* 00DC40 8000D040 E7B80010 */   swc1  $f24, 0x10($sp)
-/* 00DC44 8000D044 0C0AAF50 */  jal   func_802ABD40
+/* 00DC44 8000D044 0C0AAF50 */  jal   get_8bit_surface_flags
 /* 00DC48 8000D048 9604011A */   lhu   $a0, 0x11a($s0)
 /* 00DC4C 8000D04C 8FAF0048 */  lw    $t7, 0x48($sp)
 /* 00DC50 8000D050 3C018016 */  lui   $at, %hi(D_80163318) # 0x8016

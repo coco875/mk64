@@ -82,7 +82,7 @@ f32 func_802AAB4C(Player *player) {
             }
             return D_8015F8E4;
         case COURSE_DK_JUNGLE:
-            temp_v1 = func_802ABD40(player->unk_110.unk3A) & 0xFF;
+            temp_v1 = get_8bit_surface_flags(player->unk_110.unk3A) & 0xFF;
             if (temp_v1 == 0xFF) {
                 if ((get_surface_type(player->unk_110.unk3A) & 0xFF) == 0xF) {
                     return -475.0f;
@@ -217,7 +217,7 @@ bool func_802AAE4C(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY
 }
 
 
-s32 func_802AB288(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY, f32 posZ, u16 index) {
+bool func_802AB288(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY, f32 posZ, u16 index) {
     mk64_surface_map_ram *surfaceMap = &gSurfaceMap[index];
     UNUSED f32 pad[6];
     f32 x3;
@@ -233,26 +233,26 @@ s32 func_802AB288(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
     f32 temp_f2_2;
     f32 temp_f0_2;
     f32 temp_f2_3;
-    s32 bool = 1;
+    bool bool = TRUE;
 
     if (surfaceMap->vtx31 > posX) {
-        return 0;
+        return FALSE;
     }
     if (surfaceMap->vtx21 < posX) {
-        return 0;
+        return FALSE;
     }
     if (surfaceMap->vtx22 < posY) {
-        return 0;
+        return FALSE;
     }
     if (surfaceMap->vtx32 > posY) {
-        return 0;
+        return FALSE;
     }
 
     if ((surfaceMap->vtx33 - boundingBoxSize * 3.0f) > posZ) {
-        return 0;
+        return FALSE;
     }
     if ((surfaceMap->vtx23 + boundingBoxSize * 3.0f) < posZ) {
-        return 0;
+        return FALSE;
     }
 
     x1 = surfaceMap->vtxPoly1->v.ob[0];
@@ -273,30 +273,30 @@ s32 func_802AB288(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
         temp_f2_3 = (y3 - posY) * (x1 - posX) - (x3 - posX) * (y1 - posY);
 
         if ((temp_f0_2 * temp_f2_3) < 0.0f) {
-            bool = 0;
+            bool = FALSE;
         }
     } else {
         temp_f0_2 = (y2 - posY) * (x3 - posX) - (x2 - posX) * (y3 - posY);
         if (!temp_f0_2) {
             temp_f2_3 = (y3 - posY) * (x1 - posX) - (x3 - posX) * (y1 - posY);
             if (temp_f2_2 * temp_f2_3 < 0.0f) {
-                bool = 0;
+                bool = FALSE;
             }
         } else {
             if ((temp_f2_2 * temp_f0_2) < 0.0f) {
-                bool = 0;
+                bool = FALSE;
             } else {
                 temp_f2_3 = ((y3 - posY) * (x1 - posX)) - ((x3 - posX) * (y1 - posY));
                 if (temp_f2_3 != 0) {
                     if ((temp_f0_2 * temp_f2_3) < 0.0f) {
-                        bool = 0;
+                        bool = FALSE;
                     }
                 }
             }
         }
     }
     if (!bool) {
-        return 0;
+        return FALSE;
     }
     temp_f0_4 = ((surfaceMap->height * posX) + (surfaceMap->gravity * posY) + (surfaceMap->rotation * posZ) + surfaceMap->height2) - boundingBoxSize;
     if (temp_f0_4 > 0.0f) {
@@ -308,7 +308,7 @@ s32 func_802AB288(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
             collision->unk48[1] = surfaceMap->gravity;
             collision->unk48[2] = surfaceMap->rotation;
         }
-        return 0;
+        return FALSE;
     }
 
     if (temp_f0_4 > -16.0f) {
@@ -318,15 +318,15 @@ s32 func_802AB288(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
         collision->unk48[0] = surfaceMap->height;
         collision->unk48[1] = surfaceMap->gravity;
         collision->unk48[2] = surfaceMap->rotation;
-        return 1;
+        return TRUE;
     }
-    return 0;
+    return FALSE;
 }
 
 
-s32 func_802AB6C4(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY, f32 posZ, u16 index) {
+bool func_802AB6C4(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY, f32 posZ, u16 index) {
     mk64_surface_map_ram *surfaceMap = &gSurfaceMap[index];
-    s32 bool = 1;
+    bool bool = 1;
     UNUSED f32 pad[7];
     f32 sp20;
     f32 temp_f8;
@@ -340,22 +340,22 @@ s32 func_802AB6C4(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
     f32 temp_f0_2;
     f32 temp_f2_3;
     if (surfaceMap->vtx33 > posZ) {
-        return 0;
+        return FALSE;
     }
     if (surfaceMap->vtx23 < posZ) {
-        return 0;
+        return FALSE;
     }
     if (surfaceMap->vtx22 < posY) {
-        return 0;
+        return FALSE;
     }
     if (surfaceMap->vtx32 > posY) {
-        return 0;
+        return FALSE;
     }
     if ((surfaceMap->vtx31 - (boundingBoxSize * 3.0f)) > posX) {
-        return 0;
+        return FALSE;
     }
     if ((surfaceMap->vtx21 + (boundingBoxSize * 3.0f)) < posX) {
-        return 0;
+        return FALSE;
     }
 
     sp24 = surfaceMap->vtxPoly1->v.ob[2];
@@ -376,7 +376,7 @@ s32 func_802AB6C4(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
         temp_f2_3 = ((sp20 - posY) * (sp24 - posZ)) - ((temp_f8 - posZ) * (temp_f4 - posY));
 
         if ((temp_f0_2 * temp_f2_3) < 0.0f) {
-            bool = 0;
+            bool = FALSE;
         }
     } else {
 
@@ -386,24 +386,24 @@ s32 func_802AB6C4(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
             temp_f2_3 = ((sp20 - posY) * (sp24 - posZ)) - ((temp_f8 - posZ) * (temp_f4 - posY));
 
             if ((temp_f2_2 * temp_f2_3) < 0.0f) {
-                bool = 0;
+                bool = FALSE;
             }
         } else {
 
             if ((temp_f2_2 * temp_f0_2) < 0.0f) {
-                bool = 0;
+                bool = FALSE;
             } else {
                 temp_f2_3 = ((sp20 - posY) * (sp24 - posZ)) - ((temp_f8 - posZ) * (temp_f4 - posY));
                 if (temp_f2_3 != 0) {
                     if ((temp_f0_2 * temp_f2_3) < 0.0f) {
-                        bool = 0;
+                        bool = FALSE;
                     }
                 }
             }
         }
     }
     if (!bool) {
-        return 0;
+        return FALSE;
     }
 
     temp_f0_4 = ((((surfaceMap->height * posX) + (surfaceMap->gravity * posY)) + (surfaceMap->rotation * posZ))
@@ -419,7 +419,7 @@ s32 func_802AB6C4(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
             collision->unk54[1] = surfaceMap->gravity;
             collision->unk54[2] = surfaceMap->rotation;
         }
-        return 0;
+        return FALSE;
     }
     if (temp_f0_4 > (-16.0f)) {
         collision->unk32 = 1;
@@ -428,12 +428,12 @@ s32 func_802AB6C4(Collision *collision, f32 boundingBoxSize, f32 posX, f32 posY,
         collision->unk54[0] = surfaceMap->height;
         collision->unk54[1] = surfaceMap->gravity;
         collision->unk54[2] = surfaceMap->rotation;
-        return 1;
+        return TRUE;
     }
-    return 0;
+    return FALSE;
 }
 
-s32 func_802ABB04(f32 posX, f32 posZ, u16 index) {
+bool func_802ABB04(f32 posX, f32 posZ, u16 index) {
     mk64_surface_map_ram *surfaceMap = &gSurfaceMap[index];
     UNUSED f32 pad;
     f32 x3;
@@ -448,7 +448,7 @@ s32 func_802ABB04(f32 posX, f32 posZ, u16 index) {
     f32 temp_f2_2;
     f32 temp_f2_3;
     f32 temp_f0_2;
-    s32 bool = 1;
+    bool bool = TRUE;
 
     x1 = surfaceMap->vtxPoly1->v.ob[0];
     z1 = surfaceMap->vtxPoly1->v.ob[2];
@@ -468,23 +468,23 @@ s32 func_802ABB04(f32 posX, f32 posZ, u16 index) {
         temp_f2_3 = (z3 - posZ) * (x1 - posX) - (x3 - posX) * (z1 - posZ);
 
         if ((temp_f0_2 * temp_f2_3) < 0.0f) {
-            bool = 0;
+            bool = FALSE;
         }
     } else {
         temp_f0_2 = (z2 - posZ) * (x3 - posX) - (x2 - posX) * (z3 - posZ);
         if (!temp_f0_2) {
             temp_f2_3 = (z3 - posZ) * (x1 - posX) - (x3 - posX) * (z1 - posZ);
             if (temp_f2_2 * temp_f2_3 < 0.0f) {
-                bool = 0;
+                bool = FALSE;
             }
         } else {
             if ((temp_f2_2 * temp_f0_2) < 0.0f) {
-                bool = 0;
+                bool = FALSE;
             } else {
                 temp_f2_3 = ((z3 - posZ) * (x1 - posX)) - ((x3 - posX) * (z1 - posZ));
                 if (temp_f2_3 != 0) {
                     if ((temp_f0_2 * temp_f2_3) < 0.0f) {
-                        bool = 0;
+                        bool = FALSE;
                     }
                 }
             }
@@ -498,22 +498,22 @@ s8 get_surface_type(u16 index) {
     return tile->surfaceType;
 }
 
-s16 func_802ABD40(u16 index) {
+s16 get_8bit_surface_flags(u16 index) {
     mk64_surface_map_ram *tile = &gSurfaceMap[index];
     return tile->flags & 0xFF;
 }
 
-s16 func_802ABD7C(u16 index) {
+s16 is_surface_flags_0x1000(u16 index) {
     mk64_surface_map_ram *tile = &gSurfaceMap[index];
     return tile->flags & 0x1000;
 }
 
-s16 func_802ABDB8(u16 index) {
+s16 is_surface_flags_0x400(u16 index) {
     mk64_surface_map_ram *tile = &gSurfaceMap[index];
     return tile->flags & 0x400;
 }
 
-s16 func_802ABDF4(u16 index) {
+s16 is_surface_flags_0x800(u16 index) {
     mk64_surface_map_ram *tile = &gSurfaceMap[index];
     return tile->flags & 0x800;
 }

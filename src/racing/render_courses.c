@@ -115,8 +115,8 @@ void load_surface_map(uintptr_t addr, struct UnkStruct_800DC5EC *arg1) {
     arg1->playerDirection = var_a3;
 
     if (D_80152300[camera - camera1] == 1) {
-        sp1E = func_802ABD40(camera->unk_54.unk3A);
-        temp_v0_3 = func_802ABD40(player->unk_110.unk3A);
+        sp1E = get_8bit_surface_flags(camera->unk_54.unk3A);
+        temp_v0_3 = get_8bit_surface_flags(player->unk_110.unk3A);
         temp_v1 = sp1E - temp_v0_3;
         if ((temp_v1 < 2) && (temp_v1 >= -1)) {
             if (sp1E == 255) {
@@ -169,7 +169,7 @@ void load_surface_map(uintptr_t addr, struct UnkStruct_800DC5EC *arg1) {
             }
         }
     } else {
-        temp_v1 = func_802ABD40(camera->unk_54.unk3A);
+        temp_v1 = get_8bit_surface_flags(camera->unk_54.unk3A);
         if (camera->unk_54.unk3C[2] > 30.0f) {
             temp_v1 = arg1->pathCounter;
         } else if (temp_v1 == 255) { 

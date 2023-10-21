@@ -269,7 +269,7 @@ glabel func_80011014
 /* 011FEC 800113EC 440F3000 */  mfc1  $t7, $f6
 /* 011FF0 800113F0 00000000 */  nop   
 /* 011FF4 800113F4 A62F0004 */  sh    $t7, 4($s1)
-/* 011FF8 800113F8 0C0AAF50 */  jal   func_802ABD40
+/* 011FF8 800113F8 0C0AAF50 */  jal   get_8bit_surface_flags
 /* 011FFC 800113FC 96A4000A */   lhu   $a0, 0xa($s5)
 /* 012000 80011400 A6220006 */  sh    $v0, 6($s1)
 /* 012004 80011404 3C01800F */  lui   $at, %hi(D_800ED070)

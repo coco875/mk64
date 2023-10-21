@@ -1320,7 +1320,7 @@ s32 func_80008E58(s32 payerId, s32 pathIndex) {
     posY = player->pos[1];
     posZ = player->pos[2];
     stackPadding = pathIndex;
-    trackSegment = func_802ABD40(player->unk_110.unk3A);
+    trackSegment = get_8bit_surface_flags(player->unk_110.unk3A);
     D_80163318[payerId] = trackSegment;
     D_80162FCE = func_8000C0BC(posX, posY, posZ, trackSegment, &pathIndex);
     gNearestWaypointByPlayerId[payerId] = D_80162FCE;
@@ -2863,7 +2863,7 @@ s16 func_8000CC88(f32 posX, f32 posY, f32 posZ, Player *player, s32 playerId, s3
     u16 trackSegment;
     s16 ret;
 
-    trackSegment = func_802ABD40(player->unk_110.unk3A);
+    trackSegment = get_8bit_surface_flags(player->unk_110.unk3A);
     if ((trackSegment <= 0) || (trackSegment >= 0x33)) {
         trackSegment = D_80163318[playerId];
     }
@@ -2901,7 +2901,7 @@ s16 func_8000CD24(f32 posX, f32 posY, f32 posZ, s16 waypointIndex, Player *playe
     var_f20 = posX;
     var_f22 = posY;
     if ((temp_v0 & 0x4000) && !(temp_v0 & 0x1000)) {
-        temp_v0_2 = func_8000C884(var_f20, var_f22, var_f24, waypointIndex, pathIndex, (u16) func_802ABD40(player->unk_110.unk3A));
+        temp_v0_2 = func_8000C884(var_f20, var_f22, var_f24, waypointIndex, pathIndex, (u16) get_8bit_surface_flags(player->unk_110.unk3A));
         sp5E = temp_v0_2;
         if (temp_v0_2 == -1) {
             sp5E = func_8000CC88(var_f20, var_f22, var_f24, player, playerId, &pathIndex);
@@ -2921,7 +2921,7 @@ s16 func_8000CD24(f32 posX, f32 posY, f32 posZ, s16 waypointIndex, Player *playe
         }
         if (playerId == ((s32) D_80163488 % 8)) {
             func_802ADDC8(&player->unk_110, 10.0f, var_f20, var_f22, var_f24);
-            temp_v0_3 = func_802ABD40(player->unk_110.unk3A);
+            temp_v0_3 = get_8bit_surface_flags(player->unk_110.unk3A);
             temp_v1_2 = sp48 + D_80163318;
             *temp_v1_2 = temp_v0_3;
             sp44 = temp_v1_2;
@@ -2954,7 +2954,7 @@ s16 func_8000CD24(f32 posX, f32 posY, f32 posZ, s16 waypointIndex, Player *playe
                 player->pos[1] = var_f22;
                 player->pos[2] = var_f24;
                 func_802ADDC8(&player->unk_110, 10.0f, var_f20, var_f22, var_f24);
-                *(D_80163318 + sp48) = func_802ABD40(player->unk_110.unk3A);
+                *(D_80163318 + sp48) = get_8bit_surface_flags(player->unk_110.unk3A);
             }
         }
         goto block_16;
@@ -3031,7 +3031,7 @@ s16 func_8000D24C(f32 posX, f32 posY, f32 posZ, s32 *pathIndex) {
     Collision sp24;
 
     func_802ADDC8(&sp24, 10.0f, posX, posY, posZ);
-    return func_8000C0BC(posX, posY, posZ, func_802ABD40(sp24.unk3A), pathIndex);
+    return func_8000C0BC(posX, posY, posZ, get_8bit_surface_flags(sp24.unk3A), pathIndex);
 }
 
 s16 func_8000D2B4(f32 posX, f32 posY, f32 posZ, s16 waypointIndex, s32 pathIndex) {
@@ -4941,7 +4941,7 @@ s32 func_80011014(TrackWaypoint *arg0, TrackWaypoint *arg1, s32 arg2, s32 arg3) 
                         }
                         var_f20_2 = var_f0;
                         var_s1->posZ = (s16) (s32) temp_f26_2;
-                        var_s1->trackSegment = func_802ABD40(D_80162E70.unk3A);
+                        var_s1->trackSegment = get_8bit_surface_flags(D_80162E70.unk3A);
                         temp_f2_4 = (f64) var_f20_2;
                         if (temp_f2_4 < -500.0) {
                             var_f20_2 = var_f28;
