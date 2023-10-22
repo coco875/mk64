@@ -673,7 +673,7 @@ glabel L8000E634
 /* 00F508 8000E908 01AE2021 */  addu  $a0, $t5, $t6
 /* 00F50C 8000E90C 9487000A */  lhu   $a3, 0xa($a0)
 /* 00F510 8000E910 AFA40048 */  sw    $a0, 0x48($sp)
-/* 00F514 8000E914 0C0AAF8C */  jal   func_802ABE30
+/* 00F514 8000E914 0C0AAF8C */  jal   calculate_surface_height
 /* 00F518 8000E918 4600B306 */   mov.s $f12, $f22
 /* 00F51C 8000E91C 3C014060 */  li    $at, 0x40600000 # 3.500000
 /* 00F520 8000E920 44813000 */  mtc1  $at, $f6

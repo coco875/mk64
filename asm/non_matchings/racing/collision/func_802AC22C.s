@@ -56,7 +56,7 @@ glabel func_802AC22C
 /* 115910 802AC300 4406D000 */  mfc1  $a2, $f26
 /* 115914 802AC304 4600B306 */  mov.s $f12, $f22
 /* 115918 802AC308 4600C386 */  mov.s $f14, $f24
-/* 11591C 802AC30C 0C0AAF8C */  jal   func_802ABE30
+/* 11591C 802AC30C 0C0AAF8C */  jal   calculate_surface_height
 /* 115920 802AC310 9667000E */   lhu   $a3, 0xe($s3)
 /* 115924 802AC314 E6600010 */  swc1  $f0, 0x10($s3)
 /* 115928 802AC318 10000102 */  b     .L802AC724
@@ -78,7 +78,7 @@ glabel func_802AC22C
 /* 115964 802AC354 4406D000 */  mfc1  $a2, $f26
 /* 115968 802AC358 4600B306 */  mov.s $f12, $f22
 /* 11596C 802AC35C 4600C386 */  mov.s $f14, $f24
-/* 115970 802AC360 0C0AAF8C */  jal   func_802ABE30
+/* 115970 802AC360 0C0AAF8C */  jal   calculate_surface_height
 /* 115974 802AC364 9667000E */   lhu   $a3, 0xe($s3)
 /* 115978 802AC368 E6600010 */  swc1  $f0, 0x10($s3)
 /* 11597C 802AC36C 100000ED */  b     .L802AC724
@@ -101,7 +101,7 @@ glabel func_802AC22C
 /* 1159BC 802AC3AC 4406D000 */  mfc1  $a2, $f26
 /* 1159C0 802AC3B0 4600B306 */  mov.s $f12, $f22
 /* 1159C4 802AC3B4 4600C386 */  mov.s $f14, $f24
-/* 1159C8 802AC3B8 0C0AAF8C */  jal   func_802ABE30
+/* 1159C8 802AC3B8 0C0AAF8C */  jal   calculate_surface_height
 /* 1159CC 802AC3BC 9667000E */   lhu   $a3, 0xe($s3)
 /* 1159D0 802AC3C0 E6600010 */  swc1  $f0, 0x10($s3)
 /* 1159D4 802AC3C4 100000D7 */  b     .L802AC724
@@ -225,7 +225,7 @@ glabel func_802AC22C
 /* 115B88 802AC578 4406D000 */  mfc1  $a2, $f26
 /* 115B8C 802AC57C 4600B306 */  mov.s $f12, $f22
 /* 115B90 802AC580 4600C386 */  mov.s $f14, $f24
-/* 115B94 802AC584 0C0AAF8C */  jal   func_802ABE30
+/* 115B94 802AC584 0C0AAF8C */  jal   calculate_surface_height
 /* 115B98 802AC588 3207FFFF */   andi  $a3, $s0, 0xffff
 /* 115B9C 802AC58C E6600010 */  swc1  $f0, 0x10($s3)
 /* 115BA0 802AC590 3C0B8016 */  lui   $t3, %hi(gSurfaceMap) # $t3, 0x8016
@@ -274,7 +274,7 @@ glabel func_802AC22C
 /* 115C44 802AC634 4406D000 */  mfc1  $a2, $f26
 /* 115C48 802AC638 4600B306 */  mov.s $f12, $f22
 /* 115C4C 802AC63C 4600C386 */  mov.s $f14, $f24
-/* 115C50 802AC640 0C0AAF8C */  jal   func_802ABE30
+/* 115C50 802AC640 0C0AAF8C */  jal   calculate_surface_height
 /* 115C54 802AC644 3207FFFF */   andi  $a3, $s0, 0xffff
 /* 115C58 802AC648 E6600010 */  swc1  $f0, 0x10($s3)
 /* 115C5C 802AC64C 3C0B8016 */  lui   $t3, %hi(gSurfaceMap) # $t3, 0x8016
@@ -308,7 +308,7 @@ glabel func_802AC22C
 /* 115CC8 802AC6B8 4406D000 */  mfc1  $a2, $f26
 /* 115CCC 802AC6BC 4600B306 */  mov.s $f12, $f22
 /* 115CD0 802AC6C0 4600C386 */  mov.s $f14, $f24
-/* 115CD4 802AC6C4 0C0AAF8C */  jal   func_802ABE30
+/* 115CD4 802AC6C4 0C0AAF8C */  jal   calculate_surface_height
 /* 115CD8 802AC6C8 3207FFFF */   andi  $a3, $s0, 0xffff
 /* 115CDC 802AC6CC E6600010 */  swc1  $f0, 0x10($s3)
 /* 115CE0 802AC6D0 3C188016 */  lui   $t8, %hi(gSurfaceMap) # $t8, 0x8016

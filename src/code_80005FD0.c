@@ -3663,7 +3663,7 @@ void func_8000DF8C(s32 arg0) {
                 }
                 temp_a0_4 = (arg0 << 6) + &D_80164038;
                 sp48 = temp_a0_4;
-                var_f20 = func_802ABE30(var_f22, 2000.0f, var_f24, temp_a0_4->unk3A) + 3.5f;
+                var_f20 = calculate_surface_height(var_f22, 2000.0f, var_f24, temp_a0_4->unk3A) + 3.5f;
                 if ((f64) var_f20 < -1000.0) {
                     var_f20 = temp_s0->bombPos[1];
                 }

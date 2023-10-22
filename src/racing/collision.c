@@ -518,23 +518,25 @@ s16 is_surface_flags_0x800(u16 index) {
     return tile->flags & 0x800;
 }
 
-f32 func_802ABE30(f32 x, f32 y, f32 z, u16 index) {
+f32 calculate_surface_height(f32 x, f32 y, f32 z, u16 index) {
     mk64_surface_map_ram *tile = &gSurfaceMap[index];
-    if (tile->gravity == 0.0f) {
+
+    if (tile->gravity == 0.0f) { // if gravity is null return current y
         return y;
     }
+
     return ((tile->height * x) + (tile->rotation * z) + tile->height2) / -tile->gravity;
 }
 
 f32 func_802ABEAC(Collision *collision, Vec3f pos) {
     if (collision->unk34 == 1) {
-        return func_802ABE30(pos[0], pos[1], pos[2], collision->unk3A);
+        return calculate_surface_height(pos[0], pos[1], pos[2], collision->unk3A);
     }
     if (collision->unk30 == 1) {
-        return func_802ABE30(pos[0], pos[1], pos[2], collision->unk36);
+        return calculate_surface_height(pos[0], pos[1], pos[2], collision->unk36);
     }
     if (collision->unk32 == 1) {
-        return func_802ABE30(pos[0], pos[1], pos[2], collision->unk38);
+        return calculate_surface_height(pos[0], pos[1], pos[2], collision->unk38);
     }
     return pos[1];
 }
@@ -1382,7 +1384,7 @@ f32 func_802AE1C0(f32 posX, f32 posY, f32 posZ) {
         index = D_8015F584[phi_s1];
 
         if ((gSurfaceMap[index].flags & 0x4000) && (func_802ABB04(posX, posZ, index) == 1)) {
-            temp_f0 = func_802ABE30(posX, posY, posZ, index);
+            temp_f0 = calculate_surface_height(posX, posY, posZ, index);
             if ((temp_f0 <= posY) && (phi_f20 < temp_f0)) {
                 phi_f20 = temp_f0;
             }
@@ -2060,7 +2062,7 @@ u16 process_collision(Player *player, KartBoundingBoxCorner *corner, f32 cornerP
     switch (corner->surfaceFlags) {
         case 0x80:
             if (is_colliding_with_wall1(collision, boundingBoxSize, cornerPos1, cornerPos2, cornerPos3, corner->surfaceMapIndex, cornerPosX, cornerPosY, cornerPosZ) == 1) {
-                temp_f0 = func_802ABE30(cornerPos1, cornerPos2, cornerPos3, corner->surfaceMapIndex);
+                temp_f0 = calculate_surface_height(cornerPos1, cornerPos2, cornerPos3, corner->surfaceMapIndex);
                 if ((!(temp_f0 > player->pos[1])) && !((player->pos[1] - temp_f0) > (2 * boundingBoxSize))) {
                     corner->cornerGroundY = temp_f0;
                     subtract_scaled_vector(collision->unk54, collision->unk3C[1], corner->cornerPos);
@@ -2070,7 +2072,7 @@ u16 process_collision(Player *player, KartBoundingBoxCorner *corner, f32 cornerP
             break;
         case 0x40:
             if (is_colliding_with_drivable_surface(collision, boundingBoxSize, cornerPos1, cornerPos2, cornerPos3, corner->surfaceMapIndex, cornerPosX, cornerPosY, cornerPosZ) == 1) {
-                temp_f0 = func_802ABE30(cornerPos1, cornerPos2, cornerPos3, corner->surfaceMapIndex);
+                temp_f0 = calculate_surface_height(cornerPos1, cornerPos2, cornerPos3, corner->surfaceMapIndex);
                 if (!(player->pos[1] < temp_f0) && !((2 * boundingBoxSize) < (player->pos[1] - temp_f0))) {
                     corner->cornerGroundY = temp_f0;
                     subtract_scaled_vector(collision->unk60, collision->unk3C[2], corner->cornerPos);
@@ -2080,7 +2082,7 @@ u16 process_collision(Player *player, KartBoundingBoxCorner *corner, f32 cornerP
             break;
         case 0x20:
             if (is_colliding_with_wall2(collision, boundingBoxSize, cornerPos1, cornerPos2, cornerPos3, corner->surfaceMapIndex, cornerPosX, cornerPosY, cornerPosZ) == 1) {
-                temp_f0 = func_802ABE30(cornerPos1, cornerPos2, cornerPos3, corner->surfaceMapIndex);
+                temp_f0 = calculate_surface_height(cornerPos1, cornerPos2, cornerPos3, corner->surfaceMapIndex);
                 if (!(player->pos[1] < temp_f0) && !((2 * boundingBoxSize) < (player->pos[1] - temp_f0))) {
                     corner->cornerGroundY = temp_f0;
                     subtract_scaled_vector(collision->unk48, collision->unk3C[0], corner->cornerPos);
@@ -2122,7 +2124,7 @@ u16 process_collision(Player *player, KartBoundingBoxCorner *corner, f32 cornerP
         if (gSurfaceMap[surfaceMapIndex].flags & 0x4000) {
             if (surfaceMapIndex != corner->surfaceMapIndex) {
                 if (is_colliding_with_drivable_surface(collision, boundingBoxSize, cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex, cornerPosX, cornerPosY, cornerPosZ) == 1) {
-                    temp_f0 = func_802ABE30(cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex);
+                    temp_f0 = calculate_surface_height(cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex);
 
                     if (!(player->pos[1] < temp_f0) && !((2 * boundingBoxSize) < (player->pos[1] - temp_f0))) {
                         subtract_scaled_vector(collision->unk60, collision->unk3C[2], corner->cornerPos);
@@ -2143,11 +2145,11 @@ u16 process_collision(Player *player, KartBoundingBoxCorner *corner, f32 cornerP
             if (gSurfaceMap[surfaceMapIndex].gravity != 0.0f) {
                 if (surfaceMapIndex != corner->surfaceMapIndex) {
                     if (is_colliding_with_wall1(collision, boundingBoxSize, cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex, cornerPosX, cornerPosY, cornerPosZ) == 1) {
-                        temp_f0 = func_802ABE30(cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex);
+                        temp_f0 = calculate_surface_height(cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex);
                         if (!(player->pos[1] < temp_f0) && !((2 * boundingBoxSize) < (player->pos[1] - temp_f0))) {
                             corner->cornerGroundY = temp_f0;
                             subtract_scaled_vector(collision->unk54, collision->unk3C[1], corner->cornerPos);
-                            corner->cornerGroundY = func_802ABE30(cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex);
+                            corner->cornerGroundY = calculate_surface_height(cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex);
                             corner->surfaceType = (u8) gSurfaceMap[surfaceMapIndex].surfaceType;
                             corner->surfaceFlags = 0x80;
                             corner->surfaceMapIndex = surfaceMapIndex;
@@ -2160,7 +2162,7 @@ u16 process_collision(Player *player, KartBoundingBoxCorner *corner, f32 cornerP
             if (gSurfaceMap[surfaceMapIndex].gravity != 0.0f) {
                 if (surfaceMapIndex != corner->surfaceMapIndex) {
                     if (is_colliding_with_wall2(collision, boundingBoxSize, cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex, cornerPosX, cornerPosY, cornerPosZ) == 1) {
-                        temp_f0 = func_802ABE30(cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex);
+                        temp_f0 = calculate_surface_height(cornerPos1, cornerPos2, cornerPos3, surfaceMapIndex);
                         if (!(player->pos[1] < temp_f0) && !((2 * boundingBoxSize) < (player->pos[1] - temp_f0))) {
                             corner->cornerGroundY = temp_f0;
                             subtract_scaled_vector(collision->unk48, collision->unk3C[0], corner->cornerPos);

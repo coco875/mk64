@@ -11,7 +11,7 @@ s16   get_8bit_surface_flags(u16);
 s16   is_surface_flags_0x1000(u16);
 s16   is_surface_flags_0x400(u16);
 s16   is_surface_flags_0x800(u16);
-f32   func_802ABE30(f32, f32, f32, u16);
+f32   calculate_surface_height(f32, f32, f32, u16);
 f32   func_802ABEAC(Collision*, Vec3f);
 void  process_shell_collision(Vec3f, f32, Vec3f, f32);
 u16   process_collision(Player *player, KartBoundingBoxCorner *corner, f32 cornerPosX, f32 cornerPosY, f32 cornerPosZ);

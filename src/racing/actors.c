@@ -371,7 +371,7 @@ void func_80297760(struct Actor *arg0, Vec3f arg1) {
     arg1[0] = arg0->pos[0];
     arg1[1] = arg0->pos[1];
     arg1[2] = arg0->pos[2];
-    arg1[1] = func_802ABE30(arg1[0], arg1[1], arg1[2], arg0->unk30.unk3A);
+    arg1[1] = calculate_surface_height(arg1[0], arg1[1], arg1[2], arg0->unk30.unk3A);
 }
 
 void func_802977B0(Player *arg0) {
@@ -1909,7 +1909,7 @@ void render_actor_falling_rock(Camera *camera, struct FallingRock *rock) {
         if (rock->unk30.unk34 == 1) {
             sp8C[0] = rock->pos[0];
             sp8C[2] = rock->pos[2];
-            temp_f0 = func_802ABE30(sp8C[0], rock->pos[1], sp8C[2], rock->unk30.unk3A);
+            temp_f0 = calculate_surface_height(sp8C[0], rock->pos[1], sp8C[2], rock->unk30.unk3A);
             sp98[0] = 0;
             sp98[1] = 0;
             sp98[2] = 0;
@@ -2063,7 +2063,7 @@ void spawn_foliage(struct ActorSpawnData *arg0) {
         } else {
             func_802ADDC8(&temp_s0->unk30, 5.0f, temp_s0->pos[0], temp_s0->pos[1], temp_s0->pos[2]);
             if (temp_s0->unk30.unk3C[2] < 0.0f) {
-                temp_s0->pos[1] = func_802ABE30(temp_s0->pos[0], temp_s0->pos[1], temp_s0->pos[2], temp_s0->unk30.unk3A);
+                temp_s0->pos[1] = calculate_surface_height(temp_s0->pos[0], temp_s0->pos[1], temp_s0->pos[2], temp_s0->unk30.unk3A);
             }
             func_802976EC(&temp_s0->unk30, temp_s0->rot);
         }

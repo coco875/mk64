@@ -513,7 +513,7 @@ s32 func_8008847C(s32 objectIndex) {
             sp2C = 1;
             set_object_flag_unk_054_true(objectIndex, 0x00800000);
         }
-        gObjectList[objectIndex].unk_044 = func_802ABE30(gObjectList[objectIndex].pos[0], 0.0f, gObjectList[objectIndex].pos[2], D_8018C3B0.unk3A);
+        gObjectList[objectIndex].unk_044 = calculate_surface_height(gObjectList[objectIndex].pos[0], 0.0f, gObjectList[objectIndex].pos[2], D_8018C3B0.unk3A);
     }
     return sp2C;
 }
@@ -529,7 +529,7 @@ s32 func_80088538(s32 objectIndex) {
             sp2C = 1;
             set_object_flag_unk_054_true(objectIndex, 0x00800000);
         }
-        gObjectList[objectIndex].unk_044 = func_802ABE30(gObjectList[objectIndex].pos[0], 0.0f, gObjectList[objectIndex].pos[2], D_8018C3B0.unk3A);
+        gObjectList[objectIndex].unk_044 = calculate_surface_height(gObjectList[objectIndex].pos[0], 0.0f, gObjectList[objectIndex].pos[2], D_8018C3B0.unk3A);
         gObjectList[objectIndex].unk_0B8[0] = atan2s(D_8018C3B0.unk60[2], D_8018C3B0.unk60[1]) + 0x4000;
         gObjectList[objectIndex].unk_0B8[2] = atan2s(D_8018C3B0.unk60[0], D_8018C3B0.unk60[1]);
     }
@@ -547,7 +547,7 @@ s32 func_8008861C(s32 objectIndex) {
             sp2C = 1;
             set_object_flag_unk_054_true(objectIndex, 0x00800000);
         }
-        gObjectList[objectIndex].unk_044 = func_802ABE30(gObjectList[objectIndex].pos[0], 0.0f, gObjectList[objectIndex].pos[2], D_8018C3B0.unk3A);
+        gObjectList[objectIndex].unk_044 = calculate_surface_height(gObjectList[objectIndex].pos[0], 0.0f, gObjectList[objectIndex].pos[2], D_8018C3B0.unk3A);
         gObjectList[objectIndex].unk_01C[0] = D_8018C3B0.unk60[0];
         gObjectList[objectIndex].unk_01C[1] = D_8018C3B0.unk60[1];
         gObjectList[objectIndex].unk_01C[2] = D_8018C3B0.unk60[2];
@@ -559,7 +559,7 @@ void func_800886F4(s32 objectIndex) {
     func_802ADDC8(&D_8018C3B0, 10.0f, gObjectList[objectIndex].pos[0], 20.0f, gObjectList[objectIndex].pos[2]);
     if (D_8018C3B0.unk34 == 1) {
         set_object_flag_unk_054_true(objectIndex, 0x00800000);
-        gObjectList[objectIndex].unk_044 = func_802ABE30(gObjectList[objectIndex].pos[0], 0.0f, gObjectList[objectIndex].pos[2], D_8018C3B0.unk3A);
+        gObjectList[objectIndex].unk_044 = calculate_surface_height(gObjectList[objectIndex].pos[0], 0.0f, gObjectList[objectIndex].pos[2], D_8018C3B0.unk3A);
         gObjectList[objectIndex].unk_0B8[0] = atan2s(D_8018C3B0.unk60[2], D_8018C3B0.unk60[1]) + 0x4000;
         gObjectList[objectIndex].unk_0B8[2] = atan2s(D_8018C3B0.unk60[0], D_8018C3B0.unk60[1]);
         return;
@@ -571,7 +571,7 @@ void func_800887C0(s32 objectIndex) {
     func_802ADDC8(&D_8018C3B0, 10.0f, gObjectList[objectIndex].pos[0], 20.0f, gObjectList[objectIndex].pos[2]);
     if (D_8018C3B0.unk34 == 1) {
         set_object_flag_unk_054_true(objectIndex, 0x00800000);
-        gObjectList[objectIndex].unk_044 = func_802ABE30(gObjectList[objectIndex].pos[0], 0.0f, gObjectList[objectIndex].pos[2], D_8018C3B0.unk3A);
+        gObjectList[objectIndex].unk_044 = calculate_surface_height(gObjectList[objectIndex].pos[0], 0.0f, gObjectList[objectIndex].pos[2], D_8018C3B0.unk3A);
         gObjectList[objectIndex].unk_038[0] = D_8018C3B0.unk60[0];
         gObjectList[objectIndex].unk_038[1] = D_8018C3B0.unk60[1];
         gObjectList[objectIndex].unk_038[2] = D_8018C3B0.unk60[2];

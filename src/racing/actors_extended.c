@@ -1166,7 +1166,7 @@ void update_actor_green_shell(struct ShellActor *shell) {
         shell->pos[0] = player->pos[0] + somePosVel[0];
         pad2 = player->pos[1] - somePosVel[1];
         shell->pos[2] = player->pos[2] + somePosVel[2];
-        pad0 = func_802ABE30(shell->pos[0], pad2, shell->pos[2], player->unk_110.unk3A);
+        pad0 = calculate_surface_height(shell->pos[0], pad2, shell->pos[2], player->unk_110.unk3A);
         pad1 = pad2 - pad0;
         if ((pad1 < 5.0f) && (pad1 > -5.0f)) {
             shell->pos[1] = shell->boundingBoxSize + pad0;
@@ -1545,7 +1545,7 @@ void update_actor_red_blue_shell(struct ShellActor *shell) {
         shell->pos[0] = player->pos[0] + somePosVel[0];
         pad7          = player->pos[1] - somePosVel[1];
         shell->pos[2] = player->pos[2] + somePosVel[2];
-        temp_f0 = func_802ABE30(shell->pos[0], pad7, shell->pos[2], player->unk_110.unk3A);
+        temp_f0 = calculate_surface_height(shell->pos[0], pad7, shell->pos[2], player->unk_110.unk3A);
         temp_f2 = pad7 - temp_f0;
 
         if ((temp_f2 < 5.0f) && (temp_f2 > -5.0f)) {

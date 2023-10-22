@@ -1133,21 +1133,21 @@ void func_8002A194(Player *player, f32 arg1, f32 arg2, f32 arg3) {
     player->boundingBoxCorners[0].cornerPos[2] = (coss(temp_v1 + 0x2000) * var_f20) + arg3;
     temp_f12 = (sins(temp_v1 + 0x2000) * var_f20) + arg1;
     player->boundingBoxCorners[0].cornerPos[0] = temp_f12;
-    player->boundingBoxCorners[0].cornerGroundY = func_802ABE30(temp_f12, arg2, player->boundingBoxCorners[0].cornerPos[2], player->unk_110.unk3A);
+    player->boundingBoxCorners[0].cornerGroundY = calculate_surface_height(temp_f12, arg2, player->boundingBoxCorners[0].cornerPos[2], player->unk_110.unk3A);
 
     player->boundingBoxCorners[1].cornerPos[2] = (coss(temp_v1 - 0x2000) * var_f20) + arg3;
     temp_f12 = (sins(temp_v1 - 0x2000) * var_f20) + arg1;
     player->boundingBoxCorners[1].cornerPos[0] = temp_f12;
-    player->boundingBoxCorners[1].cornerGroundY = func_802ABE30(temp_f12, arg2, player->boundingBoxCorners[1].cornerPos[2], player->unk_110.unk3A);
+    player->boundingBoxCorners[1].cornerGroundY = calculate_surface_height(temp_f12, arg2, player->boundingBoxCorners[1].cornerPos[2], player->unk_110.unk3A);
 
     player->boundingBoxCorners[2].cornerPos[2] = (coss(temp_v1 + 0x6000) * var_f20) + arg3;
     temp_f12 = (sins(temp_v1 + 0x6000) * var_f20) + arg1;
     player->boundingBoxCorners[2].cornerPos[0] = temp_f12;
-    player->boundingBoxCorners[2].cornerGroundY = func_802ABE30(temp_f12, arg2, player->boundingBoxCorners[2].cornerPos[2], player->unk_110.unk3A);
+    player->boundingBoxCorners[2].cornerGroundY = calculate_surface_height(temp_f12, arg2, player->boundingBoxCorners[2].cornerPos[2], player->unk_110.unk3A);
 
     player->boundingBoxCorners[3].cornerPos[2] = (coss(temp_v1 - 0x6000) * var_f20) + arg3;
     player->boundingBoxCorners[3].cornerPos[0] = (sins(temp_v1 - 0x6000) * var_f20) + arg1;
-    player->boundingBoxCorners[3].cornerGroundY = func_802ABE30(player->boundingBoxCorners[2].cornerPos[0], arg2, player->boundingBoxCorners[2].cornerPos[2], player->unk_110.unk3A);
+    player->boundingBoxCorners[3].cornerGroundY = calculate_surface_height(player->boundingBoxCorners[2].cornerPos[0], arg2, player->boundingBoxCorners[2].cornerPos[2], player->unk_110.unk3A);
 
     if ((player->effects & 8) != 8) {
         player->unk_230 = (player->boundingBoxCorners[2].cornerGroundY + player->boundingBoxCorners[0].cornerGroundY) / 2;
@@ -2434,7 +2434,7 @@ void func_8002D268(Player *player, UNUSED Camera *camera, s8 arg2, s8 playerId)
     } else if (((!(player->effects & 8)) && (is_surface_flags_0x400(player->unk_110.unk3A) == 0)) && (player->effects & 0x10000)) {
         func_8008F5A4(player, playerId);
     }
-    player->unk_074 = func_802ABE30(spFC, spF8, spF4, player->unk_110.unk3A);
+    player->unk_074 = calculate_surface_height(spFC, spF8, spF4, player->unk_110.unk3A);
     if (((player->type & PLAYER_HUMAN) == PLAYER_HUMAN) && (((gActiveScreenMode == SCREEN_MODE_1P) || (gActiveScreenMode == SCREEN_MODE_2P_SPLITSCREEN_VERTICAL)) || (gActiveScreenMode == SCREEN_MODE_2P_SPLITSCREEN_HORIZONTAL))) {
         func_80029B4C(player, spFC, spF8, spF4);
     } else {
@@ -2708,7 +2708,7 @@ void func_8002E594(Player *player, UNUSED Camera *camera, s8 arg2, s8 arg3) {
     } else if (((!(player->effects & 8)) && (is_surface_flags_0x400(player->unk_110.unk3A) == 0)) && (player->effects & 0x10000)) {
         func_8008F5A4(player, arg3);
     }
-    player->unk_074 = func_802ABE30(spD0, spCC, spC8, player->unk_110.unk3A);
+    player->unk_074 = calculate_surface_height(spD0, spCC, spC8, player->unk_110.unk3A);
     if (((player->type & PLAYER_HUMAN) == PLAYER_HUMAN) && (((gActiveScreenMode == SCREEN_MODE_1P) || (gActiveScreenMode == SCREEN_MODE_2P_SPLITSCREEN_VERTICAL)) || (gActiveScreenMode == SCREEN_MODE_2P_SPLITSCREEN_HORIZONTAL))) {
         func_80029B4C(player, spD0, spCC, spC8);
     } else {
@@ -2889,7 +2889,7 @@ void func_8002F730(Player *player, UNUSED Camera *camera, UNUSED s8 arg2, s8 arg
         if(1) {};
         func_8003F46C(player, sp5C, sp68, spE8, &sp78, &spCC, &spC8, &spC4);
     }
-    player->unk_074 = func_802ABE30(spCC, spC8, spC4, player->unk_110.unk3A);
+    player->unk_074 = calculate_surface_height(spCC, spC8, spC4, player->unk_110.unk3A);
     if (((player->type & PLAYER_HUMAN) == PLAYER_HUMAN) && ((gActiveScreenMode == SCREEN_MODE_1P) || (gActiveScreenMode == SCREEN_MODE_2P_SPLITSCREEN_VERTICAL) || (gActiveScreenMode == SCREEN_MODE_2P_SPLITSCREEN_HORIZONTAL))) {
         func_80029B4C(player, spCC, spC8, spC4);
     } else {
@@ -5044,7 +5044,7 @@ void func_80038C6C(Player *player, UNUSED Camera *camera, s8 arg2, s8 arg3) {
             player->unk_046 &= 0xFFDF;
         }
     }
-    player->unk_074 = func_802ABE30(spEC, spE8, spE4, player->unk_110.unk3A);
+    player->unk_074 = calculate_surface_height(spEC, spE8, spE4, player->unk_110.unk3A);
     func_80029B4C(player, spEC, spE8, spE4);
     func_8002AE38(player, arg3, posX, posZ, spEC, spE4);
     sqrt = (sp88[0] * sp88[0]) + (sp88[2] * sp88[2]);
