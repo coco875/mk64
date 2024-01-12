@@ -7,24 +7,35 @@ on:
       branches: [ "master" ]
 
 jobs:
-    build:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v4
-        - name: Get rom
-          uses: actions/checkout@v4
-          with:
-            path: rom
-            repository: UnspaghettifyKart/action-build-private-file
-            ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-        - name: Install dependencies
-          run: |
-            sudo apt install build-essential pkg-config git binutils-mips-linux-gnu python3 zlib1g-dev libaudiofile-dev libcapstone-dev
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get rom
+        uses: actions/checkout@v4
+        with:
+          path: rom
+          repository: UnspaghettifyKart/action-build-private-file
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Install dependencies
+        run: |
+          sudo apt install build-essential pkg-config git binutils-mips-linux-gnu python3 zlib1g-dev libaudiofile-dev libcapstone-dev
 
-        - name: Build tools
-          run: |
-            make -C tools
-        - name: Build
-          run: |
-            cp -r rom/* .
-            make
+      - name: Build tools
+        run: |
+          make -C tools
+      - name: Build
+        run: |
+          cp -r rom/* .
+          make
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - uses: DenverCoder1/doxygen-github-pages-action@v1.3.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: docs/html
+          config_file: Doxyfile
