@@ -15,7 +15,7 @@ jobs:
           uses: actions/checkout@master
           with:
             repository: UnspaghettifyKart/action-build-private-file
-            token: ${{ github.token }}
+            ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
         - name: Install dependencies
           run: |
             sudo apt-get install -y binutils-mips python3 libaudiofile
