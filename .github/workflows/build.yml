@@ -11,16 +11,20 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v4
-        - name: Check out my other private repo
-          uses: actions/checkout@master
+        - name: Get rom
+          uses: actions/checkout@v4
           with:
+            path: rom
             repository: UnspaghettifyKart/action-build-private-file
             ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
         - name: Install dependencies
           run: |
             sudo apt install build-essential pkg-config git binutils-mips-linux-gnu python3 zlib1g-dev libaudiofile-dev libcapstone-dev
 
-        - name: Build
+        - name: Build tools
           run: |
             make -C tools
+        - name: Build
+          run: |
+            cp -r rom/* .
             make
