@@ -8,19 +8,19 @@ on:
 
 jobs:
     build:
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v3
-          - name: Check out my other private repo
-            uses: actions/checkout@master
-            with:
-              repository: UnspaghettifyKart/action-build-private-file
-          - name: Install dependencies
-            run: |
-              sudo apt-get install -y binutils-mips python3 libaudiofile
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - name: Check out my other private repo
+          uses: actions/checkout@master
+          with:
+            repository: UnspaghettifyKart/action-build-private-file
+        - name: Install dependencies
+          run: |
+            sudo apt-get install -y binutils-mips python3 libaudiofile
 
-          - name: Build
-            run: |
-              mv action-build-private-file/* .
-              make -C tools
-              make
+        - name: Build
+          run: |
+            mv action-build-private-file/* .
+            make -C tools
+            make
