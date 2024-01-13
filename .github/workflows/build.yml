@@ -28,12 +28,9 @@ jobs:
         run: |
           cp -r rom/* .
           make
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'
-    steps:
-      - uses: DenverCoder1/doxygen-github-pages-action@v1.3.0
+      - name: Deploy docs
+        if: github.ref == 'refs/heads/master'
+        uses: DenverCoder1/doxygen-github-pages-action@v1.3.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
