@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['todo_20list_29150',['Todo List',['../todo.html',1,'']]]
+  ['installing_20mk64_20decomp_29139',['Installing mk64 Decomp',['../compiling.html',1,'basics']]]
 ];
