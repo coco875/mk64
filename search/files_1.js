@@ -9,6 +9,10 @@ var searchData=
   ['actors_5fextended_2eh_6',['actors_extended.h',['../actors__extended_8h.html',1,'']]],
   ['actorsmenu_2emd_7',['actorsmenu.md',['../actorsmenu_8md.html',1,'']]],
   ['albnkfnew_2ec_8',['alBnkfNew.c',['../alBnkfNew_8c.html',1,'']]],
-  ['all_5fvariables_2eh_9',['all_variables.h',['../all__variables_8h.html',1,'']]],
-  ['audio_5fsession_5fpresets_2ec_10',['audio_session_presets.c',['../audio__session__presets_8c.html',1,'']]]
+  ['all_5fcourse_5fdata_2eh_9',['all_course_data.h',['../all__course__data_8h.html',1,'']]],
+  ['all_5fcourse_5fmodel_2eh_10',['all_course_model.h',['../all__course__model_8h.html',1,'']]],
+  ['all_5fcourse_5foffsets_2eh_11',['all_course_offsets.h',['../all__course__offsets_8h.html',1,'']]],
+  ['all_5fcourse_5fpacked_2eh_12',['all_course_packed.h',['../all__course__packed_8h.html',1,'']]],
+  ['all_5fvariables_2eh_13',['all_variables.h',['../all__variables_8h.html',1,'']]],
+  ['audio_5fsession_5fpresets_2ec_14',['audio_session_presets.c',['../audio__session__presets_8c.html',1,'']]]
 ];

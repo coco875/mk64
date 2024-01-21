@@ -84,5 +84,7 @@ var searchData=
   ['locomotive_81',['locomotive',['../structTrainStuff.html#a29dec0c29f3b10ea96120cb5e23f74f9',1,'TrainStuff']]],
   ['lookat_82',['lookAt',['../structCamera.html#ae16ab2b8e885264666d7e7e20bb872a1',1,'Camera::lookAt'],['../structCinematicCamera.html#a11e4d83299cab081332c8625c1d3a8fd',1,'CinematicCamera::lookAt']]],
   ['loop_83',['loop',['../structAudioBankSample.html#ad188e9d6ef8fb385d84bc3c635927469',1,'AudioBankSample::loop'],['../structALADPCMWaveInfo.html#ad4b5483c93397b568cd28c6055ef50ef',1,'ALADPCMWaveInfo::loop'],['../structALRAWWaveInfo.html#a2fb2b21087e87d197d3cf6017f80e119',1,'ALRAWWaveInfo::loop']]],
-  ['lownotessound_84',['lowNotesSound',['../structInstrument.html#a262f6b3996de2e9a9313ef11b4f59325',1,'Instrument']]]
+  ['lownotessound_84',['lowNotesSound',['../structInstrument.html#a262f6b3996de2e9a9313ef11b4f59325',1,'Instrument']]],
+  ['luigi_5fraceway_5fdls_85',['luigi_raceway_dls',['../all__course__offsets_8h.html#aaa712b636fed8c945d1a40cb424cf3c1',1,'luigi_raceway_dls:&#160;course_offsets.inc.c'],['../luigi__raceway_2course__offsets_8inc_8c.html#a4c2f606e63c9d8d04322ec19c5f2b35a',1,'luigi_raceway_dls:&#160;course_offsets.inc.c']]],
+  ['luigi_5fraceway_5ftextures_86',['luigi_raceway_textures',['../all__course__offsets_8h.html#a3d2a83a8626fae1a580d09212be62459',1,'luigi_raceway_textures:&#160;course_offsets.inc.c'],['../courseTable_8h.html#a946b458719fd45242c2cafa86b7976db',1,'luigi_raceway_textures:&#160;course_offsets.inc.c'],['../luigi__raceway_2course__offsets_8inc_8c.html#a68bdefbd63217953a5f543aeda2fbfcc',1,'luigi_raceway_textures:&#160;course_offsets.inc.c']]]
 ];
