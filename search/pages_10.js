@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['windows_0',['Compiling for Windows',['../buildwindows.html',1,'basics']]],
-  ['work_1',['How Actors Work',['../actors.html',1,'actorsmenu']]]
+  ['understanding_20the_20basics_0',['Understanding the Basics',['../basics.html',1,'']]]
 ];

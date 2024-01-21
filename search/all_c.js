@@ -9031,7 +9031,7 @@ var searchData=
   ['defaultbank_9028',['defaultBank',['../structSequencePlayer.html#ad5576867f0d2c85dc2b1635130d56165',1,'SequencePlayer']]],
   ['defaultcharacterids_9029',['defaultCharacterIds',['../code__80281780_8c.html#ad88934a4bcda92e222b2a466e1e26c12',1,'defaultCharacterIds:&#160;code_80281780.c'],['../code__80281780_8h.html#ad88934a4bcda92e222b2a466e1e26c12',1,'defaultCharacterIds:&#160;code_80281780.c']]],
   ['defines_2eh_9030',['defines.h',['../defines_8h.html',1,'']]],
-  ['definitions_9031',['Definitions',['../terminology.html#definitions',1,'']]],
+  ['definitions_9031',['Technical Definitions',['../terminology.html#technical-definitions',1,'']]],
   ['delay_9032',['delay',['../structVibratoState.html#ac7b0ebaf890134933a4888c2be0fbfc9',1,'VibratoState::delay'],['../structAdsrEnvelope.html#a0cb5b8f0c8cd0c0133ef589e194dd9a1',1,'AdsrEnvelope::delay'],['../structSequencePlayer.html#aa22d2a5a381563d6357394d5208a1778',1,'SequencePlayer::delay'],['../structAdsrState.html#a6ccfb81ff3259a289e5cc122e788807d',1,'AdsrState::delay'],['../structSequenceChannel.html#aca133567ad3c965a02afe14490e9e4ea',1,'SequenceChannel::delay'],['../structSequenceChannelLayer.html#a847c174ff1b4e29c3e717188bb5b76f4',1,'SequenceChannelLayer::delay']]],
   ['delayunused_9033',['delayUnused',['../structSequenceChannelLayer.html#a9ed3e8ff831716e3e68c38c5131ffc8d',1,'SequenceChannelLayer']]],
   ['delete_5fobject_9034',['delete_object',['../code__80071F00_8c.html#a93e8c6d4dd528426ac3f3d7da2e063f6',1,'code_80071F00.c']]],

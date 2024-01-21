@@ -71,13 +71,14 @@ var searchData=
   ['hit_5frotating_5feffect_68',['HIT_ROTATING_EFFECT',['../defines_8h.html#ac30322c57aa05123df2aa6c7a835b7a8',1,'defines.h']]],
   ['hold_5fall_5fdpad_5fand_5fc_5fbuttons_69',['HOLD_ALL_DPAD_AND_C_BUTTONS',['../defines_8h.html#ac4026cb5f57b866b6cc3764dc59404ae',1,'defines.h']]],
   ['hold_5fbanana_5feffect_70',['HOLD_BANANA_EFFECT',['../defines_8h.html#a798065479c390ecafa5f14d9f937e03a',1,'defines.h']]],
-  ['how_20actors_20work_71',['How Actors Work',['../actors.html',1,'actorsmenu']]],
-  ['how_20errors_20happen_72',['How Errors Happen',['../concepts.html#how-errors-happen',1,'']]],
-  ['hstart_73',['hStart',['../structOSViCommonRegs.html#a1240df0b8b9a5200bc0a7c55798b4146',1,'OSViCommonRegs']]],
-  ['hsync_74',['hSync',['../structOSViCommonRegs.html#a6273a66b0a2c26876d752f7c83a12714',1,'OSViCommonRegs']]],
-  ['hud_5fplayer_75',['hud_player',['../structhud__player.html',1,'']]],
-  ['hud_5fplayers_5fsize_76',['HUD_PLAYERS_SIZE',['../common__structs_8h.html#ad02ffef6c3b5923607677815162c71a8',1,'common_structs.h']]],
-  ['hud_5frenderer_2ec_77',['hud_renderer.c',['../hud__renderer_8c.html',1,'']]],
-  ['hud_5frenderer_2eh_78',['hud_renderer.h',['../hud__renderer_8h.html',1,'']]],
-  ['hw_5freg_79',['HW_REG',['../hardware_8h.html#a4a3c93b6b0e710a39f1eaba88f74b412',1,'hardware.h']]]
+  ['horizontal_20paths_20no_20y_20coordinate_71',['Horizontal Paths (no Y coordinate)',['../paths.html#horizontal-paths-no-y-coordinate',1,'']]],
+  ['how_20actors_20work_72',['How Actors Work',['../actors.html',1,'actorsmenu']]],
+  ['how_20errors_20happen_73',['How Errors Happen',['../concepts.html#how-errors-happen',1,'']]],
+  ['hstart_74',['hStart',['../structOSViCommonRegs.html#a1240df0b8b9a5200bc0a7c55798b4146',1,'OSViCommonRegs']]],
+  ['hsync_75',['hSync',['../structOSViCommonRegs.html#a6273a66b0a2c26876d752f7c83a12714',1,'OSViCommonRegs']]],
+  ['hud_5fplayer_76',['hud_player',['../structhud__player.html',1,'']]],
+  ['hud_5fplayers_5fsize_77',['HUD_PLAYERS_SIZE',['../common__structs_8h.html#ad02ffef6c3b5923607677815162c71a8',1,'common_structs.h']]],
+  ['hud_5frenderer_2ec_78',['hud_renderer.c',['../hud__renderer_8c.html',1,'']]],
+  ['hud_5frenderer_2eh_79',['hud_renderer.h',['../hud__renderer_8h.html',1,'']]],
+  ['hw_5freg_80',['HW_REG',['../hardware_8h.html#a4a3c93b6b0e710a39f1eaba88f74b412',1,'hardware.h']]]
 ];
