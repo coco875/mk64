@@ -12,5 +12,5 @@ var structCourseTable =
     [ "vertexCount", "structCourseTable.html#a8e87e0567e202aed3856d9e653665cf6", null ],
     [ "vertexRomEnd", "structCourseTable.html#ae64dfa535621d0e69175d027ed501628", null ],
     [ "vertexRomStart", "structCourseTable.html#a81aa94f89154c0a29d84b5b10306f816", null ],
-    [ "vertexStart", "structCourseTable.html#a2be5befa9b751bcac0cabb18e312b5c7", null ]
+    [ "vertexStart", "structCourseTable.html#a3cf1bf38e79a6dec2cd2708a095e624f", null ]
 ];

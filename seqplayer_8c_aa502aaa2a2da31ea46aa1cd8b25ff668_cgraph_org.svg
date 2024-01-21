@@ -166,7 +166,7 @@
 <!-- Node27 -->
 <g id="Node000027" class="node">
 <title>Node27</title>
-<g id="a_Node000027"><a xlink:href="effects_8c.html#a25e39b4b3790d36958bb854307d5f9d7" target="_top" xlink:title=" ">
+<g id="a_Node000027"><a xlink:href="audio_2effects_8c.html#a25e39b4b3790d36958bb854307d5f9d7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="312,-19 213,-19 213,0 312,0 312,-19"/>
 <text text-anchor="middle" x="262.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">note_vibrato_init</text>
 </a>
@@ -557,7 +557,7 @@
 <!-- Node18 -->
 <g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_Node000018"><a xlink:href="effects_8c.html#ae1b1e83a3d593efb77b595f6c14f1c75" target="_top" xlink:title=" ">
+<g id="a_Node000018"><a xlink:href="audio_2effects_8c.html#ae1b1e83a3d593efb77b595f6c14f1c75" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="993.5,-297 934.5,-297 934.5,-278 993.5,-278 993.5,-297"/>
 <text text-anchor="middle" x="964" y="-285" font-family="Helvetica,sans-Serif" font-size="10.00">adsr_init</text>
 </a>

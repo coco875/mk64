@@ -4,7 +4,7 @@ var searchData=
   ['c1errnum_1',['C1ErrNum',['../struct____OSBlockInfo.html#ad2d64c4968eb061b0749f676fd303a36',1,'__OSBlockInfo']]],
   ['c1errsector_2',['C1ErrSector',['../struct____OSBlockInfo.html#a23c8d5d75464bd380dbcb4dcd09ee2d9',1,'__OSBlockInfo']]],
   ['c2addr_3',['C2Addr',['../struct____OSBlockInfo.html#afca49491ffc3d4102f10aab42a9648e1',1,'__OSBlockInfo']]],
-  ['ca_4',['ca',['../structmk64__Vtx.html#ae28f2def706a2077de05f412acc9b4c7',1,'mk64_Vtx']]],
+  ['ca_4',['ca',['../structCourseVtx.html#aa0fcae78aa4ae7fd3c2eb4b1246b8169',1,'CourseVtx']]],
   ['camera_5',['camera',['../structUnkStruct__800DC5EC.html#a30c59db4259b741aa0d509f5b7ea8f36',1,'UnkStruct_800DC5EC']]],
   ['camera1_6',['camera1',['../camera_8c.html#a55c57426bead74311a6710cc88980ead',1,'camera1:&#160;camera.c'],['../camera_8h.html#a55c57426bead74311a6710cc88980ead',1,'camera1:&#160;camera.c']]],
   ['camera2_7',['camera2',['../camera_8c.html#ab0a9da286408e4a3557cf93c690e6ab2',1,'camera2:&#160;camera.c'],['../camera_8h.html#ab0a9da286408e4a3557cf93c690e6ab2',1,'camera2:&#160;camera.c']]],

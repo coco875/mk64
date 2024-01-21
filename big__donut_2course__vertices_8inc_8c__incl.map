@@ -1,7 +1,9 @@
 <map id="courses/big_donut/course_vertices.inc.c" name="courses/big_donut/course_vertices.inc.c">
-<area shape="rect" id="Node000001" title=" " alt="" coords="894,5,1081,45"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="969,5,1155,45"/>
 <area shape="rect" id="Node000002" href="$types_8h.html" title=" " alt="" coords="952,93,1023,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="990,46,990,79,985,79,985,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1046,47,1010,85,1006,81,1042,44"/>
+<area shape="rect" id="Node000032" href="$course__macro_8h.html" title=" " alt="" coords="1047,93,1226,119"/>
+<area shape="poly" id="edge57_Node000001_Node000032" title=" " alt="" coords="1082,44,1118,81,1114,85,1078,47"/>
 <area shape="rect" id="Node000003" href="$ultra64_8h.html" title=" " alt="" coords="923,313,1003,339"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="974,121,953,141,937,168,931,202,932,231,938,265,952,300,947,302,933,266,927,231,926,202,931,166,949,138,970,117"/>
 <area shape="rect" id="Node000030" href="$common__structs_8h.html" title=" " alt="" coords="947,240,1089,265"/>

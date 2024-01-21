@@ -1008,7 +1008,7 @@ var sectionId = 'dynsection-4';
 <!-- Node40 -->
 <g id="Node000040" class="node">
 <title>Node40</title>
-<g id="a_Node000040"><a xlink:href="effects_8c.html#ac6b3be4c7d0c4a4f7f02153b12d59d38" target="_top" xlink:title=" ">
+<g id="a_Node000040"><a xlink:href="audio_2effects_8c.html#ac6b3be4c7d0c4a4f7f02153b12d59d38" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1920,-305 1778,-305 1778,-275 1920,-275 1920,-305"/>
 <text text-anchor="start" x="1786" y="-293" font-family="Helvetica,sans-Serif" font-size="10.00">sequence_player_process</text>
 <text text-anchor="middle" x="1849" y="-282" font-family="Helvetica,sans-Serif" font-size="10.00">_sound</text>

@@ -21,7 +21,7 @@ var searchData=
   ['task_18',['task',['../structSPTask.html#ae55ce0fc3c5a3baccc1fad7ffaa0d7b7',1,'SPTask']]],
   ['tasks_5fqueued_19',['TASKS_QUEUED',['../profiler_8h.html#af588a3a9b27840d837d5417d4be531e8aa142d28df284f9bfff756a3909c0c35f',1,'profiler.h']]],
   ['tatums_5fper_5fbeat_20',['TATUMS_PER_BEAT',['../internal_8h.html#a280b231c89c6cd0bf9e16e1e1b209076',1,'internal.h']]],
-  ['tc_21',['tc',['../structmk64__Vtx.html#a4ad89e0474e76dce1276669fca8f255e',1,'mk64_Vtx::tc'],['../structmk64__Vtx__n.html#a226e530be81e34cd65baaab5908a44aa',1,'mk64_Vtx_n::tc']]],
+  ['tc_21',['tc',['../structCourseVtx.html#a493464e3f8e591181c830eb0f5594593',1,'CourseVtx']]],
   ['technical_20definitions_22',['Technical Definitions',['../terminology.html#technical-definitions',1,'']]],
   ['tempo_23',['tempo',['../structSequencePlayer.html#a7ab437d312ab1020e0fa4fde193d7e97',1,'SequencePlayer']]],
   ['tempo_5fscale_24',['TEMPO_SCALE',['../internal_8h.html#adb0bade39d6c3532cfe999185d0cae0b',1,'internal.h']]],

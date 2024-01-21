@@ -54,7 +54,7 @@ var searchData=
   ['vertexcount_51',['vertexCount',['../structCourseTable.html#a8e87e0567e202aed3856d9e653665cf6',1,'CourseTable']]],
   ['vertexromend_52',['vertexRomEnd',['../structCourseTable.html#ae64dfa535621d0e69175d027ed501628',1,'CourseTable']]],
   ['vertexromstart_53',['vertexRomStart',['../structCourseTable.html#a81aa94f89154c0a29d84b5b10306f816',1,'CourseTable']]],
-  ['vertexstart_54',['vertexStart',['../structCourseTable.html#a2be5befa9b751bcac0cabb18e312b5c7',1,'CourseTable']]],
+  ['vertexstart_54',['vertexStart',['../structCourseTable.html#a3cf1bf38e79a6dec2cd2708a095e624f',1,'CourseTable']]],
   ['vi_5fbase_5freg_55',['VI_BASE_REG',['../rcp_8h.html#aae0837a008461f00deb30b1642ef0ed4',1,'rcp.h']]],
   ['vi_5fburst_5freg_56',['VI_BURST_REG',['../hardware_8h.html#a8c460023c679fc8935744bd7a915b773',1,'VI_BURST_REG:&#160;hardware.h'],['../rcp_8h.html#a8c460023c679fc8935744bd7a915b773',1,'VI_BURST_REG:&#160;rcp.h']]],
   ['vi_5fcontrol_5freg_57',['VI_CONTROL_REG',['../hardware_8h.html#ae2c5810c458fb6a9b597ff965f32e1d1',1,'VI_CONTROL_REG:&#160;hardware.h'],['../rcp_8h.html#ae2c5810c458fb6a9b597ff965f32e1d1',1,'VI_CONTROL_REG:&#160;rcp.h']]],

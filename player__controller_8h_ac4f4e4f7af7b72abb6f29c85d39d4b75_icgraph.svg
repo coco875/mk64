@@ -48,7 +48,7 @@
 <script type="application/ecmascript">
 var viewWidth = 1728;
 var viewHeight = 305;
-var sectionId = 'dynsection-33';
+var sectionId = 'dynsection-35';
 </script>
 <script type="application/ecmascript" xlink:href="svg.min.js"/>
 <svg id="graph" class="graph">
@@ -255,7 +255,7 @@ var sectionId = 'dynsection-33';
 <!-- Node24 -->
 <g id="Node000024" class="node">
 <title>Node24</title>
-<g id="a_Node000024"><a xlink:href="player__controller_8c.html#a3cde716e9abdd31cd55ca140c68e6b30" target="_top" xlink:title=" ">
+<g id="a_Node000024"><a xlink:href="player__controller_8c.html#a5bc20a94d467b8daf131fe16ab6a83d7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1334.5,-186 1243.5,-186 1243.5,-167 1334.5,-167 1334.5,-186"/>
 <text text-anchor="middle" x="1289" y="-174" font-family="Helvetica,sans-Serif" font-size="10.00">func_8002E594</text>
 </a>
@@ -291,7 +291,7 @@ var sectionId = 'dynsection-33';
 <!-- Node26 -->
 <g id="Node000026" class="node">
 <title>Node26</title>
-<g id="a_Node000026"><a xlink:href="player__controller_8c.html#ae0f6e0f1235dc6879d78318ea5db353e" target="_top" xlink:title=" ">
+<g id="a_Node000026"><a xlink:href="player__controller_8c.html#a105e6b6fca9198633b8990b0da71cd25" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1335,-260 1243,-260 1243,-241 1335,-241 1335,-260"/>
 <text text-anchor="middle" x="1289" y="-248" font-family="Helvetica,sans-Serif" font-size="10.00">func_80038C6C</text>
 </a>

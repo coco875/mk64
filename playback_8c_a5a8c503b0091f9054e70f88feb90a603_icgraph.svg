@@ -550,7 +550,7 @@ var sectionId = 'dynsection-46';
 <!-- Node32 -->
 <g id="Node000032" class="node">
 <title>Node32</title>
-<g id="a_Node000032"><a xlink:href="effects_8c.html#ac6b3be4c7d0c4a4f7f02153b12d59d38" target="_top" xlink:title=" ">
+<g id="a_Node000032"><a xlink:href="audio_2effects_8c.html#ac6b3be4c7d0c4a4f7f02153b12d59d38" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1938,-323.57 1796,-323.57 1796,-293.57 1938,-293.57 1938,-323.57"/>
 <text text-anchor="start" x="1804" y="-311.57" font-family="Helvetica,sans-Serif" font-size="10.00">sequence_player_process</text>
 <text text-anchor="middle" x="1867" y="-300.57" font-family="Helvetica,sans-Serif" font-size="10.00">_sound</text>

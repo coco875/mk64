@@ -19,7 +19,7 @@ var searchData=
   ['targetvolright_16',['targetVolRight',['../structNoteSubEu.html#ab0d257defe24dd445d63bc2da57eeda8',1,'NoteSubEu']]],
   ['targety_17',['targetY',['../structFakeItemBox.html#a340c35ebd10c6000661e1edcf8a91e42',1,'FakeItemBox']]],
   ['task_18',['task',['../structSPTask.html#ae55ce0fc3c5a3baccc1fad7ffaa0d7b7',1,'SPTask']]],
-  ['tc_19',['tc',['../structmk64__Vtx.html#a4ad89e0474e76dce1276669fca8f255e',1,'mk64_Vtx::tc'],['../structmk64__Vtx__n.html#a226e530be81e34cd65baaab5908a44aa',1,'mk64_Vtx_n::tc']]],
+  ['tc_19',['tc',['../structCourseVtx.html#a493464e3f8e591181c830eb0f5594593',1,'CourseVtx']]],
   ['tempo_20',['tempo',['../structSequencePlayer.html#a7ab437d312ab1020e0fa4fde193d7e97',1,'SequencePlayer']]],
   ['tempoacc_21',['tempoAcc',['../structSequencePlayer.html#af54f87fbbb94f0d95eb7af18a2d94b14',1,'SequencePlayer']]],
   ['temporary_22',['temporary',['../structSoundMultiPool.html#ae26f6edcb58e56220c5b5a92d42902cd',1,'SoundMultiPool']]],

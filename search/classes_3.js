@@ -9,10 +9,11 @@ var searchData=
   ['course_5ftexture_6',['course_texture',['../structcourse__texture.html',1,'']]],
   ['coursetable_7',['CourseTable',['../structCourseTable.html',1,'']]],
   ['coursetimetrialrecords_8',['CourseTimeTrialRecords',['../structCourseTimeTrialRecords.html',1,'']]],
-  ['crabspawn_9',['CrabSpawn',['../structCrabSpawn.html',1,'']]],
-  ['credits_5fdata_5f1fa0_10',['credits_data_1FA0',['../structcredits__data__1FA0.html',1,'']]],
-  ['ctlentry_11',['CtlEntry',['../structCtlEntry.html',1,'']]],
-  ['cuptimetrialrecords_12',['CupTimeTrialRecords',['../structCupTimeTrialRecords.html',1,'']]],
-  ['cutscene_13',['Cutscene',['../structCutscene.html',1,'']]],
-  ['cutscenesplinepoint_14',['CutsceneSplinePoint',['../structCutsceneSplinePoint.html',1,'']]]
+  ['coursevtx_9',['CourseVtx',['../structCourseVtx.html',1,'']]],
+  ['crabspawn_10',['CrabSpawn',['../structCrabSpawn.html',1,'']]],
+  ['credits_5fdata_5f1fa0_11',['credits_data_1FA0',['../structcredits__data__1FA0.html',1,'']]],
+  ['ctlentry_12',['CtlEntry',['../structCtlEntry.html',1,'']]],
+  ['cuptimetrialrecords_13',['CupTimeTrialRecords',['../structCupTimeTrialRecords.html',1,'']]],
+  ['cutscene_14',['Cutscene',['../structCutscene.html',1,'']]],
+  ['cutscenesplinepoint_15',['CutsceneSplinePoint',['../structCutsceneSplinePoint.html',1,'']]]
 ];

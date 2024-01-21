@@ -648,7 +648,7 @@ var sectionId = 'dynsection-31';
 <!-- Node36 -->
 <g id="Node000036" class="node">
 <title>Node36</title>
-<g id="a_Node000036"><a xlink:href="effects_8c.html#a25e39b4b3790d36958bb854307d5f9d7" target="_top" xlink:title=" ">
+<g id="a_Node000036"><a xlink:href="audio_2effects_8c.html#a25e39b4b3790d36958bb854307d5f9d7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="497,-219.5 398,-219.5 398,-200.5 497,-200.5 497,-219.5"/>
 <text text-anchor="middle" x="447.5" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00">note_vibrato_init</text>
 </a>
@@ -938,7 +938,7 @@ var sectionId = 'dynsection-31';
 <!-- Node30 -->
 <g id="Node000030" class="node">
 <title>Node30</title>
-<g id="a_Node000030"><a xlink:href="effects_8c.html#ae1b1e83a3d593efb77b595f6c14f1c75" target="_top" xlink:title=" ">
+<g id="a_Node000030"><a xlink:href="audio_2effects_8c.html#ae1b1e83a3d593efb77b595f6c14f1c75" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1186.5,-132.5 1127.5,-132.5 1127.5,-113.5 1186.5,-113.5 1186.5,-132.5"/>
 <text text-anchor="middle" x="1157" y="-120.5" font-family="Helvetica,sans-Serif" font-size="10.00">adsr_init</text>
 </a>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ob_0',['ob',['../structmk64__Vtx.html#a1677c7ccb2a85e436a23311a3c100066',1,'mk64_Vtx::ob'],['../structmk64__Vtx__n.html#a12715b40602f46e3f2daa9e10d1706e0',1,'mk64_Vtx_n::ob']]],
+  ['ob_0',['ob',['../structCourseVtx.html#a9e1920e5a6d52a2ee632b6a5f074cd42',1,'CourseVtx']]],
   ['objectindex_1',['objectIndex',['../structstruct__D__8018CE10.html#a127e1b12aed47ab382b129edabb71d52',1,'struct_D_8018CE10']]],
   ['objectlistsize_2',['objectListSize',['../code__80057C60_8c.html#a619a9cb4ca05d69a44a5928af9e499ad',1,'code_80057C60.c']]],
   ['objx_3',['objX',['../structuObjSprite__t.html#aa56aa472d1ac710dd829e6f1cd9f7ad0',1,'uObjSprite_t']]],

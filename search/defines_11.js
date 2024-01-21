@@ -44,7 +44,7 @@ var searchData=
   ['reset_5ftype_5fboot_5fdisk_41',['RESET_TYPE_BOOT_DISK',['../libultra_8h.html#a12750da970e7d042cec77429ec7d8735',1,'libultra.h']]],
   ['reset_5ftype_5fcold_5freset_42',['RESET_TYPE_COLD_RESET',['../libultra_8h.html#aa85efa5a8114f6a5119788c7acd7cb51',1,'libultra.h']]],
   ['reset_5ftype_5fnmi_43',['RESET_TYPE_NMI',['../libultra_8h.html#acf69521f702273e5c8f0867901fe44c9',1,'libultra.h']]],
-  ['reverse_5feffect_44',['REVERSE_EFFECT',['../defines_8h.html#abedef906907d57f1e862800e9b89641f',1,'defines.h']]],
+  ['reverse_5fsound_5feffect_44',['REVERSE_SOUND_EFFECT',['../defines_8h.html#a78e452744065754deb473b2a4e913b3c',1,'defines.h']]],
   ['ri_5fbase_5freg_45',['RI_BASE_REG',['../rcp_8h.html#ae25eb1b24e0be39a1ffd6a93c01424bf',1,'rcp.h']]],
   ['ri_5fconfig_5freg_46',['RI_CONFIG_REG',['../rcp_8h.html#aedf2bb0e29e87e3faa475a63b31ff2d1',1,'rcp.h']]],
   ['ri_5fcount_5freg_47',['RI_COUNT_REG',['../rcp_8h.html#a6db48cbe780e318818ec4e39384507f9',1,'rcp.h']]],

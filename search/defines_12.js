@@ -295,12 +295,13 @@ var searchData=
   ['stacksize_292',['STACKSIZE',['../config_8h.html#a21d9543c516fffee84a7963224271f95',1,'config.h']]],
   ['star_5fcup_293',['STAR_CUP',['../defines_8h.html#a60f52c9c490235258c198b78f08b206f',1,'defines.h']]],
   ['star_5feffect_294',['STAR_EFFECT',['../defines_8h.html#a8162db60017841c732d51d0c3a4a5269',1,'defines.h']]],
-  ['start_5fbutton_295',['START_BUTTON',['../os_8h.html#ab341b8680b89a9888189982451117fbf',1,'START_BUTTON:&#160;os.h'],['../os__cont_8h.html#ab341b8680b89a9888189982451117fbf',1,'START_BUTTON:&#160;os_cont.h']]],
-  ['start_5fmenu_296',['START_MENU',['../defines_8h.html#a1f9423c18ac50fcb6645899b4a6e2bd3',1,'defines.h']]],
-  ['start_5fmenu_5ffrom_5fquit_297',['START_MENU_FROM_QUIT',['../defines_8h.html#a0976e0ab380716d82db18ceb5b43e75b',1,'defines.h']]],
-  ['static_298',['STATIC',['../__Printf_8c.html#a10b2d890d871e1489bb02b7e70d9bdfb',1,'_Printf.c']]],
-  ['static_5fassert_299',['STATIC_ASSERT',['../macros_8h.html#a8ce491b27b644889db1ca99d8c99c24e',1,'macros.h']]],
-  ['strange_5fmain_5fheader_5fh_300',['STRANGE_MAIN_HEADER_H',['../main_8c.html#abf70aa8e2b34f1c64623922b5484ce9e',1,'main.c']]],
-  ['stubbed_5fprintf_301',['stubbed_printf',['../internal_8h.html#a6ba6dded2f5902fce6f84e3e05dc5951',1,'internal.h']]],
-  ['svindexmask_302',['SVINDEXMASK',['../R4300_8h.html#ae4cdb6453be935a22a7c016f39fdac83',1,'R4300.h']]]
+  ['star_5fsound_5feffect_295',['STAR_SOUND_EFFECT',['../defines_8h.html#aee266a50899889872809281fc533bf6b',1,'defines.h']]],
+  ['start_5fbutton_296',['START_BUTTON',['../os_8h.html#ab341b8680b89a9888189982451117fbf',1,'START_BUTTON:&#160;os.h'],['../os__cont_8h.html#ab341b8680b89a9888189982451117fbf',1,'START_BUTTON:&#160;os_cont.h']]],
+  ['start_5fmenu_297',['START_MENU',['../defines_8h.html#a1f9423c18ac50fcb6645899b4a6e2bd3',1,'defines.h']]],
+  ['start_5fmenu_5ffrom_5fquit_298',['START_MENU_FROM_QUIT',['../defines_8h.html#a0976e0ab380716d82db18ceb5b43e75b',1,'defines.h']]],
+  ['static_299',['STATIC',['../__Printf_8c.html#a10b2d890d871e1489bb02b7e70d9bdfb',1,'_Printf.c']]],
+  ['static_5fassert_300',['STATIC_ASSERT',['../macros_8h.html#a8ce491b27b644889db1ca99d8c99c24e',1,'macros.h']]],
+  ['strange_5fmain_5fheader_5fh_301',['STRANGE_MAIN_HEADER_H',['../main_8c.html#abf70aa8e2b34f1c64623922b5484ce9e',1,'main.c']]],
+  ['stubbed_5fprintf_302',['stubbed_printf',['../internal_8h.html#a6ba6dded2f5902fce6f84e3e05dc5951',1,'internal.h']]],
+  ['svindexmask_303',['SVINDEXMASK',['../R4300_8h.html#ae4cdb6453be935a22a7c016f39fdac83',1,'R4300.h']]]
 ];

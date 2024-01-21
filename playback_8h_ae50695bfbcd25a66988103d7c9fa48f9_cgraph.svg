@@ -156,7 +156,7 @@ var sectionId = 'dynsection-8';
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="effects_8c.html#ae1b1e83a3d593efb77b595f6c14f1c75" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="audio_2effects_8c.html#ae1b1e83a3d593efb77b595f6c14f1c75" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="552,-19 493,-19 493,0 552,0 552,-19"/>
 <text text-anchor="middle" x="522.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">adsr_init</text>
 </a>
