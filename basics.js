@@ -26,7 +26,7 @@ var basics =
         [ "Players", "controlflow.html#players", null ],
         [ "Actors", "controlflow.html#actors-1", null ],
         [ "Objects", "controlflow.html#objects-1", null ],
-        [ "Courses", "controlflow.html#courses-1", [
+        [ "Courses", "controlflow.html#courses", [
           [ "Course Folder", "controlflow.html#course-folder", null ]
         ] ],
         [ "UI & Other 2D Screen data", "controlflow.html#ui--other-2d-screen-data", null ],
@@ -38,6 +38,5 @@ var basics =
     [ "Terminology", "terminology.html", [
       [ "Technical Definitions", "terminology.html#technical-definitions", null ],
       [ "Racing Terminology", "terminology.html#racing-terminology", null ]
-    ] ],
-    [ "Compiling for Windows", "buildwindows.html", null ]
+    ] ]
 ];
