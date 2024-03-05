@@ -1,11 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"common__textures_8inc_8c.html#a6fba1102f2c590b88a47037a474bcf86":[8,0,3,2,1,31],
-"common__textures_8inc_8c.html#a6fdc7c217d23ac285b86c193b42cdbba":[8,0,3,2,1,23],
-"common__textures_8inc_8c.html#a702c4d6f577245aef450d630bab0bed3":[8,0,3,2,1,159],
-"common__textures_8inc_8c.html#a71df2376b42f05a72aba80cb16d80d93":[8,0,3,2,1,194],
-"common__textures_8inc_8c.html#a727ff5d4a43a7631890bc76cc7ce1dbb":[8,0,3,2,1,251],
-"common__textures_8inc_8c.html#a7299b703939f9e9958b0db60892972dd":[8,0,3,2,1,131],
 "common__textures_8inc_8c.html#a7332eee0294b4c77f30dec70b6c5a1f3":[8,0,3,2,1,339],
 "common__textures_8inc_8c.html#a748dc53812889331d4b3a6ae3fb1ae3d":[8,0,3,2,1,283],
 "common__textures_8inc_8c.html#a75aec76a1ac487168fbd094bdeb0c45a":[8,0,3,2,1,275],
@@ -249,5 +243,11 @@ var NAVTREEINDEX28 =
 "contramwrite_8c.html#a5a8e6638b28caf3b5faba67df76d099c":[8,0,3,5,34,1],
 "contramwrite_8c.html#ac0f1bb81601cedc5fc5868fc7e500b88":[8,0,3,5,34,0],
 "controlflow.html":[1,2],
-"controlflow.html#actors":[1,2,4,2]
+"controlflow.html#actors":[1,2,4,2],
+"controlflow.html#code-breakdown":[1,2,4],
+"controlflow.html#course-folder":[1,2,4,4,0],
+"controlflow.html#courses-1":[1,2,4,4],
+"controlflow.html#ending":[1,2,4,8],
+"controlflow.html#engine":[1,2,4,6],
+"controlflow.html#math":[1,2,4,7]
 };

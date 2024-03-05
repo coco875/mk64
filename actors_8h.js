@@ -1,5 +1,6 @@
 var actors_8h =
 [
+    [ "END_OF_SPAWN_DATA", "actors_8h.html#a4a172edb01f714b4c77bfe1b0ff244f5", null ],
     [ "actor_init", "actors_8h.html#a30812a50a35e6ab5e25db08b062f1ab7", null ],
     [ "addActorToEmptySlot", "actors_8h.html#aa22a69ae369b6be8f1fa5a16901de596", null ],
     [ "cleanup_red_and_green_shells", "actors_8h.html#a4c7c9e640a28fc221f580e466b80a379", null ],
@@ -101,7 +102,7 @@ var actors_8h =
     [ "update_actor_train_engine", "actors_8h.html#a24385c6ca7052ea6401f16c882c3f49f", null ],
     [ "update_actor_train_passenger_car", "actors_8h.html#a44171c2e1af1bbda244bda63dd89e159", null ],
     [ "update_actor_train_tender", "actors_8h.html#a429002cc3e969a586b8637dc722c7265", null ],
-    [ "update_actor_wario_stadium_sign", "actors_8h.html#ab8fc4acf7f0cc2a5c27e99c2a16b02b4", null ],
+    [ "update_actor_wario_sign", "actors_8h.html#a9b18c1638658c00c4687784ab3f4707e", null ],
     [ "update_actor_yoshi_egg", "actors_8h.html#a2903e3d05e40395c1e901bfc18cb4721", null ],
     [ "update_course_actors", "actors_8h.html#aa6387502059c64a81d32c944b39d78f9", null ],
     [ "common_model_banana", "actors_8h.html#aa4232f138c10d718fcd9cea247fe7af4", null ],

@@ -140,9 +140,14 @@ $(function(){initNavTree('actors_8c.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="piranha__plant_2render_8inc_8c_source.html">actors/piranha_plant/render.inc.c</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tree_2render_8inc_8c_source.html">actors/tree/render.inc.c</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="kiwano__fruit_2render_8inc_8c_source.html">actors/kiwano_fruit/render.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="green__shell_2render_8inc_8c_source.html">actors/green_shell/render.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="other__shell_2render_8inc_8c_source.html">actors/other_shell/render.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="banana_2render_8inc_8c_source.html">actors/banana/render.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="wario__sign_2update_8inc_8c_source.html">actors/wario_sign/update.inc.c</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="paddle__boat_2render_8inc_8c_source.html">actors/paddle_boat/render.inc.c</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="train_2render_8inc_8c_source.html">actors/train/render.inc.c</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="falling__rocks_8inc_8c_source.html">actors/falling_rocks.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="wario__sign_2render_8inc_8c_source.html">actors/wario_sign/render.inc.c</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="yoshi__egg_2render_8inc_8c_source.html">actors/yoshi_egg/render.inc.c</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for actors.c:</div>
@@ -157,161 +162,149 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1a9bccb586242555a9123ebd4ab70f2a" id="r_a1a9bccb586242555a9123ebd4ab70f2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a9bccb586242555a9123ebd4ab70f2a">cleanup_red_and_green_shells</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">shell</a>)</td></tr>
+<tr class="memitem:a1a9bccb586242555a9123ebd4ab70f2a" id="r_a1a9bccb586242555a9123ebd4ab70f2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a9bccb586242555a9123ebd4ab70f2a">cleanup_red_and_green_shells</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">shell</a>)</td></tr>
 <tr class="separator:a1a9bccb586242555a9123ebd4ab70f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39c023177b5a7686cdd1fc65b8b953e1" id="r_a39c023177b5a7686cdd1fc65b8b953e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c023177b5a7686cdd1fc65b8b953e1">actor_init</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">startingPos</a>, <a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">startingRot</a>, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">startingVelocity</a>, <a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actorType</a>)</td></tr>
+<tr class="memitem:a39c023177b5a7686cdd1fc65b8b953e1" id="r_a39c023177b5a7686cdd1fc65b8b953e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c023177b5a7686cdd1fc65b8b953e1">actor_init</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actor</a>, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">startingPos</a>, <a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">startingRot</a>, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">startingVelocity</a>, <a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actorType</a>)</td></tr>
 <tr class="separator:a39c023177b5a7686cdd1fc65b8b953e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a492cfdf1c68b410aed6c567e6e5e19c3" id="r_a492cfdf1c68b410aed6c567e6e5e19c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492cfdf1c68b410aed6c567e6e5e19c3">func_80297230</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a492cfdf1c68b410aed6c567e6e5e19c3" id="r_a492cfdf1c68b410aed6c567e6e5e19c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492cfdf1c68b410aed6c567e6e5e19c3">func_80297230</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a492cfdf1c68b410aed6c567e6e5e19c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2388e667a8959e306fbba3b49c3fec7" id="r_ad2388e667a8959e306fbba3b49c3fec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2388e667a8959e306fbba3b49c3fec7">func_802972B8</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:ad2388e667a8959e306fbba3b49c3fec7" id="r_ad2388e667a8959e306fbba3b49c3fec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2388e667a8959e306fbba3b49c3fec7">func_802972B8</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:ad2388e667a8959e306fbba3b49c3fec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3679e7269b472294b3d91b070c1ff25" id="r_af3679e7269b472294b3d91b070c1ff25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3679e7269b472294b3d91b070c1ff25">func_80297340</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
+<tr class="memitem:af3679e7269b472294b3d91b070c1ff25" id="r_af3679e7269b472294b3d91b070c1ff25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3679e7269b472294b3d91b070c1ff25">func_80297340</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>)</td></tr>
 <tr class="separator:af3679e7269b472294b3d91b070c1ff25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fd591464106cdb5d34c160c9a6b4cfa" id="r_a8fd591464106cdb5d34c160c9a6b4cfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fd591464106cdb5d34c160c9a6b4cfa">func_80297524</a> (uintptr_t addr, <a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> width, <a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> height)</td></tr>
+<tr class="memitem:a8fd591464106cdb5d34c160c9a6b4cfa" id="r_a8fd591464106cdb5d34c160c9a6b4cfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fd591464106cdb5d34c160c9a6b4cfa">func_80297524</a> (uintptr_t addr, <a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> width, <a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> height)</td></tr>
 <tr class="separator:a8fd591464106cdb5d34c160c9a6b4cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fd7dc3bc34357287535b6f06ab7d85c" id="r_a6fd7dc3bc34357287535b6f06ab7d85c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fd7dc3bc34357287535b6f06ab7d85c">func_802976D8</a> (<a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
+<tr class="memitem:a6fd7dc3bc34357287535b6f06ab7d85c" id="r_a6fd7dc3bc34357287535b6f06ab7d85c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fd7dc3bc34357287535b6f06ab7d85c">func_802976D8</a> (<a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>)</td></tr>
 <tr class="separator:a6fd7dc3bc34357287535b6f06ab7d85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09d879c67b2c1430dd8ba2d5c9c136e1" id="r_a09d879c67b2c1430dd8ba2d5c9c136e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09d879c67b2c1430dd8ba2d5c9c136e1">func_802976EC</a> (<a class="el" href="structCollision.html">Collision</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a09d879c67b2c1430dd8ba2d5c9c136e1" id="r_a09d879c67b2c1430dd8ba2d5c9c136e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09d879c67b2c1430dd8ba2d5c9c136e1">func_802976EC</a> (<a class="el" href="structCollision.html">Collision</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a09d879c67b2c1430dd8ba2d5c9c136e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83bcf2234f4c65898ed5d48a7301f86b" id="r_a83bcf2234f4c65898ed5d48a7301f86b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83bcf2234f4c65898ed5d48a7301f86b">func_80297760</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a83bcf2234f4c65898ed5d48a7301f86b" id="r_a83bcf2234f4c65898ed5d48a7301f86b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83bcf2234f4c65898ed5d48a7301f86b">func_80297760</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a83bcf2234f4c65898ed5d48a7301f86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee3d87072aa6a0471561530ee8a72143" id="r_aee3d87072aa6a0471561530ee8a72143"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee3d87072aa6a0471561530ee8a72143">func_802977B0</a> (<a class="el" href="structPlayer.html">Player</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
+<tr class="memitem:aee3d87072aa6a0471561530ee8a72143" id="r_aee3d87072aa6a0471561530ee8a72143"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee3d87072aa6a0471561530ee8a72143">func_802977B0</a> (<a class="el" href="structPlayer.html">Player</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>)</td></tr>
 <tr class="separator:aee3d87072aa6a0471561530ee8a72143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0239c06a587826a0319fce63214d3ae7" id="r_a0239c06a587826a0319fce63214d3ae7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0239c06a587826a0319fce63214d3ae7">func_802977E4</a> (<a class="el" href="structPlayer.html">Player</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
+<tr class="memitem:a0239c06a587826a0319fce63214d3ae7" id="r_a0239c06a587826a0319fce63214d3ae7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0239c06a587826a0319fce63214d3ae7">func_802977E4</a> (<a class="el" href="structPlayer.html">Player</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>)</td></tr>
 <tr class="separator:a0239c06a587826a0319fce63214d3ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dd08845f085e355fe4eb45bff89542a" id="r_a7dd08845f085e355fe4eb45bff89542a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dd08845f085e355fe4eb45bff89542a">init_red_shell_texture</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:a7dd08845f085e355fe4eb45bff89542a" id="r_a7dd08845f085e355fe4eb45bff89542a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dd08845f085e355fe4eb45bff89542a">init_red_shell_texture</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:a7dd08845f085e355fe4eb45bff89542a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a231767b9298818dfdfbb7449aefcd278" id="r_a231767b9298818dfdfbb7449aefcd278"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a231767b9298818dfdfbb7449aefcd278">func_80297944</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:a231767b9298818dfdfbb7449aefcd278" id="r_a231767b9298818dfdfbb7449aefcd278"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a231767b9298818dfdfbb7449aefcd278">func_80297944</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:a231767b9298818dfdfbb7449aefcd278"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc1fde16c0bb63433300f5a845cbcc5f" id="r_afc1fde16c0bb63433300f5a845cbcc5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc1fde16c0bb63433300f5a845cbcc5f">func_8029794C</a> (<a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> arg2)</td></tr>
+<tr class="memitem:afc1fde16c0bb63433300f5a845cbcc5f" id="r_afc1fde16c0bb63433300f5a845cbcc5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc1fde16c0bb63433300f5a845cbcc5f">func_8029794C</a> (<a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> arg2)</td></tr>
 <tr class="separator:afc1fde16c0bb63433300f5a845cbcc5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e950a72a2fb31b55123e856e64e15c0" id="r_a1e950a72a2fb31b55123e856e64e15c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e950a72a2fb31b55123e856e64e15c0">func_802979F8</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a1e950a72a2fb31b55123e856e64e15c0" id="r_a1e950a72a2fb31b55123e856e64e15c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e950a72a2fb31b55123e856e64e15c0">func_802979F8</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a1e950a72a2fb31b55123e856e64e15c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a3f12a95f6dd7ed85e6735b26237a15" id="r_a7a3f12a95f6dd7ed85e6735b26237a15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a3f12a95f6dd7ed85e6735b26237a15">update_actor_static_plant</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
+<tr class="memitem:a7a3f12a95f6dd7ed85e6735b26237a15" id="r_a7a3f12a95f6dd7ed85e6735b26237a15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a3f12a95f6dd7ed85e6735b26237a15">update_actor_static_plant</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>)</td></tr>
 <tr class="separator:a7a3f12a95f6dd7ed85e6735b26237a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6951c1c13419e76bc60a8121fef835ab" id="r_a6951c1c13419e76bc60a8121fef835ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6951c1c13419e76bc60a8121fef835ab">render_actor_cows</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
+<tr class="memitem:a6951c1c13419e76bc60a8121fef835ab" id="r_a6951c1c13419e76bc60a8121fef835ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6951c1c13419e76bc60a8121fef835ab">render_actor_cows</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actor</a>)</td></tr>
 <tr class="separator:a6951c1c13419e76bc60a8121fef835ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5a55f197872c082b12f5d080bdb0818" id="r_af5a55f197872c082b12f5d080bdb0818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5a55f197872c082b12f5d080bdb0818">func_80298AC0</a> (<a class="el" href="structPlayer.html">Player</a> *player)</td></tr>
+<tr class="memitem:af5a55f197872c082b12f5d080bdb0818" id="r_af5a55f197872c082b12f5d080bdb0818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5a55f197872c082b12f5d080bdb0818">func_80298AC0</a> (<a class="el" href="structPlayer.html">Player</a> *player)</td></tr>
 <tr class="separator:af5a55f197872c082b12f5d080bdb0818"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21d766a5cb742ae93ee4c321be195503" id="r_a21d766a5cb742ae93ee4c321be195503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d766a5cb742ae93ee4c321be195503">func_80298C94</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:a21d766a5cb742ae93ee4c321be195503" id="r_a21d766a5cb742ae93ee4c321be195503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d766a5cb742ae93ee4c321be195503">func_80298C94</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:a21d766a5cb742ae93ee4c321be195503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac3595f7ebb34b17e0b0126796ecbf4a" id="r_aac3595f7ebb34b17e0b0126796ecbf4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac3595f7ebb34b17e0b0126796ecbf4a">func_80298D10</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:aac3595f7ebb34b17e0b0126796ecbf4a" id="r_aac3595f7ebb34b17e0b0126796ecbf4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac3595f7ebb34b17e0b0126796ecbf4a">func_80298D10</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:aac3595f7ebb34b17e0b0126796ecbf4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a127073cd8193b1cb812456cdc9ad91b8" id="r_a127073cd8193b1cb812456cdc9ad91b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a127073cd8193b1cb812456cdc9ad91b8">func_80298D7C</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
+<tr class="memitem:a127073cd8193b1cb812456cdc9ad91b8" id="r_a127073cd8193b1cb812456cdc9ad91b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a127073cd8193b1cb812456cdc9ad91b8">func_80298D7C</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actor</a>)</td></tr>
 <tr class="separator:a127073cd8193b1cb812456cdc9ad91b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a244363eb20e950ed94944be1c768a37c" id="r_a244363eb20e950ed94944be1c768a37c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a244363eb20e950ed94944be1c768a37c">render_actor_shell</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">matrix</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">shell</a>)</td></tr>
+<tr class="memitem:a244363eb20e950ed94944be1c768a37c" id="r_a244363eb20e950ed94944be1c768a37c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a244363eb20e950ed94944be1c768a37c">render_actor_shell</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">matrix</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">shell</a>)</td></tr>
 <tr class="separator:a244363eb20e950ed94944be1c768a37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39d6e7cdcb6d797ff42e8b68549ce944" id="r_a39d6e7cdcb6d797ff42e8b68549ce944"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39d6e7cdcb6d797ff42e8b68549ce944">render_actor_green_shell</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">matrix</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">shell</a>)</td></tr>
-<tr class="separator:a39d6e7cdcb6d797ff42e8b68549ce944"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad2583aa98831d6ef751cf57d0ec166a" id="r_aad2583aa98831d6ef751cf57d0ec166a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad2583aa98831d6ef751cf57d0ec166a">render_actor_red_shell</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">matrix</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">shell</a>)</td></tr>
-<tr class="separator:aad2583aa98831d6ef751cf57d0ec166a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516dec1dd3d7c2d39294a1ab4edcff4a" id="r_a516dec1dd3d7c2d39294a1ab4edcff4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a516dec1dd3d7c2d39294a1ab4edcff4a">render_actor_blue_shell</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">matrix</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">shell</a>)</td></tr>
-<tr class="separator:a516dec1dd3d7c2d39294a1ab4edcff4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3081ff11d8481c9ce596f5ad4e35d64" id="r_ac3081ff11d8481c9ce596f5ad4e35d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3081ff11d8481c9ce596f5ad4e35d64">render_actor_banana</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structBananaActor.html">BananaActor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">banana</a>)</td></tr>
-<tr class="separator:ac3081ff11d8481c9ce596f5ad4e35d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70c000fa6af4b2d4852f8b9518934e9d" id="r_a70c000fa6af4b2d4852f8b9518934e9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70c000fa6af4b2d4852f8b9518934e9d">update_actor_wario_stadium_sign</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
-<tr class="separator:a70c000fa6af4b2d4852f8b9518934e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a7c47d74c98d510346305b5c5ee3b9a" id="r_a3a7c47d74c98d510346305b5c5ee3b9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a7c47d74c98d510346305b5c5ee3b9a">update_actor_railroad_crossing</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">crossing</a>)</td></tr>
+<tr class="memitem:a3a7c47d74c98d510346305b5c5ee3b9a" id="r_a3a7c47d74c98d510346305b5c5ee3b9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a7c47d74c98d510346305b5c5ee3b9a">update_actor_railroad_crossing</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">crossing</a>)</td></tr>
 <tr class="separator:a3a7c47d74c98d510346305b5c5ee3b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d6aa75e9c6a76ca1646a933664ab130" id="r_a9d6aa75e9c6a76ca1646a933664ab130"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d6aa75e9c6a76ca1646a933664ab130">update_actor_mario_raceway_sign</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
+<tr class="memitem:a9d6aa75e9c6a76ca1646a933664ab130" id="r_a9d6aa75e9c6a76ca1646a933664ab130"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d6aa75e9c6a76ca1646a933664ab130">update_actor_mario_raceway_sign</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>)</td></tr>
 <tr class="separator:a9d6aa75e9c6a76ca1646a933664ab130"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d9197f8df1df3e8834fbaf37e9e2115" id="r_a0d9197f8df1df3e8834fbaf37e9e2115"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d9197f8df1df3e8834fbaf37e9e2115">func_8029ABD4</a> (<a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *pos, <a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> state)</td></tr>
+<tr class="memitem:a0d9197f8df1df3e8834fbaf37e9e2115" id="r_a0d9197f8df1df3e8834fbaf37e9e2115"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d9197f8df1df3e8834fbaf37e9e2115">func_8029ABD4</a> (<a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *pos, <a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> state)</td></tr>
 <tr class="separator:a0d9197f8df1df3e8834fbaf37e9e2115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad39711a0d6d2b4d1794d36d35b192759" id="r_ad39711a0d6d2b4d1794d36d35b192759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad39711a0d6d2b4d1794d36d35b192759">func_8029AC18</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
+<tr class="memitem:ad39711a0d6d2b4d1794d36d35b192759" id="r_ad39711a0d6d2b4d1794d36d35b192759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad39711a0d6d2b4d1794d36d35b192759">func_8029AC18</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
 <tr class="separator:ad39711a0d6d2b4d1794d36d35b192759"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd6ff25fee477d64159106b70dfb937d" id="r_acd6ff25fee477d64159106b70dfb937d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6ff25fee477d64159106b70dfb937d">func_8029AE14</a> ()</td></tr>
+<tr class="memitem:acd6ff25fee477d64159106b70dfb937d" id="r_acd6ff25fee477d64159106b70dfb937d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6ff25fee477d64159106b70dfb937d">func_8029AE14</a> ()</td></tr>
 <tr class="separator:acd6ff25fee477d64159106b70dfb937d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a959b9756711fe631bb33a7870be5937c" id="r_a959b9756711fe631bb33a7870be5937c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959b9756711fe631bb33a7870be5937c">render_actor_box_truck</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a959b9756711fe631bb33a7870be5937c" id="r_a959b9756711fe631bb33a7870be5937c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959b9756711fe631bb33a7870be5937c">render_actor_box_truck</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a959b9756711fe631bb33a7870be5937c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a720ce0b0a4f510df57259a76e88045cf" id="r_a720ce0b0a4f510df57259a76e88045cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a720ce0b0a4f510df57259a76e88045cf">render_actor_school_bus</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a720ce0b0a4f510df57259a76e88045cf" id="r_a720ce0b0a4f510df57259a76e88045cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a720ce0b0a4f510df57259a76e88045cf">render_actor_school_bus</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a720ce0b0a4f510df57259a76e88045cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9837af3de7840d2a111f72ece195cb32" id="r_a9837af3de7840d2a111f72ece195cb32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9837af3de7840d2a111f72ece195cb32">render_actor_car</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a9837af3de7840d2a111f72ece195cb32" id="r_a9837af3de7840d2a111f72ece195cb32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9837af3de7840d2a111f72ece195cb32">render_actor_car</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a9837af3de7840d2a111f72ece195cb32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a946fd8f61348549cfb60bf8a480baad3" id="r_a946fd8f61348549cfb60bf8a480baad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a946fd8f61348549cfb60bf8a480baad3">render_actor_tanker_truck</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a946fd8f61348549cfb60bf8a480baad3" id="r_a946fd8f61348549cfb60bf8a480baad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a946fd8f61348549cfb60bf8a480baad3">render_actor_tanker_truck</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a946fd8f61348549cfb60bf8a480baad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a250e5910700e7f46f258578c256c1d94" id="r_a250e5910700e7f46f258578c256c1d94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a250e5910700e7f46f258578c256c1d94">render_actor_falling_rock</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structFallingRock.html">FallingRock</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">rock</a>)</td></tr>
+<tr class="memitem:a250e5910700e7f46f258578c256c1d94" id="r_a250e5910700e7f46f258578c256c1d94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a250e5910700e7f46f258578c256c1d94">render_actor_falling_rock</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structFallingRock.html">FallingRock</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">rock</a>)</td></tr>
 <tr class="separator:a250e5910700e7f46f258578c256c1d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada2ce3dcaee0557208501ee291924021" id="r_ada2ce3dcaee0557208501ee291924021"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada2ce3dcaee0557208501ee291924021">place_piranha_plants</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">spawnData</a>)</td></tr>
+<tr class="memitem:ada2ce3dcaee0557208501ee291924021" id="r_ada2ce3dcaee0557208501ee291924021"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada2ce3dcaee0557208501ee291924021">place_piranha_plants</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">spawnData</a>)</td></tr>
 <tr class="separator:ada2ce3dcaee0557208501ee291924021"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74cec04857466d1db6033e07070c9d19" id="r_a74cec04857466d1db6033e07070c9d19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74cec04857466d1db6033e07070c9d19">place_palm_trees</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">spawnData</a>)</td></tr>
+<tr class="memitem:a74cec04857466d1db6033e07070c9d19" id="r_a74cec04857466d1db6033e07070c9d19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74cec04857466d1db6033e07070c9d19">place_palm_trees</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">spawnData</a>)</td></tr>
 <tr class="separator:a74cec04857466d1db6033e07070c9d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1831a4f015705b4ebf00be95e8198b6" id="r_ad1831a4f015705b4ebf00be95e8198b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1831a4f015705b4ebf00be95e8198b6">spawn_foliage</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
+<tr class="memitem:ad1831a4f015705b4ebf00be95e8198b6" id="r_ad1831a4f015705b4ebf00be95e8198b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1831a4f015705b4ebf00be95e8198b6">spawn_foliage</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>)</td></tr>
 <tr class="separator:ad1831a4f015705b4ebf00be95e8198b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a040f5edff7bbda021cb0b3cde23e9674" id="r_a040f5edff7bbda021cb0b3cde23e9674"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a040f5edff7bbda021cb0b3cde23e9674">place_all_item_boxes</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">spawnData</a>)</td></tr>
+<tr class="memitem:a040f5edff7bbda021cb0b3cde23e9674" id="r_a040f5edff7bbda021cb0b3cde23e9674"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a040f5edff7bbda021cb0b3cde23e9674">place_all_item_boxes</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">spawnData</a>)</td></tr>
 <tr class="separator:a040f5edff7bbda021cb0b3cde23e9674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf7a2e2500cef03e41aec3bde2103ca9" id="r_acf7a2e2500cef03e41aec3bde2103ca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf7a2e2500cef03e41aec3bde2103ca9">init_kiwano_fruit</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:acf7a2e2500cef03e41aec3bde2103ca9" id="r_acf7a2e2500cef03e41aec3bde2103ca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf7a2e2500cef03e41aec3bde2103ca9">init_kiwano_fruit</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:acf7a2e2500cef03e41aec3bde2103ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90bb1e98b1fc94450092f4fddff2a61b" id="r_a90bb1e98b1fc94450092f4fddff2a61b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90bb1e98b1fc94450092f4fddff2a61b">destroy_all_actors</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:a90bb1e98b1fc94450092f4fddff2a61b" id="r_a90bb1e98b1fc94450092f4fddff2a61b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90bb1e98b1fc94450092f4fddff2a61b">destroy_all_actors</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:a90bb1e98b1fc94450092f4fddff2a61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09880e8065960d2bbd0585409a4831a7" id="r_a09880e8065960d2bbd0585409a4831a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09880e8065960d2bbd0585409a4831a7">place_course_actors</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:a09880e8065960d2bbd0585409a4831a7" id="r_a09880e8065960d2bbd0585409a4831a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09880e8065960d2bbd0585409a4831a7">place_course_actors</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:a09880e8065960d2bbd0585409a4831a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4c7671a474d355b39c737fdf54caffc" id="r_ad4c7671a474d355b39c737fdf54caffc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4c7671a474d355b39c737fdf54caffc">func_8029E158</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:ad4c7671a474d355b39c737fdf54caffc" id="r_ad4c7671a474d355b39c737fdf54caffc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4c7671a474d355b39c737fdf54caffc">func_8029E158</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:ad4c7671a474d355b39c737fdf54caffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15517665ab054722a5c980c0f1008cd0" id="r_a15517665ab054722a5c980c0f1008cd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15517665ab054722a5c980c0f1008cd0">func_8029E7DC</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
+<tr class="memitem:a15517665ab054722a5c980c0f1008cd0" id="r_a15517665ab054722a5c980c0f1008cd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15517665ab054722a5c980c0f1008cd0">func_8029E7DC</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actor</a>)</td></tr>
 <tr class="separator:a15517665ab054722a5c980c0f1008cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a694ec6ef7548b8618aeb35c038d3a9b9" id="r_a694ec6ef7548b8618aeb35c038d3a9b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a694ec6ef7548b8618aeb35c038d3a9b9">destroy_actor</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
+<tr class="memitem:a694ec6ef7548b8618aeb35c038d3a9b9" id="r_a694ec6ef7548b8618aeb35c038d3a9b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a694ec6ef7548b8618aeb35c038d3a9b9">destroy_actor</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actor</a>)</td></tr>
 <tr class="separator:a694ec6ef7548b8618aeb35c038d3a9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c9d11d8956bf92c32a5e9bafd7036e6" id="r_a0c9d11d8956bf92c32a5e9bafd7036e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c9d11d8956bf92c32a5e9bafd7036e6">func_8029E890</a> (<a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> pos, <a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> rot, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> velocity, <a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actorType</a>)</td></tr>
+<tr class="memitem:a0c9d11d8956bf92c32a5e9bafd7036e6" id="r_a0c9d11d8956bf92c32a5e9bafd7036e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c9d11d8956bf92c32a5e9bafd7036e6">func_8029E890</a> (<a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> pos, <a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> rot, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> velocity, <a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actorType</a>)</td></tr>
 <tr class="separator:a0c9d11d8956bf92c32a5e9bafd7036e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24d84b2c349ccb02fa767a4e49c4f2c5" id="r_a24d84b2c349ccb02fa767a4e49c4f2c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24d84b2c349ccb02fa767a4e49c4f2c5">addActorToEmptySlot</a> (<a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> pos, <a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> rot, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> velocity, <a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actorType</a>)</td></tr>
+<tr class="memitem:a24d84b2c349ccb02fa767a4e49c4f2c5" id="r_a24d84b2c349ccb02fa767a4e49c4f2c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24d84b2c349ccb02fa767a4e49c4f2c5">addActorToEmptySlot</a> (<a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> pos, <a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a> rot, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> velocity, <a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actorType</a>)</td></tr>
 <tr class="separator:a24d84b2c349ccb02fa767a4e49c4f2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c94a79a0a33d35659222cacbc7d05ba" id="r_a0c94a79a0a33d35659222cacbc7d05ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c94a79a0a33d35659222cacbc7d05ba">func_8029ED38</a> (<a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> pos, <a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actorType</a>)</td></tr>
+<tr class="memitem:a0c94a79a0a33d35659222cacbc7d05ba" id="r_a0c94a79a0a33d35659222cacbc7d05ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c94a79a0a33d35659222cacbc7d05ba">func_8029ED38</a> (<a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> pos, <a class="el" href="ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actorType</a>)</td></tr>
 <tr class="separator:a0c94a79a0a33d35659222cacbc7d05ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed0d42f43d1e8bdccedb76c0170e3680" id="r_aed0d42f43d1e8bdccedb76c0170e3680"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed0d42f43d1e8bdccedb76c0170e3680">func_8029ED98</a> (<a class="el" href="structPlayer.html">Player</a> *player, uintptr_t <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:aed0d42f43d1e8bdccedb76c0170e3680" id="r_aed0d42f43d1e8bdccedb76c0170e3680"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed0d42f43d1e8bdccedb76c0170e3680">func_8029ED98</a> (<a class="el" href="structPlayer.html">Player</a> *player, uintptr_t <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:aed0d42f43d1e8bdccedb76c0170e3680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ea92ebccf3e9c442c433b4ca8aa209e" id="r_a5ea92ebccf3e9c442c433b4ca8aa209e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ea92ebccf3e9c442c433b4ca8aa209e">func_8029EEB8</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> pos, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> arg2, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> arg3, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg4</a>)</td></tr>
+<tr class="memitem:a5ea92ebccf3e9c442c433b4ca8aa209e" id="r_a5ea92ebccf3e9c442c433b4ca8aa209e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ea92ebccf3e9c442c433b4ca8aa209e">func_8029EEB8</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> pos, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> arg2, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> arg3, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg4</a>)</td></tr>
 <tr class="separator:a5ea92ebccf3e9c442c433b4ca8aa209e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49b65f2ed33a93322e22e58cac759c29" id="r_a49b65f2ed33a93322e22e58cac759c29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49b65f2ed33a93322e22e58cac759c29">func_8029F1F8</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">marioRacewaySign</a>)</td></tr>
+<tr class="memitem:a49b65f2ed33a93322e22e58cac759c29" id="r_a49b65f2ed33a93322e22e58cac759c29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49b65f2ed33a93322e22e58cac759c29">func_8029F1F8</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">marioRacewaySign</a>)</td></tr>
 <tr class="separator:a49b65f2ed33a93322e22e58cac759c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66aa745929ca6929dc21594ff9213c28" id="r_a66aa745929ca6929dc21594ff9213c28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66aa745929ca6929dc21594ff9213c28">func_8029F2FC</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPiranhaPlant.html">PiranhaPlant</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">plant</a>)</td></tr>
+<tr class="memitem:a66aa745929ca6929dc21594ff9213c28" id="r_a66aa745929ca6929dc21594ff9213c28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66aa745929ca6929dc21594ff9213c28">func_8029F2FC</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structPiranhaPlant.html">PiranhaPlant</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">plant</a>)</td></tr>
 <tr class="separator:a66aa745929ca6929dc21594ff9213c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30eee3cfbdd878f52f672bd8bee9585b" id="r_a30eee3cfbdd878f52f672bd8bee9585b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30eee3cfbdd878f52f672bd8bee9585b">func_8029F408</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structYoshiValleyEgg.html">YoshiValleyEgg</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">egg</a>)</td></tr>
+<tr class="memitem:a30eee3cfbdd878f52f672bd8bee9585b" id="r_a30eee3cfbdd878f52f672bd8bee9585b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30eee3cfbdd878f52f672bd8bee9585b">func_8029F408</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structYoshiValleyEgg.html">YoshiValleyEgg</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">egg</a>)</td></tr>
 <tr class="separator:a30eee3cfbdd878f52f672bd8bee9585b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06219e130791db5c35462622f3578592" id="r_a06219e130791db5c35462622f3578592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06219e130791db5c35462622f3578592">func_8029F69C</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
+<tr class="memitem:a06219e130791db5c35462622f3578592" id="r_a06219e130791db5c35462622f3578592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06219e130791db5c35462622f3578592">func_8029F69C</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actor</a>)</td></tr>
 <tr class="separator:a06219e130791db5c35462622f3578592"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20d2834806dacbb54617e641dd287332" id="r_a20d2834806dacbb54617e641dd287332"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20d2834806dacbb54617e641dd287332">func_8029FB80</a> (<a class="el" href="structPlayer.html">Player</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a20d2834806dacbb54617e641dd287332" id="r_a20d2834806dacbb54617e641dd287332"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20d2834806dacbb54617e641dd287332">func_8029FB80</a> (<a class="el" href="structPlayer.html">Player</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a20d2834806dacbb54617e641dd287332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b5c574a62c1fa09822c3be36c9fe247" id="r_a4b5c574a62c1fa09822c3be36c9fe247"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5c574a62c1fa09822c3be36c9fe247">func_8029FCA4</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a4b5c574a62c1fa09822c3be36c9fe247" id="r_a4b5c574a62c1fa09822c3be36c9fe247"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5c574a62c1fa09822c3be36c9fe247">func_8029FCA4</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a4b5c574a62c1fa09822c3be36c9fe247"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d1dea0325e8a4a27afa6c343669df7" id="r_a67d1dea0325e8a4a27afa6c343669df7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67d1dea0325e8a4a27afa6c343669df7">func_8029FDC8</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
+<tr class="memitem:a67d1dea0325e8a4a27afa6c343669df7" id="r_a67d1dea0325e8a4a27afa6c343669df7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67d1dea0325e8a4a27afa6c343669df7">func_8029FDC8</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actor</a>)</td></tr>
 <tr class="separator:a67d1dea0325e8a4a27afa6c343669df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd2980ed4c1c875919300053577d6f2c" id="r_acd2980ed4c1c875919300053577d6f2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd2980ed4c1c875919300053577d6f2c">func_802A00E8</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:acd2980ed4c1c875919300053577d6f2c" id="r_acd2980ed4c1c875919300053577d6f2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd2980ed4c1c875919300053577d6f2c">func_802A00E8</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:acd2980ed4c1c875919300053577d6f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fff2a94adce284fb6e2ef36de0ba5a6" id="r_a0fff2a94adce284fb6e2ef36de0ba5a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fff2a94adce284fb6e2ef36de0ba5a6">func_802A0350</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="memitem:a0fff2a94adce284fb6e2ef36de0ba5a6" id="r_a0fff2a94adce284fb6e2ef36de0ba5a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fff2a94adce284fb6e2ef36de0ba5a6">func_802A0350</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>)</td></tr>
 <tr class="separator:a0fff2a94adce284fb6e2ef36de0ba5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d0cc071261caa5b76190cfee9c90189" id="r_a5d0cc071261caa5b76190cfee9c90189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d0cc071261caa5b76190cfee9c90189">func_802A0450</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
+<tr class="memitem:a5d0cc071261caa5b76190cfee9c90189" id="r_a5d0cc071261caa5b76190cfee9c90189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d0cc071261caa5b76190cfee9c90189">func_802A0450</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">actor</a>)</td></tr>
 <tr class="separator:a5d0cc071261caa5b76190cfee9c90189"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad37e739a6957be6a447d5a26574710cc" id="r_ad37e739a6957be6a447d5a26574710cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad37e739a6957be6a447d5a26574710cc">evaluate_player_collision</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:ad37e739a6957be6a447d5a26574710cc" id="r_ad37e739a6957be6a447d5a26574710cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad37e739a6957be6a447d5a26574710cc">evaluate_player_collision</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:ad37e739a6957be6a447d5a26574710cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc5974c9cbca0b4f3b4df0d1b40ee48d" id="r_adc5974c9cbca0b4f3b4df0d1b40ee48d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc5974c9cbca0b4f3b4df0d1b40ee48d">func_802A0E44</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:adc5974c9cbca0b4f3b4df0d1b40ee48d" id="r_adc5974c9cbca0b4f3b4df0d1b40ee48d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc5974c9cbca0b4f3b4df0d1b40ee48d">func_802A0E44</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:adc5974c9cbca0b4f3b4df0d1b40ee48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa69562a03d97fa7b0b040009f5351776" id="r_aa69562a03d97fa7b0b040009f5351776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa69562a03d97fa7b0b040009f5351776">func_802A1064</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">fake_item_box</a>)</td></tr>
+<tr class="memitem:aa69562a03d97fa7b0b040009f5351776" id="r_aa69562a03d97fa7b0b040009f5351776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa69562a03d97fa7b0b040009f5351776">func_802A1064</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">fake_item_box</a>)</td></tr>
 <tr class="separator:aa69562a03d97fa7b0b040009f5351776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad21c35b35099a45f58d3c9d3a470f6b7" id="r_ad21c35b35099a45f58d3c9d3a470f6b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21c35b35099a45f58d3c9d3a470f6b7">update_actor_fake_item_box</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">fake_item_box</a>)</td></tr>
+<tr class="memitem:ad21c35b35099a45f58d3c9d3a470f6b7" id="r_ad21c35b35099a45f58d3c9d3a470f6b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21c35b35099a45f58d3c9d3a470f6b7">update_actor_fake_item_box</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">fake_item_box</a>)</td></tr>
 <tr class="separator:ad21c35b35099a45f58d3c9d3a470f6b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5750654b812a09a6a1e1894cc0dcd45" id="r_ac5750654b812a09a6a1e1894cc0dcd45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5750654b812a09a6a1e1894cc0dcd45">func_802A14BC</a> (<a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> x, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> y, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> z)</td></tr>
+<tr class="memitem:ac5750654b812a09a6a1e1894cc0dcd45" id="r_ac5750654b812a09a6a1e1894cc0dcd45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5750654b812a09a6a1e1894cc0dcd45">func_802A14BC</a> (<a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> x, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> y, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> z)</td></tr>
 <tr class="separator:ac5750654b812a09a6a1e1894cc0dcd45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ab7a73caa2b37b8c336b7b2e8283e17" id="r_a7ab7a73caa2b37b8c336b7b2e8283e17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ab7a73caa2b37b8c336b7b2e8283e17">update_actor_item_box_hot_air_balloon</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">itemBox</a>)</td></tr>
+<tr class="memitem:a7ab7a73caa2b37b8c336b7b2e8283e17" id="r_a7ab7a73caa2b37b8c336b7b2e8283e17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ab7a73caa2b37b8c336b7b2e8283e17">update_actor_item_box_hot_air_balloon</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">itemBox</a>)</td></tr>
 <tr class="separator:a7ab7a73caa2b37b8c336b7b2e8283e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4eb2577ac7d47e62f00eed0de138c2d" id="r_af4eb2577ac7d47e62f00eed0de138c2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4eb2577ac7d47e62f00eed0de138c2d">update_actor_item_box</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">itemBox</a>)</td></tr>
+<tr class="memitem:af4eb2577ac7d47e62f00eed0de138c2d" id="r_af4eb2577ac7d47e62f00eed0de138c2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4eb2577ac7d47e62f00eed0de138c2d">update_actor_item_box</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">itemBox</a>)</td></tr>
 <tr class="separator:af4eb2577ac7d47e62f00eed0de138c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af82821de2f8e4938ff33ef46b02c0912" id="r_af82821de2f8e4938ff33ef46b02c0912"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af82821de2f8e4938ff33ef46b02c0912">func_802A171C</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">fakeItemBox</a>)</td></tr>
+<tr class="memitem:af82821de2f8e4938ff33ef46b02c0912" id="r_af82821de2f8e4938ff33ef46b02c0912"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af82821de2f8e4938ff33ef46b02c0912">func_802A171C</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">fakeItemBox</a>)</td></tr>
 <tr class="separator:af82821de2f8e4938ff33ef46b02c0912"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81d23396f5a7e2d7f653b7f5eb12b55c" id="r_a81d23396f5a7e2d7f653b7f5eb12b55c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d23396f5a7e2d7f653b7f5eb12b55c">func_802A1EA0</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">item_box</a>)</td></tr>
+<tr class="memitem:a81d23396f5a7e2d7f653b7f5eb12b55c" id="r_a81d23396f5a7e2d7f653b7f5eb12b55c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d23396f5a7e2d7f653b7f5eb12b55c">func_802A1EA0</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">item_box</a>)</td></tr>
 <tr class="separator:a81d23396f5a7e2d7f653b7f5eb12b55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a287788fd70e41c5d3856d70c24ec0b" id="r_a4a287788fd70e41c5d3856d70c24ec0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a287788fd70e41c5d3856d70c24ec0b">render_actor_wario_sign</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
-<tr class="separator:a4a287788fd70e41c5d3856d70c24ec0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcfb14ec53dc8eecd888faf9eedad475" id="r_abcfb14ec53dc8eecd888faf9eedad475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcfb14ec53dc8eecd888faf9eedad475">render_actor_mario_sign</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
+<tr class="memitem:abcfb14ec53dc8eecd888faf9eedad475" id="r_abcfb14ec53dc8eecd888faf9eedad475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcfb14ec53dc8eecd888faf9eedad475">render_actor_mario_sign</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
 <tr class="separator:abcfb14ec53dc8eecd888faf9eedad475"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af46eb6e934ce3e283872f68ac3140493" id="r_af46eb6e934ce3e283872f68ac3140493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af46eb6e934ce3e283872f68ac3140493">render_actor_railroad_crossing</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">rr_crossing</a>)</td></tr>
+<tr class="memitem:af46eb6e934ce3e283872f68ac3140493" id="r_af46eb6e934ce3e283872f68ac3140493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af46eb6e934ce3e283872f68ac3140493">render_actor_railroad_crossing</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">rr_crossing</a>)</td></tr>
 <tr class="separator:af46eb6e934ce3e283872f68ac3140493"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9acb7afd543abd1f4794c8c2d16f13a4" id="r_a9acb7afd543abd1f4794c8c2d16f13a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9acb7afd543abd1f4794c8c2d16f13a4">render_actor_palm_tree</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPalmTree.html">PalmTree</a> *arg2)</td></tr>
+<tr class="memitem:a9acb7afd543abd1f4794c8c2d16f13a4" id="r_a9acb7afd543abd1f4794c8c2d16f13a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9acb7afd543abd1f4794c8c2d16f13a4">render_actor_palm_tree</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg1</a>, <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structPalmTree.html">PalmTree</a> *arg2)</td></tr>
 <tr class="separator:a9acb7afd543abd1f4794c8c2d16f13a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acde087ba64fe210e1669d5efe14d6f37" id="r_acde087ba64fe210e1669d5efe14d6f37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acde087ba64fe210e1669d5efe14d6f37">func_802A2F34</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structUnkStruct__800DC5EC.html">UnkStruct_800DC5EC</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
+<tr class="memitem:acde087ba64fe210e1669d5efe14d6f37" id="r_acde087ba64fe210e1669d5efe14d6f37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acde087ba64fe210e1669d5efe14d6f37">func_802A2F34</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structUnkStruct__800DC5EC.html">UnkStruct_800DC5EC</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>)</td></tr>
 <tr class="separator:acde087ba64fe210e1669d5efe14d6f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab38aac73e6ef03aa38f4474b612234b0" id="r_ab38aac73e6ef03aa38f4474b612234b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab38aac73e6ef03aa38f4474b612234b0">render_course_actors</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structUnkStruct__800DC5EC.html">UnkStruct_800DC5EC</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
+<tr class="memitem:ab38aac73e6ef03aa38f4474b612234b0" id="r_ab38aac73e6ef03aa38f4474b612234b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab38aac73e6ef03aa38f4474b612234b0">render_course_actors</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structUnkStruct__800DC5EC.html">UnkStruct_800DC5EC</a> *<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">arg0</a>)</td></tr>
 <tr class="separator:ab38aac73e6ef03aa38f4474b612234b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6387502059c64a81d32c944b39d78f9" id="r_aa6387502059c64a81d32c944b39d78f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6387502059c64a81d32c944b39d78f9">update_course_actors</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
+<tr class="memitem:aa6387502059c64a81d32c944b39d78f9" id="r_aa6387502059c64a81d32c944b39d78f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6387502059c64a81d32c944b39d78f9">update_course_actors</a> (<a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a>)</td></tr>
 <tr class="separator:aa6387502059c64a81d32c944b39d78f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
@@ -322,7 +315,7 @@ Variables</h2></td></tr>
 <tr class="separator:a656b6a6b3b44cbdaf50e199c090096ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2741a9b2edc8020f9e91b2479a2c0bc0" id="r_a2741a9b2edc8020f9e91b2479a2c0bc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2741a9b2edc8020f9e91b2479a2c0bc0">D_802BA058</a></td></tr>
 <tr class="separator:a2741a9b2edc8020f9e91b2479a2c0bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9f35b38faba86719bffdabca5e765bf" id="r_ac9f35b38faba86719bffdabca5e765bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9f35b38faba86719bffdabca5e765bf">gActorHotAirBalloonItemBox</a></td></tr>
+<tr class="memitem:ac9f35b38faba86719bffdabca5e765bf" id="r_ac9f35b38faba86719bffdabca5e765bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9f35b38faba86719bffdabca5e765bf">gActorHotAirBalloonItemBox</a></td></tr>
 <tr class="separator:ac9f35b38faba86719bffdabca5e765bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afddce2fe9d53b73eb98b25e6d354dd50" id="r_afddce2fe9d53b73eb98b25e6d354dd50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afddce2fe9d53b73eb98b25e6d354dd50">gTLUTRedShell</a> [512]</td></tr>
 <tr class="separator:afddce2fe9d53b73eb98b25e6d354dd50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -341,9 +334,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> actor_init </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> actor_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em>, </span></td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -428,9 +421,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> cleanup_red_and_green_shells </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> cleanup_red_and_green_shells </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *</td>          <td class="paramname"><span class="paramname"><em>shell</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *</td>          <td class="paramname"><span class="paramname"><em>shell</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -456,9 +449,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> destroy_actor </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> destroy_actor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -491,9 +484,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> destroy_all_actors </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> destroy_all_actors </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -514,9 +507,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> evaluate_player_collision </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> evaluate_player_collision </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -541,14 +534,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_80297230 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_80297230 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -567,14 +560,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802972B8 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802972B8 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -593,7 +586,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_80297340 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_80297340 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
           <td></td>
@@ -620,7 +613,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_80297524 </td>
+          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_80297524 </td>
           <td>(</td>
           <td class="paramtype">uintptr_t</td>          <td class="paramname"><span class="paramname"><em>addr</em>, </span></td>
         </tr>
@@ -646,7 +639,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802976D8 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802976D8 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common__structs_8h.html#a95eb48a2f3630571bea260858dd23e92">Vec3s</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
           <td></td>
@@ -668,7 +661,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802976EC </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802976EC </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCollision.html">Collision</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
@@ -699,9 +692,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_80297760 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_80297760 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -730,7 +723,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802977B0 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802977B0 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structPlayer.html">Player</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
           <td></td>
@@ -752,7 +745,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802977E4 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802977E4 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structPlayer.html">Player</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
           <td></td>
@@ -774,9 +767,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_80297944 </td>
+          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_80297944 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -791,7 +784,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029794C </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_8029794C </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
@@ -827,9 +820,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802979F8 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802979F8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -858,7 +851,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_80298AC0 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_80298AC0 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structPlayer.html">Player</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em></span></td><td>)</td>
           <td></td>
@@ -885,9 +878,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_80298C94 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_80298C94 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -912,9 +905,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_80298D10 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_80298D10 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -934,7 +927,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_80298D7C </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_80298D7C </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
         </tr>
@@ -946,7 +939,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -970,7 +963,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029ABD4 </td>
+          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_8029ABD4 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *</td>          <td class="paramname"><span class="paramname"><em>pos</em>, </span></td>
         </tr>
@@ -996,7 +989,7 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029AC18 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_8029AC18 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
         </tr>
@@ -1008,7 +1001,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1032,7 +1025,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029AE14 </td>
+          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_8029AE14 </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -1049,9 +1042,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029E158 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_8029E158 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1076,9 +1069,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029E7DC </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_8029E7DC </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1175,7 +1168,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029ED98 </td>
+          <td class="memname"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_8029ED98 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structPlayer.html">Player</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em>, </span></td>
         </tr>
@@ -1254,7 +1247,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>marioRacewaySign</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>marioRacewaySign</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1285,7 +1278,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPiranhaPlant.html">PiranhaPlant</a> *</td>          <td class="paramname"><span class="paramname"><em>plant</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structPiranhaPlant.html">PiranhaPlant</a> *</td>          <td class="paramname"><span class="paramname"><em>plant</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1316,7 +1309,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structYoshiValleyEgg.html">YoshiValleyEgg</a> *</td>          <td class="paramname"><span class="paramname"><em>egg</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structYoshiValleyEgg.html">YoshiValleyEgg</a> *</td>          <td class="paramname"><span class="paramname"><em>egg</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1347,7 +1340,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1378,7 +1371,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1399,12 +1392,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a> func_8029FCA4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1423,9 +1416,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029FDC8 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_8029FDC8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1450,14 +1443,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A00E8 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802A00E8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1481,14 +1474,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A0350 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802A0350 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1512,14 +1505,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A0450 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802A0450 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structPlayer.html">Player</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1543,9 +1536,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A0E44 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802A0E44 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1570,9 +1563,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A1064 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802A1064 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>fake_item_box</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>fake_item_box</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1597,7 +1590,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A14BC </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802A14BC </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a></td>          <td class="paramname"><span class="paramname"><em>x</em>, </span></td>
         </tr>
@@ -1633,14 +1626,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A171C </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802A171C </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>fakeItemBox</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>fakeItemBox</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1664,14 +1657,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A1EA0 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802A1EA0 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>item_box</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>item_box</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1695,9 +1688,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A2F34 </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> func_802A2F34 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structUnkStruct__800DC5EC.html">UnkStruct_800DC5EC</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structUnkStruct__800DC5EC.html">UnkStruct_800DC5EC</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1722,9 +1715,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> init_kiwano_fruit </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> init_kiwano_fruit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1749,9 +1742,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> init_red_shell_texture </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> init_red_shell_texture </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1771,9 +1764,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> place_all_item_boxes </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> place_all_item_boxes </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *</td>          <td class="paramname"><span class="paramname"><em>spawnData</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *</td>          <td class="paramname"><span class="paramname"><em>spawnData</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1798,9 +1791,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> place_course_actors </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> place_course_actors </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1825,9 +1818,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> place_palm_trees </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> place_palm_trees </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *</td>          <td class="paramname"><span class="paramname"><em>spawnData</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *</td>          <td class="paramname"><span class="paramname"><em>spawnData</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1852,9 +1845,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> place_piranha_plants </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> place_piranha_plants </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *</td>          <td class="paramname"><span class="paramname"><em>spawnData</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *</td>          <td class="paramname"><span class="paramname"><em>spawnData</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1872,78 +1865,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ac3081ff11d8481c9ce596f5ad4e35d64" name="ac3081ff11d8481c9ce596f5ad4e35d64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3081ff11d8481c9ce596f5ad4e35d64">&#9670;&#160;</a></span>render_actor_banana()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_banana </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structBananaActor.html">BananaActor</a> *</td>          <td class="paramname"><span class="paramname"><em>banana</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ac3081ff11d8481c9ce596f5ad4e35d64_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ac3081ff11d8481c9ce596f5ad4e35d64_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a516dec1dd3d7c2d39294a1ab4edcff4a" name="a516dec1dd3d7c2d39294a1ab4edcff4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a516dec1dd3d7c2d39294a1ab4edcff4a">&#9670;&#160;</a></span>render_actor_blue_shell()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_blue_shell </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>matrix</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *</td>          <td class="paramname"><span class="paramname"><em>shell</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a516dec1dd3d7c2d39294a1ab4edcff4a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a516dec1dd3d7c2d39294a1ab4edcff4a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="a959b9756711fe631bb33a7870be5937c" name="a959b9756711fe631bb33a7870be5937c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a959b9756711fe631bb33a7870be5937c">&#9670;&#160;</a></span>render_actor_box_truck()</h2>
 
@@ -1951,14 +1872,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_box_truck </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_actor_box_truck </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1982,14 +1903,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_car </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_actor_car </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2013,7 +1934,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_cows </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_actor_cows </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
         </tr>
@@ -2025,7 +1946,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2049,14 +1970,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_falling_rock </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_actor_falling_rock </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structFallingRock.html">FallingRock</a> *</td>          <td class="paramname"><span class="paramname"><em>rock</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structFallingRock.html">FallingRock</a> *</td>          <td class="paramname"><span class="paramname"><em>rock</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2073,42 +1994,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a39d6e7cdcb6d797ff42e8b68549ce944" name="a39d6e7cdcb6d797ff42e8b68549ce944"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39d6e7cdcb6d797ff42e8b68549ce944">&#9670;&#160;</a></span>render_actor_green_shell()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_green_shell </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>matrix</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *</td>          <td class="paramname"><span class="paramname"><em>shell</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a39d6e7cdcb6d797ff42e8b68549ce944_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a39d6e7cdcb6d797ff42e8b68549ce944_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="abcfb14ec53dc8eecd888faf9eedad475" name="abcfb14ec53dc8eecd888faf9eedad475"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcfb14ec53dc8eecd888faf9eedad475">&#9670;&#160;</a></span>render_actor_mario_sign()</h2>
 
@@ -2116,7 +2001,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_mario_sign </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_actor_mario_sign </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
@@ -2128,7 +2013,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2152,7 +2037,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_palm_tree </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_actor_palm_tree </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
@@ -2164,7 +2049,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPalmTree.html">PalmTree</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structPalmTree.html">PalmTree</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2188,14 +2073,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_railroad_crossing </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_actor_railroad_crossing </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *</td>          <td class="paramname"><span class="paramname"><em>rr_crossing</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *</td>          <td class="paramname"><span class="paramname"><em>rr_crossing</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2212,42 +2097,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aad2583aa98831d6ef751cf57d0ec166a" name="aad2583aa98831d6ef751cf57d0ec166a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad2583aa98831d6ef751cf57d0ec166a">&#9670;&#160;</a></span>render_actor_red_shell()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_red_shell </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>matrix</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *</td>          <td class="paramname"><span class="paramname"><em>shell</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_aad2583aa98831d6ef751cf57d0ec166a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_aad2583aa98831d6ef751cf57d0ec166a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="a720ce0b0a4f510df57259a76e88045cf" name="a720ce0b0a4f510df57259a76e88045cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a720ce0b0a4f510df57259a76e88045cf">&#9670;&#160;</a></span>render_actor_school_bus()</h2>
 
@@ -2255,14 +2104,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_school_bus </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_actor_school_bus </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2286,7 +2135,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_shell </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_actor_shell </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
         </tr>
@@ -2298,11 +2147,11 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *</td>          <td class="paramname"><span class="paramname"><em>shell</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *</td>          <td class="paramname"><span class="paramname"><em>shell</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000048">Todo</a></b></dt><dd>Is this making the shell spin? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000045">Todo</a></b></dt><dd>Is this making the shell spin? </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2323,14 +2172,14 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tanker_truck </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_actor_tanker_truck </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2347,37 +2196,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4a287788fd70e41c5d3856d70c24ec0b" name="a4a287788fd70e41c5d3856d70c24ec0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a287788fd70e41c5d3856d70c24ec0b">&#9670;&#160;</a></span>render_actor_wario_sign()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_wario_sign </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a4a287788fd70e41c5d3856d70c24ec0b_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a4a287788fd70e41c5d3856d70c24ec0b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="ab38aac73e6ef03aa38f4474b612234b0" name="ab38aac73e6ef03aa38f4474b612234b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab38aac73e6ef03aa38f4474b612234b0">&#9670;&#160;</a></span>render_course_actors()</h2>
 
@@ -2385,9 +2203,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_course_actors </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> render_course_actors </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structUnkStruct__800DC5EC.html">UnkStruct_800DC5EC</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structUnkStruct__800DC5EC.html">UnkStruct_800DC5EC</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2412,9 +2230,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> spawn_foliage </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> spawn_foliage </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2439,9 +2257,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_fake_item_box </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> update_actor_fake_item_box </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>fake_item_box</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structFakeItemBox.html">FakeItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>fake_item_box</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2466,9 +2284,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_item_box </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> update_actor_item_box </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>itemBox</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>itemBox</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2488,9 +2306,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_item_box_hot_air_balloon </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> update_actor_item_box_hot_air_balloon </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>itemBox</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structItemBox.html">ItemBox</a> *</td>          <td class="paramname"><span class="paramname"><em>itemBox</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2510,9 +2328,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_mario_raceway_sign </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> update_actor_mario_raceway_sign </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2532,9 +2350,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_railroad_crossing </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> update_actor_railroad_crossing </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *</td>          <td class="paramname"><span class="paramname"><em>crossing</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *</td>          <td class="paramname"><span class="paramname"><em>crossing</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2560,9 +2378,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_static_plant </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> update_actor_static_plant </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2575,28 +2393,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a70c000fa6af4b2d4852f8b9518934e9d" name="a70c000fa6af4b2d4852f8b9518934e9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70c000fa6af4b2d4852f8b9518934e9d">&#9670;&#160;</a></span>update_actor_wario_stadium_sign()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_wario_stadium_sign </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a70c000fa6af4b2d4852f8b9518934e9d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="aa6387502059c64a81d32c944b39d78f9" name="aa6387502059c64a81d32c944b39d78f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa6387502059c64a81d32c944b39d78f9">&#9670;&#160;</a></span>update_course_actors()</h2>
 
@@ -2604,9 +2400,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_course_actors </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a> update_course_actors </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2725,7 +2521,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a>* gActorHotAirBalloonItemBox</td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#ac4351cfe26e7829db11538a4d993d404">struct</a> <a class="el" href="structActor.html">Actor</a>* gActorHotAirBalloonItemBox</td>
         </tr>
       </table>
 </div><div class="memdoc">

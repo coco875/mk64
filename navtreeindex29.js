@@ -1,11 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"controlflow.html#code-breakdown":[1,2,4],
-"controlflow.html#course-folder":[1,2,4,4,0],
-"controlflow.html#courses":[1,2,4,4],
-"controlflow.html#ending":[1,2,4,8],
-"controlflow.html#engine":[1,2,4,6],
-"controlflow.html#math":[1,2,4,7],
 "controlflow.html#menus":[1,2,4,0],
 "controlflow.html#objects-1":[1,2,4,3],
 "controlflow.html#overall-control-flow":[1,2,2],
@@ -249,5 +243,11 @@ var NAVTREEINDEX29 =
 "courseTable_8h.html#afc0a5a8e48824f1262bfcd25c7b32b3c":[8,0,0,25,73],
 "courseTable_8h.html#afe060a5daafc4fffae3c7e80a17aab9b":[8,0,0,25,121],
 "courseTable_8h.html#afe7c11beea0d50115effecb02ad0c79d":[8,0,0,25,67],
-"courseTable_8h_source.html":[8,0,0,25]
+"courseTable_8h_source.html":[8,0,0,25],
+"courseTable_8inc_8c.html":[8,0,0,26],
+"courseTable_8inc_8c.html#a92007b2eb3a5df818177b87425266968":[8,0,0,26,0],
+"course_8h.html":[8,0,2,6],
+"course_8h_source.html":[8,0,2,6],
+"course__macro_8h.html":[8,0,0,24],
+"course__macro_8h.html#ab34a07fcda62ff7494db5d447db8f436":[8,0,0,24,0]
 };

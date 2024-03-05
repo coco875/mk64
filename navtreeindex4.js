@@ -1,11 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"banshee__boardwalk_2course__data_8inc_8c.html#a2c010b0308836a18f8198da1adffaa19":[8,0,0,0,0,75],
-"banshee__boardwalk_2course__data_8inc_8c.html#a2c754ba3186ec3ea0577afade5e8d5c3":[8,0,0,0,0,101],
-"banshee__boardwalk_2course__data_8inc_8c.html#a2cd2c55f9912d17501278ed0929257a2":[8,0,0,0,0,38],
-"banshee__boardwalk_2course__data_8inc_8c.html#a2d1a44d838d3ecdbad9c06df326ed6c7":[8,0,0,0,0,59],
-"banshee__boardwalk_2course__data_8inc_8c.html#a2d8b403ee47e93e9d6cdc2d3add08b72":[8,0,0,0,0,53],
-"banshee__boardwalk_2course__data_8inc_8c.html#a2f7a0d8a1fd83a6a928d8ceffaa730e2":[8,0,0,0,0,56],
 "banshee__boardwalk_2course__data_8inc_8c.html#a2fb0c3a52dba52b8d125fef127aaa3cd":[8,0,0,0,0,133],
 "banshee__boardwalk_2course__data_8inc_8c.html#a3127d8912c05eaa8d96152d59d7c42cd":[8,0,0,0,0,29],
 "banshee__boardwalk_2course__data_8inc_8c.html#a32d15fe81b91d729c8dc9327d87ff731":[8,0,0,0,0,30],
@@ -249,5 +243,11 @@ var NAVTREEINDEX4 =
 "banshee__boardwalk_2course__data_8inc_8h.html#aee964617b44203bac12a1a13fbc1a62b":[8,0,0,0,1,118],
 "banshee__boardwalk_2course__data_8inc_8h.html#aeecb009b9823e59c2803f7311fe77e67":[8,0,0,0,1,47],
 "banshee__boardwalk_2course__data_8inc_8h.html#aeefb37657a421275fec5f19d92ed5af0":[8,0,0,0,1,7],
-"banshee__boardwalk_2course__data_8inc_8h.html#aeff5753477ca5b930d0b7c0e64bab9da":[8,0,0,0,1,100]
+"banshee__boardwalk_2course__data_8inc_8h.html#aeff5753477ca5b930d0b7c0e64bab9da":[8,0,0,0,1,100],
+"banshee__boardwalk_2course__data_8inc_8h.html#af07bf6cec38b188616df0dadf4ba6568":[8,0,0,0,1,105],
+"banshee__boardwalk_2course__data_8inc_8h.html#af0d66f53e3fcbd3f207f2f31ebbd6333":[8,0,0,0,1,76],
+"banshee__boardwalk_2course__data_8inc_8h.html#af2063f09ccd7a5b5a0f2aad8841eb588":[8,0,0,0,1,141],
+"banshee__boardwalk_2course__data_8inc_8h.html#af7973f2074c90bb165944194354441d8":[8,0,0,0,1,36],
+"banshee__boardwalk_2course__data_8inc_8h.html#af797f20a800841883ec3de29c2a8ccaf":[8,0,0,0,1,32],
+"banshee__boardwalk_2course__data_8inc_8h.html#af7d02c613686b60f2565150691a7ddb6":[8,0,0,0,1,41]
 };
