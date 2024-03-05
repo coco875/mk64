@@ -1,5 +1,12 @@
 var NAVTREEINDEX39 =
 {
+"frappe__snowland_2course__displaylists_8inc_8c.html#a9db1528e75acf8e4a72ee6f4b635c284":[8,0,0,7,2,60],
+"frappe__snowland_2course__displaylists_8inc_8c.html#aa22153f33596e22e0fb8ec57a04502a4":[8,0,0,7,2,98],
+"frappe__snowland_2course__displaylists_8inc_8c.html#aa29ecfd52716d471172ff648c3c5ef7c":[8,0,0,7,2,137],
+"frappe__snowland_2course__displaylists_8inc_8c.html#aa314dd83faf2bb904ee857aed7e65184":[8,0,0,7,2,33],
+"frappe__snowland_2course__displaylists_8inc_8c.html#aa4d17c20870b076bbd533790495afab4":[8,0,0,7,2,6],
+"frappe__snowland_2course__displaylists_8inc_8c.html#aa5a1e546cf48db470a52914f630b6dec":[8,0,0,7,2,121],
+"frappe__snowland_2course__displaylists_8inc_8c.html#aa689c150ccd364abfa8c6f536dfdc696":[8,0,0,7,2,56],
 "frappe__snowland_2course__displaylists_8inc_8c.html#aa8dc9b1c517ce59b5dd77a9b26a0df31":[8,0,0,7,2,101],
 "frappe__snowland_2course__displaylists_8inc_8c.html#aa96476af336dddfadc32cca5601ddfe1":[8,0,0,7,2,26],
 "frappe__snowland_2course__displaylists_8inc_8c.html#aaa8337f7f1fb52898367328446a4d0d5":[8,0,0,7,2,3],
@@ -204,8 +211,8 @@ var NAVTREEINDEX39 =
 "frappe__snowland_2course__offsets_8inc_8c.html#aef3d2299eea3705d2331e91eb310cc03":[8,0,0,7,4,7],
 "frappe__snowland_2course__vertices_8inc_8c.html":[8,0,0,7,5],
 "frappe__snowland_2course__vertices_8inc_8c.html#a1ec683eb9d6c6022a1131cd35cf8d7e8":[8,0,0,7,5,0],
-"functions.html":[7,2,0,0],
 "functions.html":[7,2,0],
+"functions.html":[7,2,0,0],
 "functions_b.html":[7,2,0,1],
 "functions_c.html":[7,2,0,2],
 "functions_d.html":[7,2,0,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX39 =
 "functions_vars_n.html":[7,2,1,12],
 "functions_vars_o.html":[7,2,1,13],
 "functions_vars_p.html":[7,2,1,14],
-"functions_vars_q.html":[7,2,1,15],
-"functions_vars_r.html":[7,2,1,16],
-"functions_vars_s.html":[7,2,1,17],
-"functions_vars_t.html":[7,2,1,18],
-"functions_vars_u.html":[7,2,1,19],
-"functions_vars_v.html":[7,2,1,20],
-"functions_vars_w.html":[7,2,1,21],
-"functions_vars_x.html":[7,2,1,22]
+"functions_vars_q.html":[7,2,1,15]
 };

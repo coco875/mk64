@@ -1,8 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"common__textures_8inc_8c.html#a7332eee0294b4c77f30dec70b6c5a1f3":[8,0,3,2,1,339],
-"common__textures_8inc_8c.html#a748dc53812889331d4b3a6ae3fb1ae3d":[8,0,3,2,1,283],
-"common__textures_8inc_8c.html#a75aec76a1ac487168fbd094bdeb0c45a":[8,0,3,2,1,275],
 "common__textures_8inc_8c.html#a7669183fc6e03315d9f2b5dbbab21b94":[8,0,3,2,1,289],
 "common__textures_8inc_8c.html#a798b4456933ca3d6ad9a054523d6a63a":[8,0,3,2,1,311],
 "common__textures_8inc_8c.html#a7a6d87ae8a0c2f13ac312cbc822f6ca8":[8,0,3,2,1,295],
@@ -243,11 +240,14 @@ var NAVTREEINDEX28 =
 "contramwrite_8c.html#a5a8e6638b28caf3b5faba67df76d099c":[8,0,3,5,34,1],
 "contramwrite_8c.html#ac0f1bb81601cedc5fc5868fc7e500b88":[8,0,3,5,34,0],
 "controlflow.html":[1,2],
-"controlflow.html#actors":[1,2,4,2],
+"controlflow.html#actors-1":[1,2,4,2],
 "controlflow.html#code-breakdown":[1,2,4],
 "controlflow.html#course-folder":[1,2,4,4,0],
-"controlflow.html#courses-1":[1,2,4,4],
+"controlflow.html#courses":[1,2,4,4],
 "controlflow.html#ending":[1,2,4,8],
 "controlflow.html#engine":[1,2,4,6],
-"controlflow.html#math":[1,2,4,7]
+"controlflow.html#math":[1,2,4,7],
+"controlflow.html#menus":[1,2,4,0],
+"controlflow.html#objects-1":[1,2,4,3],
+"controlflow.html#overall-control-flow":[1,2,2]
 };

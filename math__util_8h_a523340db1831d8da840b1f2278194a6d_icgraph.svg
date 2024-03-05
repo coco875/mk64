@@ -66,7 +66,7 @@ var sectionId = 'dynsection-65';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="falling__rocks_8inc_8c.html#a9a8171deacccacba26f4fda3f2aec227" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="falling__rock_2update_8inc_8c.html#a9a8171deacccacba26f4fda3f2aec227" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1915,-272.44 1823,-272.44 1823,-253.44 1915,-253.44 1915,-272.44"/>
 <text text-anchor="middle" x="1869" y="-260.44" font-family="Helvetica,sans-Serif" font-size="10.00">func_8029CF0C</text>
 </a>
@@ -156,7 +156,7 @@ var sectionId = 'dynsection-65';
 <!-- Node28 -->
 <g id="Node000028" class="node">
 <title>Node28</title>
-<g id="a_Node000028"><a xlink:href="falling__rocks_8inc_8c.html#aa1befa8b36aff5f3d15c58cb8b1f6231" target="_top" xlink:title=" ">
+<g id="a_Node000028"><a xlink:href="falling__rock_2update_8inc_8c.html#aa1befa8b36aff5f3d15c58cb8b1f6231" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1924,-119.44 1814,-119.44 1814,-100.44 1924,-100.44 1924,-119.44"/>
 <text text-anchor="middle" x="1869" y="-107.44" font-family="Helvetica,sans-Serif" font-size="10.00">place_falling_rocks</text>
 </a>
@@ -210,7 +210,7 @@ var sectionId = 'dynsection-65';
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="falling__rocks_8inc_8c.html#a7476a0a7924f3878d39fb7b83f229779" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="falling__rock_2update_8inc_8c.html#a7476a0a7924f3878d39fb7b83f229779" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1773,-280.94 1657,-280.94 1657,-250.94 1773,-250.94 1773,-280.94"/>
 <text text-anchor="start" x="1665" y="-268.94" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_falling</text>
 <text text-anchor="middle" x="1715" y="-257.94" font-family="Helvetica,sans-Serif" font-size="10.00">_rocks</text>

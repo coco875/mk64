@@ -1,5 +1,12 @@
 var NAVTREEINDEX72 =
 {
+"luigi__raceway_2course__displaylists_8inc_8h.html#a7a18e3070b0719adb19cf2ca4c19083b":[8,0,0,10,3,278],
+"luigi__raceway_2course__displaylists_8inc_8h.html#a7a97ca12e64d2ccc850923c7a46ad455":[8,0,0,10,3,268],
+"luigi__raceway_2course__displaylists_8inc_8h.html#a7aa4386e451d59d9af9c847ffb574324":[8,0,0,10,3,289],
+"luigi__raceway_2course__displaylists_8inc_8h.html#a7ad54bda3ec1830df667022aa9d8cad5":[8,0,0,10,3,286],
+"luigi__raceway_2course__displaylists_8inc_8h.html#a7b4db6070ea262525209760066e6c9dd":[8,0,0,10,3,270],
+"luigi__raceway_2course__displaylists_8inc_8h.html#a7b5bf3df7a011b74634014ab0ef0e1d7":[8,0,0,10,3,280],
+"luigi__raceway_2course__displaylists_8inc_8h.html#a7b8d5edb1811e83ae969aab497f39a95":[8,0,0,10,3,227],
 "luigi__raceway_2course__displaylists_8inc_8h.html#a7e4188e77f861dd90f3400159065eb91":[8,0,0,10,3,161],
 "luigi__raceway_2course__displaylists_8inc_8h.html#a7f156e96fc81becc5e75fdc1a563f445":[8,0,0,10,3,260],
 "luigi__raceway_2course__displaylists_8inc_8h.html#a7f1ff586e775c85f7d728e62a3ed4ee5":[8,0,0,10,3,90],
@@ -242,12 +249,5 @@ var NAVTREEINDEX72 =
 "luigi__raceway_2course__offsets_8inc_8c.html#ac1a169ef764460f3048de26773ec3539":[8,0,0,10,4,28],
 "luigi__raceway_2course__offsets_8inc_8c.html#ac8f2ff3ac2cb7a40478b6294655184d8":[8,0,0,10,4,24],
 "luigi__raceway_2course__offsets_8inc_8c.html#ac9159a0b190ec56380d6bfa4c76f461d":[8,0,0,10,4,23],
-"luigi__raceway_2course__offsets_8inc_8c.html#ad2ee947bfbe5cd4ba72dd4884b82227e":[8,0,0,10,4,1],
-"luigi__raceway_2course__offsets_8inc_8c.html#afe4fbe8cd1d58805fc55a58b6dc15727":[8,0,0,10,4,34],
-"luigi__raceway_2course__vertices_8inc_8c.html":[8,0,0,10,5],
-"luigi__raceway_2course__vertices_8inc_8c.html#ad0fde735a3df05d80381934087e1b749":[8,0,0,10,5,0],
-"luigi__raceway_2staff__ghost_8incl_8c.html":[8,0,0,10,6],
-"luigi__raceway_2staff__ghost_8incl_8c_source.html":[8,0,0,10,6],
-"macros_8h.html":[8,0,2,13],
-"macros_8h.html#a08b2c3c00c27891c0b0179c9d8a1c2b6":[8,0,2,13,0]
+"luigi__raceway_2course__offsets_8inc_8c.html#ad2ee947bfbe5cd4ba72dd4884b82227e":[8,0,0,10,4,1]
 };
