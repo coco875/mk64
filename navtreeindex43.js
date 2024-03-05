@@ -1,17 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"guTranslateF_8c.html#ad8d0c6a920defddefdd6bbf1a0e23c3d":[8,0,3,5,48,1],
-"gu_8h.html":[8,0,2,1,3],
-"gu_8h.html#a257a86497fc08677370948eda3163595":[8,0,2,1,3,7],
-"gu_8h.html#a3c7ea94e85b6223217da0d857627ed02":[8,0,2,1,3,9],
-"gu_8h.html#a40ab2d64c609839ff1e0ef0de2d0dcc4":[8,0,2,1,3,5],
-"gu_8h.html#a42e27e884f27d0dd332f140ef599b723":[8,0,2,1,3,14],
-"gu_8h.html#a440bd049e431a7ef892658d88620646c":[8,0,2,1,3,12],
-"gu_8h.html#a55491e80a220bd50c3f5084400171259":[8,0,2,1,3,3],
-"gu_8h.html#a58b365e073c051c652890891b52239ac":[8,0,2,1,3,15],
-"gu_8h.html#a771a71c2d959bf835362325d128647f2":[8,0,2,1,3,0],
-"gu_8h.html#a8d98eadd95eea7f4a8ca8aac8ebdf10c":[8,0,2,1,3,6],
-"gu_8h.html#a96a205b9cf6b90562d3f2ad86e10a0c8":[8,0,2,1,3,8],
 "gu_8h.html#a98ec2e0b2831b168feffd49493a08134":[8,0,2,1,3,13],
 "gu_8h.html#ab2d0e72372b38fe03d85cecaf3705ebb":[8,0,2,1,3,1],
 "gu_8h.html#ac2050885d6967becf0e5e3bb3e54bd08":[8,0,2,1,3,11],
@@ -249,5 +237,17 @@ var NAVTREEINDEX43 =
 "heap_8h.html#aac0c54a2a289a155ef99d7d5cbd1fe9a":[8,0,3,1,8,13],
 "heap_8h.html#aac115578a7d0ca0278163b77038ba1b2":[8,0,3,1,8,16],
 "heap_8h.html#aac4dcb5f9eb448099c23e6ea74a857f4":[8,0,3,1,8,53],
-"heap_8h.html#ab4f80aff560307d96b2c40b5c0ed82f8":[8,0,3,1,8,26]
+"heap_8h.html#ab4f80aff560307d96b2c40b5c0ed82f8":[8,0,3,1,8,26],
+"heap_8h.html#ab86b8a71a61ac918a475620825f576bc":[8,0,3,1,8,43],
+"heap_8h.html#ab8d4a0abb63641a36559bf0a0ad013f9":[8,0,3,1,8,21],
+"heap_8h.html#aba424a42f8fe3056ec1d69af7ce98760":[8,0,3,1,8,49],
+"heap_8h.html#abe485e48dbb11d78afab0ff0beb8e005":[8,0,3,1,8,24],
+"heap_8h.html#abe90d76dabdd7e8808cb1d520607888c":[8,0,3,1,8,37],
+"heap_8h.html#ac66be349bc4ed1435ee2f57b83bef5a4":[8,0,3,1,8,72],
+"heap_8h.html#ac67cf2814d9d4bfb70ab9269f32b4d70":[8,0,3,1,8,52],
+"heap_8h.html#ac928878c0e20b7870283b160eb37a252":[8,0,3,1,8,38],
+"heap_8h.html#ac9c549790372cdde7d11ecbfcea12d43":[8,0,3,1,8,69],
+"heap_8h.html#acfce4b6d5e6c99e32be7d7896f8ac0e2":[8,0,3,1,8,12],
+"heap_8h.html#ad307f53e20a9845ee9e1614307f82260":[8,0,3,1,8,59],
+"heap_8h.html#ad50f1dcf21ec1c9b6ed57c0a38125997":[8,0,3,1,8,42]
 };

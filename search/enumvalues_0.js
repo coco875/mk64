@@ -37,7 +37,7 @@ var searchData=
   ['actor_5ftriple_5fgreen_5fshell_34',['ACTOR_TRIPLE_GREEN_SHELL',['../actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990ad997bebb06b8cc8d826960f077cbef2f',1,'actor_types.h']]],
   ['actor_5ftriple_5fred_5fshell_35',['ACTOR_TRIPLE_RED_SHELL',['../actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990a325a39a80ee5c1af000a72187c8da86d',1,'actor_types.h']]],
   ['actor_5fwario_5fsign_36',['ACTOR_WARIO_SIGN',['../actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990a1dc03bd4112ad4bdf10252b9074c794e',1,'actor_types.h']]],
-  ['actor_5fyoshi_5fvalley_5fegg_37',['ACTOR_YOSHI_VALLEY_EGG',['../actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990afd0cb626d165e53b801ac59f08e7ed41',1,'actor_types.h']]],
+  ['actor_5fyoshi_5fegg_37',['ACTOR_YOSHI_EGG',['../actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990a9a5b90d71f1d6c4a72fafd72661e0660',1,'actor_types.h']]],
   ['after_5fdisplay_5flists_38',['AFTER_DISPLAY_LISTS',['../profiler_8h.html#a464075ec8b898dea3a20b3166dd123bfa3cb3edb479d6c28d023c9c0c5d15e02b',1,'profiler.h']]],
   ['airborne_39',['AIRBORNE',['../common__structs_8h.html#a5344f2bdca4f9506c40f044e08ea8c98aae231593748597efa2fddd103805f4f0',1,'common_structs.h']]],
   ['al_5fadpcm_5fwave_40',['AL_ADPCM_WAVE',['../libaudio__internal_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a7f18be1646f533e496b1228ee0df8435',1,'libaudio_internal.h']]],

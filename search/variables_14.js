@@ -45,7 +45,7 @@ var searchData=
   ['time_42',['time',['../structVibratoState.html#a764da96013725ad7ca6b5bebc9e37619',1,'VibratoState::time'],['../struct____OSThreadprofile__s.html#a0c442ea9649b43c79487aafe0bab8d11',1,'__OSThreadprofile_s::time']]],
   ['timelasttouchedfinishline_43',['timeLastTouchedFinishLine',['../structhud__player.html#ae79672e0d4f621f8d0570dff1c7cd2b5',1,'hud_player']]],
   ['timer_44',['timer',['../structstruct__801642D8.html#a364f84ac84281aeddf020e327ac8de44',1,'struct_801642D8::timer'],['../structCeremonyActor.html#aac46b3a4f542449246d1fcec1387ef36',1,'CeremonyActor::timer'],['../structObjects.html#aeef51b2409e84c7b14bc59c13980e119',1,'Objects::timer']]],
-  ['timers_45',['timers',['../structPiranhaPlant.html#aad0102ae4844055bddecf89439f28ba0',1,'PiranhaPlant::timers'],['../structPalmTree.html#a9efe1c7d44441c28daeefb791c2fc3b1',1,'PalmTree::timers']]],
+  ['timers_45',['timers',['../structPiranhaPlant.html#aad0102ae4844055bddecf89439f28ba0',1,'PiranhaPlant']]],
   ['timerx_46',['timerX',['../structhud__player.html#a4e7f899bbe6582da0c78d383de4baf38',1,'hud_player']]],
   ['timery_47',['timerY',['../structhud__player.html#aa21cf21b02048bda46fcbb4fd38b37fc',1,'hud_player']]],
   ['tline_48',['tline',['../structuObjTxtrBlock__t.html#ab402ad941424b0fdf9c2f90e1967b076',1,'uObjTxtrBlock_t']]],

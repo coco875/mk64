@@ -30,7 +30,7 @@ var actor__types_8h =
       [ "ACTOR_BANANA", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990ae3cee5f426669a944cd7053e448ab6ad", null ],
       [ "ACTOR_GREEN_SHELL", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990a804d4c7011f92195958b8a1c443c8b62", null ],
       [ "ACTOR_RED_SHELL", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990a1cc14c146c0ad5e7ee9f89b46d93fbdc", null ],
-      [ "ACTOR_YOSHI_VALLEY_EGG", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990afd0cb626d165e53b801ac59f08e7ed41", null ],
+      [ "ACTOR_YOSHI_EGG", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990a9a5b90d71f1d6c4a72fafd72661e0660", null ],
       [ "ACTOR_PIRANHA_PLANT", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990a5df44fbc53425044021291d87109b67f", null ],
       [ "ACTOR_ITEM_BOX", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990affafe89858c18e017f35c1b43bc9781e", null ],
       [ "ACTOR_FAKE_ITEM_BOX", "actor__types_8h.html#a06ad3f803827afd107e7682c8c22d990abca7e8ef94d841ba49aa31d59dee25ec", null ],

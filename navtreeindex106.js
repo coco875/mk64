@@ -1,5 +1,8 @@
 var NAVTREEINDEX106 =
 {
+"staff__ghosts_8c.html#a992511932a32279879ff11219e11285e":[8,0,3,59,56],
+"staff__ghosts_8c.html#a9bd326daa05418a0ab296791b3ac9913":[8,0,3,59,0],
+"staff__ghosts_8c.html#aa017eb1278dc838f0c685ee8b019b588":[8,0,3,59,8],
 "staff__ghosts_8c.html#aa31bfb73f37b232f095701d48a4dc494":[8,0,3,59,21],
 "staff__ghosts_8c.html#aa4bea4f1a6532442de02938ca3a6f794":[8,0,3,59,44],
 "staff__ghosts_8c.html#aaa8df3480c7ade28b5511c10c671eb33":[8,0,3,59,17],
@@ -224,11 +227,11 @@ var NAVTREEINDEX106 =
 "structALWaveTable__s.html":[7,0,41],
 "structALWaveTable__s.html#a0e0fc820a7b7c2c8dcdfe38e60c0fa25":[7,0,41,4],
 "structALWaveTable__s.html#a42402da278ae304efe7ff64ce3d1983f":[7,0,41,3],
-"structALWaveTable__s.html#a85b362aa52c9213e918b655fc4604187":[7,0,41,6],
 "structALWaveTable__s.html#a8b00d48faf540e97599e88086d7c9ba5":[7,0,41,1],
 "structALWaveTable__s.html#aa9aafaec1f56b5cb5a16e7bfde1c3bd9":[7,0,41,0],
 "structALWaveTable__s.html#acc769d06bf577d20eeb968567b0e905e":[7,0,41,2],
 "structALWaveTable__s.html#aebc02789aef2309a8a3d1dce0975b043":[7,0,41,5],
+"structALWaveTable__s.html#aef2c7c83689509bcdb65f9a508135712":[7,0,41,6],
 "structActor.html":[7,0,18],
 "structActor.html#a1a515077e28877484ea593456e07b0d6":[7,0,18,5],
 "structActor.html#a40d6b4340f478a137d04651cc68a7aac":[7,0,18,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX106 =
 "structActorInitParams.html#aa1552101fcd8a100d1c9f68b9b4d393b":[7,0,19,2],
 "structActorInitParams.html#ab495c52104edc7ea6f64ac588d0b9e7a":[7,0,19,5],
 "structActorInitParams.html#ac4ecfe8518fd4440bb06cec29488c8b4":[7,0,19,3],
-"structActorInitParams.html#ae91c98d7141b436d77f3188e7efdedc7":[7,0,19,0],
-"structActorInitParams.html#aee3fc8bb9d007d475565866fcf3e5324":[7,0,19,4],
-"structActorSpawnData.html":[7,0,20],
-"structActorSpawnData.html#abe56902c1485bde757178d94912f36d6":[7,0,20,1]
+"structActorInitParams.html#ae91c98d7141b436d77f3188e7efdedc7":[7,0,19,0]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX107 =
 {
+"structActorInitParams.html#aee3fc8bb9d007d475565866fcf3e5324":[7,0,19,4],
+"structActorSpawnData.html":[7,0,20],
+"structActorSpawnData.html#abe56902c1485bde757178d94912f36d6":[7,0,20,1],
 "structActorSpawnData.html#accbc5f2097f1317afa9519a2e4d5833c":[7,0,20,0],
 "structActorSpawnData.html#adbbe576bada169e0b7b635882881fcf8":[7,0,20,2],
 "structAdpcmBook.html":[7,0,21],
@@ -246,8 +249,5 @@ var NAVTREEINDEX107 =
 "structCourseTable.html":[7,0,63],
 "structCourseTable.html#a183500b9277fec956b18c017fd1e7b40":[7,0,63,0],
 "structCourseTable.html#a28a03004624fc1b834eb2e96ed60e986":[7,0,63,7],
-"structCourseTable.html#a3cf1bf38e79a6dec2cd2708a095e624f":[7,0,63,12],
-"structCourseTable.html#a5262f9e65471d1bbd8ed086bffe11533":[7,0,63,2],
-"structCourseTable.html#a662d764edc256fea0e6bce1ee5997d34":[7,0,63,8],
-"structCourseTable.html#a6fc9a543955a768600f7fad522a7e720":[7,0,63,5]
+"structCourseTable.html#a3cf1bf38e79a6dec2cd2708a095e624f":[7,0,63,12]
 };

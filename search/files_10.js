@@ -4,7 +4,7 @@ var searchData=
   ['race_5flogic_2ec_1',['race_logic.c',['../race__logic_8c.html',1,'']]],
   ['race_5flogic_2eh_2',['race_logic.h',['../race__logic_8h.html',1,'']]],
   ['rcp_2eh_3',['rcp.h',['../rcp_8h.html',1,'']]],
-  ['render_2einc_2ec_4',['render.inc.c',['../render_8inc_8c.html',1,'']]],
+  ['render_2einc_2ec_4',['render.inc.c',['../cow_2render_8inc_8c.html',1,'(Global Namespace)'],['../kiwano__fruit_2render_8inc_8c.html',1,'(Global Namespace)'],['../paddle__boat_2render_8inc_8c.html',1,'(Global Namespace)'],['../piranha__plant_2render_8inc_8c.html',1,'(Global Namespace)'],['../train_2render_8inc_8c.html',1,'(Global Namespace)'],['../tree_2render_8inc_8c.html',1,'(Global Namespace)'],['../yoshi__egg_2render_8inc_8c.html',1,'(Global Namespace)']]],
   ['render_5fcourses_2ec_5',['render_courses.c',['../render__courses_8c.html',1,'']]],
   ['render_5fcourses_2eh_6',['render_courses.h',['../render__courses_8h.html',1,'']]],
   ['render_5fobjects_2ec_7',['render_objects.c',['../render__objects_8c.html',1,'']]],

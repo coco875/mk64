@@ -1,17 +1,5 @@
 var NAVTREEINDEX52 =
 {
-"kart__dma_8h.html#a1658e6a226ea09ce6ce9cb49580bc900":[8,0,3,40,2707],
-"kart__dma_8h.html#a16598ea97d291e4409cd5a4ba2ff0ae6":[8,0,3,40,202],
-"kart__dma_8h.html#a169fcd3830a0ec111249c81931c4caf9":[8,0,3,40,2213],
-"kart__dma_8h.html#a16a9183c4bc53fab5f8c83ed8d085543":[8,0,3,40,362],
-"kart__dma_8h.html#a16cdcbc5d5b321ca7910cdbdaecb337c":[8,0,3,40,1743],
-"kart__dma_8h.html#a1701eb7e1faf26715eda957bef02378f":[8,0,3,40,2475],
-"kart__dma_8h.html#a1703266ac865462146ff658de2107c13":[8,0,3,40,876],
-"kart__dma_8h.html#a170ba5e8d3b72043c043cc9bc6190b34":[8,0,3,40,128],
-"kart__dma_8h.html#a170c4a32dab9b4489d57809d7a1752da":[8,0,3,40,460],
-"kart__dma_8h.html#a170e674c6703ded92cdd847b38b3a6be":[8,0,3,40,1106],
-"kart__dma_8h.html#a1730011eabb77ec604f7e3555089e754":[8,0,3,40,45],
-"kart__dma_8h.html#a175f8a6aa2ec3e7f9c255d39f353ea47":[8,0,3,40,1217],
 "kart__dma_8h.html#a176c49ad6ec68148498f8d6e98449247":[8,0,3,40,1742],
 "kart__dma_8h.html#a177130f29460a800c666544c470b5d52":[8,0,3,40,2139],
 "kart__dma_8h.html#a17ad71027bb93d95b3cc52b1972a91d3":[8,0,3,40,1186],
@@ -249,5 +237,17 @@ var NAVTREEINDEX52 =
 "kart__dma_8h.html#a2b74ac57d3db6c0c4772ea04f365bdd2":[8,0,3,40,2337],
 "kart__dma_8h.html#a2b99417b32531dd5ca7fdfcaad38aff4":[8,0,3,40,983],
 "kart__dma_8h.html#a2bab1b399c2cea47cf2b3d6cd036d500":[8,0,3,40,2355],
-"kart__dma_8h.html#a2bb131a1094cf3d06e899258a69b87cc":[8,0,3,40,2528]
+"kart__dma_8h.html#a2bb131a1094cf3d06e899258a69b87cc":[8,0,3,40,2528],
+"kart__dma_8h.html#a2bf6bd1bcb3cd8aae32e641738f09d8a":[8,0,3,40,231],
+"kart__dma_8h.html#a2bfdb6ead258ff016d863aa055b2196c":[8,0,3,40,14],
+"kart__dma_8h.html#a2c19addbe1cdb39c6c494535c0ab8091":[8,0,3,40,2128],
+"kart__dma_8h.html#a2c32e5e85c443edb225634cf403a2b85":[8,0,3,40,1485],
+"kart__dma_8h.html#a2c45b531af709b27ebf32a767940fe7a":[8,0,3,40,891],
+"kart__dma_8h.html#a2c5c24da5686135d23b21e0607623580":[8,0,3,40,2206],
+"kart__dma_8h.html#a2c82851588961ae16a7b74194eb49300":[8,0,3,40,1457],
+"kart__dma_8h.html#a2c9439d4b16a20289660ba632caca152":[8,0,3,40,428],
+"kart__dma_8h.html#a2ccc16b84d702e0075ee9a0a2a07db19":[8,0,3,40,1524],
+"kart__dma_8h.html#a2cd1448c82a1a9e7724e4e56206b0733":[8,0,3,40,1381],
+"kart__dma_8h.html#a2ceb40bf5ab06a37380dff053926cf20":[8,0,3,40,596],
+"kart__dma_8h.html#a2cf44290bbe0c784703c40ce1d1d2a4b":[8,0,3,40,2281]
 };

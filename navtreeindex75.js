@@ -1,11 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"mario__raceway_2course__data_8inc_8h.html#a5a7c3496faf0f60bfd7e0164a67104f4":[8,0,0,11,1,6],
-"mario__raceway_2course__data_8inc_8h.html#a5ce6bf30a3e89e79b1857218c96c16e6":[8,0,0,11,1,7],
-"mario__raceway_2course__data_8inc_8h.html#a6bbde0bb01c574576e709546718a56a7":[8,0,0,11,1,60],
-"mario__raceway_2course__data_8inc_8h.html#a6d4c5e72388d5d03498ba63002ca0c8c":[8,0,0,11,1,31],
-"mario__raceway_2course__data_8inc_8h.html#a6e3ab4268a2023aa9e65aea1ee9ceef3":[8,0,0,11,1,57],
-"mario__raceway_2course__data_8inc_8h.html#a7057ed9dd1b2396388c34221cf7f1d00":[8,0,0,11,1,69],
 "mario__raceway_2course__data_8inc_8h.html#a739c5034baf0e40e9932f3361909fd0b":[8,0,0,11,1,32],
 "mario__raceway_2course__data_8inc_8h.html#a755e64c5b1313265422fd07280c87a81":[8,0,0,11,1,14],
 "mario__raceway_2course__data_8inc_8h.html#a781f0e43ded9ebca176740938c192a0b":[8,0,0,11,1,19],
@@ -249,5 +243,11 @@ var NAVTREEINDEX75 =
 "mario__raceway_2course__displaylists_8inc_8h.html#a087012e7b449f41528f0d9cce0435f2f":[8,0,0,11,3,118],
 "mario__raceway_2course__displaylists_8inc_8h.html#a09eccb5235db32d2067c060eaa70cf9c":[8,0,0,11,3,34],
 "mario__raceway_2course__displaylists_8inc_8h.html#a0b6fdf17e3c6c60cc162ac5698665d25":[8,0,0,11,3,54],
-"mario__raceway_2course__displaylists_8inc_8h.html#a0bab035fa3cae8bfdc91348d5f0f5026":[8,0,0,11,3,18]
+"mario__raceway_2course__displaylists_8inc_8h.html#a0bab035fa3cae8bfdc91348d5f0f5026":[8,0,0,11,3,18],
+"mario__raceway_2course__displaylists_8inc_8h.html#a0c45f8fa46ab13d4101b2128f5da3a1f":[8,0,0,11,3,98],
+"mario__raceway_2course__displaylists_8inc_8h.html#a0c51696aadda7c1d46e688c942d12776":[8,0,0,11,3,49],
+"mario__raceway_2course__displaylists_8inc_8h.html#a0f1bd72b726e6ad88505597079f0686b":[8,0,0,11,3,148],
+"mario__raceway_2course__displaylists_8inc_8h.html#a126954b23f546a80f11df147a6409d0e":[8,0,0,11,3,37],
+"mario__raceway_2course__displaylists_8inc_8h.html#a134b4882d938295211a63dd786d6256f":[8,0,0,11,3,40],
+"mario__raceway_2course__displaylists_8inc_8h.html#a13db8a5c19feb297c21c57b80ba66983":[8,0,0,11,3,93]
 };

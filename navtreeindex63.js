@@ -1,11 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"koopa__troopa__beach_2course__data_8inc_8c.html#aaf888c9217ffb94156d3c1d7bf6d2536":[8,0,0,9,0,234],
-"koopa__troopa__beach_2course__data_8inc_8c.html#ab06497f276878c381764303717376710":[8,0,0,9,0,25],
-"koopa__troopa__beach_2course__data_8inc_8c.html#ab065d332d795ac253167defec7ae7fa6":[8,0,0,9,0,357],
-"koopa__troopa__beach_2course__data_8inc_8c.html#ab362bdf6803fd1847742a1d9f1a9a8ae":[8,0,0,9,0,221],
-"koopa__troopa__beach_2course__data_8inc_8c.html#ab39b38426e389a587e410c6266eb2cb2":[8,0,0,9,0,277],
-"koopa__troopa__beach_2course__data_8inc_8c.html#ab45455c0bf01f568f5c44ffe2913eda1":[8,0,0,9,0,145],
 "koopa__troopa__beach_2course__data_8inc_8c.html#ab457243c9f6b12d3711b01a499f793f6":[8,0,0,9,0,345],
 "koopa__troopa__beach_2course__data_8inc_8c.html#ab59a8523edcd44164333b398bbb93ff1":[8,0,0,9,0,209],
 "koopa__troopa__beach_2course__data_8inc_8c.html#ab69f8e1786c4b95a0844419487104857":[8,0,0,9,0,206],
@@ -249,5 +243,11 @@ var NAVTREEINDEX63 =
 "koopa__troopa__beach_2course__data_8inc_8h.html#a578e308fc828ef19617279e38ba3936f":[8,0,0,9,1,197],
 "koopa__troopa__beach_2course__data_8inc_8h.html#a58f2c85b28e8aef2b7b91707abdd47db":[8,0,0,9,1,78],
 "koopa__troopa__beach_2course__data_8inc_8h.html#a5ae56f298f6e2eeae815e9e26e7749a1":[8,0,0,9,1,274],
-"koopa__troopa__beach_2course__data_8inc_8h.html#a5b1a30bbae41b5bce26fa293b6d5c76c":[8,0,0,9,1,40]
+"koopa__troopa__beach_2course__data_8inc_8h.html#a5b1a30bbae41b5bce26fa293b6d5c76c":[8,0,0,9,1,40],
+"koopa__troopa__beach_2course__data_8inc_8h.html#a5b87d93fa091798fec23c2403b3fa322":[8,0,0,9,1,7],
+"koopa__troopa__beach_2course__data_8inc_8h.html#a5be21d5949b8b9db55dce226a918f2b6":[8,0,0,9,1,154],
+"koopa__troopa__beach_2course__data_8inc_8h.html#a5c95f33c21004319660493b522c81cba":[8,0,0,9,1,149],
+"koopa__troopa__beach_2course__data_8inc_8h.html#a5d322e10b46cacdd6879baf484ae89e4":[8,0,0,9,1,69],
+"koopa__troopa__beach_2course__data_8inc_8h.html#a5da440821684f3d5de1eab427f304ade":[8,0,0,9,1,60],
+"koopa__troopa__beach_2course__data_8inc_8h.html#a5e03f04463bc59db9455ca0a80d1e6eb":[8,0,0,9,1,115]
 };

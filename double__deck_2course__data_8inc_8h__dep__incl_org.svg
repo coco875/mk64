@@ -40,7 +40,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="render_8inc_8c.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="paddle__boat_2render_8inc_8c.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="127,-140 0,-140 0,-110 127,-110 127,-140"/>
 <text text-anchor="start" x="8" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">src/actors/paddle_boat</text>
 <text text-anchor="middle" x="63.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">/render.inc.c</text>

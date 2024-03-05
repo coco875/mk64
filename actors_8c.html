@@ -131,10 +131,19 @@ $(function(){initNavTree('actors_8c.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="common__textures_8h_source.html">common_textures.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="all__course__data_8h_source.html">courses/all_course_data.h</a>&quot;</code><br />
 <code>#include &quot;data/other_textures.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="update_8inc_8c_source.html">actors/paddle_boat/update.inc.c</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="train_8inc_8c_source.html">actors/train.inc.c</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="render_8inc_8c_source.html">actors/paddle_boat/render.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cow_2render_8inc_8c_source.html">actors/cow/render.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="yoshi__egg_2update_8inc_8c_source.html">actors/yoshi_egg/update.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="kiwano__fruit_2update_8inc_8c_source.html">actors/kiwano_fruit/update.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="paddle__boat_2update_8inc_8c_source.html">actors/paddle_boat/update.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="train_2update_8inc_8c_source.html">actors/train/update.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="piranha__plant_2update_8inc_8c_source.html">actors/piranha_plant/update.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="piranha__plant_2render_8inc_8c_source.html">actors/piranha_plant/render.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tree_2render_8inc_8c_source.html">actors/tree/render.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="kiwano__fruit_2render_8inc_8c_source.html">actors/kiwano_fruit/render.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="paddle__boat_2render_8inc_8c_source.html">actors/paddle_boat/render.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="train_2render_8inc_8c_source.html">actors/train/render.inc.c</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="falling__rocks_8inc_8c_source.html">actors/falling_rocks.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="yoshi__egg_2render_8inc_8c_source.html">actors/yoshi_egg/render.inc.c</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for actors.c:</div>
 <div class="dyncontent">
@@ -178,20 +187,10 @@ Functions</h2></td></tr>
 <tr class="separator:afc1fde16c0bb63433300f5a845cbcc5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e950a72a2fb31b55123e856e64e15c0" id="r_a1e950a72a2fb31b55123e856e64e15c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e950a72a2fb31b55123e856e64e15c0">func_802979F8</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
 <tr class="separator:a1e950a72a2fb31b55123e856e64e15c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3032e5759fffafb766e96e1991ab0350" id="r_a3032e5759fffafb766e96e1991ab0350"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3032e5759fffafb766e96e1991ab0350">render_actor_cow</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:a3032e5759fffafb766e96e1991ab0350"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee9f9973a051f70e42ff453bb7c26194" id="r_aee9f9973a051f70e42ff453bb7c26194"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee9f9973a051f70e42ff453bb7c26194">update_actor_yoshi_valley_egg</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structYoshiValleyEgg.html">YoshiValleyEgg</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">egg</a>)</td></tr>
-<tr class="separator:aee9f9973a051f70e42ff453bb7c26194"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5623a0fcfea426289ae34883817e5352" id="r_a5623a0fcfea426289ae34883817e5352"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5623a0fcfea426289ae34883817e5352">update_actor_trees_cacti_shrubs</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
-<tr class="separator:a5623a0fcfea426289ae34883817e5352"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48151e0a9b8ce3c98ec426c640fe6f1d" id="r_a48151e0a9b8ce3c98ec426c640fe6f1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48151e0a9b8ce3c98ec426c640fe6f1d">update_actor_kiwano_fruit</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structKiwanoFruit.html">KiwanoFruit</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">fruit</a>)</td></tr>
-<tr class="separator:a48151e0a9b8ce3c98ec426c640fe6f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a430eed14b9bbadcff26b1fa30f3058bf" id="r_a430eed14b9bbadcff26b1fa30f3058bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a430eed14b9bbadcff26b1fa30f3058bf">update_actor_piranha_plant</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPiranhaPlant.html">PiranhaPlant</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
-<tr class="separator:a430eed14b9bbadcff26b1fa30f3058bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f6ae1f0bb9e1576559b2faed48c8f7a" id="r_a7f6ae1f0bb9e1576559b2faed48c8f7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f6ae1f0bb9e1576559b2faed48c8f7a">render_actor_piranha_plant</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPiranhaPlant.html">PiranhaPlant</a> *arg2)</td></tr>
-<tr class="separator:a7f6ae1f0bb9e1576559b2faed48c8f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a473b64ad83f4eaa3f65202a629eab481" id="r_a473b64ad83f4eaa3f65202a629eab481"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a473b64ad83f4eaa3f65202a629eab481">func_802986B4</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
-<tr class="separator:a473b64ad83f4eaa3f65202a629eab481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a3f12a95f6dd7ed85e6735b26237a15" id="r_a7a3f12a95f6dd7ed85e6735b26237a15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a3f12a95f6dd7ed85e6735b26237a15">update_actor_static_plant</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
+<tr class="separator:a7a3f12a95f6dd7ed85e6735b26237a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6951c1c13419e76bc60a8121fef835ab" id="r_a6951c1c13419e76bc60a8121fef835ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6951c1c13419e76bc60a8121fef835ab">render_actor_cows</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
+<tr class="separator:a6951c1c13419e76bc60a8121fef835ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5a55f197872c082b12f5d080bdb0818" id="r_af5a55f197872c082b12f5d080bdb0818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5a55f197872c082b12f5d080bdb0818">func_80298AC0</a> (<a class="el" href="structPlayer.html">Player</a> *player)</td></tr>
 <tr class="separator:af5a55f197872c082b12f5d080bdb0818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21d766a5cb742ae93ee4c321be195503" id="r_a21d766a5cb742ae93ee4c321be195503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d766a5cb742ae93ee4c321be195503">func_80298C94</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>)</td></tr>
@@ -200,30 +199,6 @@ Functions</h2></td></tr>
 <tr class="separator:aac3595f7ebb34b17e0b0126796ecbf4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a127073cd8193b1cb812456cdc9ad91b8" id="r_a127073cd8193b1cb812456cdc9ad91b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a127073cd8193b1cb812456cdc9ad91b8">func_80298D7C</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
 <tr class="separator:a127073cd8193b1cb812456cdc9ad91b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4424eacaec23826f9d392474e204d5bb" id="r_a4424eacaec23826f9d392474e204d5bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4424eacaec23826f9d392474e204d5bb">render_actor_tree_mario_raceway</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:a4424eacaec23826f9d392474e204d5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a421c9a4ad803cf0e0b52f632f44bca61" id="r_a421c9a4ad803cf0e0b52f632f44bca61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421c9a4ad803cf0e0b52f632f44bca61">render_actor_tree_yoshi_valley</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:a421c9a4ad803cf0e0b52f632f44bca61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8254adaf245dfbd7310a1f6316aa1a0" id="r_ae8254adaf245dfbd7310a1f6316aa1a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8254adaf245dfbd7310a1f6316aa1a0">render_actor_tree_royal_raceway</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:ae8254adaf245dfbd7310a1f6316aa1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab87e849fb7e892bf8a48df38ae2e1849" id="r_ab87e849fb7e892bf8a48df38ae2e1849"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab87e849fb7e892bf8a48df38ae2e1849">render_actor_tree_moo_moo_farm</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:ab87e849fb7e892bf8a48df38ae2e1849"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c46969c4e2c993552d8607c3c6205ce" id="r_a2c46969c4e2c993552d8607c3c6205ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c46969c4e2c993552d8607c3c6205ce">func_80299864</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:a2c46969c4e2c993552d8607c3c6205ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa564af6ea62ec336f9c88ffd9351fa7f" id="r_aa564af6ea62ec336f9c88ffd9351fa7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa564af6ea62ec336f9c88ffd9351fa7f">render_actor_tree_bowser_castle</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:aa564af6ea62ec336f9c88ffd9351fa7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad286049dc3781032de7e3a85633bb116" id="r_ad286049dc3781032de7e3a85633bb116"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad286049dc3781032de7e3a85633bb116">render_actor_bush_bowser_castle</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:ad286049dc3781032de7e3a85633bb116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3dbf52efe3d23fca8e5de6bc11a6c27" id="r_ac3dbf52efe3d23fca8e5de6bc11a6c27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3dbf52efe3d23fca8e5de6bc11a6c27">render_actor_tree_frappe_snowland</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:ac3dbf52efe3d23fca8e5de6bc11a6c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60065e5f27dc4938258fccab99c77712" id="r_a60065e5f27dc4938258fccab99c77712"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60065e5f27dc4938258fccab99c77712">render_actor_tree_cactus1_kalimari_desert</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:a60065e5f27dc4938258fccab99c77712"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a391d401aeed12810b4a4adbd7547eaf4" id="r_a391d401aeed12810b4a4adbd7547eaf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a391d401aeed12810b4a4adbd7547eaf4">render_actor_tree_cactus2_kalimari_desert</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:a391d401aeed12810b4a4adbd7547eaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93c363ef5063842fd6aecf2fd2435fe8" id="r_a93c363ef5063842fd6aecf2fd2435fe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93c363ef5063842fd6aecf2fd2435fe8">render_actor_tree_cactus3_kalimari_desert</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:a93c363ef5063842fd6aecf2fd2435fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69c96b0cf70a517f313a0dcfafecd737" id="r_a69c96b0cf70a517f313a0dcfafecd737"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69c96b0cf70a517f313a0dcfafecd737">render_actor_kiwano_fruit_dks_jungle_parkway</a> (<a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
-<tr class="separator:a69c96b0cf70a517f313a0dcfafecd737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a244363eb20e950ed94944be1c768a37c" id="r_a244363eb20e950ed94944be1c768a37c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a244363eb20e950ed94944be1c768a37c">render_actor_shell</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">matrix</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">shell</a>)</td></tr>
 <tr class="separator:a244363eb20e950ed94944be1c768a37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39d6e7cdcb6d797ff42e8b68549ce944" id="r_a39d6e7cdcb6d797ff42e8b68549ce944"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39d6e7cdcb6d797ff42e8b68549ce944">render_actor_green_shell</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">matrix</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structShellActor.html">ShellActor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">shell</a>)</td></tr>
@@ -246,20 +221,14 @@ Functions</h2></td></tr>
 <tr class="separator:ad39711a0d6d2b4d1794d36d35b192759"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd6ff25fee477d64159106b70dfb937d" id="r_acd6ff25fee477d64159106b70dfb937d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6ff25fee477d64159106b70dfb937d">func_8029AE14</a> ()</td></tr>
 <tr class="separator:acd6ff25fee477d64159106b70dfb937d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae678c18f1779128330311a5c62710a5e" id="r_ae678c18f1779128330311a5c62710a5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae678c18f1779128330311a5c62710a5e">func_8029B06C</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
-<tr class="separator:ae678c18f1779128330311a5c62710a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affc8d5d1a20fd21f3aa87fdfc3375baf" id="r_affc8d5d1a20fd21f3aa87fdfc3375baf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affc8d5d1a20fd21f3aa87fdfc3375baf">func_8029B2E4</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
-<tr class="separator:affc8d5d1a20fd21f3aa87fdfc3375baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c9ace9267a33422fdb64accb65dfc63" id="r_a8c9ace9267a33422fdb64accb65dfc63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c9ace9267a33422fdb64accb65dfc63">func_8029B4E0</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
-<tr class="separator:a8c9ace9267a33422fdb64accb65dfc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a703ba11b5fc667ccf5b1c88d0e62d426" id="r_a703ba11b5fc667ccf5b1c88d0e62d426"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a703ba11b5fc667ccf5b1c88d0e62d426">func_8029B6EC</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
-<tr class="separator:a703ba11b5fc667ccf5b1c88d0e62d426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3732523ca7fda5d43b6df198fc1fccf8" id="r_a3732523ca7fda5d43b6df198fc1fccf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3732523ca7fda5d43b6df198fc1fccf8">render_actor_train_engine</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structTrainCar.html">TrainCar</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
-<tr class="separator:a3732523ca7fda5d43b6df198fc1fccf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4366f819eb3527ec4d2665639adfee85" id="r_a4366f819eb3527ec4d2665639adfee85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4366f819eb3527ec4d2665639adfee85">render_actor_train_tender</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structTrainCar.html">TrainCar</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
-<tr class="separator:a4366f819eb3527ec4d2665639adfee85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a833be8f2455f561803caa3e1334fb163" id="r_a833be8f2455f561803caa3e1334fb163"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a833be8f2455f561803caa3e1334fb163">render_actor_passenger_car</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structTrainCar.html">TrainCar</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
-<tr class="separator:a833be8f2455f561803caa3e1334fb163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959b9756711fe631bb33a7870be5937c" id="r_a959b9756711fe631bb33a7870be5937c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959b9756711fe631bb33a7870be5937c">render_actor_box_truck</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="separator:a959b9756711fe631bb33a7870be5937c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a720ce0b0a4f510df57259a76e88045cf" id="r_a720ce0b0a4f510df57259a76e88045cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a720ce0b0a4f510df57259a76e88045cf">render_actor_school_bus</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="separator:a720ce0b0a4f510df57259a76e88045cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9837af3de7840d2a111f72ece195cb32" id="r_a9837af3de7840d2a111f72ece195cb32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9837af3de7840d2a111f72ece195cb32">render_actor_car</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="separator:a9837af3de7840d2a111f72ece195cb32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a946fd8f61348549cfb60bf8a480baad3" id="r_a946fd8f61348549cfb60bf8a480baad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a946fd8f61348549cfb60bf8a480baad3">render_actor_tanker_truck</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="separator:a946fd8f61348549cfb60bf8a480baad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a250e5910700e7f46f258578c256c1d94" id="r_a250e5910700e7f46f258578c256c1d94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a250e5910700e7f46f258578c256c1d94">render_actor_falling_rock</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structFallingRock.html">FallingRock</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">rock</a>)</td></tr>
 <tr class="separator:a250e5910700e7f46f258578c256c1d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada2ce3dcaee0557208501ee291924021" id="r_ada2ce3dcaee0557208501ee291924021"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada2ce3dcaee0557208501ee291924021">place_piranha_plants</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActorSpawnData.html">ActorSpawnData</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">spawnData</a>)</td></tr>
@@ -292,18 +261,18 @@ Functions</h2></td></tr>
 <tr class="separator:aed0d42f43d1e8bdccedb76c0170e3680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ea92ebccf3e9c442c433b4ca8aa209e" id="r_a5ea92ebccf3e9c442c433b4ca8aa209e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ea92ebccf3e9c442c433b4ca8aa209e">func_8029EEB8</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="common__structs_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> pos, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> arg2, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> arg3, <a class="el" href="ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg4</a>)</td></tr>
 <tr class="separator:a5ea92ebccf3e9c442c433b4ca8aa209e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefb6b9376348cedddb2b69ed0441d5f9" id="r_aefb6b9376348cedddb2b69ed0441d5f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb6b9376348cedddb2b69ed0441d5f9">func_8029F1F8</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">marioRacewaySign</a>)</td></tr>
-<tr class="separator:aefb6b9376348cedddb2b69ed0441d5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c445675ccf4a4e5b084589b363f129d" id="r_a8c445675ccf4a4e5b084589b363f129d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c445675ccf4a4e5b084589b363f129d">func_8029F2FC</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPiranhaPlant.html">PiranhaPlant</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">plant</a>)</td></tr>
-<tr class="separator:a8c445675ccf4a4e5b084589b363f129d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49b65f2ed33a93322e22e58cac759c29" id="r_a49b65f2ed33a93322e22e58cac759c29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49b65f2ed33a93322e22e58cac759c29">func_8029F1F8</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">marioRacewaySign</a>)</td></tr>
+<tr class="separator:a49b65f2ed33a93322e22e58cac759c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66aa745929ca6929dc21594ff9213c28" id="r_a66aa745929ca6929dc21594ff9213c28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66aa745929ca6929dc21594ff9213c28">func_8029F2FC</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPiranhaPlant.html">PiranhaPlant</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">plant</a>)</td></tr>
+<tr class="separator:a66aa745929ca6929dc21594ff9213c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30eee3cfbdd878f52f672bd8bee9585b" id="r_a30eee3cfbdd878f52f672bd8bee9585b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30eee3cfbdd878f52f672bd8bee9585b">func_8029F408</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structYoshiValleyEgg.html">YoshiValleyEgg</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">egg</a>)</td></tr>
 <tr class="separator:a30eee3cfbdd878f52f672bd8bee9585b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c0c7ff521283f65486bac69b3e00e49" id="r_a6c0c7ff521283f65486bac69b3e00e49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c0c7ff521283f65486bac69b3e00e49">func_8029F69C</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
-<tr class="separator:a6c0c7ff521283f65486bac69b3e00e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22fbd0fcb2271c5d22d95d025012fa13" id="r_a22fbd0fcb2271c5d22d95d025012fa13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22fbd0fcb2271c5d22d95d025012fa13">func_8029FB80</a> (<a class="el" href="structPlayer.html">Player</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
-<tr class="separator:a22fbd0fcb2271c5d22d95d025012fa13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1945c77000191c23d2ae3310049cfd99" id="r_a1945c77000191c23d2ae3310049cfd99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1945c77000191c23d2ae3310049cfd99">func_8029FCA4</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
-<tr class="separator:a1945c77000191c23d2ae3310049cfd99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06219e130791db5c35462622f3578592" id="r_a06219e130791db5c35462622f3578592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06219e130791db5c35462622f3578592">func_8029F69C</a> (<a class="el" href="structPlayer.html">Player</a> *player, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
+<tr class="separator:a06219e130791db5c35462622f3578592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20d2834806dacbb54617e641dd287332" id="r_a20d2834806dacbb54617e641dd287332"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20d2834806dacbb54617e641dd287332">func_8029FB80</a> (<a class="el" href="structPlayer.html">Player</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="separator:a20d2834806dacbb54617e641dd287332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b5c574a62c1fa09822c3be36c9fe247" id="r_a4b5c574a62c1fa09822c3be36c9fe247"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5c574a62c1fa09822c3be36c9fe247">func_8029FCA4</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
+<tr class="separator:a4b5c574a62c1fa09822c3be36c9fe247"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67d1dea0325e8a4a27afa6c343669df7" id="r_a67d1dea0325e8a4a27afa6c343669df7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67d1dea0325e8a4a27afa6c343669df7">func_8029FDC8</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">actor</a>)</td></tr>
 <tr class="separator:a67d1dea0325e8a4a27afa6c343669df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd2980ed4c1c875919300053577d6f2c" id="r_acd2980ed4c1c875919300053577d6f2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd2980ed4c1c875919300053577d6f2c">func_802A00E8</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
@@ -332,14 +301,12 @@ Functions</h2></td></tr>
 <tr class="separator:a81d23396f5a7e2d7f653b7f5eb12b55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a287788fd70e41c5d3856d70c24ec0b" id="r_a4a287788fd70e41c5d3856d70c24ec0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a287788fd70e41c5d3856d70c24ec0b">render_actor_wario_sign</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>)</td></tr>
 <tr class="separator:a4a287788fd70e41c5d3856d70c24ec0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39cb34a5b826870fbbffa2fa85cfa6f6" id="r_a39cb34a5b826870fbbffa2fa85cfa6f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39cb34a5b826870fbbffa2fa85cfa6f6">func_802A27A0</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structYoshiValleyEgg.html">YoshiValleyEgg</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">egg</a>, <a class="el" href="ultratypes_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> arg3)</td></tr>
-<tr class="separator:a39cb34a5b826870fbbffa2fa85cfa6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcfb14ec53dc8eecd888faf9eedad475" id="r_abcfb14ec53dc8eecd888faf9eedad475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcfb14ec53dc8eecd888faf9eedad475">render_actor_mario_sign</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
 <tr class="separator:abcfb14ec53dc8eecd888faf9eedad475"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a828d6d8d8f66cbeb8bf6b92a72f3577d" id="r_a828d6d8d8f66cbeb8bf6b92a72f3577d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a828d6d8d8f66cbeb8bf6b92a72f3577d">func_802A2AD0</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">rr_crossing</a>)</td></tr>
-<tr class="separator:a828d6d8d8f66cbeb8bf6b92a72f3577d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8247a616ebe21e35147ff1947d8e7d19" id="r_a8247a616ebe21e35147ff1947d8e7d19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8247a616ebe21e35147ff1947d8e7d19">func_802A2C78</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *arg2)</td></tr>
-<tr class="separator:a8247a616ebe21e35147ff1947d8e7d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46eb6e934ce3e283872f68ac3140493" id="r_af46eb6e934ce3e283872f68ac3140493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af46eb6e934ce3e283872f68ac3140493">render_actor_railroad_crossing</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">rr_crossing</a>)</td></tr>
+<tr class="separator:af46eb6e934ce3e283872f68ac3140493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9acb7afd543abd1f4794c8c2d16f13a4" id="r_a9acb7afd543abd1f4794c8c2d16f13a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9acb7afd543abd1f4794c8c2d16f13a4">render_actor_palm_tree</a> (<a class="el" href="structCamera.html">Camera</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>, <a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg1</a>, <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPalmTree.html">PalmTree</a> *arg2)</td></tr>
+<tr class="separator:a9acb7afd543abd1f4794c8c2d16f13a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acde087ba64fe210e1669d5efe14d6f37" id="r_acde087ba64fe210e1669d5efe14d6f37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acde087ba64fe210e1669d5efe14d6f37">func_802A2F34</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structUnkStruct__800DC5EC.html">UnkStruct_800DC5EC</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
 <tr class="separator:acde087ba64fe210e1669d5efe14d6f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab38aac73e6ef03aa38f4474b612234b0" id="r_ab38aac73e6ef03aa38f4474b612234b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab38aac73e6ef03aa38f4474b612234b0">render_course_actors</a> (<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structUnkStruct__800DC5EC.html">UnkStruct_800DC5EC</a> *<a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">arg0</a>)</td></tr>
@@ -884,42 +851,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a473b64ad83f4eaa3f65202a629eab481" name="a473b64ad83f4eaa3f65202a629eab481"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a473b64ad83f4eaa3f65202a629eab481">&#9670;&#160;</a></span>func_802986B4()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802986B4 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a473b64ad83f4eaa3f65202a629eab481_cgraph.svg" width="100%" height="573"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a473b64ad83f4eaa3f65202a629eab481_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="af5a55f197872c082b12f5d080bdb0818" name="af5a55f197872c082b12f5d080bdb0818"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5a55f197872c082b12f5d080bdb0818">&#9670;&#160;</a></span>func_80298AC0()</h2>
 
@@ -1032,42 +963,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2c46969c4e2c993552d8607c3c6205ce" name="a2c46969c4e2c993552d8607c3c6205ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c46969c4e2c993552d8607c3c6205ce">&#9670;&#160;</a></span>func_80299864()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_80299864 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a2c46969c4e2c993552d8607c3c6205ce_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a2c46969c4e2c993552d8607c3c6205ce_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="a0d9197f8df1df3e8834fbaf37e9e2115" name="a0d9197f8df1df3e8834fbaf37e9e2115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d9197f8df1df3e8834fbaf37e9e2115">&#9670;&#160;</a></span>func_8029ABD4()</h2>
 
@@ -1144,130 +1039,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae678c18f1779128330311a5c62710a5e" name="ae678c18f1779128330311a5c62710a5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae678c18f1779128330311a5c62710a5e">&#9670;&#160;</a></span>func_8029B06C()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029B06C </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ae678c18f1779128330311a5c62710a5e_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ae678c18f1779128330311a5c62710a5e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="affc8d5d1a20fd21f3aa87fdfc3375baf" name="affc8d5d1a20fd21f3aa87fdfc3375baf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affc8d5d1a20fd21f3aa87fdfc3375baf">&#9670;&#160;</a></span>func_8029B2E4()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029B2E4 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_affc8d5d1a20fd21f3aa87fdfc3375baf_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_affc8d5d1a20fd21f3aa87fdfc3375baf_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a8c9ace9267a33422fdb64accb65dfc63" name="a8c9ace9267a33422fdb64accb65dfc63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c9ace9267a33422fdb64accb65dfc63">&#9670;&#160;</a></span>func_8029B4E0()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029B4E0 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a8c9ace9267a33422fdb64accb65dfc63_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a8c9ace9267a33422fdb64accb65dfc63_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a703ba11b5fc667ccf5b1c88d0e62d426" name="a703ba11b5fc667ccf5b1c88d0e62d426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a703ba11b5fc667ccf5b1c88d0e62d426">&#9670;&#160;</a></span>func_8029B6EC()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_8029B6EC </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a703ba11b5fc667ccf5b1c88d0e62d426_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a703ba11b5fc667ccf5b1c88d0e62d426_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -1469,14 +1240,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aefb6b9376348cedddb2b69ed0441d5f9" name="aefb6b9376348cedddb2b69ed0441d5f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefb6b9376348cedddb2b69ed0441d5f9">&#9670;&#160;</a></span>func_8029F1F8()</h2>
+<a id="a49b65f2ed33a93322e22e58cac759c29" name="a49b65f2ed33a93322e22e58cac759c29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49b65f2ed33a93322e22e58cac759c29">&#9670;&#160;</a></span>func_8029F1F8()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> func_8029F1F8 </td>
+          <td class="memname"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a> func_8029F1F8 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structPlayer.html">Player</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em>, </span></td>
         </tr>
@@ -1490,24 +1261,24 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="actors_8c_aefb6b9376348cedddb2b69ed0441d5f9_cgraph.svg" width="447" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="actors_8c_a49b65f2ed33a93322e22e58cac759c29_cgraph.svg" width="447" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_aefb6b9376348cedddb2b69ed0441d5f9_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a49b65f2ed33a93322e22e58cac759c29_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a8c445675ccf4a4e5b084589b363f129d" name="a8c445675ccf4a4e5b084589b363f129d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c445675ccf4a4e5b084589b363f129d">&#9670;&#160;</a></span>func_8029F2FC()</h2>
+<a id="a66aa745929ca6929dc21594ff9213c28" name="a66aa745929ca6929dc21594ff9213c28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66aa745929ca6929dc21594ff9213c28">&#9670;&#160;</a></span>func_8029F2FC()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> func_8029F2FC </td>
+          <td class="memname"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a> func_8029F2FC </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structPlayer.html">Player</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em>, </span></td>
         </tr>
@@ -1521,12 +1292,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="actors_8c_a8c445675ccf4a4e5b084589b363f129d_cgraph.svg" width="448" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="actors_8c_a66aa745929ca6929dc21594ff9213c28_cgraph.svg" width="448" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a8c445675ccf4a4e5b084589b363f129d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a66aa745929ca6929dc21594ff9213c28_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1562,14 +1333,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6c0c7ff521283f65486bac69b3e00e49" name="a6c0c7ff521283f65486bac69b3e00e49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c0c7ff521283f65486bac69b3e00e49">&#9670;&#160;</a></span>func_8029F69C()</h2>
+<a id="a06219e130791db5c35462622f3578592" name="a06219e130791db5c35462622f3578592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06219e130791db5c35462622f3578592">&#9670;&#160;</a></span>func_8029F69C()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> func_8029F69C </td>
+          <td class="memname"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a> func_8029F69C </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structPlayer.html">Player</a> *</td>          <td class="paramname"><span class="paramname"><em>player</em>, </span></td>
         </tr>
@@ -1583,24 +1354,24 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a6c0c7ff521283f65486bac69b3e00e49_cgraph.svg" width="100%" height="589"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a06219e130791db5c35462622f3578592_cgraph.svg" width="100%" height="589"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a6c0c7ff521283f65486bac69b3e00e49_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a06219e130791db5c35462622f3578592_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a22fbd0fcb2271c5d22d95d025012fa13" name="a22fbd0fcb2271c5d22d95d025012fa13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22fbd0fcb2271c5d22d95d025012fa13">&#9670;&#160;</a></span>func_8029FB80()</h2>
+<a id="a20d2834806dacbb54617e641dd287332" name="a20d2834806dacbb54617e641dd287332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20d2834806dacbb54617e641dd287332">&#9670;&#160;</a></span>func_8029FB80()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> func_8029FB80 </td>
+          <td class="memname"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a> func_8029FB80 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structPlayer.html">Player</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
@@ -1614,19 +1385,19 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a22fbd0fcb2271c5d22d95d025012fa13_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a20d2834806dacbb54617e641dd287332_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a1945c77000191c23d2ae3310049cfd99" name="a1945c77000191c23d2ae3310049cfd99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1945c77000191c23d2ae3310049cfd99">&#9670;&#160;</a></span>func_8029FCA4()</h2>
+<a id="a4b5c574a62c1fa09822c3be36c9fe247" name="a4b5c574a62c1fa09822c3be36c9fe247"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b5c574a62c1fa09822c3be36c9fe247">&#9670;&#160;</a></span>func_8029FCA4()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> func_8029FCA4 </td>
+          <td class="memname"><a class="el" href="ultratypes_8h.html#ae8d0c7c2a91a9ac50b499ae49a827f8f">bool</a> func_8029FCA4 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
@@ -1640,7 +1411,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a1945c77000191c23d2ae3310049cfd99_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a4b5c574a62c1fa09822c3be36c9fe247_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1917,114 +1688,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a39cb34a5b826870fbbffa2fa85cfa6f6" name="a39cb34a5b826870fbbffa2fa85cfa6f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39cb34a5b826870fbbffa2fa85cfa6f6">&#9670;&#160;</a></span>func_802A27A0()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A27A0 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structYoshiValleyEgg.html">YoshiValleyEgg</a> *</td>          <td class="paramname"><span class="paramname"><em>egg</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="ultratypes_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a></td>          <td class="paramname"><span class="paramname"><em>arg3</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a39cb34a5b826870fbbffa2fa85cfa6f6_cgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a39cb34a5b826870fbbffa2fa85cfa6f6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a828d6d8d8f66cbeb8bf6b92a72f3577d" name="a828d6d8d8f66cbeb8bf6b92a72f3577d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a828d6d8d8f66cbeb8bf6b92a72f3577d">&#9670;&#160;</a></span>func_802A2AD0()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A2AD0 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *</td>          <td class="paramname"><span class="paramname"><em>rr_crossing</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a828d6d8d8f66cbeb8bf6b92a72f3577d_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a828d6d8d8f66cbeb8bf6b92a72f3577d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a8247a616ebe21e35147ff1947d8e7d19" name="a8247a616ebe21e35147ff1947d8e7d19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8247a616ebe21e35147ff1947d8e7d19">&#9670;&#160;</a></span>func_802A2C78()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> func_802A2C78 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a8247a616ebe21e35147ff1947d8e7d19_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a8247a616ebe21e35147ff1947d8e7d19_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="acde087ba64fe210e1669d5efe14d6f37" name="acde087ba64fe210e1669d5efe14d6f37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acde087ba64fe210e1669d5efe14d6f37">&#9670;&#160;</a></span>func_802A2F34()</h2>
 
@@ -2281,14 +1944,76 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ad286049dc3781032de7e3a85633bb116" name="ad286049dc3781032de7e3a85633bb116"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad286049dc3781032de7e3a85633bb116">&#9670;&#160;</a></span>render_actor_bush_bowser_castle()</h2>
+<a id="a959b9756711fe631bb33a7870be5937c" name="a959b9756711fe631bb33a7870be5937c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959b9756711fe631bb33a7870be5937c">&#9670;&#160;</a></span>render_actor_box_truck()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_bush_bowser_castle </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_box_truck </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a959b9756711fe631bb33a7870be5937c_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a959b9756711fe631bb33a7870be5937c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a9837af3de7840d2a111f72ece195cb32" name="a9837af3de7840d2a111f72ece195cb32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9837af3de7840d2a111f72ece195cb32">&#9670;&#160;</a></span>render_actor_car()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_car </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a9837af3de7840d2a111f72ece195cb32_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a9837af3de7840d2a111f72ece195cb32_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6951c1c13419e76bc60a8121fef835ab" name="a6951c1c13419e76bc60a8121fef835ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6951c1c13419e76bc60a8121fef835ab">&#9670;&#160;</a></span>render_actor_cows()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_cows </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
         </tr>
@@ -2300,55 +2025,19 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ad286049dc3781032de7e3a85633bb116_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a6951c1c13419e76bc60a8121fef835ab_cgraph.svg" width="100%" height="573"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ad286049dc3781032de7e3a85633bb116_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a3032e5759fffafb766e96e1991ab0350" name="a3032e5759fffafb766e96e1991ab0350"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3032e5759fffafb766e96e1991ab0350">&#9670;&#160;</a></span>render_actor_cow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_cow </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a3032e5759fffafb766e96e1991ab0350_cgraph.svg" width="100%" height="462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a3032e5759fffafb766e96e1991ab0350_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a6951c1c13419e76bc60a8121fef835ab_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2420,42 +2109,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a69c96b0cf70a517f313a0dcfafecd737" name="a69c96b0cf70a517f313a0dcfafecd737"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69c96b0cf70a517f313a0dcfafecd737">&#9670;&#160;</a></span>render_actor_kiwano_fruit_dks_jungle_parkway()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_kiwano_fruit_dks_jungle_parkway </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a69c96b0cf70a517f313a0dcfafecd737_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a69c96b0cf70a517f313a0dcfafecd737_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="abcfb14ec53dc8eecd888faf9eedad475" name="abcfb14ec53dc8eecd888faf9eedad475"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcfb14ec53dc8eecd888faf9eedad475">&#9670;&#160;</a></span>render_actor_mario_sign()</h2>
 
@@ -2492,69 +2145,69 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a833be8f2455f561803caa3e1334fb163" name="a833be8f2455f561803caa3e1334fb163"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a833be8f2455f561803caa3e1334fb163">&#9670;&#160;</a></span>render_actor_passenger_car()</h2>
+<a id="a9acb7afd543abd1f4794c8c2d16f13a4" name="a9acb7afd543abd1f4794c8c2d16f13a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9acb7afd543abd1f4794c8c2d16f13a4">&#9670;&#160;</a></span>render_actor_palm_tree()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_passenger_car </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structTrainCar.html">TrainCar</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a833be8f2455f561803caa3e1334fb163_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a833be8f2455f561803caa3e1334fb163_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a7f6ae1f0bb9e1576559b2faed48c8f7a" name="a7f6ae1f0bb9e1576559b2faed48c8f7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f6ae1f0bb9e1576559b2faed48c8f7a">&#9670;&#160;</a></span>render_actor_piranha_plant()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_piranha_plant </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_palm_tree </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
+          <td class="paramtype"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPiranhaPlant.html">PiranhaPlant</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPalmTree.html">PalmTree</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a7f6ae1f0bb9e1576559b2faed48c8f7a_cgraph.svg" width="100%" height="462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a9acb7afd543abd1f4794c8c2d16f13a4_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a7f6ae1f0bb9e1576559b2faed48c8f7a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a9acb7afd543abd1f4794c8c2d16f13a4_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af46eb6e934ce3e283872f68ac3140493" name="af46eb6e934ce3e283872f68ac3140493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af46eb6e934ce3e283872f68ac3140493">&#9670;&#160;</a></span>render_actor_railroad_crossing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_railroad_crossing </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structRailroadCrossing.html">RailroadCrossing</a> *</td>          <td class="paramname"><span class="paramname"><em>rr_crossing</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_af46eb6e934ce3e283872f68ac3140493_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_af46eb6e934ce3e283872f68ac3140493_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2595,6 +2248,37 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a720ce0b0a4f510df57259a76e88045cf" name="a720ce0b0a4f510df57259a76e88045cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a720ce0b0a4f510df57259a76e88045cf">&#9670;&#160;</a></span>render_actor_school_bus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_school_bus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a720ce0b0a4f510df57259a76e88045cf_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a720ce0b0a4f510df57259a76e88045cf_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a244363eb20e950ed94944be1c768a37c" name="a244363eb20e950ed94944be1c768a37c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a244363eb20e950ed94944be1c768a37c">&#9670;&#160;</a></span>render_actor_shell()</h2>
 
@@ -2618,7 +2302,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000046">Todo</a></b></dt><dd>Is this making the shell spin? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000048">Todo</a></b></dt><dd>Is this making the shell spin? </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2632,388 +2316,33 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a3732523ca7fda5d43b6df198fc1fccf8" name="a3732523ca7fda5d43b6df198fc1fccf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3732523ca7fda5d43b6df198fc1fccf8">&#9670;&#160;</a></span>render_actor_train_engine()</h2>
+<a id="a946fd8f61348549cfb60bf8a480baad3" name="a946fd8f61348549cfb60bf8a480baad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a946fd8f61348549cfb60bf8a480baad3">&#9670;&#160;</a></span>render_actor_tanker_truck()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_train_engine </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tanker_truck </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structTrainCar.html">TrainCar</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a3732523ca7fda5d43b6df198fc1fccf8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a946fd8f61348549cfb60bf8a480baad3_cgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a3732523ca7fda5d43b6df198fc1fccf8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a4366f819eb3527ec4d2665639adfee85" name="a4366f819eb3527ec4d2665639adfee85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4366f819eb3527ec4d2665639adfee85">&#9670;&#160;</a></span>render_actor_train_tender()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_train_tender </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structTrainCar.html">TrainCar</a> *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a4366f819eb3527ec4d2665639adfee85_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a4366f819eb3527ec4d2665639adfee85_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="aa564af6ea62ec336f9c88ffd9351fa7f" name="aa564af6ea62ec336f9c88ffd9351fa7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa564af6ea62ec336f9c88ffd9351fa7f">&#9670;&#160;</a></span>render_actor_tree_bowser_castle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tree_bowser_castle </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_aa564af6ea62ec336f9c88ffd9351fa7f_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_aa564af6ea62ec336f9c88ffd9351fa7f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a60065e5f27dc4938258fccab99c77712" name="a60065e5f27dc4938258fccab99c77712"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60065e5f27dc4938258fccab99c77712">&#9670;&#160;</a></span>render_actor_tree_cactus1_kalimari_desert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tree_cactus1_kalimari_desert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a60065e5f27dc4938258fccab99c77712_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a60065e5f27dc4938258fccab99c77712_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a391d401aeed12810b4a4adbd7547eaf4" name="a391d401aeed12810b4a4adbd7547eaf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a391d401aeed12810b4a4adbd7547eaf4">&#9670;&#160;</a></span>render_actor_tree_cactus2_kalimari_desert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tree_cactus2_kalimari_desert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a391d401aeed12810b4a4adbd7547eaf4_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a391d401aeed12810b4a4adbd7547eaf4_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a93c363ef5063842fd6aecf2fd2435fe8" name="a93c363ef5063842fd6aecf2fd2435fe8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93c363ef5063842fd6aecf2fd2435fe8">&#9670;&#160;</a></span>render_actor_tree_cactus3_kalimari_desert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tree_cactus3_kalimari_desert </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a93c363ef5063842fd6aecf2fd2435fe8_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a93c363ef5063842fd6aecf2fd2435fe8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="ac3dbf52efe3d23fca8e5de6bc11a6c27" name="ac3dbf52efe3d23fca8e5de6bc11a6c27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3dbf52efe3d23fca8e5de6bc11a6c27">&#9670;&#160;</a></span>render_actor_tree_frappe_snowland()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tree_frappe_snowland </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ac3dbf52efe3d23fca8e5de6bc11a6c27_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ac3dbf52efe3d23fca8e5de6bc11a6c27_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a4424eacaec23826f9d392474e204d5bb" name="a4424eacaec23826f9d392474e204d5bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4424eacaec23826f9d392474e204d5bb">&#9670;&#160;</a></span>render_actor_tree_mario_raceway()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tree_mario_raceway </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a4424eacaec23826f9d392474e204d5bb_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a4424eacaec23826f9d392474e204d5bb_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="ab87e849fb7e892bf8a48df38ae2e1849" name="ab87e849fb7e892bf8a48df38ae2e1849"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab87e849fb7e892bf8a48df38ae2e1849">&#9670;&#160;</a></span>render_actor_tree_moo_moo_farm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tree_moo_moo_farm </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ab87e849fb7e892bf8a48df38ae2e1849_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ab87e849fb7e892bf8a48df38ae2e1849_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="ae8254adaf245dfbd7310a1f6316aa1a0" name="ae8254adaf245dfbd7310a1f6316aa1a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8254adaf245dfbd7310a1f6316aa1a0">&#9670;&#160;</a></span>render_actor_tree_royal_raceway()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tree_royal_raceway </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ae8254adaf245dfbd7310a1f6316aa1a0_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_ae8254adaf245dfbd7310a1f6316aa1a0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a421c9a4ad803cf0e0b52f632f44bca61" name="a421c9a4ad803cf0e0b52f632f44bca61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a421c9a4ad803cf0e0b52f632f44bca61">&#9670;&#160;</a></span>render_actor_tree_yoshi_valley()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> render_actor_tree_yoshi_valley </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCamera.html">Camera</a> *</td>          <td class="paramname"><span class="paramname"><em>camera</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common__structs_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg2</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a421c9a4ad803cf0e0b52f632f44bca61_cgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a421c9a4ad803cf0e0b52f632f44bca61_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a946fd8f61348549cfb60bf8a480baad3_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -3174,33 +2503,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a48151e0a9b8ce3c98ec426c640fe6f1d" name="a48151e0a9b8ce3c98ec426c640fe6f1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48151e0a9b8ce3c98ec426c640fe6f1d">&#9670;&#160;</a></span>update_actor_kiwano_fruit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_kiwano_fruit </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structKiwanoFruit.html">KiwanoFruit</a> *</td>          <td class="paramname"><span class="paramname"><em>fruit</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="actors_8c_a48151e0a9b8ce3c98ec426c640fe6f1d_cgraph.svg" width="499" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a48151e0a9b8ce3c98ec426c640fe6f1d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="a9d6aa75e9c6a76ca1646a933664ab130" name="a9d6aa75e9c6a76ca1646a933664ab130"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d6aa75e9c6a76ca1646a933664ab130">&#9670;&#160;</a></span>update_actor_mario_raceway_sign()</h2>
 
@@ -3219,28 +2521,6 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a9d6aa75e9c6a76ca1646a933664ab130_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a430eed14b9bbadcff26b1fa30f3058bf" name="a430eed14b9bbadcff26b1fa30f3058bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a430eed14b9bbadcff26b1fa30f3058bf">&#9670;&#160;</a></span>update_actor_piranha_plant()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_piranha_plant </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structPiranhaPlant.html">PiranhaPlant</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a430eed14b9bbadcff26b1fa30f3058bf_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -3273,14 +2553,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a5623a0fcfea426289ae34883817e5352" name="a5623a0fcfea426289ae34883817e5352"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5623a0fcfea426289ae34883817e5352">&#9670;&#160;</a></span>update_actor_trees_cacti_shrubs()</h2>
+<a id="a7a3f12a95f6dd7ed85e6735b26237a15" name="a7a3f12a95f6dd7ed85e6735b26237a15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a3f12a95f6dd7ed85e6735b26237a15">&#9670;&#160;</a></span>update_actor_static_plant()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_trees_cacti_shrubs </td>
+          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_static_plant </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structActor.html">Actor</a> *</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span></td><td>)</td>
           <td></td>
@@ -3290,7 +2570,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a5623a0fcfea426289ae34883817e5352_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a7a3f12a95f6dd7ed85e6735b26237a15_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -3313,33 +2593,6 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_a70c000fa6af4b2d4852f8b9518934e9d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="aee9f9973a051f70e42ff453bb7c26194" name="aee9f9973a051f70e42ff453bb7c26194"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee9f9973a051f70e42ff453bb7c26194">&#9670;&#160;</a></span>update_actor_yoshi_valley_egg()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">void</a> update_actor_yoshi_valley_egg </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="code__800029B0_8c.html#a1958f2cc6c2e05f18736c6ca0f93b3de">struct</a> <a class="el" href="structYoshiValleyEgg.html">YoshiValleyEgg</a> *</td>          <td class="paramname"><span class="paramname"><em>egg</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="actors_8c_aee9f9973a051f70e42ff453bb7c26194_cgraph.svg" width="259" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="actors_8c_aee9f9973a051f70e42ff453bb7c26194_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
