@@ -1,5 +1,9 @@
 var NAVTREEINDEX107 =
 {
+"structALRawLoop.html#aeb6a44b74de5d8f38826c3d023df2139":[7,0,36,0],
+"structALSeqData.html":[7,0,38],
+"structALSeqData.html#ab946fb72217dbe470f78547c43c90502":[7,0,38,0],
+"structALSeqData.html#ac83264321ecc6649b5a511ed65047f97":[7,0,38,1],
 "structALSeqFile.html":[7,0,39],
 "structALSeqFile.html#a39d25b1d4bc1b7c5ec3849b78c96e8f6":[7,0,39,0],
 "structALSeqFile.html#a7d7496c23b05b7f01cab093832182197":[7,0,39,2],
@@ -14,11 +18,11 @@ var NAVTREEINDEX107 =
 "structALWaveTable__s.html":[7,0,41],
 "structALWaveTable__s.html#a0e0fc820a7b7c2c8dcdfe38e60c0fa25":[7,0,41,4],
 "structALWaveTable__s.html#a42402da278ae304efe7ff64ce3d1983f":[7,0,41,3],
+"structALWaveTable__s.html#a85b362aa52c9213e918b655fc4604187":[7,0,41,6],
 "structALWaveTable__s.html#a8b00d48faf540e97599e88086d7c9ba5":[7,0,41,1],
 "structALWaveTable__s.html#aa9aafaec1f56b5cb5a16e7bfde1c3bd9":[7,0,41,0],
 "structALWaveTable__s.html#acc769d06bf577d20eeb968567b0e905e":[7,0,41,2],
 "structALWaveTable__s.html#aebc02789aef2309a8a3d1dce0975b043":[7,0,41,5],
-"structALWaveTable__s.html#aef2c7c83689509bcdb65f9a508135712":[7,0,41,6],
 "structActor.html":[7,0,18],
 "structActor.html#a1a515077e28877484ea593456e07b0d6":[7,0,18,5],
 "structActor.html#a40d6b4340f478a137d04651cc68a7aac":[7,0,18,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX107 =
 "structChannelVolumeScaleFade.html#aa66034798b78deeb84ad78bb3d2c2a59":[7,0,58,3],
 "structCinematicCamera.html":[7,0,59],
 "structCinematicCamera.html#a05aa5ccec780b89337470a4f4dfd35a1":[7,0,59,4],
-"structCinematicCamera.html#a11e4d83299cab081332c8625c1d3a8fd":[7,0,59,1],
-"structCinematicCamera.html#a237557a8d755dbb0bb3ed583aa00cd0e":[7,0,59,16],
-"structCinematicCamera.html#a2bf51b2a0938bfdc77152eaba4527f71":[7,0,59,10],
-"structCinematicCamera.html#a3082de197f2cc86fd872b992daf3125d":[7,0,59,9],
-"structCinematicCamera.html#a30831b7eace8ca5fb073aee228465c54":[7,0,59,3]
+"structCinematicCamera.html#a11e4d83299cab081332c8625c1d3a8fd":[7,0,59,1]
 };

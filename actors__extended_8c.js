@@ -1,11 +1,10 @@
 var actors__extended_8c =
 [
     [ "copy_collision", "actors__extended_8c.html#ae1af475a3dbbdfa4ef5e3e79567c6fc1", null ],
-    [ "func_802B02B4", "actors__extended_8c.html#a3eba7e1c414d7e2b66a26b6a18ab94bc", null ],
+    [ "destroy_a_banana_in_bunch_banana", "actors__extended_8c.html#a72ea66924941d84ae27c5e244e946842", null ],
     [ "func_802B039C", "actors__extended_8c.html#a093f702b462b6657ba7ab789941ef800", null ],
     [ "func_802B0464", "actors__extended_8c.html#ab349562338ca47f2b524137864704d0e", null ],
     [ "func_802B04E8", "actors__extended_8c.html#a2f342036a9e04bb583aa7cf9c08edae9", null ],
-    [ "func_802B0570", "actors__extended_8c.html#a028c1815d125e1f99f700a6428fa2e61", null ],
     [ "func_802B0648", "actors__extended_8c.html#a9e6379a61eb4910c8d27cbe8e08abc4d", null ],
     [ "func_802B0788", "actors__extended_8c.html#a87d7f1fdb71b4ffb9b0b6961d5f4fb65", null ],
     [ "func_802B09C0", "actors__extended_8c.html#a37199f633d5cab2cbbc3c506b177a68e", null ],
@@ -15,6 +14,7 @@ var actors__extended_8c =
     [ "init_triple_shell", "actors__extended_8c.html#ac7b01b29ffe49800d142fc2e8a308120", null ],
     [ "is_shell_exist", "actors__extended_8c.html#af4b1443024248be2d1a9bd97e203b079", null ],
     [ "player_use_item", "actors__extended_8c.html#a6c53567ce07da53daa086cb9b09076a1", null ],
+    [ "triple_shell_actor_collide_with_player", "actors__extended_8c.html#a1edd6e4f2545082e3782c4ce50933c7c", null ],
     [ "update_actor_banana_bunch", "actors__extended_8c.html#a34694840e4ed5e496ed3ba98429b0558", null ],
     [ "update_actor_triple_shell", "actors__extended_8c.html#a92482e9796fd6ddc17e3b24c35b767df", null ],
     [ "use_banana_bunch_item", "actors__extended_8c.html#a88021e28f51eed86867e22b5aae7e252", null ],

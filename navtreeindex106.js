@@ -1,5 +1,9 @@
 var NAVTREEINDEX106 =
 {
+"sptask_8h.html#ae5708044b3021e804192b195ed0e5c4d":[8,0,2,1,25,42],
+"sptask_8h.html#ae5e16047b631e1f2b40c8618bf962549":[8,0,2,1,25,31],
+"sptask_8h.html#aea18f7ba6f227be559653fff393c7c32":[8,0,2,1,25,5],
+"sptask_8h.html#aee25be0367f025833d844fd0bdbb73da":[8,0,2,1,25,38],
 "sptask_8h.html#aee3d988cae08ee65429fe31c7bc8fa10":[8,0,2,1,25,49],
 "sptask_8h.html#affa18362ce373116ddaa101560606900":[8,0,2,1,25,29],
 "sptask_8h_source.html":[8,0,2,1,25],
@@ -245,9 +249,5 @@ var NAVTREEINDEX106 =
 "structALRAWWaveInfo.html#a2fb2b21087e87d197d3cf6017f80e119":[7,0,37,0],
 "structALRawLoop.html":[7,0,36],
 "structALRawLoop.html#a07760308fe4e65442c2e183541e13a17":[7,0,36,2],
-"structALRawLoop.html#ac8807a71b2c6300a93e37b1c158b352d":[7,0,36,1],
-"structALRawLoop.html#aeb6a44b74de5d8f38826c3d023df2139":[7,0,36,0],
-"structALSeqData.html":[7,0,38],
-"structALSeqData.html#ab946fb72217dbe470f78547c43c90502":[7,0,38,0],
-"structALSeqData.html#ac83264321ecc6649b5a511ed65047f97":[7,0,38,1]
+"structALRawLoop.html#ac8807a71b2c6300a93e37b1c158b352d":[7,0,36,1]
 };

@@ -1,0 +1,17 @@
+<map id="collide_mario_sign" name="collide_mario_sign">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,149,105"/>
+<area shape="rect" id="Node000002" href="$external_8c.html#a2be9efc97a92e19d02aaee90d676acc1" title=" " alt="" coords="215,5,337,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,78,196,40,217,32,219,37,198,44,107,82"/>
+<area shape="rect" id="Node000004" href="$external_8c.html#a337fc3ab94ebb3293a85908229303ac8" title=" " alt="" coords="215,55,337,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,81,201,74,201,79,150,86"/>
+<area shape="rect" id="Node000005" href="$external_8c.html#acb60983213d09ee795e80ca3c8b5975e" title=" " alt="" coords="215,104,337,129"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="150,99,201,105,201,110,149,104"/>
+<area shape="rect" id="Node000006" href="$actors_8c.html#a73f38360cd0b91051d5c52a6f05d1614" title=" " alt="" coords="197,153,355,179"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="110,103,198,138,222,146,220,151,196,143,108,108"/>
+<area shape="rect" id="Node000003" href="$external_8c.html#a4227847f3da303aee53cf69d2760a595" title=" " alt="" coords="403,55,499,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="322,28,392,48,391,53,321,33"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="337,65,389,65,389,70,337,70"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="321,101,391,81,392,86,322,107"/>
+<area shape="rect" id="Node000007" href="$math_8h.html#a37bde043e94a6f074c78f10518fb5d99" title=" " alt="" coords="425,153,477,179"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="355,163,411,163,411,169,355,169"/>
+</map>

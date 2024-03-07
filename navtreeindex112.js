@@ -1,5 +1,9 @@
 var NAVTREEINDEX112 =
 {
+"structSound.html#ab9d2762840c1e7690e3dc064d3723909":[7,0,154,0],
+"structSoundAllocPool.html":[7,0,155],
+"structSoundAllocPool.html#a4810f3affb467677d5681d7e1f078604":[7,0,155,1],
+"structSoundAllocPool.html#a56a22e94e79711b13cd9fa6b4207655d":[7,0,155,2],
 "structSoundAllocPool.html#a9b2b1c76eab64b571efb98902d779b6b":[7,0,155,3],
 "structSoundAllocPool.html#ad48e26eee6c2166e6a5c61cb2c0f2357":[7,0,155,0],
 "structSoundCharacteristics.html":[7,0,156],
@@ -245,9 +249,5 @@ var NAVTREEINDEX112 =
 "structUnkStruct80287560.html#ac8ff68e16edaa13f29dc8b099792d711":[7,0,227,2],
 "structUnkStruct802AF7B4.html":[7,0,228],
 "structUnkStruct802AF7B4.html#a626a50693e9e552f096786986176873b":[7,0,228,0],
-"structUnkStruct802AF7B4.html#abd5aeb22d4e0349460b0c3bc90800f49":[7,0,228,1],
-"structUnkStruct__46D0.html":[7,0,229],
-"structUnkStruct__46D0.html#a1d1f785457c8805f152dfc7d7a62b670":[7,0,229,2],
-"structUnkStruct__46D0.html#a6f1c723262e2e7ab40e7f66f14182ced":[7,0,229,1],
-"structUnkStruct__46D0.html#acad7ef22f3ed0b339a603af5d6576a22":[7,0,229,3]
+"structUnkStruct802AF7B4.html#abd5aeb22d4e0349460b0c3bc90800f49":[7,0,228,1]
 };
