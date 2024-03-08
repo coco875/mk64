@@ -211,9 +211,9 @@ var sectionId = 'dynsection-2';
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="actors_8c.html#a15517665ab054722a5c980c0f1008cd0" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="435.5,-444 342.5,-444 342.5,-425 435.5,-425 435.5,-444"/>
-<text text-anchor="middle" x="389" y="-432" font-family="Helvetica,sans-Serif" font-size="10.00">func_8029E7DC</text>
+<g id="a_Node000003"><a xlink:href="actors_8c.html#ad5a56c8f7eaf719223099cce9e38ec9f" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="464.5,-444 313.5,-444 313.5,-425 464.5,-425 464.5,-444"/>
+<text text-anchor="middle" x="389" y="-432" font-family="Helvetica,sans-Serif" font-size="10.00">play_sound_before_destroy</text>
 </a>
 </g>
 </g>
@@ -221,8 +221,8 @@ var sectionId = 'dynsection-2';
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M259.1,-434.5C281.04,-434.5 308.45,-434.5 332.35,-434.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="332.35,-438 342.35,-434.5 332.35,-431 332.35,-438"/>
+<path fill="none" stroke="#63b8ff" d="M259.1,-434.5C272.44,-434.5 287.8,-434.5 303.16,-434.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="303.24,-438 313.24,-434.5 303.24,-431 303.24,-438"/>
 </a>
 </g>
 </g>
@@ -239,8 +239,8 @@ var sectionId = 'dynsection-2';
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M435.54,-428.66C452.84,-426.44 472.73,-423.89 490.82,-421.57"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="491.47,-425.02 500.94,-420.28 490.58,-418.08 491.47,-425.02"/>
+<path fill="none" stroke="#63b8ff" d="M464.34,-424.97C473.16,-423.84 482.04,-422.7 490.53,-421.61"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="491.18,-425.06 500.66,-420.31 490.29,-418.11 491.18,-425.06"/>
 </a>
 </g>
 </g>
