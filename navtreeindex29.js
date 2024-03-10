@@ -1,6 +1,6 @@
 var NAVTREEINDEX29 =
 {
-"controlflow.html#objects-1":[1,2,4,3],
+"controlflow.html#objects":[1,2,4,3],
 "controlflow.html#overall-control-flow":[1,2,2],
 "controlflow.html#paradigm":[1,2,0],
 "controlflow.html#players":[1,2,4,1],

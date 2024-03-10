@@ -88,7 +88,7 @@ var NAVTREEINDEX =
 "code__80091750_8h.html#ac09fba412bb6a5338367c120d509ddc5",
 "collision_8h.html#a555dd047e8f7135e990a9f34a872bd32",
 "common__textures_8inc_8c.html#a748dc53812889331d4b3a6ae3fb1ae3d",
-"controlflow.html#objects-1",
+"controlflow.html#objects",
 "course__offsets_8h.html",
 "data__segment2_8h.html#a3b6b20e4868a0e766210be182a568ab8",
 "defines_8h.html#a89c5693b320ec602e78c1edb3afd879a",
