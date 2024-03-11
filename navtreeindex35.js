@@ -238,6 +238,7 @@ var NAVTREEINDEX35 =
 "double__deck_2course__vertices_8inc_8c.html#a227731c12e29cd4ad035fde2f5a36dce":[8,0,0,6,5,0],
 "effects_8c.html":[8,0,3,36],
 "effects_8c.html#a004a9764c488a698126b5206f64a027b":[8,0,3,36,8],
+"effects_8c.html#a02381abe81bc2fdd6b7a4609e80c91fc":[8,0,3,36,66],
 "effects_8c.html#a05a53cb305ff1e50e984272b7880aa20":[8,0,3,36,20],
 "effects_8c.html#a07ab364789868cafd49e8510b238d453":[8,0,3,36,109],
 "effects_8c.html#a082537992ca254eaf317033c2f378994":[8,0,3,36,96],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "effects_8c.html#a0fb4928e7128ee9e78ae7eedb5d2192e":[8,0,3,36,54],
 "effects_8c.html#a105203221e314be241a95e006b62ef80":[8,0,3,36,28],
 "effects_8c.html#a160f8e464381374d9a9d6e2a419f7c2a":[8,0,3,36,84],
-"effects_8c.html#a1698463639e133ec28807bb36a303efe":[8,0,3,36,23],
-"effects_8c.html#a16c1b4e4ea9cc5bb21fcc653ea8fbf6d":[8,0,3,36,2]
+"effects_8c.html#a1698463639e133ec28807bb36a303efe":[8,0,3,36,23]
 };
