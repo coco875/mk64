@@ -999,9 +999,9 @@
 <!-- Node43 -->
 <g id="Node000043" class="node">
 <title>Node43</title>
-<g id="a_Node000043"><a xlink:href="actors__extended_8c.html#affe4d62e8904ae798166bff9d8bcfc75" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1038.5,-346.84 946.5,-346.84 946.5,-327.84 1038.5,-327.84 1038.5,-346.84"/>
-<text text-anchor="middle" x="992.5" y="-334.84" font-family="Helvetica,sans-Serif" font-size="10.00">func_802B30EC</text>
+<g id="a_Node000043"><a xlink:href="actors__extended_8c.html#afd7ab650c7f22bef507645c85cc0ca37" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1058,-346.84 927,-346.84 927,-327.84 1058,-327.84 1058,-346.84"/>
+<text text-anchor="middle" x="992.5" y="-334.84" font-family="Helvetica,sans-Serif" font-size="10.00">check_player_use_item</text>
 </a>
 </g>
 </g>

@@ -454,9 +454,9 @@ var sectionId = 'dynsection-16';
 <!-- Node17 -->
 <g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_Node000017"><a xlink:href="actors__extended_8c.html#affe4d62e8904ae798166bff9d8bcfc75" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="692,-604.5 600,-604.5 600,-585.5 692,-585.5 692,-604.5"/>
-<text text-anchor="middle" x="646" y="-592.5" font-family="Helvetica,sans-Serif" font-size="10.00">func_802B30EC</text>
+<g id="a_Node000017"><a xlink:href="actors__extended_8c.html#afd7ab650c7f22bef507645c85cc0ca37" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="711.5,-604.5 580.5,-604.5 580.5,-585.5 711.5,-585.5 711.5,-604.5"/>
+<text text-anchor="middle" x="646" y="-592.5" font-family="Helvetica,sans-Serif" font-size="10.00">check_player_use_item</text>
 </a>
 </g>
 </g>
@@ -464,7 +464,7 @@ var sectionId = 'dynsection-16';
 <g id="edge8_Node000016_Node000017" class="edge">
 <title>Node16&#45;&gt;Node17</title>
 <g id="a_edge8_Node000016_Node000017"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M758.63,-595.66C736.88,-595.53 712.55,-595.39 692.17,-595.27"/>
+<path fill="none" stroke="#63b8ff" d="M758.49,-595.66C743.37,-595.57 726.99,-595.47 711.58,-595.38"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="758.72,-599.16 768.74,-595.72 758.76,-592.16 758.72,-599.16"/>
 </a>
 </g>
@@ -482,8 +482,8 @@ var sectionId = 'dynsection-16';
 <g id="edge9_Node000017_Node000018" class="edge">
 <title>Node17&#45;&gt;Node18</title>
 <g id="a_edge9_Node000017_Node000018"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M589.93,-591.58C536.42,-588.25 455.35,-583.2 400.05,-579.77"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="589.72,-595.07 599.92,-592.2 590.16,-588.08 589.72,-595.07"/>
+<path fill="none" stroke="#63b8ff" d="M569.99,-590.33C517.7,-587.08 448.84,-582.8 400.04,-579.77"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="570.01,-593.84 580.21,-590.97 570.45,-586.86 570.01,-593.84"/>
 </a>
 </g>
 </g>

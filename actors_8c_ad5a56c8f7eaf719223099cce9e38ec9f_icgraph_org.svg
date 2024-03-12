@@ -1008,9 +1008,9 @@
 <!-- Node44 -->
 <g id="Node000044" class="node">
 <title>Node44</title>
-<g id="a_Node000044"><a xlink:href="actors__extended_8c.html#affe4d62e8904ae798166bff9d8bcfc75" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="934.5,-630.5 842.5,-630.5 842.5,-611.5 934.5,-611.5 934.5,-630.5"/>
-<text text-anchor="middle" x="888.5" y="-618.5" font-family="Helvetica,sans-Serif" font-size="10.00">func_802B30EC</text>
+<g id="a_Node000044"><a xlink:href="actors__extended_8c.html#afd7ab650c7f22bef507645c85cc0ca37" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="954,-630.5 823,-630.5 823,-611.5 954,-611.5 954,-630.5"/>
+<text text-anchor="middle" x="888.5" y="-618.5" font-family="Helvetica,sans-Serif" font-size="10.00">check_player_use_item</text>
 </a>
 </g>
 </g>
