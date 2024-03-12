@@ -1,11 +1,11 @@
 <map id="add_translate_mat4_vec3f" name="add_translate_mat4_vec3f">
-<area shape="rect" id="Node000001" title=" " alt="" coords="1601,261,1753,301"/>
-<area shape="rect" id="Node000002" href="$actors_8c.html#af82821de2f8e4938ff33ef46b02c0912" title=" " alt="" coords="1431,243,1553,269"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1587,272,1553,267,1554,262,1588,266"/>
-<area shape="rect" id="Node000019" href="$actors_8c.html#a81d23396f5a7e2d7f653b7f5eb12b55c" title=" " alt="" coords="1431,293,1553,318"/>
-<area shape="poly" id="edge26_Node000001_Node000019" title=" " alt="" coords="1588,296,1554,300,1553,295,1587,290"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1685,261,1837,301"/>
+<area shape="rect" id="Node000002" href="$fake__item__box_2render_8inc_8c.html#af266b20983c5e1664e5d15c1e7a952d0" title=" " alt="" coords="1431,243,1637,269"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1671,274,1637,270,1638,265,1672,269"/>
+<area shape="rect" id="Node000019" href="$item__box_2render_8inc_8c.html#a7bf536a1640e0324213e474302d4b37f" title=" " alt="" coords="1448,293,1620,318"/>
+<area shape="poly" id="edge26_Node000001_Node000019" title=" " alt="" coords="1672,293,1621,299,1620,294,1672,288"/>
 <area shape="rect" id="Node000003" href="$actors_8c.html#af49e137947453b001541879965ea7769" title=" " alt="" coords="1244,269,1383,294"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1417,269,1383,274,1383,269,1417,264"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1417,272,1383,276,1383,271,1416,267"/>
 <area shape="rect" id="Node000004" href="$skybox__and__splitscreen_8c.html#a39b8efa56ec9ff632a99e6363225e9d0" title=" " alt="" coords="1040,5,1185,45"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1303,256,1289,213,1266,161,1235,107,1194,59,1177,48,1180,43,1198,55,1239,104,1271,159,1294,212,1308,254"/>
 <area shape="rect" id="Node000011" href="$skybox__and__splitscreen_8c.html#a02ba32ac13c8d84bb41bd126dcbc3f60" title=" " alt="" coords="1029,69,1196,109"/>
@@ -44,5 +44,5 @@
 <area shape="poly" id="edge21_Node000016_Node000005" title=" " alt="" coords="1039,386,1028,380,972,336,931,296,935,292,975,332,1031,375,1041,381"/>
 <area shape="poly" id="edge23_Node000017_Node000005" title=" " alt="" coords="1034,448,1028,443,991,406,961,364,924,295,929,293,965,362,995,403,1031,439,1037,444"/>
 <area shape="poly" id="edge25_Node000018_Node000005" title=" " alt="" coords="1033,512,1027,507,1004,482,984,453,953,392,932,336,922,295,927,294,937,334,957,390,988,450,1008,478,1031,503,1036,508"/>
-<area shape="poly" id="edge27_Node000019_Node000003" title=" " alt="" coords="1417,298,1383,293,1383,288,1417,293"/>
+<area shape="poly" id="edge27_Node000019_Node000003" title=" " alt="" coords="1434,297,1383,291,1383,286,1434,292"/>
 </map>

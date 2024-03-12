@@ -1,5 +1,15 @@
 var NAVTREEINDEX73 =
 {
+"luigi__raceway_2course__offsets_8inc_8c.html#a84d270d0a4f110a4b25a7948b5cd49d4":[8,0,0,10,4,39],
+"luigi__raceway_2course__offsets_8inc_8c.html#a861b90cee7b7c3796d64551c57b50fc2":[8,0,0,10,4,36],
+"luigi__raceway_2course__offsets_8inc_8c.html#a9900e268d420bd0fa567c71b8ed92817":[8,0,0,10,4,30],
+"luigi__raceway_2course__offsets_8inc_8c.html#aa49c49da6920492ebf1d7fa4caa6fbc5":[8,0,0,10,4,32],
+"luigi__raceway_2course__offsets_8inc_8c.html#aa511f4def09f2fb4b94fc40fa9cd4f6b":[8,0,0,10,4,15],
+"luigi__raceway_2course__offsets_8inc_8c.html#ab1c68e415edf9802e7a422d193c3d260":[8,0,0,10,4,22],
+"luigi__raceway_2course__offsets_8inc_8c.html#ab1d6b5f27b33097b1b83009394a91d05":[8,0,0,10,4,0],
+"luigi__raceway_2course__offsets_8inc_8c.html#aba3ab5cdb26f9bf01baee383ac0b3704":[8,0,0,10,4,9],
+"luigi__raceway_2course__offsets_8inc_8c.html#abbbbd87a0afc5e08e1ed9e56ab878168":[8,0,0,10,4,6],
+"luigi__raceway_2course__offsets_8inc_8c.html#abfde7a89acdaa0329b2141b70221331f":[8,0,0,10,4,13],
 "luigi__raceway_2course__offsets_8inc_8c.html#ac1a169ef764460f3048de26773ec3539":[8,0,0,10,4,28],
 "luigi__raceway_2course__offsets_8inc_8c.html#ac8f2ff3ac2cb7a40478b6294655184d8":[8,0,0,10,4,24],
 "luigi__raceway_2course__offsets_8inc_8c.html#ac9159a0b190ec56380d6bfa4c76f461d":[8,0,0,10,4,23],
@@ -239,15 +249,5 @@ var NAVTREEINDEX73 =
 "main_8h.html#a29a565dac5685c13c1d8240b5428545f":[8,0,3,42,5],
 "main_8h.html#a2ccc43c85eb5a79a5c0659a053576a75":[8,0,3,42,42],
 "main_8h.html#a2e183ff8c02890323202d30740f315f9":[8,0,3,42,156],
-"main_8h.html#a2e326eb0b21a55d10f57219f34d50840":[8,0,3,42,63],
-"main_8h.html#a2f180116bc2006d969d3b42e434ca32e":[8,0,3,42,50],
-"main_8h.html#a2f1ddeb70abd339fc93c6f563a8c5db2":[8,0,3,42,94],
-"main_8h.html#a2f52967c4294e265b8cdb09e04ec44df":[8,0,3,42,139],
-"main_8h.html#a2fa45adadd9db50419593273a86d5875":[8,0,3,42,168],
-"main_8h.html#a30bcdb54dee2c1ce2f03abc5270a51a3":[8,0,3,42,93],
-"main_8h.html#a31c11d55d8bb43ea93782bb27eb387a3":[8,0,3,42,13],
-"main_8h.html#a33f1e921a470d9f0e1b428981bfa7f05":[8,0,3,42,161],
-"main_8h.html#a38a4e512ff60dd55adb533c7abb821f1":[8,0,3,42,23],
-"main_8h.html#a393ed93dbcc21cf420c007add64c2d97":[8,0,3,42,163],
-"main_8h.html#a3a0697cf1e2b0c4ec6ddbf605926eac4":[8,0,3,42,28]
+"main_8h.html#a2e326eb0b21a55d10f57219f34d50840":[8,0,3,42,63]
 };

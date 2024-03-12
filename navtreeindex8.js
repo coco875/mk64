@@ -1,11 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"bowsers__castle_2course__data_8inc_8h.html#a479ee682b446c51ea6d88e3e9c349a6a":[8,0,0,3,1,57],
-"bowsers__castle_2course__data_8inc_8h.html#a4edd1641a5fc96e00698309e88c0aadd":[8,0,0,3,1,36],
-"bowsers__castle_2course__data_8inc_8h.html#a510c4dc1d18268ffdf4e53e8606fdbde":[8,0,0,3,1,99],
-"bowsers__castle_2course__data_8inc_8h.html#a570c47d5a1aeb18f06fca65742591d91":[8,0,0,3,1,2],
-"bowsers__castle_2course__data_8inc_8h.html#a58b25c38c611804c006571f83abb415e":[8,0,0,3,1,121],
-"bowsers__castle_2course__data_8inc_8h.html#a5d0c38610c7c2c56c95e26d54a1ce0ce":[8,0,0,3,1,3],
 "bowsers__castle_2course__data_8inc_8h.html#a627cee445df49f9eae0ad9d7dd4c661d":[8,0,0,3,1,68],
 "bowsers__castle_2course__data_8inc_8h.html#a64b469ae3fda8cf81e8d6c6f0ad36107":[8,0,0,3,1,40],
 "bowsers__castle_2course__data_8inc_8h.html#a65fd26c1aa6db5d0aa9c09d08bc300b7":[8,0,0,3,1,23],
@@ -249,5 +243,11 @@ var NAVTREEINDEX8 =
 "bowsers__castle_2course__displaylists_8inc_8c.html#af8a06a2cf524eb4b888430bb1805203a":[8,0,0,3,2,58],
 "bowsers__castle_2course__displaylists_8inc_8c.html#af9af36cfc6d127ad3f23fac1576ce90a":[8,0,0,3,2,81],
 "bowsers__castle_2course__displaylists_8inc_8c.html#afb13743f4835a86d48a023cfd46d32f5":[8,0,0,3,2,139],
-"bowsers__castle_2course__displaylists_8inc_8c.html#afb4c5483e37a36cc4eada74fd97d8b0e":[8,0,0,3,2,4]
+"bowsers__castle_2course__displaylists_8inc_8c.html#afb4c5483e37a36cc4eada74fd97d8b0e":[8,0,0,3,2,4],
+"bowsers__castle_2course__displaylists_8inc_8c.html#afe10b4865ba93a7efd6f28f11e74d7a5":[8,0,0,3,2,90],
+"bowsers__castle_2course__displaylists_8inc_8c.html#afeaa2ac7153de86de6bb2abafbad121c":[8,0,0,3,2,120],
+"bowsers__castle_2course__displaylists_8inc_8h.html":[8,0,0,3,3],
+"bowsers__castle_2course__displaylists_8inc_8h.html#a00a68dd4a1add6737eea05f1b0a24e3b":[8,0,0,3,3,165],
+"bowsers__castle_2course__displaylists_8inc_8h.html#a0993e36e50dd4bf4293a84dfddb532f4":[8,0,0,3,3,110],
+"bowsers__castle_2course__displaylists_8inc_8h.html#a0da10531517d65133b2b3ca8a3474095":[8,0,0,3,3,38]
 };

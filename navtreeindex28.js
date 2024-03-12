@@ -1,11 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"common__textures_8inc_8c.html#a748dc53812889331d4b3a6ae3fb1ae3d":[8,0,3,2,1,283],
-"common__textures_8inc_8c.html#a75aec76a1ac487168fbd094bdeb0c45a":[8,0,3,2,1,275],
-"common__textures_8inc_8c.html#a7669183fc6e03315d9f2b5dbbab21b94":[8,0,3,2,1,289],
-"common__textures_8inc_8c.html#a798b4456933ca3d6ad9a054523d6a63a":[8,0,3,2,1,311],
-"common__textures_8inc_8c.html#a7a6d87ae8a0c2f13ac312cbc822f6ca8":[8,0,3,2,1,295],
-"common__textures_8inc_8c.html#a7d67b9ec326318e6dd96ee2dd389df0a":[8,0,3,2,1,310],
 "common__textures_8inc_8c.html#a7ece96db413a1e1879403a85eff5fe98":[8,0,3,2,1,121],
 "common__textures_8inc_8c.html#a7ff7921c3a4ec782e2299b9294a5b4b3":[8,0,3,2,1,292],
 "common__textures_8inc_8c.html#a80e1db9b137bb4bc8d7f5f87b895b0a5":[8,0,3,2,1,282],
@@ -245,9 +239,15 @@ var NAVTREEINDEX28 =
 "controlflow.html#actors-1":[1,2,4,2],
 "controlflow.html#code-breakdown":[1,2,4],
 "controlflow.html#course-folder":[1,2,4,4,0],
-"controlflow.html#courses":[1,2,4,4],
+"controlflow.html#courses-1":[1,2,4,4],
 "controlflow.html#ending":[1,2,4,8],
 "controlflow.html#engine":[1,2,4,6],
 "controlflow.html#math":[1,2,4,7],
-"controlflow.html#menus":[1,2,4,0]
+"controlflow.html#menus":[1,2,4,0],
+"controlflow.html#objects-1":[1,2,4,3],
+"controlflow.html#overall-control-flow":[1,2,2],
+"controlflow.html#paradigm":[1,2,0],
+"controlflow.html#players":[1,2,4,1],
+"controlflow.html#segments":[1,2,3],
+"controlflow.html#threading":[1,2,1]
 };

@@ -615,9 +615,9 @@ var sectionId = 'dynsection-3';
 <!-- Node24 -->
 <g id="Node000024" class="node">
 <title>Node24</title>
-<g id="a_Node000024"><a xlink:href="actors_8c.html#ad4c7671a474d355b39c737fdf54caffc" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="611,-488 520,-488 520,-469 611,-469 611,-488"/>
-<text text-anchor="middle" x="565.5" y="-476" font-family="Helvetica,sans-Serif" font-size="10.00">func_8029E158</text>
+<g id="a_Node000024"><a xlink:href="actors_8c.html#a8ed0774c05b9577fcf2db1dd958941b1" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="628.5,-488 502.5,-488 502.5,-469 628.5,-469 628.5,-488"/>
+<text text-anchor="middle" x="565.5" y="-476" font-family="Helvetica,sans-Serif" font-size="10.00">load_common_texture</text>
 </a>
 </g>
 </g>
