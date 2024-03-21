@@ -1,5 +1,16 @@
 var NAVTREEINDEX83 =
 {
+"osEepromLongWrite_8c.html":[8,0,3,5,71],
+"osEepromLongWrite_8c.html#a115ccbb72ad3e50a0af6e1889d835e45":[8,0,3,5,71,6],
+"osEepromLongWrite_8c.html#a15b2683c35d6e8cd622bbae66211ba9e":[8,0,3,5,71,4],
+"osEepromLongWrite_8c.html#a4b90d060d35a3fd4f1dce21b68a98789":[8,0,3,5,71,1],
+"osEepromLongWrite_8c.html#a6765ae238051e57f0d3ac6567a8e0db9":[8,0,3,5,71,5],
+"osEepromLongWrite_8c.html#a9d2c6b666a1a317e841b46a6eee01123":[8,0,3,5,71,2],
+"osEepromLongWrite_8c.html#aa1669d76506610d1c5a9d248f6d45add":[8,0,3,5,71,0],
+"osEepromLongWrite_8c.html#ab58627f83d7b5069c7d442eb1c05f014":[8,0,3,5,71,3],
+"osEepromProbe_8c.html":[8,0,3,5,72],
+"osEepromProbe_8c.html#a0fd5c533855a3970d450221de82beefc":[8,0,3,5,72,2],
+"osEepromProbe_8c.html#a60ddd985ce0b83b8c5ab75da236177ca":[8,0,3,5,72,1],
 "osEepromRead_8c.html":[8,0,3,5,73],
 "osEepromRead_8c.html#a16fdf1f269136bc8a44867c6ee768eff":[8,0,3,5,73,6],
 "osEepromRead_8c.html#a3a36a580107ee4af86d80818a26304db":[8,0,3,5,73,8],
@@ -238,16 +249,5 @@ var NAVTREEINDEX83 =
 "os_8h.html#a56e1d7e22d90f5a22b633a98824ae814":[8,0,2,1,7,56],
 "os_8h.html#a5709f44313cd430da213682d1992c90d":[8,0,2,1,7,112],
 "os_8h.html#a57c0b5dc1b906de8be3da0a7602fd81c":[8,0,2,1,7,114],
-"os_8h.html#a58f91f88b561dae1200fc76e8936d3ed":[8,0,2,1,7,163],
-"os_8h.html#a59d19d3ce072a8e20ce3e5ead9c35e16":[8,0,2,1,7,171],
-"os_8h.html#a5c1772986025d1cc08818e57c914efcd":[8,0,2,1,7,47],
-"os_8h.html#a5ec59d5e4f6bfacfdf3aa6e7ed5c0373":[8,0,2,1,7,0],
-"os_8h.html#a5ef612288a93912c5e576682dd9b43f8":[8,0,2,1,7,35],
-"os_8h.html#a60d37a14f281aaf3dc92b654297e5262":[8,0,2,1,7,199],
-"os_8h.html#a60ec17f4704fe1842a1b385665e9bd79":[8,0,2,1,7,78],
-"os_8h.html#a61b4993ebb70a3b701fccc3221c36d81":[8,0,2,1,7,218],
-"os_8h.html#a62fb281bbbccc82204f8f65c4ba53c94":[8,0,2,1,7,32],
-"os_8h.html#a6373069547faca2ac643dda122cf33f9":[8,0,2,1,7,151],
-"os_8h.html#a64c401932461763f454a5610c3574b34":[8,0,2,1,7,181],
-"os_8h.html#a65bee12bd273b1b6d20a69c07399179d":[8,0,2,1,7,107]
+"os_8h.html#a58f91f88b561dae1200fc76e8936d3ed":[8,0,2,1,7,163]
 };

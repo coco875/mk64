@@ -1,5 +1,16 @@
 var NAVTREEINDEX74 =
 {
+"main_8h.html#a1d3d09175f95d66b361a83b7a94446f7":[8,0,3,42,114],
+"main_8h.html#a1feaa4d9500eb5fc10f4c6f750ce8058":[8,0,3,42,65],
+"main_8h.html#a226ac0a9c7ff52f98cbc4ffdab755ea3":[8,0,3,42,62],
+"main_8h.html#a22964cae6a6d2065bb398ef23463eb88":[8,0,3,42,67],
+"main_8h.html#a231e273fa0039dced19efec6888f12a4":[8,0,3,42,109],
+"main_8h.html#a26a29858c220d867684f0385abacfde8":[8,0,3,42,27],
+"main_8h.html#a288329e0b27590c9696979123abbdf05":[8,0,3,42,97],
+"main_8h.html#a29a565dac5685c13c1d8240b5428545f":[8,0,3,42,5],
+"main_8h.html#a2ccc43c85eb5a79a5c0659a053576a75":[8,0,3,42,42],
+"main_8h.html#a2e183ff8c02890323202d30740f315f9":[8,0,3,42,156],
+"main_8h.html#a2e326eb0b21a55d10f57219f34d50840":[8,0,3,42,63],
 "main_8h.html#a2f180116bc2006d969d3b42e434ca32e":[8,0,3,42,50],
 "main_8h.html#a2f1ddeb70abd339fc93c6f563a8c5db2":[8,0,3,42,94],
 "main_8h.html#a2f52967c4294e265b8cdb09e04ec44df":[8,0,3,42,139],
@@ -238,16 +249,5 @@ var NAVTREEINDEX74 =
 "mario__raceway_2course__data_8inc_8c.html#afeeada35a9fae6ef0818d183ec7ca3d6":[8,0,0,11,0,75],
 "mario__raceway_2course__data_8inc_8h.html":[8,0,0,11,1],
 "mario__raceway_2course__data_8inc_8h.html#a013cb320186feff4cda022a072710319":[8,0,0,11,1,28],
-"mario__raceway_2course__data_8inc_8h.html#a0ab932fb7b6557ba57a7c064ea784276":[8,0,0,11,1,61],
-"mario__raceway_2course__data_8inc_8h.html#a0aeda5cf7fb899f43551829b0b0ccd71":[8,0,0,11,1,59],
-"mario__raceway_2course__data_8inc_8h.html#a116d1bf2a9b4f96a1d2c6e600b4f03c7":[8,0,0,11,1,63],
-"mario__raceway_2course__data_8inc_8h.html#a13e1a4b083213371ae4ca78719a91426":[8,0,0,11,1,94],
-"mario__raceway_2course__data_8inc_8h.html#a15eeeaa419df70b626096462fba2a262":[8,0,0,11,1,67],
-"mario__raceway_2course__data_8inc_8h.html#a19174af03d95b1259b2d32c716da0d79":[8,0,0,11,1,4],
-"mario__raceway_2course__data_8inc_8h.html#a1b2e3818565f921352393bc1f9727e88":[8,0,0,11,1,34],
-"mario__raceway_2course__data_8inc_8h.html#a1c8a6a799303d2cca1e683b59f5c9084":[8,0,0,11,1,26],
-"mario__raceway_2course__data_8inc_8h.html#a23fcfc55545cfed496f7116af163c412":[8,0,0,11,1,85],
-"mario__raceway_2course__data_8inc_8h.html#a2743b0e148e93d9eeedc84c9dd750a8b":[8,0,0,11,1,49],
-"mario__raceway_2course__data_8inc_8h.html#a2940da5051ea370577be58ff542c0fb2":[8,0,0,11,1,89],
-"mario__raceway_2course__data_8inc_8h.html#a29a504de183224023069bdbb2eaf0c49":[8,0,0,11,1,55]
+"mario__raceway_2course__data_8inc_8h.html#a0ab932fb7b6557ba57a7c064ea784276":[8,0,0,11,1,61]
 };
