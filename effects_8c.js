@@ -1,5 +1,6 @@
 var effects_8c =
 [
+    [ "EFFECT_BLACKLIST_USE_ITEM", "effects_8c.html#a465ee5e517c2e55e1bb1d93f02b45e0b", null ],
     [ "apply_boo_effect", "effects_8c.html#a0a426d7a6a86f3f43d2d48c0dba16a35", null ],
     [ "apply_boo_sound_effect", "effects_8c.html#a6e21e42b0229fe1e1829bd8909527e2b", null ],
     [ "apply_boost_effect", "effects_8c.html#a16c1b4e4ea9cc5bb21fcc653ea8fbf6d", null ],

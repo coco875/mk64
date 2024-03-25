@@ -1,5 +1,8 @@
 var NAVTREEINDEX106 =
 {
+"sptask_8h.html#a87d7f904c30ab38bdf3fb692a92280f2":[8,0,2,1,25,41],
+"sptask_8h.html#a9346a3f3b11e27a433ccdb06a0351fb5":[8,0,2,1,25,23],
+"sptask_8h.html#a9a9266bab4d1f25f9aa140a93fec5634":[8,0,2,1,25,9],
 "sptask_8h.html#aa6df8593ac0040514010d7a8ced2e418":[8,0,2,1,25,8],
 "sptask_8h.html#aaca389fede85b91ba8b5c21010dc0d9b":[8,0,2,1,25,3],
 "sptask_8h.html#ab58ea68e863df47ffda9a338e1e63172":[8,0,2,1,25,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX106 =
 "structALInstrument.html#abe0b8f9fc1b07c75172bcf52048871c5":[7,0,32,12],
 "structALInstrument.html#ac66f9d02bc16b60dc63642a041d07940":[7,0,32,0],
 "structALInstrument.html#ac6fa98c1fca59a01701c2bc5bbe44daf":[7,0,32,8],
-"structALInstrument.html#ae47dcc1b7c69f023f2a3a103d8be0ab0":[7,0,32,10],
-"structALInstrument.html#af08ba88d76d1a98e1d208fa25bded19d":[7,0,32,14],
-"structALInstrument.html#af17c9cdf8bab0d46f033b09143bd1918":[7,0,32,5],
-"structALInstrument.html#afc66acaf3969ce79cc5826f1ecc076e1":[7,0,32,7]
+"structALInstrument.html#ae47dcc1b7c69f023f2a3a103d8be0ab0":[7,0,32,10]
 };

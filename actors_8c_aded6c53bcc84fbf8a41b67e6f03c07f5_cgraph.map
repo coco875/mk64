@@ -1,0 +1,17 @@
+<map id="collision_piranha_plant" name="collision_piranha_plant">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,177,105"/>
+<area shape="rect" id="Node000002" href="$external_8c.html#a2be9efc97a92e19d02aaee90d676acc1" title=" " alt="" coords="249,5,371,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,77,224,39,248,32,249,37,226,45,125,82"/>
+<area shape="rect" id="Node000004" href="$external_8c.html#a337fc3ab94ebb3293a85908229303ac8" title=" " alt="" coords="249,55,371,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="177,80,234,73,235,79,178,85"/>
+<area shape="rect" id="Node000005" href="$external_8c.html#acb60983213d09ee795e80ca3c8b5975e" title=" " alt="" coords="249,104,371,129"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="178,99,235,106,234,111,177,105"/>
+<area shape="rect" id="Node000006" href="$actors_8c.html#a3e919bd6acd37b7288bee31e9b72a6d2" title=" " alt="" coords="225,153,395,179"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="127,103,226,138,253,147,251,152,224,143,125,108"/>
+<area shape="rect" id="Node000003" href="$external_8c.html#a4227847f3da303aee53cf69d2760a595" title=" " alt="" coords="443,55,539,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="358,28,430,48,429,53,356,33"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="372,65,429,65,429,70,372,70"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="356,101,429,81,430,86,358,107"/>
+<area shape="rect" id="Node000007" href="$math_8h.html#a37bde043e94a6f074c78f10518fb5d99" title=" " alt="" coords="465,153,517,179"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="395,163,451,163,451,169,395,169"/>
+</map>

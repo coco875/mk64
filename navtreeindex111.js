@@ -1,5 +1,8 @@
 var NAVTREEINDEX111 =
 {
+"structPlayer.html#ade44be26bd9c50bae09208bb2306e760":[7,0,131,74],
+"structPlayer.html#adfc76736333b434431a13e9c0325eb52":[7,0,131,33],
+"structPlayer.html#ae6a6a95dad1e873b856df7114b789215":[7,0,131,65],
 "structPlayer.html#af0c1af524bbbc458a71da52501116cbd":[7,0,131,68],
 "structPlayer.html#af4504ae98f1854b9f604e04ad87ead08":[7,0,131,87],
 "structPlayer.html#af525c0ce41fb6f4f2be1b23707dcef84":[7,0,131,85],
@@ -246,8 +249,5 @@ var NAVTREEINDEX111 =
 "structShellActor.html#acf7c6324c79136005a8a16b0280862d4":[7,0,151,13],
 "structShellActor.html#ad503d4399dfef15a8aeb4cfec64ac155":[7,0,151,11],
 "structShellActor.html#adaca452aa94770d8d57f99cc1f3b7151":[7,0,151,9],
-"structShellActor.html#af3da1448ac4320471aadbc7652ea81a5":[7,0,151,3],
-"structSkybox.html":[7,0,152],
-"structSkybox.html#a38b95b0761ac6f03f1d85a93e514cad1":[7,0,152,5],
-"structSkybox.html#a4997ffec92872b821d40a35a20eeb0ca":[7,0,152,0]
+"structShellActor.html#af3da1448ac4320471aadbc7652ea81a5":[7,0,151,3]
 };
