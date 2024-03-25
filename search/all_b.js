@@ -110,7 +110,7 @@ var searchData=
   ['ipage_107',['ipage',['../union____OSInodeUnit.html#afb1a4073f3b025f6c6fc25e8ede9208e',1,'__OSInodeUnit']]],
   ['is_5fbank_5fload_5fcomplete_108',['IS_BANK_LOAD_COMPLETE',['../heap_8h.html#a57581544e76630cc145cb398083af385',1,'heap.h']]],
   ['is_5fcharacter_5fspot_5ffree_109',['is_character_spot_free',['../menus_8c.html#a4b11994b1b802cd7af3ade61dac14ca5',1,'is_character_spot_free(s32 gridId):&#160;menus.c'],['../menus_8h.html#a2a33e828dbd9b99ddc6004e1b5252085',1,'is_character_spot_free(s32):&#160;menus.c']]],
-  ['is_5fcolliding_5fand_5fapply_110',['is_colliding_and_apply',['../actors_8c.html#a3e919bd6acd37b7288bee31e9b72a6d2',1,'is_colliding_and_apply(Player *player, Vec3f pos, f32 minDist, f32 dist, f32 arg4):&#160;actors.c'],['../actors_8h.html#a74f59b08680107b8e0daa7c752954f33',1,'is_colliding_and_apply(Player *, Vec3f, f32, f32, f32):&#160;actors.c']]],
+  ['is_5fcolliding_5fand_5fresolve_110',['is_colliding_and_resolve',['../actors_8c.html#a9429052efee64c6d24b4a95def854c02',1,'is_colliding_and_resolve(Player *player, Vec3f pos, f32 minDist, f32 dist, f32 arg4):&#160;actors.c'],['../actors_8h.html#a237e7917b2ed8222f2731a587f4178b4',1,'is_colliding_and_resolve(Player *, Vec3f, f32, f32, f32):&#160;actors.c']]],
   ['is_5fcolliding_5fwith_5fdrivable_5fsurface_111',['is_colliding_with_drivable_surface',['../collision_8c.html#a9ec62ee67d55805a587752d82d66abd8',1,'collision.c']]],
   ['is_5fcolliding_5fwith_5fwall1_112',['is_colliding_with_wall1',['../collision_8c.html#aa77fc5aaa5aa3a6f71ad00bc71b04788',1,'collision.c']]],
   ['is_5fcolliding_5fwith_5fwall2_113',['is_colliding_with_wall2',['../collision_8c.html#a728bd4102d2ed3ba18d68d39b707c0f4',1,'collision.c']]],

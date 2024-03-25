@@ -1,13 +1,13 @@
-<map id="is_colliding_and_apply" name="is_colliding_and_apply">
-<area shape="rect" id="Node000001" title=" " alt="" coords="1887,84,2056,109"/>
+<map id="is_colliding_and_resolve" name="is_colliding_and_resolve">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1887,84,2068,109"/>
 <area shape="rect" id="Node000002" href="$actors_8c.html#a47c0fc4d3da03155ecd5317ddca8dfd5" title=" " alt="" coords="1656,5,1811,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1930,81,1838,45,1797,33,1799,28,1840,39,1932,76"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1934,81,1838,45,1796,33,1797,28,1839,39,1936,76"/>
 <area shape="rect" id="Node000011" href="$actors_8c.html#aded6c53bcc84fbf8a41b67e6f03c07f5" title=" " alt="" coords="1647,55,1819,80"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1873,87,1819,81,1820,75,1873,82"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1873,87,1819,80,1820,75,1873,82"/>
 <area shape="rect" id="Node000012" href="$actors_8c.html#a55dd52d90732891552d43874931866cb" title=" " alt="" coords="1658,105,1809,145"/>
-<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="1873,111,1809,118,1809,113,1872,106"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="1873,111,1809,119,1809,113,1873,106"/>
 <area shape="rect" id="Node000017" href="$actors_8c.html#ab27c0c03bdc06363a3d8d097e63b26a9" title=" " alt="" coords="1628,169,1839,195"/>
-<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="1935,118,1840,159,1796,172,1794,167,1838,154,1933,113"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="1939,118,1840,159,1795,172,1794,167,1838,154,1937,113"/>
 <area shape="rect" id="Node000003" href="$actors_8c.html#a074bb86cc794d40a8b569035fcb5bbe9" title=" " alt="" coords="1407,41,1580,81"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1648,36,1581,48,1580,43,1648,30"/>
 <area shape="rect" id="Node000004" href="$actors_8c.html#a32f79cecda45391057f8bdaebf84a478" title=" " alt="" coords="1179,43,1359,83"/>

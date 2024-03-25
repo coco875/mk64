@@ -37,7 +37,7 @@ var actors_8c =
     [ "init_actor_hot_air_balloon_item_box", "actors_8c.html#a5998eaf5bee060a664f203f5d0a8ae95", null ],
     [ "init_kiwano_fruit", "actors_8c.html#acf7a2e2500cef03e41aec3bde2103ca9", null ],
     [ "init_red_shell_texture", "actors_8c.html#a7dd08845f085e355fe4eb45bff89542a", null ],
-    [ "is_colliding_and_apply", "actors_8c.html#a3e919bd6acd37b7288bee31e9b72a6d2", null ],
+    [ "is_colliding_and_resolve", "actors_8c.html#a9429052efee64c6d24b4a95def854c02", null ],
     [ "load_common_texture", "actors_8c.html#a8ed0774c05b9577fcf2db1dd958941b1", null ],
     [ "place_all_item_boxes", "actors_8c.html#a040f5edff7bbda021cb0b3cde23e9674", null ],
     [ "place_course_actors", "actors_8c.html#a09880e8065960d2bbd0585409a4831a7", null ],

@@ -657,9 +657,9 @@
 <!-- Node28 -->
 <g id="Node000028" class="node">
 <title>Node28</title>
-<g id="a_Node000028"><a xlink:href="actors_8c.html#a3e919bd6acd37b7288bee31e9b72a6d2" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="640.5,-694.52 513.5,-694.52 513.5,-675.52 640.5,-675.52 640.5,-694.52"/>
-<text text-anchor="middle" x="577" y="-682.52" font-family="Helvetica,sans-Serif" font-size="10.00">is_colliding_and_apply</text>
+<g id="a_Node000028"><a xlink:href="actors_8c.html#a9429052efee64c6d24b4a95def854c02" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="645,-694.52 509,-694.52 509,-675.52 645,-675.52 645,-694.52"/>
+<text text-anchor="middle" x="577" y="-682.52" font-family="Helvetica,sans-Serif" font-size="10.00">is_colliding_and_resolve</text>
 </a>
 </g>
 </g>
@@ -667,8 +667,8 @@
 <g id="edge31_Node000026_Node000028" class="edge">
 <title>Node26&#45;&gt;Node28</title>
 <g id="a_edge31_Node000026_Node000028"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M459.79,-685.02C473.61,-685.02 488.56,-685.02 502.99,-685.02"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="503.39,-688.52 513.39,-685.02 503.39,-681.52 503.39,-688.52"/>
+<path fill="none" stroke="#63b8ff" d="M459.79,-685.02C472.17,-685.02 485.47,-685.02 498.48,-685.02"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="498.83,-688.52 508.83,-685.02 498.83,-681.52 498.83,-688.52"/>
 </a>
 </g>
 </g>
