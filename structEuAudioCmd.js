@@ -10,7 +10,7 @@ var structEuAudioCmd =
     [ "bankId", "structEuAudioCmd.html#a598fc34477c8c7d54816fcbd191aa13b", null ],
     [ "first", "structEuAudioCmd.html#a7f11cf3172fa639a3572f6835df92880", null ],
     [ "op", "structEuAudioCmd.html#a477905af6a47c662f2fef066cdc3a0e1", null ],
-    [ "s", "structEuAudioCmd.html#a19a94c8e21fba5358de8bc6a024976d8", null ],
-    [ "u", "structEuAudioCmd.html#ae9071e3189c38214208238d98ba9164b", null ],
-    [ "u2", "structEuAudioCmd.html#a90a2a2776f1137187e96aa98fea0f404", null ]
+    [ "s", "structEuAudioCmd.html#aa3ef1fa61b73ba751ea05db6c2701684", null ],
+    [ "u", "structEuAudioCmd.html#a6322ffffdd033e5235d7a3c45cee9466", null ],
+    [ "u2", "structEuAudioCmd.html#af7d0aafa764e7b841233276796cf09df", null ]
 ];

@@ -621,7 +621,7 @@
 <!-- Node129 -->
 <g id="Node000129" class="node">
 <title>Node129</title>
-<g id="a_Node000129"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title=" ">
+<g id="a_Node000129"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title="Updates the green shell actor.">
 <polygon fill="#fff0f0" stroke="red" points="770,-126 657,-126 657,-96 770,-96 770,-126"/>
 <text text-anchor="start" x="665" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_green</text>
 <text text-anchor="middle" x="713.5" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>
@@ -640,7 +640,7 @@
 <!-- Node131 -->
 <g id="Node000131" class="node">
 <title>Node131</title>
-<g id="a_Node000131"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title=" ">
+<g id="a_Node000131"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title="Update the red and blue shell actors.">
 <polygon fill="#fff0f0" stroke="red" points="777.5,-78 649.5,-78 649.5,-48 777.5,-48 777.5,-78"/>
 <text text-anchor="start" x="657.5" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_red_blue</text>
 <text text-anchor="middle" x="713.5" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>

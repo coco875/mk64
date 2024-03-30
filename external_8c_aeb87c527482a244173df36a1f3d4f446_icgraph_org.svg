@@ -183,7 +183,7 @@
 <!-- Node54 -->
 <g id="Node000054" class="node">
 <title>Node54</title>
-<g id="a_Node000054"><a xlink:href="banana_2update_8inc_8c.html#a1b699acb507ca2e080f46ea632573993" target="_top" xlink:title=" ">
+<g id="a_Node000054"><a xlink:href="banana_2update_8inc_8c.html#a1b699acb507ca2e080f46ea632573993" target="_top" xlink:title="update the banana actor">
 <polygon fill="#fff0f0" stroke="red" points="304,-594 182,-594 182,-575 304,-575 304,-594"/>
 <text text-anchor="middle" x="243" y="-582" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_banana</text>
 </a>
@@ -220,7 +220,7 @@
 <!-- Node55 -->
 <g id="Node000055" class="node">
 <title>Node55</title>
-<g id="a_Node000055"><a xlink:href="fake__item__box_2update_8inc_8c.html#ad21c35b35099a45f58d3c9d3a470f6b7" target="_top" xlink:title=" ">
+<g id="a_Node000055"><a xlink:href="fake__item__box_2update_8inc_8c.html#ad21c35b35099a45f58d3c9d3a470f6b7" target="_top" xlink:title="Updates the fake item box actor.">
 <polygon fill="#fff0f0" stroke="red" points="322,-422 164,-422 164,-403 322,-403 322,-422"/>
 <text text-anchor="middle" x="243" y="-410" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_fake_item_box</text>
 </a>
@@ -238,7 +238,7 @@
 <!-- Node56 -->
 <g id="Node000056" class="node">
 <title>Node56</title>
-<g id="a_Node000056"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title=" ">
+<g id="a_Node000056"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title="Updates the green shell actor.">
 <polygon fill="#fff0f0" stroke="red" points="299.5,-556.5 186.5,-556.5 186.5,-526.5 299.5,-526.5 299.5,-556.5"/>
 <text text-anchor="start" x="194.5" y="-544.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_green</text>
 <text text-anchor="middle" x="243" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>
@@ -257,7 +257,7 @@
 <!-- Node57 -->
 <g id="Node000057" class="node">
 <title>Node57</title>
-<g id="a_Node000057"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title=" ">
+<g id="a_Node000057"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title="Update the red and blue shell actors.">
 <polygon fill="#fff0f0" stroke="red" points="128,-776.5 0,-776.5 0,-746.5 128,-746.5 128,-776.5"/>
 <text text-anchor="start" x="8" y="-764.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_red_blue</text>
 <text text-anchor="middle" x="64" y="-753.5" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>

@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Updates the green shell actor.">
 <polygon fill="#999999" stroke="#666666" points="113,-286.5 0,-286.5 0,-256.5 113,-256.5 113,-286.5"/>
 <text text-anchor="start" x="8" y="-274.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_green</text>
 <text text-anchor="middle" x="56.5" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>

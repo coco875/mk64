@@ -1,5 +1,15 @@
 var NAVTREEINDEX52 =
 {
+"kart__dma_8h.html#a137bb6d8cfdf3c3b8c1f2fd3328da25c":[8,0,3,40,1215],
+"kart__dma_8h.html#a137fafd625d6927192179080f1f109aa":[8,0,3,40,540],
+"kart__dma_8h.html#a1389a2a18c1b00745d6a8608bd367ab5":[8,0,3,40,2265],
+"kart__dma_8h.html#a13970d5d2d9bc4af882c8dbe186b7bb8":[8,0,3,40,1616],
+"kart__dma_8h.html#a13987c436cf06e92feac050c3feefbc1":[8,0,3,40,919],
+"kart__dma_8h.html#a139d4298aa3bf5b10e061aa481eba201":[8,0,3,40,1629],
+"kart__dma_8h.html#a13a5ced470ded0a6dcbff139bf8d99af":[8,0,3,40,2501],
+"kart__dma_8h.html#a13ad9b8e9a4c542e55499f27e800c1d2":[8,0,3,40,1063],
+"kart__dma_8h.html#a13b5f1f677a6d5c90ff60b2b0f237dc3":[8,0,3,40,2523],
+"kart__dma_8h.html#a13c88a8186354bdd9e0c2bb0afe5e3cd":[8,0,3,40,1758],
 "kart__dma_8h.html#a13c9a5bcb0763b8183608dad47072cba":[8,0,3,40,1735],
 "kart__dma_8h.html#a13e3186036a31f34f01d3204646acee3":[8,0,3,40,2053],
 "kart__dma_8h.html#a13f295714bd7851867bca7d0a87f8c51":[8,0,3,40,563],
@@ -239,15 +249,5 @@ var NAVTREEINDEX52 =
 "kart__dma_8h.html#a27f34f9a98f6a81086db4c1c914c3a58":[8,0,3,40,1991],
 "kart__dma_8h.html#a2816950435b6256d0b489dbc8e2d827b":[8,0,3,40,1466],
 "kart__dma_8h.html#a2820a3c1fd6b064ec6bb0bae14e52f75":[8,0,3,40,1652],
-"kart__dma_8h.html#a2829a53f1388dc407687acdfb84db1a0":[8,0,3,40,1624],
-"kart__dma_8h.html#a282fd91558b2f65e0ca4b17e905a569d":[8,0,3,40,65],
-"kart__dma_8h.html#a284f428aef4533d7d92ce6a90d1d137b":[8,0,3,40,1377],
-"kart__dma_8h.html#a287b7a396c4b8af594b717a9e324620c":[8,0,3,40,2548],
-"kart__dma_8h.html#a2886de96202eadb3bd74a53be2e1e33c":[8,0,3,40,1861],
-"kart__dma_8h.html#a288fa8ee2f1376fec2389e06819a1d71":[8,0,3,40,827],
-"kart__dma_8h.html#a2892ed693b51692db73103446a36e3ba":[8,0,3,40,68],
-"kart__dma_8h.html#a2894a7fe8c851110553d17f220fff0d8":[8,0,3,40,487],
-"kart__dma_8h.html#a2895c9149cb2f7ed526bd6481f6751fd":[8,0,3,40,1700],
-"kart__dma_8h.html#a289a0913faafb15dee9e476ffbc6f803":[8,0,3,40,2486],
-"kart__dma_8h.html#a28a89c89fd02794432a0705348d69317":[8,0,3,40,1949]
+"kart__dma_8h.html#a2829a53f1388dc407687acdfb84db1a0":[8,0,3,40,1624]
 };

@@ -223,7 +223,7 @@
 <!-- Node47 -->
 <g id="Node000047" class="node">
 <title>Node47</title>
-<g id="a_Node000047"><a xlink:href="banana_2update_8inc_8c.html#a1b699acb507ca2e080f46ea632573993" target="_top" xlink:title=" ">
+<g id="a_Node000047"><a xlink:href="banana_2update_8inc_8c.html#a1b699acb507ca2e080f46ea632573993" target="_top" xlink:title="update the banana actor">
 <polygon fill="#fff0f0" stroke="red" points="126,-1117.5 4,-1117.5 4,-1098.5 126,-1098.5 126,-1117.5"/>
 <text text-anchor="middle" x="65" y="-1105.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_banana</text>
 </a>
@@ -241,7 +241,7 @@
 <!-- Node48 -->
 <g id="Node000048" class="node">
 <title>Node48</title>
-<g id="a_Node000048"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title=" ">
+<g id="a_Node000048"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title="Updates the green shell actor.">
 <polygon fill="#fff0f0" stroke="red" points="121.5,-1072 8.5,-1072 8.5,-1042 121.5,-1042 121.5,-1072"/>
 <text text-anchor="start" x="16.5" y="-1060" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_green</text>
 <text text-anchor="middle" x="65" y="-1049" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>
@@ -260,7 +260,7 @@
 <!-- Node45 -->
 <g id="Node000045" class="node">
 <title>Node45</title>
-<g id="a_Node000045"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title=" ">
+<g id="a_Node000045"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title="Update the red and blue shell actors.">
 <polygon fill="#fff0f0" stroke="red" points="129,-1008 1,-1008 1,-978 129,-978 129,-1008"/>
 <text text-anchor="start" x="9" y="-996" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_red_blue</text>
 <text text-anchor="middle" x="65" y="-985" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>
@@ -767,7 +767,7 @@
 <!-- Node163 -->
 <g id="Node000163" class="node">
 <title>Node163</title>
-<g id="a_Node000163"><a xlink:href="fake__item__box_2update_8inc_8c.html#ad21c35b35099a45f58d3c9d3a470f6b7" target="_top" xlink:title=" ">
+<g id="a_Node000163"><a xlink:href="fake__item__box_2update_8inc_8c.html#ad21c35b35099a45f58d3c9d3a470f6b7" target="_top" xlink:title="Updates the fake item box actor.">
 <polygon fill="#fff0f0" stroke="red" points="489,-163.5 331,-163.5 331,-144.5 489,-144.5 489,-163.5"/>
 <text text-anchor="middle" x="410" y="-151.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_fake_item_box</text>
 </a>
@@ -785,7 +785,7 @@
 <!-- Node164 -->
 <g id="Node000164" class="node">
 <title>Node164</title>
-<g id="a_Node000164"><a xlink:href="kiwano__fruit_2update_8inc_8c.html#a48151e0a9b8ce3c98ec426c640fe6f1d" target="_top" xlink:title=" ">
+<g id="a_Node000164"><a xlink:href="kiwano__fruit_2update_8inc_8c.html#a48151e0a9b8ce3c98ec426c640fe6f1d" target="_top" xlink:title="Updates the kiwano fruit actor. Actor used in DK&#39;s Jungle Parkway.">
 <polygon fill="#fff0f0" stroke="red" points="470.5,-126 349.5,-126 349.5,-96 470.5,-96 470.5,-126"/>
 <text text-anchor="start" x="357.5" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_kiwano</text>
 <text text-anchor="middle" x="410" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">_fruit</text>

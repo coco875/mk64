@@ -1,5 +1,15 @@
 var NAVTREEINDEX76 =
 {
+"mario__raceway_2course__displaylists_8inc_8c.html#ae172bae7a9eebefc99def4617a5ad1c6":[8,0,0,11,2,146],
+"mario__raceway_2course__displaylists_8inc_8c.html#ae2a0449ec442af428d519eee0519cc78":[8,0,0,11,2,14],
+"mario__raceway_2course__displaylists_8inc_8c.html#ae3338f30e5f6e6daa23bf1af7ae18ee1":[8,0,0,11,2,22],
+"mario__raceway_2course__displaylists_8inc_8c.html#ae36c07abd92efe16a7a307d1a6016892":[8,0,0,11,2,171],
+"mario__raceway_2course__displaylists_8inc_8c.html#ae3f181a0ca1a3e59189ab72251b16086":[8,0,0,11,2,134],
+"mario__raceway_2course__displaylists_8inc_8c.html#ae4dd0d9ab808050f9f5ab411e807f38a":[8,0,0,11,2,74],
+"mario__raceway_2course__displaylists_8inc_8c.html#ae699eae9f472d7c356d41a895463f280":[8,0,0,11,2,144],
+"mario__raceway_2course__displaylists_8inc_8c.html#ae6de895135adea9fd41da54bf07fbc0a":[8,0,0,11,2,169],
+"mario__raceway_2course__displaylists_8inc_8c.html#ae6fb58965045854fa8ac9fc3fe046115":[8,0,0,11,2,72],
+"mario__raceway_2course__displaylists_8inc_8c.html#ae71a62be06b9ff8337b870b8b5daa119":[8,0,0,11,2,108],
 "mario__raceway_2course__displaylists_8inc_8c.html#ae7b335b1cdf6367f8bb231589099d157":[8,0,0,11,2,156],
 "mario__raceway_2course__displaylists_8inc_8c.html#aeac82ebb832c79d418bc66de25e7371f":[8,0,0,11,2,125],
 "mario__raceway_2course__displaylists_8inc_8c.html#aeb019b4e4b48428abad955a6dd75a7a9":[8,0,0,11,2,34],
@@ -239,15 +249,5 @@ var NAVTREEINDEX76 =
 "mario__sign_2render_8inc_8c.html":[8,0,3,0,10,0],
 "mario__sign_2render_8inc_8c.html#abcfb14ec53dc8eecd888faf9eedad475":[8,0,3,0,10,0,0],
 "mario__sign_2render_8inc_8c_source.html":[8,0,3,0,10,0],
-"mario__sign_2update_8inc_8c.html":[8,0,3,0,10,1],
-"mario__sign_2update_8inc_8c.html#ac0ea6010ea017b0c0db4d5a7cff001a3":[8,0,3,0,10,1,0],
-"mario__sign_2update_8inc_8c_source.html":[8,0,3,0,10,1],
-"math_8h.html":[8,0,2,0,0],
-"math_8h.html#a0546342e76f932239ccd5f92144a311b":[8,0,2,0,0,2],
-"math_8h.html#a312367f3e117fc37059783c301766042":[8,0,2,0,0,4],
-"math_8h.html#a37bde043e94a6f074c78f10518fb5d99":[8,0,2,0,0,5],
-"math_8h.html#a75f4e4dd379376514613d7ec27902d07":[8,0,2,0,0,1],
-"math_8h.html#ad910bc71940a50c2a35d308c236013b6":[8,0,2,0,0,3],
-"math_8h.html#ae71449b1cc6e6250b91f539153a7a0d3":[8,0,2,0,0,0],
-"math_8h_source.html":[8,0,2,0,0]
+"mario__sign_2update_8inc_8c.html":[8,0,3,0,10,1]
 };

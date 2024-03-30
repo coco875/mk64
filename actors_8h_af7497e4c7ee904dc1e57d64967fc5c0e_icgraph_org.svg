@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Renders the bush actor in Bowser&#39;s Castle.">
 <polygon fill="#999999" stroke="#666666" points="1233,-246 1086,-246 1086,-216 1233,-216 1233,-246"/>
 <text text-anchor="start" x="1094" y="-234" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_bush_bowser</text>
 <text text-anchor="middle" x="1159.5" y="-223" font-family="Helvetica,sans-Serif" font-size="10.00">_castle</text>

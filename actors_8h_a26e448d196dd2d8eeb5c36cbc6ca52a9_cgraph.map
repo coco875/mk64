@@ -1,8 +1,8 @@
 <map id="render_item_boxes" name="render_item_boxes">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,183,152,208"/>
-<area shape="rect" id="Node000002" href="$fake__item__box_2render_8inc_8c.html#af266b20983c5e1664e5d15c1e7a952d0" title=" " alt="" coords="200,156,407,181"/>
+<area shape="rect" id="Node000002" href="$fake__item__box_2render_8inc_8c.html#af266b20983c5e1664e5d15c1e7a952d0" title="Renders the fake item box actor." alt="" coords="200,156,407,181"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,184,186,180,186,185,152,189"/>
-<area shape="rect" id="Node000020" href="$item__box_2render_8inc_8c.html#a7bf536a1640e0324213e474302d4b37f" title=" " alt="" coords="217,207,389,232"/>
+<area shape="rect" id="Node000020" href="$item__box_2render_8inc_8c.html#a7bf536a1640e0324213e474302d4b37f" title="Renders the item box actor." alt="" coords="217,207,389,232"/>
 <area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="152,200,204,206,203,211,152,206"/>
 <area shape="rect" id="Node000003" href="$actors_8c.html#a25f3c7f1a525abf36fb695a718345b57" title=" " alt="" coords="476,55,624,80"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,153,382,122,454,89,477,81,478,86,456,94,384,126,327,158"/>

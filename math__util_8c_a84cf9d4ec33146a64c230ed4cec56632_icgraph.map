@@ -69,46 +69,46 @@
 <area shape="poly" id="edge39_Node000066_Node000067" title=" " alt="" coords="925,1266,912,1327,887,1407,869,1449,846,1490,819,1528,786,1561,765,1574,743,1582,741,1577,763,1569,782,1557,814,1525,842,1487,864,1447,882,1405,907,1326,920,1265"/>
 <area shape="rect" id="Node000079" href="$actors_8c.html#ad39711a0d6d2b4d1794d36d35b192759" title=" " alt="" coords="619,1621,742,1647"/>
 <area shape="poly" id="edge40_Node000066_Node000079" title=" " alt="" coords="927,1266,917,1335,894,1429,876,1479,852,1528,823,1573,786,1612,765,1625,743,1632,741,1627,763,1620,782,1608,818,1570,848,1525,871,1477,889,1428,912,1334,921,1265"/>
-<area shape="rect" id="Node000080" href="$banana_2render_8inc_8c.html#ac3081ff11d8481c9ce596f5ad4e35d64" title=" " alt="" coords="601,1671,760,1696"/>
+<area shape="rect" id="Node000080" href="$banana_2render_8inc_8c.html#ac3081ff11d8481c9ce596f5ad4e35d64" title="render the banana actor" alt="" coords="601,1671,760,1696"/>
 <area shape="poly" id="edge41_Node000066_Node000080" title=" " alt="" coords="928,1266,921,1344,913,1395,901,1451,883,1508,858,1564,826,1616,786,1661,762,1676,759,1672,782,1657,822,1613,853,1562,878,1506,896,1449,908,1394,916,1343,923,1266"/>
-<area shape="rect" id="Node000081" href="$box__truck_2render_8inc_8c.html#a959b9756711fe631bb33a7870be5937c" title=" " alt="" coords="593,1720,768,1745"/>
+<area shape="rect" id="Node000081" href="$box__truck_2render_8inc_8c.html#a959b9756711fe631bb33a7870be5937c" title="Renders the box truck actor. Actor used in Toad&#39;s Turnpike. His update are made in vehicle." alt="" coords="593,1720,768,1745"/>
 <area shape="poly" id="edge42_Node000066_Node000081" title=" " alt="" coords="929,1266,925,1352,919,1409,907,1472,889,1536,864,1600,830,1659,786,1711,769,1722,766,1718,782,1707,826,1656,859,1598,884,1535,902,1470,913,1408,920,1351,924,1266"/>
-<area shape="rect" id="Node000082" href="$trees_2render_8inc_8c.html#ad286049dc3781032de7e3a85633bb116" title=" " alt="" coords="583,1770,779,1810"/>
+<area shape="rect" id="Node000082" href="$trees_2render_8inc_8c.html#ad286049dc3781032de7e3a85633bb116" title="Renders the bush actor in Bowser&#39;s Castle." alt="" coords="583,1770,779,1810"/>
 <area shape="poly" id="edge43_Node000066_Node000082" title=" " alt="" coords="930,1266,927,1358,922,1421,911,1490,893,1562,867,1634,832,1701,786,1760,771,1772,768,1768,782,1756,828,1698,862,1631,888,1561,905,1489,916,1421,922,1358,924,1266"/>
-<area shape="rect" id="Node000083" href="$car_2render_8inc_8c.html#a9837af3de7840d2a111f72ece195cb32" title=" " alt="" coords="615,1835,746,1860"/>
+<area shape="rect" id="Node000083" href="$car_2render_8inc_8c.html#a9837af3de7840d2a111f72ece195cb32" title="Renders the car actor. Actor used in Toad&#39;s Turnpike. His update are made in vehicle." alt="" coords="615,1835,746,1860"/>
 <area shape="poly" id="edge44_Node000066_Node000083" title=" " alt="" coords="926,1267,910,1386,882,1553,863,1638,841,1716,815,1780,801,1805,786,1824,768,1837,747,1845,745,1840,765,1832,782,1820,797,1802,810,1778,836,1715,858,1637,877,1552,905,1385,920,1266"/>
-<area shape="rect" id="Node000084" href="$cow_2render_8inc_8c.html#a3032e5759fffafb766e96e1991ab0350" title=" " alt="" coords="612,1884,749,1909"/>
+<area shape="rect" id="Node000084" href="$cow_2render_8inc_8c.html#a3032e5759fffafb766e96e1991ab0350" title="Renders the cow actor. Actor used in Moo Moo Farm." alt="" coords="612,1884,749,1909"/>
 <area shape="poly" id="edge45_Node000066_Node000084" title=" " alt="" coords="926,1266,913,1394,886,1577,867,1671,844,1756,817,1827,802,1854,786,1875,769,1887,751,1894,749,1889,767,1882,782,1871,798,1851,812,1824,839,1755,862,1670,881,1576,908,1394,921,1265"/>
-<area shape="rect" id="Node000085" href="$fake__item__box_2render_8inc_8c.html#af266b20983c5e1664e5d15c1e7a952d0" title=" " alt="" coords="577,663,784,688"/>
+<area shape="rect" id="Node000085" href="$fake__item__box_2render_8inc_8c.html#af266b20983c5e1664e5d15c1e7a952d0" title="Renders the fake item box actor." alt="" coords="577,663,784,688"/>
 <area shape="poly" id="edge46_Node000066_Node000085" title=" " alt="" coords="920,1214,904,1102,874,948,855,869,833,798,809,740,782,701,767,690,770,686,786,697,814,737,838,796,860,868,880,947,909,1102,925,1213"/>
-<area shape="rect" id="Node000087" href="$falling__rock_2render_8inc_8c.html#a250e5910700e7f46f258578c256c1d94" title=" " alt="" coords="587,712,774,737"/>
+<area shape="rect" id="Node000087" href="$falling__rock_2render_8inc_8c.html#a250e5910700e7f46f258578c256c1d94" title="Renders the falling rock actor. Actor used in Choco Mountain." alt="" coords="587,712,774,737"/>
 <area shape="poly" id="edge47_Node000066_Node000087" title=" " alt="" coords="924,1213,922,1124,916,1064,905,999,887,932,862,865,827,804,782,751,766,740,770,735,786,747,832,801,867,863,892,930,910,998,921,1064,927,1124,930,1213"/>
-<area shape="rect" id="Node000088" href="$item__box_2render_8inc_8c.html#a7bf536a1640e0324213e474302d4b37f" title=" " alt="" coords="595,761,767,787"/>
+<area shape="rect" id="Node000088" href="$item__box_2render_8inc_8c.html#a7bf536a1640e0324213e474302d4b37f" title="Renders the item box actor." alt="" coords="595,761,767,787"/>
 <area shape="poly" id="edge48_Node000066_Node000088" title=" " alt="" coords="923,1213,918,1132,910,1079,898,1020,881,960,856,902,824,847,782,800,765,789,768,784,786,796,828,844,861,899,886,959,903,1019,916,1078,923,1132,929,1213"/>
-<area shape="rect" id="Node000089" href="$mario__sign_2render_8inc_8c.html#abcfb14ec53dc8eecd888faf9eedad475" title=" " alt="" coords="589,811,772,836"/>
+<area shape="rect" id="Node000089" href="$mario__sign_2render_8inc_8c.html#abcfb14ec53dc8eecd888faf9eedad475" title="Renders the Mario sign actor. Actor used in Mario Raceway." alt="" coords="589,811,772,836"/>
 <area shape="poly" id="edge49_Node000066_Node000089" title=" " alt="" coords="922,1213,914,1141,892,1042,874,989,850,938,820,890,782,849,766,838,769,834,786,845,824,887,855,935,879,987,897,1040,919,1140,927,1213"/>
-<area shape="rect" id="Node000090" href="$paddle__boat_2render_8inc_8c.html#aae368eda51ea5ff8f7f1c30980c968d0" title=" " alt="" coords="585,860,776,885"/>
+<area shape="rect" id="Node000090" href="$paddle__boat_2render_8inc_8c.html#aae368eda51ea5ff8f7f1c30980c968d0" title="Renders the paddle boat actor. Actor used in DK&#39;s Jungle Parkway." alt="" coords="585,860,776,885"/>
 <area shape="poly" id="edge50_Node000066_Node000090" title=" " alt="" coords="921,1213,909,1149,885,1063,867,1018,844,974,816,934,782,899,765,888,768,883,786,895,820,930,849,971,872,1016,890,1062,915,1148,926,1212"/>
-<area shape="rect" id="Node000091" href="$palm__tree_2render_8inc_8c.html#a9acb7afd543abd1f4794c8c2d16f13a4" title=" " alt="" coords="592,909,769,935"/>
+<area shape="rect" id="Node000091" href="$palm__tree_2render_8inc_8c.html#a9acb7afd543abd1f4794c8c2d16f13a4" title="Renders the palm tree actor. Actor used in Koopa Troopa Beach." alt="" coords="592,909,769,935"/>
 <area shape="poly" id="edge51_Node000066_Node000091" title=" " alt="" coords="918,1214,904,1158,878,1086,860,1049,838,1012,812,978,782,949,761,937,764,932,786,945,816,975,843,1009,865,1046,883,1084,909,1156,924,1212"/>
-<area shape="rect" id="Node000092" href="$piranha__plant_2render_8inc_8c.html#a7f6ae1f0bb9e1576559b2faed48c8f7a" title=" " alt="" coords="601,959,761,999"/>
+<area shape="rect" id="Node000092" href="$piranha__plant_2render_8inc_8c.html#a7f6ae1f0bb9e1576559b2faed48c8f7a" title="Renders the piranha plant actor. Actor used in Mario Raceway and Royal Raceway." alt="" coords="601,959,761,999"/>
 <area shape="poly" id="edge52_Node000066_Node000092" title=" " alt="" coords="914,1214,896,1171,868,1116,830,1061,807,1036,782,1013,760,1000,763,996,786,1009,811,1032,834,1058,872,1114,901,1168,919,1212"/>
-<area shape="rect" id="Node000093" href="$railroad__crossing_2render_8inc_8c.html#af46eb6e934ce3e283872f68ac3140493" title=" " alt="" coords="600,1023,761,1063"/>
+<area shape="rect" id="Node000093" href="$railroad__crossing_2render_8inc_8c.html#af46eb6e934ce3e283872f68ac3140493" title="Renders the railroad crossing actor. Actor used in Kalimari Desert." alt="" coords="600,1023,761,1063"/>
 <area shape="poly" id="edge53_Node000066_Node000093" title=" " alt="" coords="909,1216,858,1147,823,1110,783,1078,760,1066,763,1061,785,1073,826,1106,862,1144,913,1213"/>
-<area shape="rect" id="Node000094" href="$school__bus_2render_8inc_8c.html#a720ce0b0a4f510df57259a76e88045cf" title=" " alt="" coords="589,1088,772,1113"/>
+<area shape="rect" id="Node000094" href="$school__bus_2render_8inc_8c.html#a720ce0b0a4f510df57259a76e88045cf" title="Renders the school bus actor. Actor used in Toad&#39;s Turnpike. His update are made in vehicle." alt="" coords="589,1088,772,1113"/>
 <area shape="poly" id="edge54_Node000066_Node000094" title=" " alt="" coords="903,1219,851,1172,818,1148,783,1127,753,1116,755,1111,785,1122,821,1143,854,1168,906,1215"/>
 <area shape="rect" id="Node000095" href="$actors_8c.html#a244363eb20e950ed94944be1c768a37c" title=" " alt="" coords="609,1137,752,1163"/>
 <area shape="poly" id="edge55_Node000066_Node000095" title=" " alt="" coords="888,1223,839,1200,783,1178,740,1165,742,1160,785,1173,841,1195,890,1218"/>
-<area shape="rect" id="Node000099" href="$tanker__truck_2render_8inc_8c.html#a946fd8f61348549cfb60bf8a480baad3" title=" " alt="" coords="605,1187,757,1227"/>
+<area shape="rect" id="Node000099" href="$tanker__truck_2render_8inc_8c.html#a946fd8f61348549cfb60bf8a480baad3" title="Renders the tanker truck actor. Actor used in Toad&#39;s Turnpike. His update are made in vehicle." alt="" coords="605,1187,757,1227"/>
 <area shape="poly" id="edge56_Node000066_Node000099" title=" " alt="" coords="818,1228,756,1220,757,1214,819,1223"/>
-<area shape="rect" id="Node000100" href="$train_2render_8inc_8c.html#a3732523ca7fda5d43b6df198fc1fccf8" title=" " alt="" coords="610,1251,751,1291"/>
+<area shape="rect" id="Node000100" href="$train_2render_8inc_8c.html#a3732523ca7fda5d43b6df198fc1fccf8" title="Renders the train engine actor. Actor used in Kalimari Desert. His update position are made in vehicl..." alt="" coords="610,1251,751,1291"/>
 <area shape="poly" id="edge57_Node000066_Node000100" title=" " alt="" coords="819,1256,752,1265,751,1260,818,1251"/>
 <area shape="rect" id="Node000101" href="$train_2render_8inc_8c.html#a850ce2fa157704a3d8412f96ec5d3b98" title=" " alt="" coords="610,1315,751,1355"/>
 <area shape="poly" id="edge58_Node000066_Node000101" title=" " alt="" coords="889,1260,785,1306,751,1318,749,1313,783,1301,887,1255"/>
 <area shape="rect" id="Node000102" href="$train_2render_8inc_8c.html#a4366f819eb3527ec4d2665639adfee85" title=" " alt="" coords="610,1379,751,1419"/>
 <area shape="poly" id="edge59_Node000066_Node000102" title=" " alt="" coords="908,1264,856,1317,822,1345,785,1370,753,1384,751,1379,783,1365,819,1341,852,1313,904,1261"/>
-<area shape="rect" id="Node000103" href="$trees_2render_8inc_8c.html#aa564af6ea62ec336f9c88ffd9351fa7f" title=" " alt="" coords="585,1443,776,1483"/>
+<area shape="rect" id="Node000103" href="$trees_2render_8inc_8c.html#aa564af6ea62ec336f9c88ffd9351fa7f" title="Renders the tree actor in Bowser&#39;s Castle." alt="" coords="585,1443,776,1483"/>
 <area shape="poly" id="edge60_Node000066_Node000103" title=" " alt="" coords="916,1266,896,1303,867,1348,830,1394,786,1433,765,1445,762,1441,782,1429,826,1390,863,1345,892,1300,912,1263"/>
-<area shape="rect" id="Node000104" href="$trees_2render_8inc_8c.html#a60065e5f27dc4938258fccab99c77712" title=" " alt="" coords="583,1507,778,1547"/>
+<area shape="rect" id="Node000104" href="$trees_2render_8inc_8c.html#a60065e5f27dc4938258fccab99c77712" title="Renders the a first variant of cactus in Kalimari Desert." alt="" coords="583,1507,778,1547"/>
 <area shape="poly" id="edge61_Node000066_Node000104" title=" " alt="" coords="921,1266,904,1315,877,1378,837,1442,813,1471,786,1497,767,1509,764,1505,782,1493,809,1468,833,1439,872,1375,899,1313,916,1265"/>
 </map>

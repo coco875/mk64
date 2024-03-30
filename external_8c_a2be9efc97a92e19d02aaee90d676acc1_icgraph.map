@@ -22,11 +22,11 @@
 <area shape="poly" id="edge18_Node000001_Node000038" title=" " alt="" coords="763,1183,761,1117,747,1029,734,983,714,938,689,898,656,863,623,842,587,827,548,817,509,812,433,812,368,819,367,814,432,806,510,806,549,812,589,822,626,837,659,859,693,894,719,936,739,981,752,1028,766,1116,769,1183"/>
 <area shape="rect" id="Node000039" href="$actors__extended_8c.html#ae4a15c57c04e2152938b23b9d2e2d328" title=" " alt="" coords="452,917,652,957"/>
 <area shape="poly" id="edge20_Node000001_Node000039" title=" " alt="" coords="757,1183,746,1139,726,1084,696,1027,677,1001,656,978,628,960,631,955,659,974,681,998,700,1024,730,1082,751,1137,763,1182"/>
-<area shape="rect" id="Node000047" href="$banana_2update_8inc_8c.html#a1b699acb507ca2e080f46ea632573993" title=" " alt="" coords="11,867,173,893"/>
+<area shape="rect" id="Node000047" href="$banana_2update_8inc_8c.html#a1b699acb507ca2e080f46ea632573993" title="update the banana actor" alt="" coords="11,867,173,893"/>
 <area shape="poly" id="edge61_Node000001_Node000047" title=" " alt="" coords="762,1183,757,1123,742,1047,728,1007,710,970,686,936,656,908,620,890,569,878,508,871,439,867,297,869,174,876,174,870,297,863,439,862,508,866,570,873,622,885,659,903,690,932,714,967,733,1005,747,1045,763,1122,768,1182"/>
-<area shape="rect" id="Node000048" href="$green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" title=" " alt="" coords="17,928,167,968"/>
+<area shape="rect" id="Node000048" href="$green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" title="Updates the green shell actor." alt="" coords="17,928,167,968"/>
 <area shape="poly" id="edge64_Node000001_Node000048" title=" " alt="" coords="755,1185,741,1150,720,1110,692,1069,656,1037,599,1005,548,986,500,978,453,976,352,980,293,979,226,972,167,963,168,957,227,967,294,974,352,974,453,970,501,972,549,981,601,1000,659,1033,696,1066,725,1107,746,1148,760,1183"/>
-<area shape="rect" id="Node000045" href="$blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" title=" " alt="" coords="7,1013,177,1053"/>
+<area shape="rect" id="Node000045" href="$blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" title="Update the red and blue shell actors." alt="" coords="7,1013,177,1053"/>
 <area shape="poly" id="edge66_Node000001_Node000045" title=" " alt="" coords="752,1185,736,1157,715,1126,688,1096,656,1073,618,1059,567,1049,438,1036,299,1032,178,1033,178,1028,299,1027,439,1031,568,1043,620,1054,659,1068,692,1092,719,1123,741,1155,756,1183"/>
 <area shape="rect" id="Node000049" href="$actors_8c.html#a55dd52d90732891552d43874931866cb" title=" " alt="" coords="477,1083,627,1123"/>
 <area shape="poly" id="edge26_Node000001_Node000049" title=" " alt="" coords="738,1190,700,1163,656,1137,627,1125,629,1120,659,1132,703,1158,741,1186"/>
@@ -82,9 +82,9 @@
 <area shape="poly" id="edge59_Node000001_Node000161" title=" " alt="" coords="768,1236,767,1396,755,1634,742,1757,722,1870,695,1963,679,1999,659,2027,639,2042,615,2051,613,2046,636,2038,655,2023,674,1997,690,1961,717,1869,737,1756,750,1633,762,1396,763,1236"/>
 <area shape="rect" id="Node000162" href="$actors__extended_8c.html#a34694840e4ed5e496ed3ba98429b0558" title=" " alt="" coords="231,2056,394,2096"/>
 <area shape="poly" id="edge62_Node000001_Node000162" title=" " alt="" coords="767,1236,756,1419,735,1687,720,1822,703,1941,683,2030,671,2060,659,2078,627,2100,590,2114,552,2122,512,2124,435,2115,369,2099,371,2094,436,2110,512,2118,551,2116,589,2109,624,2095,655,2074,667,2057,678,2028,698,1940,715,1822,730,1687,751,1418,761,1236"/>
-<area shape="rect" id="Node000163" href="$fake__item__box_2update_8inc_8c.html#ad21c35b35099a45f58d3c9d3a470f6b7" title=" " alt="" coords="447,2139,657,2165"/>
+<area shape="rect" id="Node000163" href="$fake__item__box_2update_8inc_8c.html#ad21c35b35099a45f58d3c9d3a470f6b7" title="Updates the fake item box actor." alt="" coords="447,2139,657,2165"/>
 <area shape="poly" id="edge63_Node000001_Node000163" title=" " alt="" coords="767,1236,755,1425,732,1705,717,1847,700,1973,681,2068,671,2101,659,2122,633,2141,630,2137,655,2118,666,2099,676,2067,695,1972,712,1847,727,1705,749,1424,761,1236"/>
-<area shape="rect" id="Node000164" href="$kiwano__fruit_2update_8inc_8c.html#a48151e0a9b8ce3c98ec426c640fe6f1d" title=" " alt="" coords="471,2189,633,2229"/>
+<area shape="rect" id="Node000164" href="$kiwano__fruit_2update_8inc_8c.html#a48151e0a9b8ce3c98ec426c640fe6f1d" title="Updates the kiwano fruit actor. Actor used in DK&#39;s Jungle Parkway." alt="" coords="471,2189,633,2229"/>
 <area shape="poly" id="edge65_Node000001_Node000164" title=" " alt="" coords="767,1236,756,1435,734,1734,719,1886,702,2020,682,2122,671,2157,659,2179,634,2198,631,2194,655,2176,666,2155,677,2121,697,2019,714,1885,729,1734,750,1434,761,1236"/>
 <area shape="rect" id="Node000165" href="$actors__extended_8c.html#a92482e9796fd6ddc17e3b24c35b767df" title=" " alt="" coords="478,2253,626,2293"/>
 <area shape="poly" id="edge67_Node000001_Node000165" title=" " alt="" coords="767,1236,757,1447,736,1766,721,1929,704,2072,683,2182,672,2220,659,2243,645,2256,627,2265,625,2261,642,2252,655,2240,667,2218,678,2181,698,2072,716,1928,730,1766,752,1447,762,1236"/>

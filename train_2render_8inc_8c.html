@@ -107,6 +107,8 @@ $(function(){initNavTree('train_2render_8inc_8c.html',''); initResizable(); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="actors_8h_source.html">actors.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="gbi_8h_source.html">PR/gbi.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="main_8h_source.html">main.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="kalimari__desert_2course__data_8inc_8h_source.html">courses/kalimari_desert/course_data.inc.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for render.inc.c:</div>
 <div class="dyncontent">
@@ -123,6 +125,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a3732523ca7fda5d43b6df198fc1fccf8" id="r_a3732523ca7fda5d43b6df198fc1fccf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1b0406ea3ec906cf85496afbfe00e23e">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3732523ca7fda5d43b6df198fc1fccf8">render_actor_train_engine</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1b0406ea3ec906cf85496afbfe00e23e">struct</a> <a class="el" href="structTrainCar.html">TrainCar</a> *<a class="el" href="code__800029B0_8c.html#a1b0406ea3ec906cf85496afbfe00e23e">actor</a>)</td></tr>
+<tr class="memdesc:a3732523ca7fda5d43b6df198fc1fccf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the train engine actor. <a class="el" href="structActor.html">Actor</a> used in Kalimari Desert. His update position are made in vehicle.  <br /></td></tr>
 <tr class="separator:a3732523ca7fda5d43b6df198fc1fccf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4366f819eb3527ec4d2665639adfee85" id="r_a4366f819eb3527ec4d2665639adfee85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="code__800029B0_8c.html#a1b0406ea3ec906cf85496afbfe00e23e">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4366f819eb3527ec4d2665639adfee85">render_actor_train_tender</a> (<a class="el" href="structCamera.html">Camera</a> *camera, <a class="el" href="code__800029B0_8c.html#a1b0406ea3ec906cf85496afbfe00e23e">struct</a> <a class="el" href="structTrainCar.html">TrainCar</a> *<a class="el" href="code__800029B0_8c.html#a1b0406ea3ec906cf85496afbfe00e23e">actor</a>)</td></tr>
 <tr class="separator:a4366f819eb3527ec4d2665639adfee85"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,6 +151,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Renders the train engine actor. <a class="el" href="structActor.html">Actor</a> used in Kalimari Desert. His update position are made in vehicle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">camera</td><td></td></tr>
+    <tr><td class="paramname">actor</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

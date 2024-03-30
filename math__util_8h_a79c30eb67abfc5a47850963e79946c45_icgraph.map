@@ -1,8 +1,8 @@
 <map id="mtxf_rotate_x" name="mtxf_rotate_x">
 <area shape="rect" id="Node000001" title=" " alt="" coords="1692,287,1807,312"/>
-<area shape="rect" id="Node000002" href="$paddle__boat_2render_8inc_8c.html#aae368eda51ea5ff8f7f1c30980c968d0" title=" " alt="" coords="1453,197,1644,223"/>
+<area shape="rect" id="Node000002" href="$paddle__boat_2render_8inc_8c.html#aae368eda51ea5ff8f7f1c30980c968d0" title="Renders the paddle boat actor. Actor used in DK&#39;s Jungle Parkway." alt="" coords="1453,197,1644,223"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1718,281,1683,258,1643,238,1607,225,1608,220,1645,233,1686,254,1721,276"/>
-<area shape="rect" id="Node000021" href="$train_2render_8inc_8c.html#a3732523ca7fda5d43b6df198fc1fccf8" title=" " alt="" coords="1478,247,1619,287"/>
+<area shape="rect" id="Node000021" href="$train_2render_8inc_8c.html#a3732523ca7fda5d43b6df198fc1fccf8" title="Renders the train engine actor. Actor used in Kalimari Desert. His update position are made in vehicl..." alt="" coords="1478,247,1619,287"/>
 <area shape="poly" id="edge29_Node000001_Node000021" title=" " alt="" coords="1678,291,1619,281,1620,276,1679,285"/>
 <area shape="rect" id="Node000022" href="$train_2render_8inc_8c.html#a850ce2fa157704a3d8412f96ec5d3b98" title=" " alt="" coords="1478,311,1619,351"/>
 <area shape="poly" id="edge31_Node000001_Node000022" title=" " alt="" coords="1679,313,1620,323,1619,317,1678,308"/>

@@ -430,7 +430,7 @@ var sectionId = 'dynsection-36';
 <!-- Node68 -->
 <g id="Node000068" class="node">
 <title>Node68</title>
-<g id="a_Node000068"><a xlink:href="falling__rock_2update_8inc_8c.html#a7476a0a7924f3878d39fb7b83f229779" target="_top" xlink:title=" ">
+<g id="a_Node000068"><a xlink:href="falling__rock_2update_8inc_8c.html#a7476a0a7924f3878d39fb7b83f229779" target="_top" xlink:title="Updates the falling rock actor. Actor used in Choco Mountain.">
 <polygon fill="white" stroke="#666666" points="424,-878.5 308,-878.5 308,-848.5 424,-848.5 424,-878.5"/>
 <text text-anchor="start" x="316" y="-866.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_falling</text>
 <text text-anchor="middle" x="366" y="-855.5" font-family="Helvetica,sans-Serif" font-size="10.00">_rocks</text>
@@ -449,7 +449,7 @@ var sectionId = 'dynsection-36';
 <!-- Node69 -->
 <g id="Node000069" class="node">
 <title>Node69</title>
-<g id="a_Node000069"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title=" ">
+<g id="a_Node000069"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title="Updates the green shell actor.">
 <polygon fill="white" stroke="#666666" points="422.5,-308.5 309.5,-308.5 309.5,-278.5 422.5,-278.5 422.5,-308.5"/>
 <text text-anchor="start" x="317.5" y="-296.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_green</text>
 <text text-anchor="middle" x="366" y="-285.5" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>
@@ -468,7 +468,7 @@ var sectionId = 'dynsection-36';
 <!-- Node70 -->
 <g id="Node000070" class="node">
 <title>Node70</title>
-<g id="a_Node000070"><a xlink:href="railroad__crossing_2update_8inc_8c.html#a3a7c47d74c98d510346305b5c5ee3b9a" target="_top" xlink:title=" ">
+<g id="a_Node000070"><a xlink:href="railroad__crossing_2update_8inc_8c.html#a3a7c47d74c98d510346305b5c5ee3b9a" target="_top" xlink:title="Updates the railroad crossing actor. Actor used in Kalimari Desert. Make the sound of the bell when t...">
 <polygon fill="white" stroke="#666666" points="427.5,-257.5 304.5,-257.5 304.5,-227.5 427.5,-227.5 427.5,-257.5"/>
 <text text-anchor="start" x="312.5" y="-245.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_railroad</text>
 <text text-anchor="middle" x="366" y="-234.5" font-family="Helvetica,sans-Serif" font-size="10.00">_crossing</text>
@@ -1040,7 +1040,7 @@ var sectionId = 'dynsection-36';
 <!-- Node54 -->
 <g id="Node000054" class="node">
 <title>Node54</title>
-<g id="a_Node000054"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title=" ">
+<g id="a_Node000054"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title="Update the red and blue shell actors.">
 <polygon fill="white" stroke="#666666" points="430,-148.5 302,-148.5 302,-118.5 430,-118.5 430,-148.5"/>
 <text text-anchor="start" x="310" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_red_blue</text>
 <text text-anchor="middle" x="366" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>

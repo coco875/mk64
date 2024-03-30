@@ -1,5 +1,15 @@
 var NAVTREEINDEX95 =
 {
+"render__objects_8h.html#af71747500088832495670a2ffd0ada71":[8,0,3,52,52],
+"render__objects_8h.html#af74a6fdf0fbb90cfa8b6bbd2f7bc0844":[8,0,3,52,163],
+"render__objects_8h.html#af75a78bef2a9106fb842481c7bcfbcac":[8,0,3,52,244],
+"render__objects_8h.html#af7ad3320ba1b1b82fb672d0e70bd1986":[8,0,3,52,239],
+"render__objects_8h.html#af7cf7556a8c09b6fdb001d9c5b82a7ef":[8,0,3,52,141],
+"render__objects_8h.html#af7ef58600088827f33dcc3735a0019d9":[8,0,3,52,397],
+"render__objects_8h.html#af82a0368e8e7ea94e6f125bc16346d74":[8,0,3,52,404],
+"render__objects_8h.html#af82f365fc5de04c73d5a22b1476199d3":[8,0,3,52,377],
+"render__objects_8h.html#af8b0c2768b4b7052b73b67da5e51c25c":[8,0,3,52,285],
+"render__objects_8h.html#af8f35c95c66f57dbe0a0538361892614":[8,0,3,52,36],
 "render__objects_8h.html#af91ea5a6e6c3005ca537e9abeeb9b66c":[8,0,3,52,40],
 "render__objects_8h.html#afa46f41e50db4e40eef74dcd6ee6a8c4":[8,0,3,52,151],
 "render__objects_8h.html#afad6228abf1b5d5aa4f506b2c57c916d":[8,0,3,52,57],
@@ -239,15 +249,5 @@ var NAVTREEINDEX95 =
 "render__player_8h.html#a8a9097df3a98cdfbbe9a369313fb1c2a":[8,0,3,54,202],
 "render__player_8h.html#a8e4c2cbf77aab050166c251016a80591":[8,0,3,54,220],
 "render__player_8h.html#a8eb88d98ad02e626b8383fa53be2f3f7":[8,0,3,54,193],
-"render__player_8h.html#a8fa24a0a40dec263efb7a5fc58fff819":[8,0,3,54,63],
-"render__player_8h.html#a900b2b9c3fc91ba01eececcfb3555d10":[8,0,3,54,209],
-"render__player_8h.html#a90433fe207ad8586c18f95a152c9e3a2":[8,0,3,54,37],
-"render__player_8h.html#a9101c9634762b4df7136c974e46101d6":[8,0,3,54,114],
-"render__player_8h.html#a9152a2dbee8f66c9e50c6c75fc3f5ad2":[8,0,3,54,186],
-"render__player_8h.html#a939364a6f6ad0f28dd6a8e6c48010c1e":[8,0,3,54,67],
-"render__player_8h.html#a93e7a08d099b89f646ec568028355343":[8,0,3,54,203],
-"render__player_8h.html#a94cb31132e6bfd91123eb276bebc9154":[8,0,3,54,164],
-"render__player_8h.html#a951e1521a8f8b60000844ceacfe8762b":[8,0,3,54,148],
-"render__player_8h.html#a969a1b5ac166b5b96e477ba363eaa250":[8,0,3,54,71],
-"render__player_8h.html#a9756a7c832f716ba8189c0c96dbb7bd8":[8,0,3,54,169]
+"render__player_8h.html#a8fa24a0a40dec263efb7a5fc58fff819":[8,0,3,54,63]
 };

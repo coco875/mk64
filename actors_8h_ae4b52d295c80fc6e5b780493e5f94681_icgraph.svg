@@ -48,7 +48,7 @@
 <script type="application/ecmascript">
 var viewWidth = 1212;
 var viewHeight = 422;
-var sectionId = 'dynsection-101';
+var sectionId = 'dynsection-91';
 </script>
 <script type="application/ecmascript" xlink:href="svg.min.js"/>
 <svg id="graph" class="graph">
@@ -57,7 +57,7 @@ var sectionId = 'dynsection-101';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Renders the item box actor.">
 <polygon fill="#999999" stroke="#666666" points="1204,-216.5 1075,-216.5 1075,-197.5 1204,-197.5 1204,-216.5"/>
 <text text-anchor="middle" x="1139.5" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_item_box</text>
 </a>

@@ -1,5 +1,15 @@
 var NAVTREEINDEX113 =
 {
+"structUnkPlayerStruct258.html#adabe9a14d03f68a9c60a2ebe628d1774":[7,0,220,6],
+"structUnkPlayerStruct258.html#aee4312615939019d4179bcba05c06b20":[7,0,220,3],
+"structUnkPlayerStruct258.html#af4008f88f10c78d5108d52e74d615777":[7,0,220,4],
+"structUnkPool.html":[7,0,221],
+"structUnkPool.html#a54e0b9a13c0b02bbd2dd4cbe4c539bfb":[7,0,221,1],
+"structUnkPool.html#ab3cfce0714280493c920b0d583e1943c":[7,0,221,0],
+"structUnkPool.html#ae09f5a40fa70785e43743f4d447ed669":[7,0,221,2],
+"structUnkPool.html#af095c6f51178e3247e6b5d59bd6c24ef":[7,0,221,3],
+"structUnkStr__802AA7C8.html":[7,0,222],
+"structUnkStr__802AA7C8.html#a56ca69593a242e976e89c5ec62771049":[7,0,222,0],
 "structUnkStr__802AA7C8.html#a6c1dee2809970befe050cb26741d8eba":[7,0,222,1],
 "structUnkStr__802AA7C8.html#a8ecfa479d601c527829f0051cd615048":[7,0,222,3],
 "structUnkStr__802AA7C8.html#ae830be4eb1f98e04db0cdd32366c17fa":[7,0,222,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX113 =
 "struct____OSEventState.html#a251ae30224ee2b53f0c8f51711419789":[7,0,7,0],
 "struct____OSEventState.html#a7a839e3ce4fab6438bf9a1109fe600eb":[7,0,7,1],
 "struct____OSInode.html":[7,0,9],
-"struct____OSInode.html#ab913e55c3af6099c919ece81349eb21f":[7,0,9,0],
-"struct____OSInodeCache.html":[7,0,10],
-"struct____OSInodeCache.html#a245ec66065f70ab11d6983e113ff345d":[7,0,10,0],
-"struct____OSInodeCache.html#a3733820db9596ac6724b29785d78d7f4":[7,0,10,1],
-"struct____OSInodeCache.html#a886e19bb5c2baa08a900922c148af008":[7,0,10,2],
-"struct____OSPackId.html":[7,0,12],
-"struct____OSPackId.html#a010be96d2b4109e8fea9fb8b1d7d6fd6":[7,0,12,0],
-"struct____OSPackId.html#a10afc2772970572388034c4024efd103":[7,0,12,4],
-"struct____OSPackId.html#a3c75f2e73e2f46a51008272dcf8ff41e":[7,0,12,1],
-"struct____OSPackId.html#a52c6e3b7cd0f0d6fc55e5579c70beb3f":[7,0,12,2],
-"struct____OSPackId.html#a7dffb071665931eee2521e4c134ff6bd":[7,0,12,8]
+"struct____OSInode.html#ab913e55c3af6099c919ece81349eb21f":[7,0,9,0]
 };

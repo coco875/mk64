@@ -121,7 +121,7 @@ var sectionId = 'dynsection-50';
 <!-- Node23 -->
 <g id="Node000023" class="node">
 <title>Node23</title>
-<g id="a_Node000023"><a xlink:href="banana_2render_8inc_8c.html#ac3081ff11d8481c9ce596f5ad4e35d64" target="_top" xlink:title=" ">
+<g id="a_Node000023"><a xlink:href="banana_2render_8inc_8c.html#ac3081ff11d8481c9ce596f5ad4e35d64" target="_top" xlink:title="render the banana actor">
 <polygon fill="white" stroke="#666666" points="451,-1098.31 332,-1098.31 332,-1079.31 451,-1079.31 451,-1098.31"/>
 <text text-anchor="middle" x="391.5" y="-1086.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_banana</text>
 </a>
@@ -139,7 +139,7 @@ var sectionId = 'dynsection-50';
 <!-- Node24 -->
 <g id="Node000024" class="node">
 <title>Node24</title>
-<g id="a_Node000024"><a xlink:href="box__truck_2render_8inc_8c.html#a959b9756711fe631bb33a7870be5937c" target="_top" xlink:title=" ">
+<g id="a_Node000024"><a xlink:href="box__truck_2render_8inc_8c.html#a959b9756711fe631bb33a7870be5937c" target="_top" xlink:title="Renders the box truck actor. Actor used in Toad&#39;s Turnpike. His update are made in vehicle.">
 <polygon fill="white" stroke="#666666" points="457,-1061.31 326,-1061.31 326,-1042.31 457,-1042.31 457,-1061.31"/>
 <text text-anchor="middle" x="391.5" y="-1049.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_box_truck</text>
 </a>
@@ -157,7 +157,7 @@ var sectionId = 'dynsection-50';
 <!-- Node25 -->
 <g id="Node000025" class="node">
 <title>Node25</title>
-<g id="a_Node000025"><a xlink:href="trees_2render_8inc_8c.html#ad286049dc3781032de7e3a85633bb116" target="_top" xlink:title=" ">
+<g id="a_Node000025"><a xlink:href="trees_2render_8inc_8c.html#ad286049dc3781032de7e3a85633bb116" target="_top" xlink:title="Renders the bush actor in Bowser&#39;s Castle.">
 <polygon fill="white" stroke="#666666" points="465,-1023.81 318,-1023.81 318,-993.81 465,-993.81 465,-1023.81"/>
 <text text-anchor="start" x="326" y="-1011.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_bush_bowser</text>
 <text text-anchor="middle" x="391.5" y="-1000.81" font-family="Helvetica,sans-Serif" font-size="10.00">_castle</text>
@@ -176,7 +176,7 @@ var sectionId = 'dynsection-50';
 <!-- Node26 -->
 <g id="Node000026" class="node">
 <title>Node26</title>
-<g id="a_Node000026"><a xlink:href="car_2render_8inc_8c.html#a9837af3de7840d2a111f72ece195cb32" target="_top" xlink:title=" ">
+<g id="a_Node000026"><a xlink:href="car_2render_8inc_8c.html#a9837af3de7840d2a111f72ece195cb32" target="_top" xlink:title="Renders the car actor. Actor used in Toad&#39;s Turnpike. His update are made in vehicle.">
 <polygon fill="white" stroke="#666666" points="440.5,-975.31 342.5,-975.31 342.5,-956.31 440.5,-956.31 440.5,-975.31"/>
 <text text-anchor="middle" x="391.5" y="-963.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_car</text>
 </a>
@@ -194,7 +194,7 @@ var sectionId = 'dynsection-50';
 <!-- Node27 -->
 <g id="Node000027" class="node">
 <title>Node27</title>
-<g id="a_Node000027"><a xlink:href="cow_2render_8inc_8c.html#a3032e5759fffafb766e96e1991ab0350" target="_top" xlink:title=" ">
+<g id="a_Node000027"><a xlink:href="cow_2render_8inc_8c.html#a3032e5759fffafb766e96e1991ab0350" target="_top" xlink:title="Renders the cow actor. Actor used in Moo Moo Farm.">
 <polygon fill="white" stroke="#666666" points="443,-938.31 340,-938.31 340,-919.31 443,-919.31 443,-938.31"/>
 <text text-anchor="middle" x="391.5" y="-926.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_cow</text>
 </a>
@@ -212,7 +212,7 @@ var sectionId = 'dynsection-50';
 <!-- Node28 -->
 <g id="Node000028" class="node">
 <title>Node28</title>
-<g id="a_Node000028"><a xlink:href="fake__item__box_2render_8inc_8c.html#af266b20983c5e1664e5d15c1e7a952d0" target="_top" xlink:title=" ">
+<g id="a_Node000028"><a xlink:href="fake__item__box_2render_8inc_8c.html#af266b20983c5e1664e5d15c1e7a952d0" target="_top" xlink:title="Renders the fake item box actor.">
 <polygon fill="white" stroke="#666666" points="656,-68.31 501,-68.31 501,-49.31 656,-49.31 656,-68.31"/>
 <text text-anchor="middle" x="578.5" y="-56.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_fake_item_box</text>
 </a>
@@ -230,7 +230,7 @@ var sectionId = 'dynsection-50';
 <!-- Node30 -->
 <g id="Node000030" class="node">
 <title>Node30</title>
-<g id="a_Node000030"><a xlink:href="falling__rock_2render_8inc_8c.html#a250e5910700e7f46f258578c256c1d94" target="_top" xlink:title=" ">
+<g id="a_Node000030"><a xlink:href="falling__rock_2render_8inc_8c.html#a250e5910700e7f46f258578c256c1d94" target="_top" xlink:title="Renders the falling rock actor. Actor used in Choco Mountain.">
 <polygon fill="white" stroke="#666666" points="461.5,-901.31 321.5,-901.31 321.5,-882.31 461.5,-882.31 461.5,-901.31"/>
 <text text-anchor="middle" x="391.5" y="-889.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_falling_rock</text>
 </a>
@@ -248,7 +248,7 @@ var sectionId = 'dynsection-50';
 <!-- Node31 -->
 <g id="Node000031" class="node">
 <title>Node31</title>
-<g id="a_Node000031"><a xlink:href="item__box_2render_8inc_8c.html#a7bf536a1640e0324213e474302d4b37f" target="_top" xlink:title=" ">
+<g id="a_Node000031"><a xlink:href="item__box_2render_8inc_8c.html#a7bf536a1640e0324213e474302d4b37f" target="_top" xlink:title="Renders the item box actor.">
 <polygon fill="white" stroke="#666666" points="456,-34.31 327,-34.31 327,-15.31 456,-15.31 456,-34.31"/>
 <text text-anchor="middle" x="391.5" y="-22.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_item_box</text>
 </a>
@@ -266,7 +266,7 @@ var sectionId = 'dynsection-50';
 <!-- Node32 -->
 <g id="Node000032" class="node">
 <title>Node32</title>
-<g id="a_Node000032"><a xlink:href="mario__sign_2render_8inc_8c.html#abcfb14ec53dc8eecd888faf9eedad475" target="_top" xlink:title=" ">
+<g id="a_Node000032"><a xlink:href="mario__sign_2render_8inc_8c.html#abcfb14ec53dc8eecd888faf9eedad475" target="_top" xlink:title="Renders the Mario sign actor. Actor used in Mario Raceway.">
 <polygon fill="white" stroke="#666666" points="460,-864.31 323,-864.31 323,-845.31 460,-845.31 460,-864.31"/>
 <text text-anchor="middle" x="391.5" y="-852.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_mario_sign</text>
 </a>
@@ -284,7 +284,7 @@ var sectionId = 'dynsection-50';
 <!-- Node33 -->
 <g id="Node000033" class="node">
 <title>Node33</title>
-<g id="a_Node000033"><a xlink:href="paddle__boat_2render_8inc_8c.html#aae368eda51ea5ff8f7f1c30980c968d0" target="_top" xlink:title=" ">
+<g id="a_Node000033"><a xlink:href="paddle__boat_2render_8inc_8c.html#aae368eda51ea5ff8f7f1c30980c968d0" target="_top" xlink:title="Renders the paddle boat actor. Actor used in DK&#39;s Jungle Parkway.">
 <polygon fill="white" stroke="#666666" points="463,-827.31 320,-827.31 320,-808.31 463,-808.31 463,-827.31"/>
 <text text-anchor="middle" x="391.5" y="-815.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_paddle_boat</text>
 </a>
@@ -302,7 +302,7 @@ var sectionId = 'dynsection-50';
 <!-- Node34 -->
 <g id="Node000034" class="node">
 <title>Node34</title>
-<g id="a_Node000034"><a xlink:href="palm__tree_2render_8inc_8c.html#a9acb7afd543abd1f4794c8c2d16f13a4" target="_top" xlink:title=" ">
+<g id="a_Node000034"><a xlink:href="palm__tree_2render_8inc_8c.html#a9acb7afd543abd1f4794c8c2d16f13a4" target="_top" xlink:title="Renders the palm tree actor. Actor used in Koopa Troopa Beach.">
 <polygon fill="white" stroke="#666666" points="458,-790.31 325,-790.31 325,-771.31 458,-771.31 458,-790.31"/>
 <text text-anchor="middle" x="391.5" y="-778.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_palm_tree</text>
 </a>
@@ -320,7 +320,7 @@ var sectionId = 'dynsection-50';
 <!-- Node35 -->
 <g id="Node000035" class="node">
 <title>Node35</title>
-<g id="a_Node000035"><a xlink:href="piranha__plant_2render_8inc_8c.html#a7f6ae1f0bb9e1576559b2faed48c8f7a" target="_top" xlink:title=" ">
+<g id="a_Node000035"><a xlink:href="piranha__plant_2render_8inc_8c.html#a7f6ae1f0bb9e1576559b2faed48c8f7a" target="_top" xlink:title="Renders the piranha plant actor. Actor used in Mario Raceway and Royal Raceway.">
 <polygon fill="white" stroke="#666666" points="451.5,-752.81 331.5,-752.81 331.5,-722.81 451.5,-722.81 451.5,-752.81"/>
 <text text-anchor="start" x="339.5" y="-740.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_piranha</text>
 <text text-anchor="middle" x="391.5" y="-729.81" font-family="Helvetica,sans-Serif" font-size="10.00">_plant</text>
@@ -339,7 +339,7 @@ var sectionId = 'dynsection-50';
 <!-- Node36 -->
 <g id="Node000036" class="node">
 <title>Node36</title>
-<g id="a_Node000036"><a xlink:href="railroad__crossing_2render_8inc_8c.html#af46eb6e934ce3e283872f68ac3140493" target="_top" xlink:title=" ">
+<g id="a_Node000036"><a xlink:href="railroad__crossing_2render_8inc_8c.html#af46eb6e934ce3e283872f68ac3140493" target="_top" xlink:title="Renders the railroad crossing actor. Actor used in Kalimari Desert.">
 <polygon fill="white" stroke="#666666" points="452,-704.81 331,-704.81 331,-674.81 452,-674.81 452,-704.81"/>
 <text text-anchor="start" x="339" y="-692.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_railroad</text>
 <text text-anchor="middle" x="391.5" y="-681.81" font-family="Helvetica,sans-Serif" font-size="10.00">_crossing</text>
@@ -358,7 +358,7 @@ var sectionId = 'dynsection-50';
 <!-- Node37 -->
 <g id="Node000037" class="node">
 <title>Node37</title>
-<g id="a_Node000037"><a xlink:href="school__bus_2render_8inc_8c.html#a720ce0b0a4f510df57259a76e88045cf" target="_top" xlink:title=" ">
+<g id="a_Node000037"><a xlink:href="school__bus_2render_8inc_8c.html#a720ce0b0a4f510df57259a76e88045cf" target="_top" xlink:title="Renders the school bus actor. Actor used in Toad&#39;s Turnpike. His update are made in vehicle.">
 <polygon fill="white" stroke="#666666" points="460,-656.31 323,-656.31 323,-637.31 460,-637.31 460,-656.31"/>
 <text text-anchor="middle" x="391.5" y="-644.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_school_bus</text>
 </a>
@@ -394,7 +394,7 @@ var sectionId = 'dynsection-50';
 <!-- Node42 -->
 <g id="Node000042" class="node">
 <title>Node42</title>
-<g id="a_Node000042"><a xlink:href="tanker__truck_2render_8inc_8c.html#a946fd8f61348549cfb60bf8a480baad3" target="_top" xlink:title=" ">
+<g id="a_Node000042"><a xlink:href="tanker__truck_2render_8inc_8c.html#a946fd8f61348549cfb60bf8a480baad3" target="_top" xlink:title="Renders the tanker truck actor. Actor used in Toad&#39;s Turnpike. His update are made in vehicle.">
 <polygon fill="white" stroke="#666666" points="635.5,-596.81 521.5,-596.81 521.5,-566.81 635.5,-566.81 635.5,-596.81"/>
 <text text-anchor="start" x="529.5" y="-584.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_tanker</text>
 <text text-anchor="middle" x="578.5" y="-573.81" font-family="Helvetica,sans-Serif" font-size="10.00">_truck</text>
@@ -413,7 +413,7 @@ var sectionId = 'dynsection-50';
 <!-- Node43 -->
 <g id="Node000043" class="node">
 <title>Node43</title>
-<g id="a_Node000043"><a xlink:href="train_2render_8inc_8c.html#a3732523ca7fda5d43b6df198fc1fccf8" target="_top" xlink:title=" ">
+<g id="a_Node000043"><a xlink:href="train_2render_8inc_8c.html#a3732523ca7fda5d43b6df198fc1fccf8" target="_top" xlink:title="Renders the train engine actor. Actor used in Kalimari Desert. His update position are made in vehicl...">
 <polygon fill="white" stroke="#666666" points="631.5,-548.81 525.5,-548.81 525.5,-518.81 631.5,-518.81 631.5,-548.81"/>
 <text text-anchor="start" x="533.5" y="-536.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_train</text>
 <text text-anchor="middle" x="578.5" y="-525.81" font-family="Helvetica,sans-Serif" font-size="10.00">_engine</text>
@@ -470,7 +470,7 @@ var sectionId = 'dynsection-50';
 <!-- Node46 -->
 <g id="Node000046" class="node">
 <title>Node46</title>
-<g id="a_Node000046"><a xlink:href="trees_2render_8inc_8c.html#aa564af6ea62ec336f9c88ffd9351fa7f" target="_top" xlink:title=" ">
+<g id="a_Node000046"><a xlink:href="trees_2render_8inc_8c.html#aa564af6ea62ec336f9c88ffd9351fa7f" target="_top" xlink:title="Renders the tree actor in Bowser&#39;s Castle.">
 <polygon fill="white" stroke="#666666" points="650,-404.81 507,-404.81 507,-374.81 650,-374.81 650,-404.81"/>
 <text text-anchor="start" x="515" y="-392.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_tree_bowser</text>
 <text text-anchor="middle" x="578.5" y="-381.81" font-family="Helvetica,sans-Serif" font-size="10.00">_castle</text>
@@ -489,7 +489,7 @@ var sectionId = 'dynsection-50';
 <!-- Node47 -->
 <g id="Node000047" class="node">
 <title>Node47</title>
-<g id="a_Node000047"><a xlink:href="trees_2render_8inc_8c.html#a60065e5f27dc4938258fccab99c77712" target="_top" xlink:title=" ">
+<g id="a_Node000047"><a xlink:href="trees_2render_8inc_8c.html#a60065e5f27dc4938258fccab99c77712" target="_top" xlink:title="Renders the a first variant of cactus in Kalimari Desert.">
 <polygon fill="white" stroke="#666666" points="651.5,-356.81 505.5,-356.81 505.5,-326.81 651.5,-326.81 651.5,-356.81"/>
 <text text-anchor="start" x="513.5" y="-344.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_tree_cactus1</text>
 <text text-anchor="middle" x="578.5" y="-333.81" font-family="Helvetica,sans-Serif" font-size="10.00">_kalimari_desert</text>
@@ -508,7 +508,7 @@ var sectionId = 'dynsection-50';
 <!-- Node48 -->
 <g id="Node000048" class="node">
 <title>Node48</title>
-<g id="a_Node000048"><a xlink:href="trees_2render_8inc_8c.html#a391d401aeed12810b4a4adbd7547eaf4" target="_top" xlink:title=" ">
+<g id="a_Node000048"><a xlink:href="trees_2render_8inc_8c.html#a391d401aeed12810b4a4adbd7547eaf4" target="_top" xlink:title="Renders the a second variant of cactus in Kalimari Desert.">
 <polygon fill="white" stroke="#666666" points="651.5,-308.81 505.5,-308.81 505.5,-278.81 651.5,-278.81 651.5,-308.81"/>
 <text text-anchor="start" x="513.5" y="-296.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_tree_cactus2</text>
 <text text-anchor="middle" x="578.5" y="-285.81" font-family="Helvetica,sans-Serif" font-size="10.00">_kalimari_desert</text>
@@ -527,7 +527,7 @@ var sectionId = 'dynsection-50';
 <!-- Node49 -->
 <g id="Node000049" class="node">
 <title>Node49</title>
-<g id="a_Node000049"><a xlink:href="trees_2render_8inc_8c.html#a93c363ef5063842fd6aecf2fd2435fe8" target="_top" xlink:title=" ">
+<g id="a_Node000049"><a xlink:href="trees_2render_8inc_8c.html#a93c363ef5063842fd6aecf2fd2435fe8" target="_top" xlink:title="Renders the a third variant of cactus in Kalimari Desert.">
 <polygon fill="white" stroke="#666666" points="651.5,-260.81 505.5,-260.81 505.5,-230.81 651.5,-230.81 651.5,-260.81"/>
 <text text-anchor="start" x="513.5" y="-248.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_tree_cactus3</text>
 <text text-anchor="middle" x="578.5" y="-237.81" font-family="Helvetica,sans-Serif" font-size="10.00">_kalimari_desert</text>
@@ -546,7 +546,7 @@ var sectionId = 'dynsection-50';
 <!-- Node50 -->
 <g id="Node000050" class="node">
 <title>Node50</title>
-<g id="a_Node000050"><a xlink:href="trees_2render_8inc_8c.html#ac3dbf52efe3d23fca8e5de6bc11a6c27" target="_top" xlink:title=" ">
+<g id="a_Node000050"><a xlink:href="trees_2render_8inc_8c.html#ac3dbf52efe3d23fca8e5de6bc11a6c27" target="_top" xlink:title="Renders the tree actor in Frappe Snowland.">
 <polygon fill="white" stroke="#666666" points="648.5,-212.81 508.5,-212.81 508.5,-182.81 648.5,-182.81 648.5,-212.81"/>
 <text text-anchor="start" x="516.5" y="-200.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_tree_frappe</text>
 <text text-anchor="middle" x="578.5" y="-189.81" font-family="Helvetica,sans-Serif" font-size="10.00">_snowland</text>
@@ -565,7 +565,7 @@ var sectionId = 'dynsection-50';
 <!-- Node51 -->
 <g id="Node000051" class="node">
 <title>Node51</title>
-<g id="a_Node000051"><a xlink:href="trees_2render_8inc_8c.html#a4424eacaec23826f9d392474e204d5bb" target="_top" xlink:title=" ">
+<g id="a_Node000051"><a xlink:href="trees_2render_8inc_8c.html#a4424eacaec23826f9d392474e204d5bb" target="_top" xlink:title="Renders the tree actor in Mario rawceay.">
 <polygon fill="white" stroke="#666666" points="647,-164.81 510,-164.81 510,-134.81 647,-134.81 647,-164.81"/>
 <text text-anchor="start" x="518" y="-152.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_tree_mario</text>
 <text text-anchor="middle" x="578.5" y="-141.81" font-family="Helvetica,sans-Serif" font-size="10.00">_raceway</text>
@@ -584,7 +584,7 @@ var sectionId = 'dynsection-50';
 <!-- Node52 -->
 <g id="Node000052" class="node">
 <title>Node52</title>
-<g id="a_Node000052"><a xlink:href="trees_2render_8inc_8c.html#ab87e849fb7e892bf8a48df38ae2e1849" target="_top" xlink:title=" ">
+<g id="a_Node000052"><a xlink:href="trees_2render_8inc_8c.html#ab87e849fb7e892bf8a48df38ae2e1849" target="_top" xlink:title="Renders the tree actor in Moo Moo Farm.">
 <polygon fill="white" stroke="#666666" points="643.5,-116.81 513.5,-116.81 513.5,-86.81 643.5,-86.81 643.5,-116.81"/>
 <text text-anchor="start" x="521.5" y="-104.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_tree_moo</text>
 <text text-anchor="middle" x="578.5" y="-93.81" font-family="Helvetica,sans-Serif" font-size="10.00">_moo_farm</text>
@@ -603,7 +603,7 @@ var sectionId = 'dynsection-50';
 <!-- Node53 -->
 <g id="Node000053" class="node">
 <title>Node53</title>
-<g id="a_Node000053"><a xlink:href="trees_2render_8inc_8c.html#ae8254adaf245dfbd7310a1f6316aa1a0" target="_top" xlink:title=" ">
+<g id="a_Node000053"><a xlink:href="trees_2render_8inc_8c.html#ae8254adaf245dfbd7310a1f6316aa1a0" target="_top" xlink:title="Renders the tree actor in Royal Raceway.">
 <polygon fill="white" stroke="#666666" points="645,-1411.81 512,-1411.81 512,-1381.81 645,-1381.81 645,-1411.81"/>
 <text text-anchor="start" x="520" y="-1399.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_tree_royal</text>
 <text text-anchor="middle" x="578.5" y="-1388.81" font-family="Helvetica,sans-Serif" font-size="10.00">_raceway</text>
@@ -622,7 +622,7 @@ var sectionId = 'dynsection-50';
 <!-- Node54 -->
 <g id="Node000054" class="node">
 <title>Node54</title>
-<g id="a_Node000054"><a xlink:href="trees_2render_8inc_8c.html#a421c9a4ad803cf0e0b52f632f44bca61" target="_top" xlink:title=" ">
+<g id="a_Node000054"><a xlink:href="trees_2render_8inc_8c.html#a421c9a4ad803cf0e0b52f632f44bca61" target="_top" xlink:title="Renders the tree actor in Yoshi Valley.">
 <polygon fill="white" stroke="#666666" points="645.5,-1363.81 511.5,-1363.81 511.5,-1333.81 645.5,-1333.81 645.5,-1363.81"/>
 <text text-anchor="start" x="519.5" y="-1351.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_tree_yoshi</text>
 <text text-anchor="middle" x="578.5" y="-1340.81" font-family="Helvetica,sans-Serif" font-size="10.00">_valley</text>
@@ -641,7 +641,7 @@ var sectionId = 'dynsection-50';
 <!-- Node55 -->
 <g id="Node000055" class="node">
 <title>Node55</title>
-<g id="a_Node000055"><a xlink:href="wario__sign_2render_8inc_8c.html#a4a287788fd70e41c5d3856d70c24ec0b" target="_top" xlink:title=" ">
+<g id="a_Node000055"><a xlink:href="wario__sign_2render_8inc_8c.html#a4a287788fd70e41c5d3856d70c24ec0b" target="_top" xlink:title="Renders the Wario sign actor. Used in Wario Stadium.">
 <polygon fill="white" stroke="#666666" points="646.5,-1315.31 510.5,-1315.31 510.5,-1296.31 646.5,-1296.31 646.5,-1315.31"/>
 <text text-anchor="middle" x="578.5" y="-1303.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_wario_sign</text>
 </a>
@@ -659,7 +659,7 @@ var sectionId = 'dynsection-50';
 <!-- Node56 -->
 <g id="Node000056" class="node">
 <title>Node56</title>
-<g id="a_Node000056"><a xlink:href="yoshi__egg_2render_8inc_8c.html#a4d082cb0256600e693927bccddbee605" target="_top" xlink:title=" ">
+<g id="a_Node000056"><a xlink:href="yoshi__egg_2render_8inc_8c.html#a4d082cb0256600e693927bccddbee605" target="_top" xlink:title="Renders the Yoshi egg actor. Actor used in Yoshi Valley.">
 <polygon fill="white" stroke="#666666" points="645,-1278.31 512,-1278.31 512,-1259.31 645,-1259.31 645,-1278.31"/>
 <text text-anchor="middle" x="578.5" y="-1266.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_yoshi_egg</text>
 </a>
@@ -1117,7 +1117,7 @@ var sectionId = 'dynsection-50';
 <!-- Node39 -->
 <g id="Node000039" class="node">
 <title>Node39</title>
-<g id="a_Node000039"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#a516dec1dd3d7c2d39294a1ab4edcff4a" target="_top" xlink:title=" ">
+<g id="a_Node000039"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#a516dec1dd3d7c2d39294a1ab4edcff4a" target="_top" xlink:title="render the blue shell actor">
 <polygon fill="white" stroke="#666666" points="458,-619.31 325,-619.31 325,-600.31 458,-600.31 458,-619.31"/>
 <text text-anchor="middle" x="391.5" y="-607.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_blue_shell</text>
 </a>
@@ -1135,7 +1135,7 @@ var sectionId = 'dynsection-50';
 <!-- Node40 -->
 <g id="Node000040" class="node">
 <title>Node40</title>
-<g id="a_Node000040"><a xlink:href="green__shell_2render_8inc_8c.html#a39d6e7cdcb6d797ff42e8b68549ce944" target="_top" xlink:title=" ">
+<g id="a_Node000040"><a xlink:href="green__shell_2render_8inc_8c.html#a39d6e7cdcb6d797ff42e8b68549ce944" target="_top" xlink:title="Renders the green shell actor.">
 <polygon fill="white" stroke="#666666" points="447,-581.81 336,-581.81 336,-551.81 447,-551.81 447,-581.81"/>
 <text text-anchor="start" x="344" y="-569.81" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_green</text>
 <text text-anchor="middle" x="391.5" y="-558.81" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>
@@ -1154,7 +1154,7 @@ var sectionId = 'dynsection-50';
 <!-- Node41 -->
 <g id="Node000041" class="node">
 <title>Node41</title>
-<g id="a_Node000041"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#aad2583aa98831d6ef751cf57d0ec166a" target="_top" xlink:title=" ">
+<g id="a_Node000041"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#aad2583aa98831d6ef751cf57d0ec166a" target="_top" xlink:title="render the red shell actor">
 <polygon fill="white" stroke="#666666" points="455.5,-533.31 327.5,-533.31 327.5,-514.31 455.5,-514.31 455.5,-533.31"/>
 <text text-anchor="middle" x="391.5" y="-521.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_red_shell</text>
 </a>

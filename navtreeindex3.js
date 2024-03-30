@@ -1,5 +1,13 @@
 var NAVTREEINDEX3 =
 {
+"actors__extended_8c.html#a34694840e4ed5e496ed3ba98429b0558":[8,0,3,6,2,15],
+"actors__extended_8c.html#a37199f633d5cab2cbbc3c506b177a68e":[8,0,3,6,2,8],
+"actors__extended_8c.html#a47255ea9aa07316c48b95fd7a97ac40d":[8,0,3,6,2,24],
+"actors__extended_8c.html#a58a90bceb7852ff16b389f2bba53817f":[8,0,3,6,2,23],
+"actors__extended_8c.html#a6c53567ce07da53daa086cb9b09076a1":[8,0,3,6,2,13],
+"actors__extended_8c.html#a78ba9cbef20b4e33a02f2d21004e0194":[8,0,3,6,2,18],
+"actors__extended_8c.html#a78e98c146f1f4dd6e3608016486172a4":[8,0,3,6,2,10],
+"actors__extended_8c.html#a87d7f1fdb71b4ffb9b0b6961d5f4fb65":[8,0,3,6,2,7],
 "actors__extended_8c.html#a88021e28f51eed86867e22b5aae7e252":[8,0,3,6,2,17],
 "actors__extended_8c.html#a888a459fc74d16fe20cb3d8b3bbb8256":[8,0,3,6,2,19],
 "actors__extended_8c.html#a8ac8961d38b45f457d0f27d5f782a464":[8,0,3,6,2,20],
@@ -241,13 +249,5 @@ var NAVTREEINDEX3 =
 "banshee__boardwalk_2course__data_8inc_8c.html#a3352743497848239a58cf740de39b323":[8,0,0,0,0,15],
 "banshee__boardwalk_2course__data_8inc_8c.html#a375fddcdf9a3a1876cc6320a72f864b4":[8,0,0,0,0,103],
 "banshee__boardwalk_2course__data_8inc_8c.html#a3799dda94e3b34030115f4fa39953296":[8,0,0,0,0,13],
-"banshee__boardwalk_2course__data_8inc_8c.html#a3c882a9841997b575361e2ea42126c50":[8,0,0,0,0,5],
-"banshee__boardwalk_2course__data_8inc_8c.html#a3e65d5511cfb893a7b6984b49772acd6":[8,0,0,0,0,50],
-"banshee__boardwalk_2course__data_8inc_8c.html#a3e73e6798800035d2e21aba35aca8b7c":[8,0,0,0,0,33],
-"banshee__boardwalk_2course__data_8inc_8c.html#a3efc30b755a8aa52e4a8769a285e4d52":[8,0,0,0,0,27],
-"banshee__boardwalk_2course__data_8inc_8c.html#a3f5e91e53d0d030bf2589a9e5184be0a":[8,0,0,0,0,34],
-"banshee__boardwalk_2course__data_8inc_8c.html#a40ea4b9e9660c9fe0b9e904699e567ac":[8,0,0,0,0,88],
-"banshee__boardwalk_2course__data_8inc_8c.html#a437c027a42d0489da902566d989c74b7":[8,0,0,0,0,72],
-"banshee__boardwalk_2course__data_8inc_8c.html#a44897a5b179c3a4c55c98cb954d9721b":[8,0,0,0,0,17],
-"banshee__boardwalk_2course__data_8inc_8c.html#a45c8ac199dbdeaa0f841aa35802c53c8":[8,0,0,0,0,114]
+"banshee__boardwalk_2course__data_8inc_8c.html#a3c882a9841997b575361e2ea42126c50":[8,0,0,0,0,5]
 };

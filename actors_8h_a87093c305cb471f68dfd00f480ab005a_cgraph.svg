@@ -48,7 +48,7 @@
 <script type="application/ecmascript">
 var viewWidth = 713;
 var viewHeight = 236;
-var sectionId = 'dynsection-138';
+var sectionId = 'dynsection-128';
 </script>
 <script type="application/ecmascript" xlink:href="svg.min.js"/>
 <svg id="graph" class="graph">
@@ -57,7 +57,7 @@ var sectionId = 'dynsection-138';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Renders the Wario sign actor. Used in Wario Stadium.">
 <polygon fill="#999999" stroke="#666666" points="136,-75 0,-75 0,-56 136,-56 136,-75"/>
 <text text-anchor="middle" x="68" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_wario_sign</text>
 </a>

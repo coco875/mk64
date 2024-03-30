@@ -1,5 +1,5 @@
 <map id="render_actor_car" name="render_actor_car">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,210,136,235"/>
+<area shape="rect" id="Node000001" title="Renders the car actor. Actor used in Toad&#39;s Turnpike. His update are made in vehicle." alt="" coords="5,210,136,235"/>
 <area shape="rect" id="Node000002" href="$math__util_8c.html#a5e1d12b8745a8d5f8d73ab366328d3cd" title=" " alt="" coords="184,99,375,125"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,208,241,129,243,134,97,212"/>
 <area shape="rect" id="Node000009" href="$math__util_8c.html#a7085bb4bb08bdc39c0fa0b98f25176ef" title=" " alt="" coords="194,185,365,210"/>

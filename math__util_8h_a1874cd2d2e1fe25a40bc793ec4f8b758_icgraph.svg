@@ -84,7 +84,7 @@ var sectionId = 'dynsection-45';
 <!-- Node31 -->
 <g id="Node000031" class="node">
 <title>Node31</title>
-<g id="a_Node000031"><a xlink:href="paddle__boat_2render_8inc_8c.html#aae368eda51ea5ff8f7f1c30980c968d0" target="_top" xlink:title=" ">
+<g id="a_Node000031"><a xlink:href="paddle__boat_2render_8inc_8c.html#aae368eda51ea5ff8f7f1c30980c968d0" target="_top" xlink:title="Renders the paddle boat actor. Actor used in DK&#39;s Jungle Parkway.">
 <polygon fill="white" stroke="#666666" points="1271,-238.5 1128,-238.5 1128,-219.5 1271,-219.5 1271,-238.5"/>
 <text text-anchor="middle" x="1199.5" y="-226.5" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_paddle_boat</text>
 </a>
@@ -102,7 +102,7 @@ var sectionId = 'dynsection-45';
 <!-- Node33 -->
 <g id="Node000033" class="node">
 <title>Node33</title>
-<g id="a_Node000033"><a xlink:href="train_2render_8inc_8c.html#a3732523ca7fda5d43b6df198fc1fccf8" target="_top" xlink:title=" ">
+<g id="a_Node000033"><a xlink:href="train_2render_8inc_8c.html#a3732523ca7fda5d43b6df198fc1fccf8" target="_top" xlink:title="Renders the train engine actor. Actor used in Kalimari Desert. His update position are made in vehicl...">
 <polygon fill="white" stroke="#666666" points="1252.5,-383 1146.5,-383 1146.5,-353 1252.5,-353 1252.5,-383"/>
 <text text-anchor="start" x="1154.5" y="-371" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_train</text>
 <text text-anchor="middle" x="1199.5" y="-360" font-family="Helvetica,sans-Serif" font-size="10.00">_engine</text>

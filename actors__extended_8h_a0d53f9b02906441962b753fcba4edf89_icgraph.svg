@@ -102,7 +102,7 @@ var sectionId = 'dynsection-28';
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title=" ">
+<g id="a_Node000012"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title="Update the red and blue shell actors.">
 <polygon fill="white" stroke="#666666" points="1407,-320.5 1279,-320.5 1279,-290.5 1407,-290.5 1407,-320.5"/>
 <text text-anchor="start" x="1287" y="-308.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_red_blue</text>
 <text text-anchor="middle" x="1343" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>
@@ -157,7 +157,7 @@ var sectionId = 'dynsection-28';
 <!-- Node16 -->
 <g id="Node000016" class="node">
 <title>Node16</title>
-<g id="a_Node000016"><a xlink:href="banana_2update_8inc_8c.html#a1b699acb507ca2e080f46ea632573993" target="_top" xlink:title=" ">
+<g id="a_Node000016"><a xlink:href="banana_2update_8inc_8c.html#a1b699acb507ca2e080f46ea632573993" target="_top" xlink:title="update the banana actor">
 <polygon fill="white" stroke="#666666" points="1243,-209 1121,-209 1121,-190 1243,-190 1243,-209"/>
 <text text-anchor="middle" x="1182" y="-197" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_banana</text>
 </a>
@@ -175,7 +175,7 @@ var sectionId = 'dynsection-28';
 <!-- Node17 -->
 <g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_Node000017"><a xlink:href="fake__item__box_2update_8inc_8c.html#ad21c35b35099a45f58d3c9d3a470f6b7" target="_top" xlink:title=" ">
+<g id="a_Node000017"><a xlink:href="fake__item__box_2update_8inc_8c.html#ad21c35b35099a45f58d3c9d3a470f6b7" target="_top" xlink:title="Updates the fake item box actor.">
 <polygon fill="white" stroke="#666666" points="1085,-171 927,-171 927,-152 1085,-152 1085,-171"/>
 <text text-anchor="middle" x="1006" y="-159" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_fake_item_box</text>
 </a>
@@ -193,7 +193,7 @@ var sectionId = 'dynsection-28';
 <!-- Node18 -->
 <g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_Node000018"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title=" ">
+<g id="a_Node000018"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title="Updates the green shell actor.">
 <polygon fill="white" stroke="#666666" points="1238.5,-133.5 1125.5,-133.5 1125.5,-103.5 1238.5,-103.5 1238.5,-133.5"/>
 <text text-anchor="start" x="1133.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_green</text>
 <text text-anchor="middle" x="1182" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>

@@ -67,7 +67,7 @@ var sectionId = 'dynsection-1';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="fake__item__box_2render_8inc_8c.html#af266b20983c5e1664e5d15c1e7a952d0" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="fake__item__box_2render_8inc_8c.html#af266b20983c5e1664e5d15c1e7a952d0" target="_top" xlink:title="Renders the fake item box actor.">
 <polygon fill="white" stroke="#666666" points="1230,-235.5 1075,-235.5 1075,-216.5 1230,-216.5 1230,-235.5"/>
 <text text-anchor="middle" x="1152.5" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_fake_item_box</text>
 </a>
@@ -85,7 +85,7 @@ var sectionId = 'dynsection-1';
 <!-- Node19 -->
 <g id="Node000019" class="node">
 <title>Node19</title>
-<g id="a_Node000019"><a xlink:href="item__box_2render_8inc_8c.html#a7bf536a1640e0324213e474302d4b37f" target="_top" xlink:title=" ">
+<g id="a_Node000019"><a xlink:href="item__box_2render_8inc_8c.html#a7bf536a1640e0324213e474302d4b37f" target="_top" xlink:title="Renders the item box actor.">
 <polygon fill="white" stroke="#666666" points="1217,-198.5 1088,-198.5 1088,-179.5 1217,-179.5 1217,-198.5"/>
 <text text-anchor="middle" x="1152.5" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_item_box</text>
 </a>

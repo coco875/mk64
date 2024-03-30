@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Renders the Wario sign actor. Used in Wario Stadium.">
 <polygon fill="#999999" stroke="#666666" points="1222,-240.5 1086,-240.5 1086,-221.5 1222,-221.5 1222,-240.5"/>
 <text text-anchor="middle" x="1154" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_wario_sign</text>
 </a>

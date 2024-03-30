@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Rotates paddle boat&#39;s wheel.">
+<g id="a_Node000001"><a xlink:title="Updates the paddle boat actor. Actor used in DK&#39;s Jungle Parkway. Rotate only the paddle wheel,...">
 <polygon fill="#999999" stroke="#666666" points="1073,-19 927,-19 927,0 1073,0 1073,-19"/>
 <text text-anchor="middle" x="1000" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_paddle_boat</text>
 </a>

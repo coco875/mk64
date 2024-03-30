@@ -57,7 +57,7 @@ var sectionId = 'dynsection-3';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Updates the item box under the hot air balloon object. It used in Luigi Raceway. (here it&#39;s just upda...">
 <polygon fill="#999999" stroke="#666666" points="1058,-30 927,-30 927,0 1058,0 1058,-30"/>
 <text text-anchor="start" x="935" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_item_box</text>
 <text text-anchor="middle" x="992.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">_hot_air_balloon</text>

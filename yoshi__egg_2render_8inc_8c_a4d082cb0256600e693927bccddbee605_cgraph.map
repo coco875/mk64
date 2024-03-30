@@ -1,5 +1,5 @@
 <map id="render_actor_yoshi_egg" name="render_actor_yoshi_egg">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,183,132"/>
+<area shape="rect" id="Node000001" title="Renders the Yoshi egg actor. Actor used in Yoshi Valley." alt="" coords="5,107,183,132"/>
 <area shape="rect" id="Node000002" href="$actors_8c.html#a6fd7dc3bc34357287535b6f06ab7d85c" title=" " alt="" coords="265,5,387,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,104,168,77,230,48,269,33,271,38,232,52,170,82,119,109"/>
 <area shape="rect" id="Node000003" href="$actors_8c.html#ac46c5c4408bdcd2bfdeddd690b1ed203" title=" " alt="" coords="265,107,387,132"/>

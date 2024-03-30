@@ -1,5 +1,5 @@
 <map id="render_actor_school_bus" name="render_actor_school_bus">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,209,188,234"/>
+<area shape="rect" id="Node000001" title="Renders the school bus actor. Actor used in Toad&#39;s Turnpike. His update are made in vehicle." alt="" coords="5,209,188,234"/>
 <area shape="rect" id="Node000002" href="$math__util_8c.html#a5e1d12b8745a8d5f8d73ab366328d3cd" title=" " alt="" coords="236,99,427,125"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,206,290,128,292,133,126,211"/>
 <area shape="rect" id="Node000009" href="$math__util_8c.html#a7085bb4bb08bdc39c0fa0b98f25176ef" title=" " alt="" coords="246,209,417,234"/>

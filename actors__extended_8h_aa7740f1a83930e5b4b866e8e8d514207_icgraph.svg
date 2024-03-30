@@ -169,7 +169,7 @@ var sectionId = 'dynsection-13';
 <!-- Node16 -->
 <g id="Node000016" class="node">
 <title>Node16</title>
-<g id="a_Node000016"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title=" ">
+<g id="a_Node000016"><a xlink:href="blue__and__red__shells_2update_8inc_8c.html#a6e281ad692a9ccd329fa6840ad38afbc" target="_top" xlink:title="Update the red and blue shell actors.">
 <polygon fill="white" stroke="#666666" points="1067,-121.31 939,-121.31 939,-91.31 1067,-91.31 1067,-121.31"/>
 <text text-anchor="start" x="947" y="-109.31" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_red_blue</text>
 <text text-anchor="middle" x="1003" y="-98.31" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>
@@ -206,7 +206,7 @@ var sectionId = 'dynsection-13';
 <!-- Node18 -->
 <g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_Node000018"><a xlink:href="banana_2update_8inc_8c.html#a1b699acb507ca2e080f46ea632573993" target="_top" xlink:title=" ">
+<g id="a_Node000018"><a xlink:href="banana_2update_8inc_8c.html#a1b699acb507ca2e080f46ea632573993" target="_top" xlink:title="update the banana actor">
 <polygon fill="white" stroke="#666666" points="1064,-42.81 942,-42.81 942,-23.81 1064,-23.81 1064,-42.81"/>
 <text text-anchor="middle" x="1003" y="-30.81" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_banana</text>
 </a>
@@ -224,7 +224,7 @@ var sectionId = 'dynsection-13';
 <!-- Node19 -->
 <g id="Node000019" class="node">
 <title>Node19</title>
-<g id="a_Node000019"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title=" ">
+<g id="a_Node000019"><a xlink:href="green__shell_2update_8inc_8c.html#a4fd275676bf11ca2e15556db08264a90" target="_top" xlink:title="Updates the green shell actor.">
 <polygon fill="white" stroke="#666666" points="1059.5,-183.31 946.5,-183.31 946.5,-153.31 1059.5,-153.31 1059.5,-183.31"/>
 <text text-anchor="start" x="954.5" y="-171.31" font-family="Helvetica,sans-Serif" font-size="10.00">update_actor_green</text>
 <text text-anchor="middle" x="1003" y="-160.31" font-family="Helvetica,sans-Serif" font-size="10.00">_shell</text>
