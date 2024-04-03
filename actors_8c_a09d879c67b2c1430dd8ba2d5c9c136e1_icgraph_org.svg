@@ -92,7 +92,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#a516dec1dd3d7c2d39294a1ab4edcff4a" target="_top" xlink:title="render the blue shell actor">
+<g id="a_Node000004"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#a516dec1dd3d7c2d39294a1ab4edcff4a" target="_top" xlink:title="Render the blue shell actor.">
 <polygon fill="white" stroke="#666666" points="1219,-280.5 1086,-280.5 1086,-261.5 1219,-261.5 1219,-280.5"/>
 <text text-anchor="middle" x="1152.5" y="-268.5" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_blue_shell</text>
 </a>
@@ -129,7 +129,7 @@
 <!-- Node24 -->
 <g id="Node000024" class="node">
 <title>Node24</title>
-<g id="a_Node000024"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#aad2583aa98831d6ef751cf57d0ec166a" target="_top" xlink:title="render the red shell actor">
+<g id="a_Node000024"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#aad2583aa98831d6ef751cf57d0ec166a" target="_top" xlink:title="Render the red shell actor.">
 <polygon fill="white" stroke="#666666" points="1216.5,-194.5 1088.5,-194.5 1088.5,-175.5 1216.5,-175.5 1216.5,-194.5"/>
 <text text-anchor="middle" x="1152.5" y="-182.5" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_red_shell</text>
 </a>

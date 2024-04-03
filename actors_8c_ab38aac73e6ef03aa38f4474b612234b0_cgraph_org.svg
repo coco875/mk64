@@ -110,7 +110,7 @@
 <!-- Node22 -->
 <g id="Node000022" class="node">
 <title>Node22</title>
-<g id="a_Node000022"><a xlink:href="banana_2render_8inc_8c.html#ac3081ff11d8481c9ce596f5ad4e35d64" target="_top" xlink:title="render the banana actor">
+<g id="a_Node000022"><a xlink:href="banana_2render_8inc_8c.html#ac3081ff11d8481c9ce596f5ad4e35d64" target="_top" xlink:title="Render the banana actor.">
 <polygon fill="white" stroke="#666666" points="471,-1992.51 352,-1992.51 352,-1973.51 471,-1973.51 471,-1992.51"/>
 <text text-anchor="middle" x="411.5" y="-1980.51" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_banana</text>
 </a>
@@ -128,7 +128,7 @@
 <!-- Node25 -->
 <g id="Node000025" class="node">
 <title>Node25</title>
-<g id="a_Node000025"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#a516dec1dd3d7c2d39294a1ab4edcff4a" target="_top" xlink:title="render the blue shell actor">
+<g id="a_Node000025"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#a516dec1dd3d7c2d39294a1ab4edcff4a" target="_top" xlink:title="Render the blue shell actor.">
 <polygon fill="white" stroke="#666666" points="297,-1797.51 164,-1797.51 164,-1778.51 297,-1778.51 297,-1797.51"/>
 <text text-anchor="middle" x="230.5" y="-1785.51" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_blue_shell</text>
 </a>
@@ -367,7 +367,7 @@
 <!-- Node48 -->
 <g id="Node000048" class="node">
 <title>Node48</title>
-<g id="a_Node000048"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#aad2583aa98831d6ef751cf57d0ec166a" target="_top" xlink:title="render the red shell actor">
+<g id="a_Node000048"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#aad2583aa98831d6ef751cf57d0ec166a" target="_top" xlink:title="Render the red shell actor.">
 <polygon fill="white" stroke="#666666" points="294.5,-1918.51 166.5,-1918.51 166.5,-1899.51 294.5,-1899.51 294.5,-1918.51"/>
 <text text-anchor="middle" x="230.5" y="-1906.51" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_red_shell</text>
 </a>

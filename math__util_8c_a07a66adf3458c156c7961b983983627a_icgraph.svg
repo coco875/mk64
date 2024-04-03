@@ -120,7 +120,7 @@ var sectionId = 'dynsection-41';
 <!-- Node23 -->
 <g id="Node000023" class="node">
 <title>Node23</title>
-<g id="a_Node000023"><a xlink:href="banana_2render_8inc_8c.html#ac3081ff11d8481c9ce596f5ad4e35d64" target="_top" xlink:title="render the banana actor">
+<g id="a_Node000023"><a xlink:href="banana_2render_8inc_8c.html#ac3081ff11d8481c9ce596f5ad4e35d64" target="_top" xlink:title="Render the banana actor.">
 <polygon fill="white" stroke="#666666" points="451,-1098.31 332,-1098.31 332,-1079.31 451,-1079.31 451,-1098.31"/>
 <text text-anchor="middle" x="391.5" y="-1086.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_banana</text>
 </a>
@@ -1116,7 +1116,7 @@ var sectionId = 'dynsection-41';
 <!-- Node39 -->
 <g id="Node000039" class="node">
 <title>Node39</title>
-<g id="a_Node000039"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#a516dec1dd3d7c2d39294a1ab4edcff4a" target="_top" xlink:title="render the blue shell actor">
+<g id="a_Node000039"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#a516dec1dd3d7c2d39294a1ab4edcff4a" target="_top" xlink:title="Render the blue shell actor.">
 <polygon fill="white" stroke="#666666" points="458,-619.31 325,-619.31 325,-600.31 458,-600.31 458,-619.31"/>
 <text text-anchor="middle" x="391.5" y="-607.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_blue_shell</text>
 </a>
@@ -1153,7 +1153,7 @@ var sectionId = 'dynsection-41';
 <!-- Node41 -->
 <g id="Node000041" class="node">
 <title>Node41</title>
-<g id="a_Node000041"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#aad2583aa98831d6ef751cf57d0ec166a" target="_top" xlink:title="render the red shell actor">
+<g id="a_Node000041"><a xlink:href="blue__and__red__shells_2render_8inc_8c.html#aad2583aa98831d6ef751cf57d0ec166a" target="_top" xlink:title="Render the red shell actor.">
 <polygon fill="white" stroke="#666666" points="455.5,-533.31 327.5,-533.31 327.5,-514.31 455.5,-514.31 455.5,-533.31"/>
 <text text-anchor="middle" x="391.5" y="-521.31" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_red_shell</text>
 </a>

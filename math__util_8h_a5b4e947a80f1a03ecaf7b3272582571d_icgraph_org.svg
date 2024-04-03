@@ -522,7 +522,7 @@
 <!-- Node49 -->
 <g id="Node000049" class="node">
 <title>Node49</title>
-<g id="a_Node000049"><a xlink:href="banana_2render_8inc_8c.html#ac3081ff11d8481c9ce596f5ad4e35d64" target="_top" xlink:title="render the banana actor">
+<g id="a_Node000049"><a xlink:href="banana_2render_8inc_8c.html#ac3081ff11d8481c9ce596f5ad4e35d64" target="_top" xlink:title="Render the banana actor.">
 <polygon fill="#fff0f0" stroke="red" points="320,-876 201,-876 201,-857 320,-857 320,-876"/>
 <text text-anchor="middle" x="260.5" y="-864" font-family="Helvetica,sans-Serif" font-size="10.00">render_actor_banana</text>
 </a>
