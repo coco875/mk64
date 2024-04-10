@@ -89,7 +89,7 @@ var searchData=
   ['initparams_86',['initParams',['../structCeremonyActor.html#a277ad2eda07a8de516f07337576809dd',1,'CeremonyActor::initParams'],['../structFirework.html#a1cbb7f2b612146c27cb394c724994c1a',1,'Firework::initParams']]],
   ['inode_87',['inode',['../struct____OSInodeCache.html#a3733820db9596ac6724b29785d78d7f4',1,'__OSInodeCache']]],
   ['inode_5fpage_88',['inode_page',['../struct____OSInode.html#ab913e55c3af6099c919ece81349eb21f',1,'__OSInode']]],
-  ['inode_5ft_89',['inode_t',['../union____OSInodeUnit.html#a281e47e65a6a5cbd66ab6697398e700f',1,'__OSInodeUnit']]],
+  ['inode_5ft_89',['inode_t',['../union____OSInodeUnit.html#a37d1ea1ca6343bea9b704017f5c4fd54',1,'__OSInodeUnit']]],
   ['installing_20mk64_20decomp_90',['Installing mk64 Decomp',['../compiling.html',1,'basics']]],
   ['instarray_91',['instArray',['../structALBank__s.html#a51e528879a570e855363b7a47d00acaf',1,'ALBank_s']]],
   ['instcount_92',['instCount',['../structALBank__s.html#a09c8b064e5f89189e117b0927941b2a0',1,'ALBank_s']]],
@@ -164,7 +164,7 @@ var searchData=
   ['item_5ftriple_5fmushroom_161',['ITEM_TRIPLE_MUSHROOM',['../defines_8h.html#a73525c02acb5a3c282d73186bb3196f5a257dae5d08a213625f58b4f4d63eab78',1,'defines.h']]],
   ['item_5ftriple_5fred_5fshell_162',['ITEM_TRIPLE_RED_SHELL',['../defines_8h.html#a73525c02acb5a3c282d73186bb3196f5afe24bd982cfba98711b595ad9090c818',1,'defines.h']]],
   ['itembox_163',['ItemBox',['../structItemBox.html',1,'']]],
-  ['itemboxquestionmarkmodel_164',['itemBoxQuestionMarkModel',['../common__textures_8c.html#a45ca5bd71f521c16b12d0ac9bccfdc4e',1,'common_textures.c']]],
+  ['itemboxquestionmarkmodel_164',['itemBoxQuestionMarkModel',['../common__data_8h.html#a45ca5bd71f521c16b12d0ac9bccfdc4e',1,'common_data.h']]],
   ['itemboxx_165',['itemBoxX',['../structhud__player.html#af2a0d833871a70fd4442d2db87a5be01',1,'hud_player']]],
   ['itemboxy_166',['itemBoxY',['../structhud__player.html#aac5469899e53712fb9ab5f6e4c377d20',1,'hud_player']]],
   ['itemdisplay_167',['itemDisplay',['../structObjects.html#a2abaf2f9fa2d97a411b7d3cfc3f27657',1,'Objects::itemDisplay'],['../structItemWindowObjects.html#a9bf86d15b50c0f1da94354b35b51b541',1,'ItemWindowObjects::itemDisplay']]],
@@ -174,5 +174,6 @@ var searchData=
   ['items_171',['ITEMS',['../defines_8h.html#a73525c02acb5a3c282d73186bb3196f5',1,'defines.h']]],
   ['items_172',['Items',['../items.html',1,'actorsmenu']]],
   ['items_2emd_173',['items.md',['../items_8md.html',1,'']]],
-  ['itemwindowobjects_174',['ItemWindowObjects',['../structItemWindowObjects.html',1,'']]]
+  ['itemwindowobjects_174',['ItemWindowObjects',['../structItemWindowObjects.html',1,'']]],
+  ['itofix_175',['ITOFIX',['../macros_8h.html#a38dd3cc47348bf50cffa34352cc93156',1,'macros.h']]]
 ];
