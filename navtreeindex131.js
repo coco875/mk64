@@ -1,6 +1,5 @@
 var NAVTREEINDEX131 =
 {
-"toads__turnpike_2course__displaylists_8inc_8h.html#a6c3e089b2f327edd36b28315c1cfda71":[8,0,0,17,3,68],
 "toads__turnpike_2course__displaylists_8inc_8h.html#a6c462922d208b16d16524233480aff05":[8,0,0,17,3,5],
 "toads__turnpike_2course__displaylists_8inc_8h.html#a6db1163c0180d96353431314c52e4048":[8,0,0,17,3,16],
 "toads__turnpike_2course__displaylists_8inc_8h.html#a7007a55c36333c3f76412d55fb18242e":[8,0,0,17,3,72],
@@ -179,8 +178,8 @@ var NAVTREEINDEX131 =
 "trig__tables_8h_source.html":[8,0,3,2,7],
 "trig__tables__bss_8c.html":[8,0,3,2,8],
 "trig__tables__bss_8c.html#a00cbbf5fc2549e66b6cb61219d22e7c8":[8,0,3,2,8,0],
-"tutorialaudio.html":[3,2],
-"tutorials.html":[3],
+"tutorialaudio.html":[4,2],
+"tutorials.html":[4],
 "types_8h.html":[8,0,2,21],
 "types_8h.html#a4bb374aee872d45ca8292940f2a0ed03":[8,0,2,21,10],
 "types_8h.html#a4bb374aee872d45ca8292940f2a0ed03a27835f996fe92824161464f3cd8a369b":[8,0,2,21,10,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX131 =
 "unionOSContPackedStruct.html#abf6f8bb9c051c488e27712d6b3e9fa7b":[7,0,113,0],
 "unionOSContPackedStruct.html#add65d6cbdc600e3eb3597d720bfe9b45":[7,0,113,2],
 "unionReverbBits.html":[7,0,140],
-"unionReverbBits.html#a097f0981e060c03cdd0f5b45c0e5c01a":[7,0,140,0]
+"unionReverbBits.html#a097f0981e060c03cdd0f5b45c0e5c01a":[7,0,140,0],
+"unionReverbBits.html#a395ca89e82139bcaf63c939ac327cc93":[7,0,140,1]
 };

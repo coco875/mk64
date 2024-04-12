@@ -1,6 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"osint_8h.html#a4c57f3342a3bc2e836d06b78c85d70f0":[8,0,3,6,79,19],
 "osint_8h.html#a4f7c83166c9481713d4b56defd0888c7":[8,0,3,6,79,8],
 "osint_8h.html#a650b788ebd5efde9c8cbccc1ee832445":[8,0,3,6,79,2],
 "osint_8h.html#a836d4fff66c3d0cf5eec17c4579df564":[8,0,3,6,79,1],
@@ -61,10 +60,10 @@ var NAVTREEINDEX87 =
 "path__spawn__metadata_8h.html#af69a77cb9a7c881876c8487ed29769cc":[8,0,3,3,3,6],
 "path__spawn__metadata_8h.html#afb2bf943d8823faa7ed58946f0e55f2e":[8,0,3,3,3,11],
 "path__spawn__metadata_8h_source.html":[8,0,3,3,3],
-"paths.html":[3,1],
-"paths.html#camera-rails":[3,1,2],
-"paths.html#course-paths":[3,1,0],
-"paths.html#horizontal-paths-no-y-coordinate":[3,1,1],
+"paths.html":[4,1],
+"paths.html#camera-rails":[4,1,2],
+"paths.html#course-paths":[4,1,0],
+"paths.html#horizontal-paths-no-y-coordinate":[4,1,1],
 "piint_8h.html":[8,0,3,6,117],
 "piint_8h.html#a00afad350e1e13f7fbb6ec6a94d48de8":[8,0,3,6,117,74],
 "piint_8h.html#a0231e88a1290269fd41dc1e4d24e4f55":[8,0,3,6,117,30],
@@ -249,5 +248,6 @@ var NAVTREEINDEX87 =
 "player__controller_8c.html#a1796f758711d87699791687c8c8ea84f":[8,0,3,47,8],
 "player__controller_8c.html#a18310e219722897138fbd737acb37331":[8,0,3,47,89],
 "player__controller_8c.html#a1a5b5e02df20372c912e838a46bab65f":[8,0,3,47,73],
-"player__controller_8c.html#a1a718b99b4523bbf99162b0917d97f3f":[8,0,3,47,23]
+"player__controller_8c.html#a1a718b99b4523bbf99162b0917d97f3f":[8,0,3,47,23],
+"player__controller_8c.html#a1b8006e43342346bad60453bba915c0b":[8,0,3,47,74]
 };
