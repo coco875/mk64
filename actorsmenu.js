@@ -1,8 +1,7 @@
 var actorsmenu =
 [
-    [ "Progress", "index.html#progress", null ],
     [ "How Actors Work", "actors.html", [
-      [ "Actors", "actors.html#actors-1", null ]
+      [ "Actors", "actors.html#actors", null ]
     ] ],
     [ "Objects", "objects.html", [
       [ "Objects", "objects.html#objects", null ]
