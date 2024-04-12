@@ -1,5 +1,6 @@
 var NAVTREEINDEX133 =
 {
+"update__objects_8c.html#a8d427c8cffad4c713339f7679dfa36c5":[8,0,3,62,337],
 "update__objects_8c.html#a8dcc78988c2259c90f2b3cf12f874314":[8,0,3,62,294],
 "update__objects_8c.html#a8e2908e44f637e36a58a5d4d11365106":[8,0,3,62,108],
 "update__objects_8c.html#a90558428a91b959fac2ce6c5a88f2615":[8,0,3,62,125],
@@ -178,10 +179,10 @@ var NAVTREEINDEX133 =
 "update__objects_8c.html#affab9e395cca02c99619bf7d4680ec90":[8,0,3,62,204],
 "update__objects_8h.html":[8,0,3,63],
 "update__objects_8h_source.html":[8,0,3,63],
-"vehicles.html":[0,2],
-"vehicles.html#boats":[0,2,2],
-"vehicles.html#cars--trucks":[0,2,1],
-"vehicles.html#trains":[0,2,0],
+"vehicles.html":[0,3],
+"vehicles.html#boats":[0,3,2],
+"vehicles.html#cars--trucks":[0,3,1],
+"vehicles.html#trains":[0,3,0],
 "vehicles_8h.html":[8,0,2,23],
 "vehicles_8h.html#a180fece3a8e26cdf6c649546cfabbb62":[8,0,2,23,5],
 "vehicles_8h.html#a18cc70af1471e76bc2f38d27632c1976":[8,0,2,23,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX133 =
 "wario__stadium_2course__data_8c.html#a46038267765def5932e289e1562eb08d":[8,0,0,18,0,55],
 "wario__stadium_2course__data_8c.html#a47795beb13bc3d4fcde1f2858c4763b1":[8,0,0,18,0,1],
 "wario__stadium_2course__data_8c.html#a47fd19644405eca5b6b744cb88b85167":[8,0,0,18,0,12],
-"wario__stadium_2course__data_8c.html#a49b3ce5ed5d8f5327a6833648f3a417e":[8,0,0,18,0,75],
-"wario__stadium_2course__data_8c.html#a4d68578caedfa570453153c98eeaf89c":[8,0,0,18,0,69]
+"wario__stadium_2course__data_8c.html#a49b3ce5ed5d8f5327a6833648f3a417e":[8,0,0,18,0,75]
 };

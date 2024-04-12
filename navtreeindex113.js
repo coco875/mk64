@@ -1,5 +1,6 @@
 var NAVTREEINDEX113 =
 {
+"structPaddleBoatStuff.html#a169f12ddbb73e08ad2ded1a087d78fd0":[7,0,127,4],
 "structPaddleBoatStuff.html#a47d8702fd8d878d10eca86c938eaa3f2":[7,0,127,6],
 "structPaddleBoatStuff.html#a49e0adc54004639404a64e1d48a0c739":[7,0,127,1],
 "structPaddleBoatStuff.html#a7c319860afe86df94b050bd784250c78":[7,0,127,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX113 =
 "structSaveData.html#a2ff481cd3bd1a2837891600786ff1b48":[7,0,147,1],
 "structSaveData.html#a99de92ab584841746375150797f52829":[7,0,147,2],
 "structSaveData.html#ad8a6336b0eb5b735ff5c9e7793c2a547":[7,0,147,3],
-"structSaveData.html#af99eee38007ec1e42d9fb466faf8ac5b":[7,0,147,0],
-"structSeqOrBankEntry.html":[7,0,148]
+"structSaveData.html#af99eee38007ec1e42d9fb466faf8ac5b":[7,0,147,0]
 };
