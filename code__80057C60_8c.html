@@ -110,12 +110,13 @@ $(function(){initNavTree('code__80057C60_8c.html',''); initResizable(); });
 <div class="textblock"><code>#include &lt;<a class="el" href="ultra64_8h_source.html">ultra64.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="macros_8h_source.html">macros.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="gbi_8h_source.html">PR/gbi.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="mk64_8h_source.html">mk64.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="camera_8h_source.html">camera.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="code__80057C60_8h_source.html">code_80057C60.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="main_8h_source.html">main.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="actors_8h_source.html">actors.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="code__800029B0_8h_source.html">code_800029B0.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="memory_8h_source.html">racing/memory.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="config_8h_source.html">config.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="defines_8h_source.html">defines.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="math__util_8h_source.html">math_util.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="math__util__2_8h_source.html">math_util_2.h</a>&quot;</code><br />
@@ -914,8 +915,8 @@ Variables</h2></td></tr>
 <tr class="separator:a06cbb1f67b4976a4d814cf80610cb633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4351fcff550bc6cfea7bfaf73531f753" id="r_a4351fcff550bc6cfea7bfaf73531f753"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4351fcff550bc6cfea7bfaf73531f753">D_80165C14</a></td></tr>
 <tr class="separator:a4351fcff550bc6cfea7bfaf73531f753"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a881de3082bf48970abc48f092afd60c6" id="r_a881de3082bf48970abc48f092afd60c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structObjects.html">Objects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a881de3082bf48970abc48f092afd60c6">gObjectList</a> [<a class="el" href="objects_8h.html#af7ef5aaeef379ad60dbcd28caaa320ea">OBJECT_LIST_SIZE</a>]</td></tr>
-<tr class="separator:a881de3082bf48970abc48f092afd60c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe0fe02214b0a75893d23c760d2f6695" id="r_abe0fe02214b0a75893d23c760d2f6695"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structObject.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe0fe02214b0a75893d23c760d2f6695">gObjectList</a> [<a class="el" href="objects_8h.html#af7ef5aaeef379ad60dbcd28caaa320ea">OBJECT_LIST_SIZE</a>]</td></tr>
+<tr class="separator:abe0fe02214b0a75893d23c760d2f6695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a152d987dea3ace8ce0d0f48bc833bed3" id="r_a152d987dea3ace8ce0d0f48bc833bed3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a152d987dea3ace8ce0d0f48bc833bed3">D_80183D58</a></td></tr>
 <tr class="separator:a152d987dea3ace8ce0d0f48bc833bed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a619a9cb4ca05d69a44a5928af9e499ad" id="r_a619a9cb4ca05d69a44a5928af9e499ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a619a9cb4ca05d69a44a5928af9e499ad">objectListSize</a></td></tr>
@@ -8067,7 +8068,7 @@ Here is the caller graph for this function:</div>
 <div class="line">    <a class="code hl_define" href="#aab11ebac1d00e38a34c81ac79f0e149b">MAKE_RGB</a>(0xF0, 0xD0, 0xB0),</div>
 <div class="line">    <a class="code hl_define" href="#aab11ebac1d00e38a34c81ac79f0e149b">MAKE_RGB</a>(0xA0, 0x80, 0x30),</div>
 <div class="line">}</div>
-<div class="ttc" id="acode__80057C60_8c_html_aab11ebac1d00e38a34c81ac79f0e149b"><div class="ttname"><a href="#aab11ebac1d00e38a34c81ac79f0e149b">MAKE_RGB</a></div><div class="ttdeci">#define MAKE_RGB(r, g, b)</div><div class="ttdef"><b>Definition</b> code_80057C60.c:40</div></div>
+<div class="ttc" id="acode__80057C60_8c_html_aab11ebac1d00e38a34c81ac79f0e149b"><div class="ttname"><a href="#aab11ebac1d00e38a34c81ac79f0e149b">MAKE_RGB</a></div><div class="ttdeci">#define MAKE_RGB(r, g, b)</div><div class="ttdef"><b>Definition</b> code_80057C60.c:41</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -11438,14 +11439,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a881de3082bf48970abc48f092afd60c6" name="a881de3082bf48970abc48f092afd60c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a881de3082bf48970abc48f092afd60c6">&#9670;&#160;</a></span>gObjectList</h2>
+<a id="abe0fe02214b0a75893d23c760d2f6695" name="abe0fe02214b0a75893d23c760d2f6695"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe0fe02214b0a75893d23c760d2f6695">&#9670;&#160;</a></span>gObjectList</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structObjects.html">Objects</a> gObjectList[<a class="el" href="objects_8h.html#af7ef5aaeef379ad60dbcd28caaa320ea">OBJECT_LIST_SIZE</a>]</td>
+          <td class="memname"><a class="el" href="structObject.html">Object</a> gObjectList[<a class="el" href="objects_8h.html#af7ef5aaeef379ad60dbcd28caaa320ea">OBJECT_LIST_SIZE</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
