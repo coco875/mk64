@@ -1,5 +1,9 @@
 var NAVTREEINDEX133 =
 {
+"update__objects_8c.html#ad3b67fe7afad268ebd60dd5d178789b6":[8,0,3,62,298],
+"update__objects_8c.html#ad44c53b9400e14a1222584ef55fa41db":[8,0,3,62,203],
+"update__objects_8c.html#ad484d9ed5fed719399192a6ca10102db":[8,0,3,62,352],
+"update__objects_8c.html#ad8cfa13e8a52335aed87848456e4bab3":[8,0,3,62,45],
 "update__objects_8c.html#ad933b25fd16dccc7b5c1c2adca9e5187":[8,0,3,62,133],
 "update__objects_8c.html#ad94ddad85ee1568d05457f057d3f4d35":[8,0,3,62,207],
 "update__objects_8c.html#ad9ed099200f3dfa5dadc29b91dea90f9":[8,0,3,62,189],
@@ -28,7 +32,6 @@ var NAVTREEINDEX133 =
 "update__objects_8c.html#ae5f13fecc7f9954584ff68142fb8d605":[8,0,3,62,333],
 "update__objects_8c.html#ae781b7bfb9e837c1ed2d10a9b3b089b3":[8,0,3,62,3],
 "update__objects_8c.html#ae798bc15dabb45409662ef1765bbfdae":[8,0,3,62,48],
-"update__objects_8c.html#ae7e54f88bbb6270316a6d6fde77173fb":[8,0,3,62,91],
 "update__objects_8c.html#ae85938416e5ea9f8f73c75b574092f30":[8,0,3,62,51],
 "update__objects_8c.html#ae85ab923e54f707801592c71f2a847cd":[8,0,3,62,337],
 "update__objects_8c.html#ae8cec1ac1de28ceba5a6cd36b7a2e315":[8,0,3,62,147],
@@ -246,8 +249,5 @@ var NAVTREEINDEX133 =
 "wario__stadium_2course__data_8h.html#a1aa23b51824938a42ff2746433463389":[8,0,0,18,1,27],
 "wario__stadium_2course__data_8h.html#a1ed70cebe1107980e258b473f69ca74e":[8,0,0,18,1,25],
 "wario__stadium_2course__data_8h.html#a1f4704678d6eb9cc43424cf4db5e33dd":[8,0,0,18,1,34],
-"wario__stadium_2course__data_8h.html#a25af09b9cd924500a347a1ade224af2e":[8,0,0,18,1,53],
-"wario__stadium_2course__data_8h.html#a25cf27d6dcee6e8204d3009d74a4b297":[8,0,0,18,1,41],
-"wario__stadium_2course__data_8h.html#a25efda1180500f8b412d9f1e8ead4463":[8,0,0,18,1,121],
-"wario__stadium_2course__data_8h.html#a29b4182e9e0fa0b52c9aa745798d9d05":[8,0,0,18,1,100]
+"wario__stadium_2course__data_8h.html#a25af09b9cd924500a347a1ade224af2e":[8,0,0,18,1,53]
 };

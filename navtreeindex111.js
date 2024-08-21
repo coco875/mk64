@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"structFirework.html#a2cfedd0dd5e8fb66a97723f8089a833f":[7,0,82,18],
 "structFirework.html#a3f213dd28bf6b188edca4c1398700291":[7,0,82,4],
 "structFirework.html#a42b371aacd1464e0207fc89b7c1b07f8":[7,0,82,9],
 "structFirework.html#a49968012ca474326e0b35502bc94f407":[7,0,82,2],
@@ -166,7 +167,7 @@ var NAVTREEINDEX111 =
 "structMainPoolBlock.html#add933ca250a6894176941bd47459f955":[7,0,98,0],
 "structMainPoolState.html":[7,0,99],
 "structMainPoolState.html#a09066d5dbc3b75de2bb9dbdbe3eed6e2":[7,0,99,3],
-"structMainPoolState.html#a1f8c1a26496a11cdac716e073825fe0a":[7,0,99,0],
+"structMainPoolState.html#a2050c7f7548d60b0f8eed2bf366771d1":[7,0,99,0],
 "structMainPoolState.html#a2132c0f9da6456775ed7b06459901dfb":[7,0,99,1],
 "structMainPoolState.html#a901e5cb7afc5abf17bc5f000ae1f1cb1":[7,0,99,2],
 "structMkAnimation.html":[7,0,100],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "structNoteSubEu.html#ad48b46b1ef1ad2592e3a7dfd124d1f30":[7,0,109,5],
 "structNoteSubEu.html#adc9a8cd184bc35e52022017cbd873eb3":[7,0,109,17],
 "structNoteSubEu.html#ae37271bcb252efc531b2cc103a1cd60d":[7,0,109,3],
-"structNoteSubEu.html#af7e8d3f08f13dd24fb832d058d832d00":[7,0,109,16],
-"structNoteSubEu.html#afea5dec32c9dd20d9b47a8f75f5a0316":[7,0,109,10]
+"structNoteSubEu.html#af7e8d3f08f13dd24fb832d058d832d00":[7,0,109,16]
 };

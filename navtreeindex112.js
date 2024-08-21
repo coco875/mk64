@@ -1,5 +1,6 @@
 var NAVTREEINDEX112 =
 {
+"structNoteSubEu.html#afea5dec32c9dd20d9b47a8f75f5a0316":[7,0,109,10],
 "structNoteSynthesisBuffers.html":[7,0,110],
 "structNoteSynthesisBuffers.html#a363bff9ec76f24c9464b14fddab2df79":[7,0,110,3],
 "structNoteSynthesisBuffers.html#a9618443ff8b6c8c7f97d604467a66cc2":[7,0,110,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX112 =
 "structPiranhaPlant.html#aca59204d27dd23b1ac15f59e0cb51531":[7,0,136,7],
 "structPiranhaPlant.html#acf6dec6072a42edb8ee8bdf7a04b3060":[7,0,136,5],
 "structPiranhaPlant.html#aec862d0090299aa8f8aa11bef08e9219":[7,0,136,1],
-"structPiranhaPlant.html#af186852c5086a31a6361caaa2ea8a5f1":[7,0,136,2],
-"structPiranhaPlant.html#af22abddb59fcb36737df3688f7e0bf99":[7,0,136,0]
+"structPiranhaPlant.html#af186852c5086a31a6361caaa2ea8a5f1":[7,0,136,2]
 };
