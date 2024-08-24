@@ -14,9 +14,10 @@ var searchData=
   ['ospiinfo_11',['OSPiInfo',['../structOSPiInfo.html',1,'']]],
   ['osthread_5flisthead_12',['OSThread_ListHead',['../structOSThread__ListHead.html',1,'']]],
   ['osthread_5fs_13',['OSThread_s',['../structOSThread__s.html',1,'']]],
-  ['ostimer_5fstr_14',['OSTimer_str',['../structOSTimer__str.html',1,'']]],
-  ['osvicommonregs_15',['OSViCommonRegs',['../structOSViCommonRegs.html',1,'']]],
-  ['osvicontext_16',['OSViContext',['../structOSViContext.html',1,'']]],
-  ['osvifieldregs_17',['OSViFieldRegs',['../structOSViFieldRegs.html',1,'']]],
-  ['osvimode_18',['OSViMode',['../structOSViMode.html',1,'']]]
+  ['osthreadtail_14',['OSThreadTail',['../structOSThreadTail.html',1,'']]],
+  ['ostimer_5fstr_15',['OSTimer_str',['../structOSTimer__str.html',1,'']]],
+  ['osvicommonregs_16',['OSViCommonRegs',['../structOSViCommonRegs.html',1,'']]],
+  ['osvicontext_17',['OSViContext',['../structOSViContext.html',1,'']]],
+  ['osvifieldregs_18',['OSViFieldRegs',['../structOSViFieldRegs.html',1,'']]],
+  ['osvimode_19',['OSViMode',['../structOSViMode.html',1,'']]]
 ];

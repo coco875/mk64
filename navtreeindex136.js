@@ -1,5 +1,17 @@
 var NAVTREEINDEX136 =
 {
+"wario__stadium_2course__displaylists_8inc_8h.html#a7637faee1df9fe988a0868c5c4b760eb":[8,0,0,18,3,254],
+"wario__stadium_2course__displaylists_8inc_8h.html#a7868c91d3392ac94c0eaa3f68ce09f29":[8,0,0,18,3,95],
+"wario__stadium_2course__displaylists_8inc_8h.html#a79280a30badd35ca18dde8d6406144bf":[8,0,0,18,3,215],
+"wario__stadium_2course__displaylists_8inc_8h.html#a79d432a4f622a219200bf036c84a6459":[8,0,0,18,3,102],
+"wario__stadium_2course__displaylists_8inc_8h.html#a79dd52ef59974e31dbf27d1809328804":[8,0,0,18,3,101],
+"wario__stadium_2course__displaylists_8inc_8h.html#a7a6b58f7b6039411c48bc0e6b9b29c62":[8,0,0,18,3,124],
+"wario__stadium_2course__displaylists_8inc_8h.html#a7bc98764ff58926a6fccbdb4f98d4697":[8,0,0,18,3,199],
+"wario__stadium_2course__displaylists_8inc_8h.html#a7bf323ce9c954d58a5a39edeb84fc792":[8,0,0,18,3,224],
+"wario__stadium_2course__displaylists_8inc_8h.html#a7c6ff7df00e6735434960cbbfb28dbad":[8,0,0,18,3,127],
+"wario__stadium_2course__displaylists_8inc_8h.html#a7ca3cda442a0cc49457433345eb1e1c7":[8,0,0,18,3,34],
+"wario__stadium_2course__displaylists_8inc_8h.html#a7dbe6517bf955bf1d4c79b3ed411815e":[8,0,0,18,3,256],
+"wario__stadium_2course__displaylists_8inc_8h.html#a7df46741511ae1e03fdcabfbb5095388":[8,0,0,18,3,172],
 "wario__stadium_2course__displaylists_8inc_8h.html#a7e3ed7df5d591a6a26c08e1e66f34466":[8,0,0,18,3,41],
 "wario__stadium_2course__displaylists_8inc_8h.html#a83b719339f6e5c39120a898904fbd55b":[8,0,0,18,3,117],
 "wario__stadium_2course__displaylists_8inc_8h.html#a8468000c98319dcbaa5c2c5f4e1dcef5":[8,0,0,18,3,161],
@@ -237,17 +249,5 @@ var NAVTREEINDEX136 =
 "waypoints_8h.html#ad130fd7680ad07a3336c4ed16061d665":[8,0,2,22,26],
 "waypoints_8h.html#adf7a16e3a6b62214e051a1642f9f2a0f":[8,0,2,22,1],
 "waypoints_8h.html#aefa24c5b76e7fc9a41036c0b3c4599d8":[8,0,2,22,12],
-"waypoints_8h_source.html":[8,0,2,22],
-"yoshi__egg_2render_8inc_8c.html":[8,0,3,0,20,0],
-"yoshi__egg_2render_8inc_8c.html#a4d082cb0256600e693927bccddbee605":[8,0,3,0,20,0,0],
-"yoshi__egg_2render_8inc_8c_source.html":[8,0,3,0,20,0],
-"yoshi__egg_2update_8inc_8c.html":[8,0,3,0,20,1],
-"yoshi__egg_2update_8inc_8c.html#ab59d1718525ade7c99a8332e32a20ec2":[8,0,3,0,20,1,0],
-"yoshi__egg_2update_8inc_8c_source.html":[8,0,3,0,20,1],
-"yoshi__valley_2course__data_8c.html":[8,0,0,19,0],
-"yoshi__valley_2course__data_8c.html#a003ad03b97aef418c228406efb744edb":[8,0,0,19,0,153],
-"yoshi__valley_2course__data_8c.html#a0042823ed2b4555a03a3d22e14ff7961":[8,0,0,19,0,140],
-"yoshi__valley_2course__data_8c.html#a008fbdf22ecc2816b3d94b5d0d006b49":[8,0,0,19,0,89],
-"yoshi__valley_2course__data_8c.html#a0362b74a71a40e88371e17a63611dad7":[8,0,0,19,0,57],
-"yoshi__valley_2course__data_8c.html#a038485ec77a9965283d2b5a28f3a7a82":[8,0,0,19,0,33]
+"waypoints_8h_source.html":[8,0,2,22]
 };
