@@ -52,11 +52,11 @@ struct SPTask* create_next_audio_frame_task(void);
 struct VblankHandler* gVblankHandler1 = NULL;
 struct VblankHandler* gVblankHandler2 = NULL;
 
-struct SPTask* gActiveSPTask = NULL;
-struct SPTask* sCurrentAudioSPTask = NULL;
-struct SPTask* sCurrentDisplaySPTask = NULL;
-struct SPTask* sNextAudioSPTask = NULL;
-struct SPTask* sNextDisplaySPTask = NULL;
+struct SPTask * gActiveSPTask = NULL;
+struct SPTask * sCurrentAudioSPTask = NULL;
+struct SPTask * sCurrentDisplaySPTask = NULL;
+struct SPTask * sNextAudioSPTask = NULL;
+struct SPTask * sNextDisplaySPTask = NULL;
 
 struct Controller gControllers[NUM_PLAYERS];
 struct Controller* gControllerOne = &gControllers[0];
