@@ -1,5 +1,11 @@
 var NAVTREEINDEX110 =
 {
+"structAudioListItem.html#a55779fbf47eea9adee6eb432b30424e0":[7,0,49,2],
+"structAudioListItem.html#a75f7cf4ca61be215028346fab2ac6ab8":[7,0,49,0],
+"structAudioListItem.html#ab838a8bb1d7648057b666190a9ee6108":[7,0,49,5],
+"structAudioListItem.html#ad518e6401fbb50f6221cb6d86e7fc2fd":[7,0,49,3],
+"structAudioListItem.html#afb3e57e2306a3f69ead1dff998ab4d9f":[7,0,49,1],
+"structAudioSessionSettings.html":[7,0,50],
 "structAudioSessionSettings.html#a05ebf9209e133d04eb887d6f48c74ef3":[7,0,50,9],
 "structAudioSessionSettings.html#a38f8c2f423cd8e270ea2e2abc023ce11":[7,0,50,8],
 "structAudioSessionSettings.html#a5dc790239abd49d372c105d831cc6173":[7,0,50,6],
@@ -225,8 +231,8 @@ var NAVTREEINDEX110 =
 "structCupTimeTrialRecords.html":[7,0,71],
 "structCupTimeTrialRecords.html#acf18ab0e69f90a2eefe248ef7090bd1c":[7,0,71,0],
 "structCutscene.html":[7,0,72],
+"structCutscene.html#a55ce98625d678dba9988aa66f6b76514":[7,0,72,1],
 "structCutscene.html#adf71ab9b7e76c8a387d4934437caa7e2":[7,0,72,0],
-"structCutscene.html#ae1b25b8bf4f5b72ad672f766ae617145":[7,0,72,1],
 "structCutsceneSplinePoint.html":[7,0,73],
 "structCutsceneSplinePoint.html#a56141a177956feb2bf2f1dcbf347dd2e":[7,0,73,0],
 "structCutsceneSplinePoint.html#a58d0f7ecc0595b19192b1d8397de22e0":[7,0,73,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX110 =
 "structD__801642D8__entry.html#a68f623b4423cd987ce6bc56cc2cd519f":[7,0,75,1],
 "structD__801642D8__entry.html#a84cb673c8c46a829e458479835d76724":[7,0,75,6],
 "structD__801642D8__entry.html#a863db9bd3ca624505a96ab2bf1cca052":[7,0,75,4],
-"structD__801642D8__entry.html#ab901f04dfac76bb4eed81356ef6be568":[7,0,75,3],
-"structD__801642D8__entry.html#abf0df00e5788611960d349b7e943bcff":[7,0,75,2],
-"structDrum.html":[7,0,76],
-"structDrum.html#a042ebd42088ca9bb904e2c1410ff20a0":[7,0,76,2],
-"structDrum.html#a594bcec833a2b26bbf8a9134a9b16f9e":[7,0,76,1],
-"structDrum.html#a73e4e7022f0c3df80a3a4bae4352d132":[7,0,76,0],
-"structDrum.html#a7fa01f66282a6c93f8a1bc88feee7350":[7,0,76,4]
+"structD__801642D8__entry.html#ab901f04dfac76bb4eed81356ef6be568":[7,0,75,3]
 };
