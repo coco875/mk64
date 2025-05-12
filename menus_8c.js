@@ -11,10 +11,12 @@ var menus_8c =
     [ "is_screen_being_faded", "menus_8c.html#a377e9f19431072ed8c7d9cba0409800a", null ],
     [ "load_menu_states", "menus_8c.html#ab415efc50e6890fb19378842960af7fc", null ],
     [ "logo_intro_menu_act", "menus_8c.html#a3d16275034df7858d890273a95a5a4af", null ],
+    [ "main_menu_act", "menus_8c.html#aef64385c89890d30a22aff22c0928448", null ],
     [ "options_menu_act", "menus_8c.html#a5c1ec8ad59526a5670e47ef57ea8fcbd", null ],
+    [ "player_select_menu_act", "menus_8c.html#acd023fbde3d2401a9875446fd2337f6b", null ],
     [ "reset_cycle_flash_menu", "menus_8c.html#a731c3b189d850a260426f1823e593273", null ],
     [ "set_sound_mode", "menus_8c.html#ac9f18df3bed3128812e7edb31f84300f", null ],
-    [ "setup_game_mode_selected", "menus_8c.html#ac6e39e50381ae8908aa5e7053c3d35a0", null ],
+    [ "setup_selected_game_mode", "menus_8c.html#aa2d8b2f3c0ee80588432b9a3addbc372", null ],
     [ "splash_menu_act", "menus_8c.html#a90ecae1a8b3caa74de9edb245b43e56a", null ],
     [ "update_menus", "menus_8c.html#a5fd6ba9b77c684f7c5e0f4732de81953", null ],
     [ "gBattleResultCursorSelection", "menus_8c.html#ace9e890b58621a60a66563c7ebd25c6d", null ],
@@ -71,8 +73,8 @@ var menus_8c =
     [ "sSoundMenuPack", "menus_8c.html#a482e5aa8d8581771ca9514a26b64fcfd", null ],
     [ "sTempCupSelection", "menus_8c.html#ad7ccecb0e440dc0910054a0d51bab82f", null ],
     [ "sVIGammaOffDitherOn", "menus_8c.html#af2dc51c46bcac60ad844adf5b1397087", null ],
-    [ "unref_800E86E0", "menus_8c.html#a2fed18815771a43e572d0e844475bf8d", null ],
     [ "unref_800F2BDC", "menus_8c.html#a222e4373dee5eff0b59adeaefa82e9b9", null ],
     [ "unref_8018EE0C", "menus_8c.html#a9fefcb6f8f1942f9e31a99c9193d03f8", null ],
-    [ "unref_D_800E86D4", "menus_8c.html#abe32a199851c6aad5543710392160974", null ]
+    [ "unref_D_800E86D4", "menus_8c.html#abe32a199851c6aad5543710392160974", null ],
+    [ "unref_D_800E86E0", "menus_8c.html#a3a37c923a3ac9b62c9049e8cbba79120", null ]
 ];
