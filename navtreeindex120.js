@@ -1,12 +1,16 @@
 var NAVTREEINDEX120 =
 {
-"structunexpiredActors.html#a2f2bb0a68fe0de6372c3930827b4ca2b":[7,0,205,4],
-"structunexpiredActors.html#a3793eaac13b75822364d822a4f265747":[7,0,205,7],
-"structunexpiredActors.html#a73cdcfaf80db46e271cfcb897e134a8e":[7,0,205,6],
-"structunexpiredActors.html#a8054de617aaae1c1acb1c880078b0fb7":[7,0,205,2],
-"structunexpiredActors.html#a8963b95d7f883fd524083db63c236b70":[7,0,205,3],
-"structunexpiredActors.html#a9e0a5e4086ea99d274e10cd785b98a45":[7,0,205,5],
-"structunexpiredActors.html#ac078e39059e87df951857931426d370a":[7,0,205,1],
+"structuObjTxtrTile__t.html#aa35eca12453b10b703248fe818988690":[7,0,243,6],
+"structuObjTxtrTile__t.html#ab20431a3ee535c9faf0fcbea29da051f":[7,0,243,1],
+"structunexpiredActors.html":[7,0,206],
+"structunexpiredActors.html#a1e1419ce2f7577336dd49e2bd062ce17":[7,0,206,0],
+"structunexpiredActors.html#a2f2bb0a68fe0de6372c3930827b4ca2b":[7,0,206,4],
+"structunexpiredActors.html#a3793eaac13b75822364d822a4f265747":[7,0,206,7],
+"structunexpiredActors.html#a73cdcfaf80db46e271cfcb897e134a8e":[7,0,206,6],
+"structunexpiredActors.html#a8054de617aaae1c1acb1c880078b0fb7":[7,0,206,2],
+"structunexpiredActors.html#a8963b95d7f883fd524083db63c236b70":[7,0,206,3],
+"structunexpiredActors.html#a9e0a5e4086ea99d274e10cd785b98a45":[7,0,206,5],
+"structunexpiredActors.html#ac078e39059e87df951857931426d370a":[7,0,206,1],
 "structunkStruct.html":[7,0,219],
 "structunkStruct.html#a396a48d87f773dfd1879879953ea4944":[7,0,219,0],
 "structunkStruct.html#a73560f27f24832f5216166ac22e5f607":[7,0,219,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX120 =
 "textures_8c.html#a36995fb6f0b0bedb82dd57d6c0cba208":[8,0,3,4,6,577],
 "textures_8c.html#a37ad652e60447ecfab677f338a34b1ed":[8,0,3,4,6,379],
 "textures_8c.html#a3925d143bb8c28aa1bdbc145677ab0fb":[8,0,3,4,6,68],
-"textures_8c.html#a395e96c54a9e1f7f164399d3a90d43c7":[8,0,3,4,6,496],
-"textures_8c.html#a3984c6a38129e968a3db57df79ed0d2c":[8,0,3,4,6,574],
-"textures_8c.html#a39c2c7aacd20da5dff86a05b56a81144":[8,0,3,4,6,27],
-"textures_8c.html#a3a0f7ef45a5c2d7fc3b217f5bac12fc1":[8,0,3,4,6,566],
-"textures_8c.html#a3a59be747284547cef8b0afdbc898375":[8,0,3,4,6,90]
+"textures_8c.html#a395e96c54a9e1f7f164399d3a90d43c7":[8,0,3,4,6,496]
 };

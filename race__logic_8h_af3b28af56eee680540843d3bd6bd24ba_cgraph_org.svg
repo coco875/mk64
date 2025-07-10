@@ -256,9 +256,10 @@
 <!-- Node87 -->
 <g id="Node000087" class="node">
 <title>Node87</title>
-<g id="a_Node000087"><a xlink:href="math__util_8c.html#a963f23fd2ffec93350816627af02b9da" target="_top" xlink:title=" ">
-<polygon fill="#fff0f0" stroke="red" points="615,-1057 468,-1057 468,-1038 615,-1038 615,-1057"/>
-<text text-anchor="middle" x="541.5" y="-1045" font-family="Helvetica,sans-Serif" font-size="10.00">get_angle_between_points</text>
+<g id="a_Node000087"><a xlink:href="math__util_8c.html#a4151d0b0e3d70e2f8fb54c50e1fd6793" target="_top" xlink:title=" ">
+<polygon fill="#fff0f0" stroke="red" points="605.5,-1060.5 477.5,-1060.5 477.5,-1030.5 605.5,-1030.5 605.5,-1060.5"/>
+<text text-anchor="start" x="485.5" y="-1048.5" font-family="Helvetica,sans-Serif" font-size="10.00">get_xz_angle_between</text>
+<text text-anchor="middle" x="541.5" y="-1037.5" font-family="Helvetica,sans-Serif" font-size="10.00">_points</text>
 </a>
 </g>
 </g>
@@ -266,8 +267,8 @@
 <g id="edge26_Node000002_Node000087" class="edge">
 <title>Node2&#45;&gt;Node87</title>
 <g id="a_edge26_Node000002_Node000087"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M180.23,-728.02C190.41,-749.74 218.45,-803.14 259,-829.5 324.35,-871.99 366.6,-823.14 430,-868.5 487.58,-909.69 521.32,-991.15 534.31,-1028.26"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="531.04,-1029.52 537.55,-1037.88 537.67,-1027.28 531.04,-1029.52"/>
+<path fill="none" stroke="#63b8ff" d="M180.23,-728.02C190.41,-749.74 218.45,-803.14 259,-829.5 324.35,-871.99 366.49,-823.3 430,-868.5 484.46,-907.25 517.82,-982.09 532.2,-1020.87"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="528.93,-1022.12 535.61,-1030.35 535.52,-1019.75 528.93,-1022.12"/>
 </a>
 </g>
 </g>
@@ -310,9 +311,9 @@
 <!-- Node97 -->
 <g id="Node000097" class="node">
 <title>Node97</title>
-<g id="a_Node000097"><a xlink:href="vehicle__utils_8inc_8c.html#a2ceb07ff7b92cbe04315383f06f5b1ec" target="_top" xlink:title=" ">
-<polygon fill="#fff0f0" stroke="red" points="402.5,-1040.5 286.5,-1040.5 286.5,-1010.5 402.5,-1010.5 402.5,-1040.5"/>
-<text text-anchor="start" x="294.5" y="-1028.5" font-family="Helvetica,sans-Serif" font-size="10.00">handle_paddleBoats</text>
+<g id="a_Node000097"><a xlink:href="vehicle__utils_8inc_8c.html#a893a5fe88b810d0d0cff466efeb8acc0" target="_top" xlink:title=" ">
+<polygon fill="#fff0f0" stroke="red" points="404.5,-1040.5 284.5,-1040.5 284.5,-1010.5 404.5,-1010.5 404.5,-1040.5"/>
+<text text-anchor="start" x="292.5" y="-1028.5" font-family="Helvetica,sans-Serif" font-size="10.00">handle_paddle_boats</text>
 <text text-anchor="middle" x="344.5" y="-1017.5" font-family="Helvetica,sans-Serif" font-size="10.00">_interactions</text>
 </a>
 </g>
@@ -321,8 +322,8 @@
 <g id="edge29_Node000002_Node000097" class="edge">
 <title>Node2&#45;&gt;Node97</title>
 <g id="a_edge29_Node000002_Node000097"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M175.73,-728.18C175.16,-768.12 178.46,-921.65 259,-1001.5 264.02,-1006.48 269.99,-1010.44 276.41,-1013.59"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="275.49,-1017 286.07,-1017.65 278.21,-1010.55 275.49,-1017"/>
+<path fill="none" stroke="#63b8ff" d="M175.73,-728.18C175.16,-768.12 178.46,-921.65 259,-1001.5 263.62,-1006.08 269.05,-1009.8 274.88,-1012.82"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="273.77,-1016.16 284.33,-1017.01 276.61,-1009.76 273.77,-1016.16"/>
 </a>
 </g>
 </g>
@@ -948,8 +949,8 @@
 <g id="edge46_Node000156_Node000087" class="edge">
 <title>Node156&#45;&gt;Node87</title>
 <g id="a_edge46_Node000156_Node000087"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M391.32,-1250.74C404.75,-1248.16 418.81,-1243.57 430,-1235.5 489.82,-1192.38 522.58,-1106.05 534.83,-1067.22"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="538.31,-1067.78 537.86,-1057.19 531.61,-1065.75 538.31,-1067.78"/>
+<path fill="none" stroke="#63b8ff" d="M391.35,-1250.77C404.77,-1248.2 418.83,-1243.6 430,-1235.5 487.71,-1193.69 520.02,-1111.78 533.28,-1070.51"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="536.7,-1071.3 536.32,-1060.72 530.02,-1069.23 536.7,-1071.3"/>
 </a>
 </g>
 </g>

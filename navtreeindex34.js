@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"fake__item__box_2update_8inc_8c.html#ad21c35b35099a45f58d3c9d3a470f6b7":[8,0,3,0,5,1,0],
+"fake__item__box_2update_8inc_8c_source.html":[8,0,3,0,5,1],
 "falling__rock_2render_8inc_8c.html":[8,0,3,0,6,0],
 "falling__rock_2render_8inc_8c.html#a250e5910700e7f46f258578c256c1d94":[8,0,3,0,6,0,0],
 "falling__rock_2render_8inc_8c_source.html":[8,0,3,0,6,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "frappe__snowland_2course__displaylists_8inc_8c.html#a806942488ce9c1428044363579353b11":[8,0,0,7,2,81],
 "frappe__snowland_2course__displaylists_8inc_8c.html#a80cf15d3c139c7a5e64faad110ef19aa":[8,0,0,7,2,25],
 "frappe__snowland_2course__displaylists_8inc_8c.html#a8298cff161d0e9376aff0f1f5dc54d0e":[8,0,0,7,2,90],
-"frappe__snowland_2course__displaylists_8inc_8c.html#a835e8cf39269190ac626053b5b459cbb":[8,0,0,7,2,115],
-"frappe__snowland_2course__displaylists_8inc_8c.html#a85022a276a45abf11facc7087233bda9":[8,0,0,7,2,0],
-"frappe__snowland_2course__displaylists_8inc_8c.html#a851632902f2920ed15856a021de039a1":[8,0,0,7,2,113]
+"frappe__snowland_2course__displaylists_8inc_8c.html#a835e8cf39269190ac626053b5b459cbb":[8,0,0,7,2,115]
 };

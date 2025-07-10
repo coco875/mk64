@@ -1,5 +1,9 @@
 var NAVTREEINDEX142 =
 {
+"yoshi__valley_2course__displaylists_8inc_8h.html#ad0c30957a924fc3f9a979ff501d04197":[8,0,0,19,3,9],
+"yoshi__valley_2course__displaylists_8inc_8h.html#ad0eeb1771c30c6dde4c12fa246179aa0":[8,0,0,19,3,65],
+"yoshi__valley_2course__displaylists_8inc_8h.html#ad1d38041de459f211904c49067237ca2":[8,0,0,19,3,212],
+"yoshi__valley_2course__displaylists_8inc_8h.html#ad36f0cde0ee656dac1c776a0bbfeab34":[8,0,0,19,3,157],
 "yoshi__valley_2course__displaylists_8inc_8h.html#ad420798419a0ebf23a3269c0669ec62a":[8,0,0,19,3,20],
 "yoshi__valley_2course__displaylists_8inc_8h.html#ad53d88281187baa08460982ecd7ea167":[8,0,0,19,3,29],
 "yoshi__valley_2course__displaylists_8inc_8h.html#ad788c05d9e492a563a6b8d803ccbb020":[8,0,0,19,3,218],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"heap_8c.html#ad4a86ac3f21a9c98d0fc2f3a7a4a16eb":[8,0,3,1,7,54],
+"heap_8c.html#ad78e1576973ed66c9056cdb9ce43e741":[8,0,3,1,7,53],
 "heap_8c.html#ad912aa8d2254ac558365a915931c2512":[8,0,3,1,7,1],
 "heap_8c.html#ade2c9102c6cf6b79baf2d70ac19dfec3":[8,0,3,1,7,36],
 "heap_8c.html#adfb1592ae00e532804f2fb467f018a16":[8,0,3,1,7,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "kalimari__desert_2course__data_8c.html#a6b23204626bc1e08a33e964cde5f059b":[8,0,0,8,0,88],
 "kalimari__desert_2course__data_8c.html#a6c8597cbb74958e4a3823938f6da0fe8":[8,0,0,8,0,40],
 "kalimari__desert_2course__data_8c.html#a6cd5106b1fa432fd6825063753b78697":[8,0,0,8,0,294],
-"kalimari__desert_2course__data_8c.html#a6dbf188812843373f1fec69e579edf1c":[8,0,0,8,0,139],
-"kalimari__desert_2course__data_8c.html#a6f24e90203871df128e13d3fbdbb3c6c":[8,0,0,8,0,87],
-"kalimari__desert_2course__data_8c.html#a6f3c241325da4efa609532aaa0fe1954":[8,0,0,8,0,174]
+"kalimari__desert_2course__data_8c.html#a6dbf188812843373f1fec69e579edf1c":[8,0,0,8,0,139]
 };
